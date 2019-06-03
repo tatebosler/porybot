@@ -14,7 +14,7 @@ class GameLog:
 
 #TODO: YOU'RE ACTUALLY ALLOWED TO SEE OPPONENT'S POKEMON
 	def add_start_state(self,p1_pokemon_names,p2_pokemon_names):
-		p1_pokemon = {}
+		p1_pokemon_names = {}
 		p2_pokemon = {}
 		for name in p1_pokemon_names:
 			p1_pokemon_names[name] = 0
@@ -34,15 +34,42 @@ class GameState:
 	"""
 	#Dictionary with pokemon names as keys, [type,hp,status_effects] as values
 	# names as keys because multiple pokemon of same type on one team would be confusing
-	p2_pokemon = {}
-	p1_pokemon = {}
 
-	def __init__(self, p1_pokemon, p2_pokemon):
+	p2_pokemon_names = []
+	p2_pokemon_types = []
+	p2_pokemon_hp = []
+	p2_pokemon_status = []
+	p2_action = None
+	#hold index of pokemon currently in play
+	p2_in_play = None
+
+	p1_pokemon_names = []
+	p1_pokemon_types = []
+	p1_pokemon_hp = []
+	p1_pokemon_status = []
+	p1_action = None
+	#hold index of pokemon currently in play
+	p1_in_play = None
+
+	def __init__(self, p2_pokemon_names, p2_pokemon_types, p2_pokemon_hp, p2_pokemon_status,
+	p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_types, p1_pokemon_hp, p1_pokemon_status,
+	p1_action, p1_in_play):
 		"""
-		Constructor for one gamestate
-		"""
-		self.p1_pokemon = p1_pokemon
-		self.p2_pokemon = p2_pokemon
+		Constructor for one gamestate --> state/action pair
+		"""	
+		self.p2_pokemon_names = p2_pokemon_names
+		self.p2_pokemon_types = p2_pokemon_types
+		self.p2_pokemon_hp = p2_pokemon_hp
+		self.p2_pokemon_status = p2_pokemon_status
+		self.p2_action = p2_action
+		self.p2_in_play = p2_in_play
+
+		self.p1_pokemon_names = p1_pokemon_names
+		self.p1_pokemon_types = p1_pokemon_types
+		self.p1_pokemon_hp = p1_pokemon_hp
+		self.p1_pokemon_status = p1_pokemon_status
+		self.p1_action = p1_action
+		self.p1_in_play = p1_in_play
 
 	def update_player_1(pokemon_name,pokemon_type,pokemon_hp,pokemn_status_effects):
 		"""
@@ -58,10 +85,18 @@ class GameState:
 
 def readLog(text_file):
 	log = text_file.readlines()
-	p1_names = []
-	p2_names = []
-	current_p1 = None
-	current_p2 = None
+	p2_pokemon_names = [] 
+	p2_pokemon_types = []
+	p2_pokemon_hp = []
+	p2_pokemon_status = []
+	p2_action = None
+	p2_in_play = None
+	p1_pokemon_names = [] 
+	p1_pokemon_types = [] 
+	p1_pokemon_hp = [] 
+	p1_pokemon_status = []
+	p1_action = None
+	p1_in_play = None
 	game_log = GameLog()
 
 	for line in log:
@@ -87,9 +122,23 @@ def readLog(text_file):
 				#p1 switched in new pokemon
 				line = line[13:]
 				line_split = line.split("|")
-				current_p1 = line_split[0]
+				current_p1 = line_split[1]
 
 			else if line[10] == "2":
 				#p2 switched in new pokemon
+				line = line[13:]
+				line_split = line.split("|")
+				current_p1 = line_split[1]
 			else:
 				#there was a weird switch I wasn't prepared for, throw an error
+				print("SOMETHING HAS GONE WORNG: no player number attatched to switch statement")
+		if "|-damage|" in line:
+			if line[11] == "1":
+				#reset p1 pokemon health
+				new_health = line.split(.|)
+				new_health = new_health[3].split("/")[0]
+				p1_pokemon_hp[p1_in_play] = new_health
+			else if line[11] == "2":
+				#reset p2 pokemon health
+			else:
+				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
