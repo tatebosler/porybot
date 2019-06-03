@@ -132,13 +132,71 @@ def readLog(text_file):
 			else:
 				#there was a weird switch I wasn't prepared for, throw an error
 				print("SOMETHING HAS GONE WORNG: no player number attatched to switch statement")
-		if "|-damage|" in line:
+		if "|-damage|" in line of "|-heal|" in line:
+			#apply damage to hp values
 			if line[11] == "1":
 				#reset p1 pokemon health
-				new_health = line.split(.|)
+				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
 				p1_pokemon_hp[p1_in_play] = new_health
 			else if line[11] == "2":
 				#reset p2 pokemon health
+				new_health = line.split("|")
+				new_health = new_health[3].split("/")[0]
+				p2_pokemon_hp[p2_in_play] = new_health
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+		if "|-heal|" in line:
+			#apply damage to hp values
+			if line[9] == "1":
+				#reset p1 pokemon health
+				new_health = line.split("|")
+				new_health = new_health[3].split("/")[0]
+				p1_pokemon_hp[p1_in_play] = new_health
+			else if line[9] == "2":
+				#reset p2 pokemon health
+				new_health = line.split("|")
+				new_health = new_health[3].split("/")[0]
+				p2_pokemon_hp[p2_in_play] = new_health
+			else:
+				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+		if "|cant|" in line:
+			#apply damage to hp values
+			if line[8] == "1":
+				#reset p1 pokemon health
+				p1_action = "None"
+			else if line[8] == "2":
+				#reset p2 pokemon health
+				p2_action = "None"
+			else:
+				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+		if "|move|" in line:
+			#apply damage to hp values
+			if line[8] == "1":
+				#save move
+				move = line.split("|")[3]
+				p1_action = move
+			else if line[8] == "2":
+				#reset p2 pokemon health
+				move = line.split("|")[3]
+				p2_action = move
+			else:
+				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+		if "|-status|" in line:
+			#apply damage to hp values
+			if line[11] == "1":
+				#NOTE: THIS DOESN'T ALLOW MULTIPLE STATUSES --> FIX LATER
+				stat = line.split("|")[3]
+				p1_pokemon_status[p1_in_play] = stat
+			else if line[11] == "2":
+				#reset p2 pokemon health
+				stat = line.split("|")[3]
+				p2_pokemon_status[p2_in_play] = stat
+			else:
+				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+		if "|turn|" in line:
+			game_state = GameState(self, p2_pokemon_names, p2_pokemon_types, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_types, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play):
+			game_log.add_state(game_state)
+
+
+
