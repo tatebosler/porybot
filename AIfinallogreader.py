@@ -1,4 +1,4 @@
-class gamelog:
+class GameLog:
 	"""A class to hold the info of one game. Should be a series of gamestate objects"""
 	#List of game states. One state for each of player 1's turns
 	game_states = []
@@ -13,7 +13,7 @@ class gamelog:
 		self.game_states = []
 
 #TODO: YOU'RE ACTUALLY ALLOWED TO SEE OPPONENT'S POKEMON
-	def add_start_state(self,p1_pokemon_names,p2_pokemon_names)
+	def add_start_state(self,p1_pokemon_names,p2_pokemon_names):
 		p1_pokemon = {}
 		p2_pokemon = {}
 		for name in p1_pokemon_names:
@@ -28,7 +28,7 @@ class gamelog:
 
 #TODO: types not mentioned in log. need a resource to check against
 
-class gamestate:
+class GameState:
 	"""
 	A class to hold the features of a turn in a game
 	"""
@@ -62,7 +62,7 @@ def readLog(text_file):
 	p2_names = []
 	current_p1 = None
 	current_p2 = None
-	game_log = gamelog()
+	game_log = GameLog()
 
 	for line in log:
 		if "|poke|p1|" in line: 
@@ -93,12 +93,3 @@ def readLog(text_file):
 				#p2 switched in new pokemon
 			else:
 				#there was a weird switch I wasn't prepared for, throw an error
-
-
-
-
-
-
-
-
-
