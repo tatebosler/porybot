@@ -1,0 +1,14 @@
+{
+    "name": "tatebosler/cs321-scraper",
+    "description": "Web scraper for Pokémon Showdown",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Tate Bosler",
+            "email": "tatebosler@gmail.com"
+        }
+    ],
+    "require": {
+        "paquettg/php-html-parser": "^2.0"
+    }
+}
