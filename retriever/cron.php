@@ -6,12 +6,14 @@
 // 
 // @author Tate Bosler
 
+// Sanity checker to ensure that the logs directory doesn't take up too much disk space.
 $f = './logs';
-$io = popen ( '/usr/bin/du -sk ' . $f, 'r' );
-$size = fgets ( $io, 4096);
-$size = substr ( $size, 0, strpos ( $size, "\t" ) );
-pclose ( $io );
+$io = popen ('/usr/bin/du -sk ' . $f, 'r');
+$size = fgets ($io, 4096);
+$size = substr ($size, 0, strpos ($size, "\t"));
+pclose ($io);
 
+// If the logs directory is over 128 MB, stop.
 if ($size > 128000) {
     die('Directory size limit exceeded');
 }
@@ -24,7 +26,7 @@ $curl = curl_init();
 // Set some options - we are passing in a useragent too here
 curl_setopt_array($curl, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'https://replay.pokemonshowdown.com',
+    CURLOPT_URL => 'https://replay.pokemonshowdown.com/search?format=gen1ou',
 ]);
 // Send the request & save response to $resp
 $resp = curl_exec($curl);
@@ -32,7 +34,7 @@ $resp = curl_exec($curl);
 $dom = new Dom;
 $dom->load($resp);
 
-$list = $dom->find('a[href^="/gen7ou"]');
+$list = $dom->find('a[href^="/gen1ou"]');
 
 foreach ($list as $link) {
     echo $link->href."\n";
