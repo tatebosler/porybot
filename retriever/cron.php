@@ -24,7 +24,7 @@ $curl = curl_init();
 // Set some options - we are passing in a useragent too here
 curl_setopt_array($curl, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'https://replay.pokemonshowdown.com',
+    CURLOPT_URL => 'https://replay.pokemonshowdown.com/search?format=gen1ou',
 ]);
 // Send the request & save response to $resp
 $resp = curl_exec($curl);
@@ -32,7 +32,7 @@ $resp = curl_exec($curl);
 $dom = new Dom;
 $dom->load($resp);
 
-$list = $dom->find('a[href^="/gen7ou"]');
+$list = $dom->find('a[href^="/gen1ou"]');
 
 foreach ($list as $link) {
     echo $link->href."\n";
