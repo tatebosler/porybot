@@ -1,4 +1,4 @@
-#TODO: REMOVE TYPES --> let tate deal with those 
+#TODO: How to deal with unknown values in Q-learner?
 class GameLog:
 	"""A class to hold the info of one game. Should be a series of gamestate objects"""
 	#List of game states. One state for each of player 1's turns
@@ -13,7 +13,6 @@ class GameLog:
 		"""
 		self.game_states = []
 
-#TODO: YOU'RE ACTUALLY ALLOWED TO SEE OPPONENT'S POKEMON
 	def add_start_state(self,p1_pokemon_names,p2_pokemon_names):
 		p1_pokemon_names = {}
 		p2_pokemon = {}
@@ -27,9 +26,11 @@ class GameLog:
 	def add_state(self,state):
 		self.game_states.append(state)
 
-	def update_past_states(pokemon_name, pokemon_hp)
+	def update_past_states(self,pokemon_name, pokemon_hp)
 		for state in game_states:
 			state.update_player_1(pokemon_name, pokemon_hp)
+	def getLog(self):
+		return self.game_states
 
 #TODO: types not mentioned in log. need a resource to check against
 
@@ -41,7 +42,6 @@ class GameState:
 	# names as keys because multiple pokemon of same type on one team would be confusing
 
 	p2_pokemon_names = []
-	p2_pokemon_types = []
 	p2_pokemon_hp = []
 	p2_pokemon_status = []
 	p2_action = None
@@ -49,7 +49,6 @@ class GameState:
 	p2_in_play = None
 
 	p1_pokemon_names = []
-	p1_pokemon_types = []
 	p1_pokemon_hp = []
 	p1_pokemon_status = []
 	p1_action = None
@@ -81,8 +80,6 @@ class GameState:
 		self.p1_pokemon_names.append(pokemon_name)
 		self.p1_pokemon_hp.append(pokemon_hp)
 		self.p1_pokemon_status.append(pokemn_status_effects) 
-
-		
 	
 	#TODO: make get functions
 
