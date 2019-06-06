@@ -1,6 +1,7 @@
 # This Python file uses the following encoding: utf-8
 
 import database
+import itertools
 import math
 import numpy
 
@@ -72,4 +73,47 @@ class Pokedex:
             return float(points) / 1048560.0
         else:
             speciesData = cls.get(species)
-            return cls.getAverageHp(speciesData.id)
+            return cls.getAverageHp(speciesData['id'])
+
+    # Computes the probability that an unknown Pokémon knows a move that is super effective against
+    # a given type combination.
+    @classmethod
+    def getProbabilityWeakToUnknown(cls, types, species = None):
+        if species is None:
+            speciesProbability = [cls.getProbabilityWeakToUnknown(types, id) for id in cls.fullyEvolved]
+            return numpy.mean(speciesProbability)
+        elif isinstance(species, (int, long)):
+            cursor = cls.db.cursor()
+            cursor.execute("SELECT pokemon_moves.*, moves.* FROM pokemon_moves INNER JOIN moves ON moves.id = pokemon_moves.move_id WHERE pokemon_moves.pokemon_id = ? AND pokemon_moves.version_group_id = 1 GROUP BY pokemon_moves.move_id", (species, ))
+            
+            typeDistrib = list(numpy.zeros(19, dtype=int))
+            
+            for move in cursor.fetchall():
+                typeDistrib[move[9]] += 1
+            
+            numberStrongMoves = 0
+            for typeIndex in range(1, 16):
+                if cls.getTypeEffectiveness(cls.types[typeIndex], types) > 1:
+                    numberStrongMoves += typeDistrib[typeIndex]
+            
+            numberMoves = numpy.sum(typeDistrib)
+            if numberMoves < 4:
+                numberMoves = 4
+            
+            probability = 1 - float(len(list(itertools.combinations(range(numberMoves - numberStrongMoves), 4)))) / float(len(list(itertools.combinations(range(numberMoves), 4))))
+            
+            return probability
+        else:
+            speciesData = cls.get(species)
+            return cls.getProbabilityWeakToUnknown(types, speciesData['id'])
+    
+    @classmethod
+    def getTypeEffectiveness(cls, attack, defense):
+        if isinstance(defense, (str, basestring)) or len(defense) == 1:
+            attackType = cls.types.index(attack)
+            defenseType = cls.types.index(defense[0]) if isinstance(defense, tuple) else cls.types.index(defense)
+            cursor = cls.db.cursor()
+            cursor.execute("SELECT * FROM type_efficacy WHERE damage_type_id = ? AND target_type_id = ?", (attackType, defenseType))
+            return cursor.fetchone()[2]
+        else:
+            return cls.getTypeEffectiveness(attack, defense[0]) * cls.getTypeEffectiveness(attack, defense[1]) / 10000.0
