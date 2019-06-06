@@ -96,9 +96,7 @@ class Pokedex:
                 if cls.getTypeEffectiveness(cls.types[typeIndex], types) > 1:
                     numberStrongMoves += typeDistrib[typeIndex]
             
-            numberMoves = numpy.sum(typeDistrib)
-            if numberMoves < 4:
-                numberMoves = 4
+            numberMoves = max(numpy.sum(typeDistrib), 4)
             
             probability = 1 - float(len(list(itertools.combinations(range(numberMoves - numberStrongMoves), 4)))) / float(len(list(itertools.combinations(range(numberMoves), 4))))
             
