@@ -135,3 +135,23 @@ class Pokedex:
             return cursor.fetchone()[2]
         else:
             return cls.getTypeEffectiveness(attack, defense[0]) * cls.getTypeEffectiveness(attack, defense[1]) / 10000.0
+
+    @classmethod
+    def getMove(cls, name):
+        nameKebab = name.lower().replace(' ', '-')
+        cursor = cls.db.cursor()
+        
+        cursor.execute("SELECT * FROM `moves` WHERE identifier = ? COLLATE NOCASE", (nameKebab, ))
+        moveData = cursor.fetchone()
+        
+        return {
+            'id': moveData[0],
+            'name': name,
+            'type': cls.types[moveData[3]],
+            'power': moveData[4],
+            'pp': moveData[5],
+            'accuracy': moveData[6],
+            'priority': moveData[7],
+            'effect_id': moveData[10],
+            'effect_prob': moveData[11]
+        }
