@@ -106,6 +106,26 @@ class Pokedex:
             return cls.getProbabilityWeakToUnknown(types, speciesData['id'])
     
     @classmethod
+    def getProbabilityStrongAgainstUnknown(cls, moveTypes, species = None):
+        if species is None:
+            speciesProbability = [cls.getProbabilityStrongAgainstUnknown(moveTypes, id) for id in cls.fullyEvolved]
+            return numpy.mean(speciesProbability)
+        elif isinstance(species, (int, long)):
+            cursor = cls.db.cursor()
+            cursor.execute("SELECT * FROM `pokemon_types` WHERE pokemon_id = ?", (species, ))
+            speciesTypes = tuple([cls.types[record[1]] for record in cursor.fetchall()])
+            uniqueMoveTypes = list(numpy.unique(numpy.array(moveTypes)))
+            
+            for type in uniqueMoveTypes:
+                if cls.getTypeEffectiveness(type, speciesTypes) > 1:
+                    return 1.0
+            
+            return 0.0
+        else:
+            speciesData = cls.get(species)
+            return cls.getProbabilityWeakToUnknown(moveTypes, speciesData['id'])
+    
+    @classmethod
     def getTypeEffectiveness(cls, attack, defense):
         if isinstance(defense, (str, basestring)) or len(defense) == 1:
             attackType = cls.types.index(attack)
