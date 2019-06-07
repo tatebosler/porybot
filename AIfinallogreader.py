@@ -1,4 +1,7 @@
-#TODO: How to deal with unknown values in Q-learner?
+#TODO: Get tate to play a game, figure out how to know what we know originally
+#TODO: Add way to remember types
+import pokedex
+
 class GameLog:
 	"""A class to hold the info of one game. Should be a series of gamestate objects"""
 	#List of game states. One state for each of player 1's turns
@@ -26,14 +29,24 @@ class GameLog:
 	def add_state(self,state):
 		self.game_states.append(state)
 
-	def update_past_states(self,pokemon_name, pokemon_hp)
+	def update_past_hp(self,pokemon_name, pokemon_hp)
 		for state in game_states:
 			state.update_player_1(pokemon_name, pokemon_hp)
+
+	def update_past_moves(self,player,pokemon_name, move):
+		for state in self.game_states:
+			state.update_moves(player, pokemon_name, move)
+
+	def update_past_pokemon(self, player, pokemon_name):
+		#TODO: Impliment, backpropogate knowlege about pokemon
+
+
+
 	def getLog(self):
 		return self.game_states
 
 #TODO: types not mentioned in log. need a resource to check against
-
+#TODO: should hold attacks each pokemon has --> add dictionary of attacks used for each pokemon
 class GameState:
 	"""
 	A class to hold the features of a turn in a game
@@ -44,6 +57,8 @@ class GameState:
 	p2_pokemon_names = []
 	p2_pokemon_hp = []
 	p2_pokemon_status = []
+	p2_pokemon_moves = {}
+	p2_pokemon_types = []
 	p2_action = None
 	#hold index of pokemon currently in play
 	p2_in_play = None
@@ -51,7 +66,9 @@ class GameState:
 	p1_pokemon_names = []
 	p1_pokemon_hp = []
 	p1_pokemon_status = []
+	p1_pokemon_moves = {}
 	p1_action = None
+	p1_pokemon_types = []
 	#hold index of pokemon currently in play
 	p1_in_play = None
 
@@ -66,24 +83,72 @@ class GameState:
 		self.p2_pokemon_status = p2_pokemon_status
 		self.p2_action = p2_action
 		self.p2_in_play = p2_in_play
+		self.p2_pokemon_moves = {}
+		self.p2_pokemon_types = []
+
+		for pokemon in p2_pokemon_names:
+			self.p2_pokemon_types.append(pokedex.get(pokemon)["types"])
 
 		self.p1_pokemon_names = p1_pokemon_names
 		self.p1_pokemon_hp = p1_pokemon_hp
 		self.p1_pokemon_status = p1_pokemon_status
 		self.p1_action = p1_action
 		self.p1_in_play = p1_in_play
+		self.p1_pokemon_moves = {}
+		self.p1_pokemon_types = []
 
-	def update_player_1(pokemon_name,pokemon_hp,pokemn_status_effects):
+		for pokemon in p1_pokemon_names:
+			self.p1_pokemon_types.append(pokedex.get(pokemon)["types"])
+
+	def update_player_1(self,pokemon_name,pokemon_hp,pokemn_status_effects):
 		"""
 		To be used to backpropogate information
 		"""
+		#TODO: UPDATE TYPES HERE TOO
 		self.p1_pokemon_names.append(pokemon_name)
 		self.p1_pokemon_hp.append(pokemon_hp)
 		self.p1_pokemon_status.append(pokemn_status_effects) 
 	
+	def update_moves(self,player, pokemon, move)
+		if player == "1":
+			oldMoves = self.p2_pokemon_moves[pokemon]
+			if move not in oldMoves:
+				oldMoves.append(move)
+				self.p2_pokemon_moves[pokemon] = oldMoves
+		else:
+			oldMoves = self.p1_pokemon_moves[pokemon]
+			if move not in oldMoves:
+				oldMoves.append(move)
+				self.p1_pokemon_moves[pokemon] = oldMoves
+
+	def getp2_in_play(self):
+		return self.p2_in_play
+
+	def getp1_in_play(self):
+		return self.p1_in_play
+
+	def getp2_pokemon_names(self):
+		return self.p2_pokemon_names
+
+	def getp1_pokemon_names(self):
+		return self.p1_pokemon_names
+
+	def getp2_pokemon_types(self):
+		return self.p2_pokemon_types
+
+	def getp1_pokemon_types(self):
+		return self.p1_pokemon_types
+
+	def getp1_pokemon_moves(self):
+		return self.p1_pokemon_moves
+
+	def getp2_pokemon_moves(self):
+		return self.p2_pokemon_moves
+
+
+
+
 	#TODO: make get functions
-
-
 
 
 def readLog(text_file):
@@ -117,7 +182,7 @@ def readLog(text_file):
 					hp = hp.split("/")[0]
 					#can just append bc we know pokemon is being added for the first time
 					p1_pokemon_hp.append(hp)
-					game_log.update_past_states(current_p1,hp)
+					game_log.update_past_hp(current_p1,hp)
 
 			else if line[10] == "2":
 				#p2 switched in new pokemon
