@@ -152,9 +152,9 @@ class Pokedex:
             defenseType = cls.types.index(defense[0]) if isinstance(defense, tuple) else cls.types.index(defense)
             cursor = cls.db.cursor()
             cursor.execute("SELECT * FROM type_efficacy WHERE damage_type_id = ? AND target_type_id = ?", (attackType, defenseType))
-            return cursor.fetchone()[2]
+            return cursor.fetchone()[2] / 100.0
         else:
-            return cls.getTypeEffectiveness(attack, defense[0]) * cls.getTypeEffectiveness(attack, defense[1]) / 10000.0
+            return cls.getTypeEffectiveness(attack, defense[0]) * cls.getTypeEffectiveness(attack, defense[1])
             
     @classmethod
     def getLegalMoves(cls, species):
