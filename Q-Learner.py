@@ -15,6 +15,7 @@ class QLearningAgent:
 		- hp2: HP of p2 pokemon in play
 		- hpsum1: Sum of hp of p1 pokemon not in play
 		- hpsum2: Sum of hp of known p2 pokemon not in play
+
 		- burn1: Whether p1 pokemon is burnt. permanent 
 		- frz1: Whether p1 pokemon is frozen. permanent
 		- par1 : whether p1 pokemon is paralyzed
@@ -29,6 +30,10 @@ class QLearningAgent:
 
 	def __init__(self):
 		#TODO: INIT FUNCTIONS HERE
+		# Q-vals held in dict. Key is [[list of weights], action ]
+		self.Qvals = {}
+		# V-vals held in dict. Key is [list of weights]
+		self.Vvals = {}
 
 
 #getTypeofMove turned into getMove --> dictionary of info. has power and type
@@ -39,10 +44,13 @@ class QLearningAgent:
 		p1_index = game_state.getp1_pokemon_names().index(p1)
 		p2_type = game_state.get_pokemon_types()[p2_index]
 		type_atk1 = 0
+		type_atk2 = 0
+		# Find most effective move rating
 		for attack in game_state.getp1_pokemon_moves()[p1]:
 			attack_type = pokedex.getMove(attack)["type"]
 			if pokedex.getTypeEffectiveness(attack_type, p2_type) > type_atk1 and pokedex.getMove(attack)["power"] > 0:
 				type_atk1 = pokedex.getTypeEffectiveness(attack_type, p2_type)
+		#Change to 1 or 0 feature values
 		if type_atk1 == 2:
 			self.type_atk1 = 1
 			self.bad_type_atk1 = 0
@@ -88,24 +96,44 @@ class QLearningAgent:
 		for i in game_state.getp2_hp():
 			self.hpsum2 += int(i)
 
+	def updateFeatures(self,game_state):
+		self.extract_hps()
+		self.extract_atk1()
+		self.extract_atk2()
+
+	def getQValue(self, game_state, action):
+		#TODO: impliment
 
 
 
+	def updateWeights(self, features):
+		vVal = float('inf')*-1
+		#TODO: how to get legal actions in a state? --> will not be a constant function
+        for act in self.getLegalActions(state):
+            q = self.getQValue(state, act)
+            if q > vVal:
+                vVal = q
+        self.Vvals[str(nextState)] = vVal
+        qVal = self.getQValue(state, action)
+        for feature in features:
+            weight = self.weights[feature]
+            difference = self.Vvals[str(nextState)] * self.discount + reward - qVal
+            self.weights[feature] = self.weights[feature] + self.alpha*difference*features[feature]
+
+
+
+	def getAction(self, features):
+
+
+
+'''
 		for i in game_state.getp2_in_play:
 			#Will have pokedex.getTypeEffectiveness function returns 2 if first type strong against second, return 1 if normal against second, 1/2 if weak against second, 0 if second is immune
 			#will also have pokedex.proportionAttack([your pokemon types], species)
 			
 			#if p2 playing pokemon has attack strong against p1 pokemon, type_atk2 = true
 			if 
-
-
-
-
-
-	def update(self, features)
-
-
-
+'''
 
 
 
