@@ -1,6 +1,6 @@
 #TODO: Get tate to play a game, figure out how to know what we know originally
 #TODO: Add way to remember types
-import pokedex
+from pokedex import Pokedex
 
 class GameLog:
 	"""A class to hold the info of one game. Should be a series of gamestate objects"""
@@ -29,9 +29,9 @@ class GameLog:
 	def add_state(self,state):
 		self.game_states.append(state)
 
-	def update_past_hp(self,pokemon_name, pokemon_hp)
-		for state in game_states:
-			state.update_player_1(pokemon_name, pokemon_hp)
+	def update_past_hp(self,pokemon_name, pokemon_hp):
+		for state in self.game_states:
+			state.update_player_1(pokemon_name, pokemon_hp, [])
 
 	def update_past_moves(self,player,pokemon_name, move):
 		for state in self.game_states:
@@ -39,8 +39,7 @@ class GameLog:
 
 	def update_past_pokemon(self, player, pokemon_name):
 		#TODO: Impliment, backpropogate knowlege about pokemon
-
-
+		return True
 
 	def getLog(self):
 		return self.game_states
@@ -87,7 +86,7 @@ class GameState:
 		self.p2_pokemon_types = []
 
 		for pokemon in p2_pokemon_names:
-			self.p2_pokemon_types.append(pokedex.get(pokemon)["types"])
+			self.p2_pokemon_types.append(Pokedex.get(pokemon)["type"])
 
 		self.p1_pokemon_names = p1_pokemon_names
 		self.p1_pokemon_hp = p1_pokemon_hp
@@ -98,7 +97,7 @@ class GameState:
 		self.p1_pokemon_types = []
 
 		for pokemon in p1_pokemon_names:
-			self.p1_pokemon_types.append(pokedex.get(pokemon)["types"])
+			self.p1_pokemon_types.append(Pokedex.get(pokemon)["type"])
 
 	def update_player_1(self,pokemon_name,pokemon_hp,pokemn_status_effects):
 		"""
@@ -109,17 +108,21 @@ class GameState:
 		self.p1_pokemon_hp.append(pokemon_hp)
 		self.p1_pokemon_status.append(pokemn_status_effects) 
 	
-	def update_moves(self,player, pokemon, move)
+	def update_moves(self,player, pokemon, move):
 		if player == "1":
-			oldMoves = self.p2_pokemon_moves[pokemon]
-			if move not in oldMoves:
-				oldMoves.append(move)
-				self.p2_pokemon_moves[pokemon] = oldMoves
-		else:
+			if pokemon not in self.p1_pokemon_moves.keys():
+				self.p1_pokemon_moves[pokemon] = [move]
 			oldMoves = self.p1_pokemon_moves[pokemon]
 			if move not in oldMoves:
 				oldMoves.append(move)
 				self.p1_pokemon_moves[pokemon] = oldMoves
+		else:
+			if pokemon not in self.p2_pokemon_moves.keys():
+				self.p2_pokemon_moves[pokemon] = [move]
+			oldMoves = self.p2_pokemon_moves[pokemon]
+			if move not in oldMoves:
+				oldMoves.append(move)
+				self.p2_pokemon_moves[pokemon] = oldMoves
 
 	def getp2_in_play(self):
 		return self.p2_in_play
@@ -145,6 +148,13 @@ class GameState:
 	def getp2_pokemon_moves(self):
 		return self.p2_pokemon_moves
 
+	def getp1_hp(self):
+		return self.p1_pokemon_hp
+
+	def getp2_hp(self):
+		return self.p2_pokemon_hp
+
+
 
 
 
@@ -166,8 +176,10 @@ def readLog(text_file):
 	game_log = GameLog()
 
 	for line in log:
+		print(line[0:8])
+
 		if line[0:8] in "|switch|":
-			if line[10] == "1":
+			if line[9] == "1":
 				#p1 switched in new pokemon
 				p1_action = "switch"
 				line = line[13:]
@@ -183,8 +195,9 @@ def readLog(text_file):
 					#can just append bc we know pokemon is being added for the first time
 					p1_pokemon_hp.append(hp)
 					game_log.update_past_hp(current_p1,hp)
+				print("switch 1")
 
-			else if line[10] == "2":
+			elif line[9] == "2":
 				#p2 switched in new pokemon
 				p2_action = "switch"
 				line = line[13:]
@@ -197,57 +210,66 @@ def readLog(text_file):
 					hp = hp.split("/")[0]
 					#can just append bc we know pokemon is being added for the first time
 					p2_pokemon_hp.append(hp)
+				print("switch 2")
 			else:
 				#there was a weird switch I wasn't prepared for, throw an error
 				print("SOMETHING HAS GONE WORNG: no player number attatched to switch statement")
+				print("Line id",line[9])
 		if "|-damage|" in line:
 			#apply damage to hp values
-			if line[11] == "1":
+			if line[9] == "1":
 				#reset p1 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
 				p1_pokemon_hp[p1_pokemon_names.index(p1_in_play)] = new_health
-			else if line[11] == "2":
+			elif line[9] == "2":
 				#reset p2 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
 				p2_pokemon_hp[p2_pokemon_names.index(p2_in_play)] = new_health
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+				print("Line id: ", line[9])
 		if "|-heal|" in line:
 			#apply damage to hp values
-			if line[9] == "1":
+			if line[8] == "1":
 				#reset p1 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
 				p1_pokemon_hp[p1_in_play] = new_health
-			else if line[9] == "2":
+			elif line[8] == "2":
 				#reset p2 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
 				p2_pokemon_hp[p2_in_play] = new_health
 			else:
-				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+				print("SOMETHING HAS GONE WORNG: no player number attatched to heal statement")
+				print("line id: ", line[8])
 		if "|cant|" in line:
 			#apply damage to hp values
-			if line[8] == "1":
+			if line[7] == "1":
 				#reset p1 pokemon health
 				p1_action = "None"
-			else if line[8] == "2":
+			elif line[7] == "2":
 				#reset p2 pokemon health
 				p2_action = "None"
 			else:
-				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+				print("SOMETHING HAS GONE WORNG: no player number attatched to cant statement")
+				print("Line id: ", line[7])
 		if "|move|" in line:
 			#apply damage to hp values
-			if line[8] == "1":
+			if line[7] == "1":
 				#save move
 				move = line.split("|")[3]
+				print("Move: ", move)
 				p1_action = move
-			else if line[8] == "2":
+				game_log.update_past_moves("1",p1_in_play, move)
+			elif line[7] == "2":
 				#reset p2 pokemon health
 				move = line.split("|")[3]
 				p2_action = move
+				print("Move: ", move)
+				game_log.update_past_moves("2",p2_in_play, move)
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
 		if "|-status|" in line:
@@ -256,15 +278,22 @@ def readLog(text_file):
 				#NOTE: THIS DOESN'T ALLOW MULTIPLE STATUSES --> FIX LATER
 				stat = line.split("|")[3]
 				p1_pokemon_status[p1_in_play] = stat
-			else if line[11] == "2":
+			elif line[11] == "2":
 				#reset p2 pokemon health
 				stat = line.split("|")[3]
 				p2_pokemon_status[p2_in_play] = stat
 			else:
-				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
+				print("SOMETHING HAS GONE WORNG: no player number attatched to status statement")
 		if "|turn|" in line:
-			game_state = GameState(self, p2_pokemon_names, p2_pokemon_types, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_types, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play):
+			game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play)
 			game_log.add_state(game_state)
+	return game_log
 
+def main():
+	f = open("logs/920774993.txt")
+	the_log = readLog(f)
+
+
+main()
 
 
