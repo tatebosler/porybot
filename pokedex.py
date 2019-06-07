@@ -82,19 +82,19 @@ class Pokedex:
         if species is None:
             speciesProbability = [cls.getProbabilityWeakToUnknown(types, id) for id in cls.fullyEvolved]
             return numpy.mean(speciesProbability)
-        elif isinstance(species, (int, long)):
-            cursor = cls.db.cursor()
-            cursor.execute("SELECT pokemon_moves.*, moves.* FROM pokemon_moves INNER JOIN moves ON moves.id = pokemon_moves.move_id WHERE pokemon_moves.pokemon_id = ? AND pokemon_moves.version_group_id = 1 GROUP BY pokemon_moves.move_id", (species, ))
-            
+        elif isinstance(species, (int, long)):            
             typeDistrib = list(numpy.zeros(19, dtype=int))
+            damagingTypeDistrib = list(numpy.zeros(19, dtype=int))
             
-            for move in cursor.fetchall():
-                typeDistrib[move[9]] += 1
+            for move in cls.getLegalMoves(species):
+                typeDistrib[move['type_id']] += 1
+                if move['power'] is not None:
+                    damagingTypeDistrib[move['type_id']] += 1
             
             numberStrongMoves = 0
             for typeIndex in range(1, 16):
                 if cls.getTypeEffectiveness(cls.types[typeIndex], types) > 1:
-                    numberStrongMoves += typeDistrib[typeIndex]
+                    numberStrongMoves += damagingTypeDistrib[typeIndex]
             
             numberMoves = max(numpy.sum(typeDistrib), 4)
             
@@ -135,6 +135,25 @@ class Pokedex:
             return cursor.fetchone()[2]
         else:
             return cls.getTypeEffectiveness(attack, defense[0]) * cls.getTypeEffectiveness(attack, defense[1]) / 10000.0
+            
+    @classmethod
+    def getLegalMoves(cls, species):
+        if isinstance(species, (int, long)):
+            cursor = cls.db.cursor()
+            cursor.execute("SELECT pokemon_moves.*, moves.*, move_names.* FROM pokemon_moves INNER JOIN moves ON moves.id = pokemon_moves.move_id INNER JOIN move_names ON move_names.move_id = moves.id WHERE pokemon_moves.pokemon_id = ? AND pokemon_moves.version_group_id = 1 AND move_names.local_language_id = 9 GROUP BY pokemon_moves.move_id", (species, ))
+            
+            return [{
+                'name': move[23],
+                'id': move[0],
+                'type': cls.types[move[9]],
+                'type_id': move[9],
+                'power': move[10],
+                'pp': move[11],
+                'accuracy': move[12]
+            } for move in cursor.fetchall()]
+        else:
+            speciesData = cls.get(species)
+            return cls.getLegalMoves(speciesData['id'])
 
     @classmethod
     def getMove(cls, name):
