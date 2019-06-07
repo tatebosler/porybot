@@ -1,0 +1,541 @@
+|j|☆Kayles
+|j|☆kilimina
+|player|p1|Kayles|229
+|player|p2|kilimina|172
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggcute|Exeggcute|323/323
+|switch|p2a: Magneton|Magneton|303/303
+|turn|1
+|
+|move|p2a: Magneton|Thunder Wave|p1a: Exeggcute
+|-status|p1a: Exeggcute|par
+|move|p1a: Exeggcute|Sleep Powder|p2a: Magneton
+|-status|p2a: Magneton|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Articuno|Articuno|383/383
+|move|p1a: Exeggcute|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|320/383
+|-unboost|p2a: Articuno|spd|1
+|-unboost|p2a: Articuno|spa|1
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Magneton|Magneton|303/303 slp
+|move|p1a: Exeggcute|Stun Spore|p2a: Magneton|[miss]
+|-miss|p1a: Exeggcute
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Dugtrio|Dugtrio|273/273
+|cant|p2a: Magneton|slp
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Dugtrio|Substitute|p1a: Dugtrio
+|-start|p1a: Dugtrio|Substitute
+|-damage|p1a: Dugtrio|205/273
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dugtrio|Earthquake|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|201/393
+|move|p2a: Slowbro|Psychic|p1a: Dugtrio
+|-crit|p1a: Dugtrio
+|-end|p1a: Dugtrio|Substitute
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Kadabra|Kadabra|283/283
+|move|p2a: Slowbro|Reflect|p2a: Slowbro
+|-start|p2a: Slowbro|Reflect
+|
+|upkeep
+|turn|8
+|j| Chrycks
+|c| Chrycks|gl !!
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|-heal|p2a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Graveler|Graveler|313/313
+|move|p1a: Zapdos|Drill Peck|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|277/313
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Seadra|Seadra|313/313
+|move|p2a: Graveler|Body Slam|p1a: Seadra
+|-damage|p1a: Seadra|243/313
+|-status|p1a: Seadra|par
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Articuno|Articuno|320/383
+|cant|p1a: Seadra|par
+|
+|upkeep
+|turn|13
+|j| Pheooo
+|
+|move|p2a: Articuno|Double-Edge|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|96/313 par
+|-damage|p2a: Articuno|284/383|[from] Recoil|[of] p1a: Seadra
+|move|p1a: Seadra|Ice Beam|p2a: Articuno
+|-damage|p2a: Articuno|225/383
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Articuno|Double-Edge|p1a: Seadra
+|-crit|p1a: Seadra
+|-damage|p1a: Seadra|0 fnt
+|-damage|p2a: Articuno|201/383|[from] Recoil|[of] p1a: Seadra
+|faint|p1a: Seadra
+|
+|switch|p1a: Dugtrio|Dugtrio|205/273
+|turn|15
+|
+|switch|p2a: Porygon|Porygon|333/333
+|move|p1a: Dugtrio|Rock Slide|p2a: Porygon
+|-damage|p2a: Porygon|273/333
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Kadabra|Kadabra|283/283
+|move|p2a: Porygon|Agility|p2a: Porygon
+|-boost|p2a: Porygon|spe|2
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Porygon|Double-Edge|p1a: Kadabra
+|-damage|p1a: Kadabra|122/283
+|-damage|p2a: Porygon|233/333|[from] Recoil|[of] p1a: Kadabra
+|move|p1a: Kadabra|Thunder Wave|p2a: Porygon
+|-status|p2a: Porygon|par
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Kadabra|Reflect|p1a: Kadabra
+|-start|p1a: Kadabra|Reflect
+|move|p2a: Porygon|Sharpen|p2a: Porygon
+|-boost|p2a: Porygon|atk|1
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|263/283
+|move|p2a: Porygon|Recover|p2a: Porygon
+|-heal|p2a: Porygon|333/333 par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Kadabra|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|187/333 par
+|move|p2a: Porygon|Sharpen|p2a: Porygon
+|-boost|p2a: Porygon|atk|1
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Slowbro|Slowbro|393/393 slp
+|move|p1a: Kadabra|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|321/393 slp
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Kadabra|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|251/393 slp
+|-curestatus|p2a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|cant|p2a: Slowbro|par
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Kadabra|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|181/393 par
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Kadabra|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|134/393 par
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|-heal|p2a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|199/393 slp
+|-curestatus|p2a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Graveler|Graveler|277/313
+|move|p1a: Zapdos|Drill Peck|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|240/313
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Zapdos|Reflect|p1a: Zapdos
+|-start|p1a: Zapdos|Reflect
+|move|p2a: Graveler|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|348/383
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Graveler
+|-crit|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|168/313
+|move|p2a: Graveler|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|310/383
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|126/313
+|move|p2a: Graveler|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|271/383
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|88/313
+|move|p2a: Graveler|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|235/383
+|-status|p1a: Zapdos|par
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Graveler|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|131/383 par
+|move|p1a: Zapdos|Drill Peck|p2a: Graveler
+|-resisted|p2a: Graveler
+|-damage|p2a: Graveler|47/313
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Graveler|Explosion|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|faint|p2a: Graveler
+|
+|switch|p2a: Slowbro|Slowbro|199/393
+|switch|p1a: Kadabra|Kadabra|263/283
+|turn|35
+|
+|move|p1a: Kadabra|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Kadabra|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|166/393 par
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|cant|p2a: Slowbro|par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Kadabra|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|22/393 par
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|-heal|p2a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Gengar|Gengar|323/323
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|39
+|
+|switch|p2a: Nidoking|Nidoking|365/365
+|move|p1a: Gengar|Thunderbolt|p2a: Nidoking
+|-immune|p2a: Nidoking
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Exeggcute|Exeggcute|323/323 par
+|move|p2a: Nidoking|Earthquake|p1a: Exeggcute
+|-resisted|p1a: Exeggcute
+|-damage|p1a: Exeggcute|256/323 par
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Articuno|Articuno|201/383
+|cant|p1a: Exeggcute|par
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Kadabra|Kadabra|263/283
+|move|p2a: Articuno|Blizzard|p1a: Kadabra
+|-damage|p1a: Kadabra|123/283
+|-status|p1a: Kadabra|frz
+|
+|upkeep
+|turn|43
+|
+|switch|p1a: Exeggcute|Exeggcute|256/323 par
+|move|p2a: Articuno|Agility|p2a: Articuno
+|-boost|p2a: Articuno|spe|2
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Articuno|Blizzard|p1a: Exeggcute|[miss]
+|-miss|p2a: Articuno
+|move|p1a: Exeggcute|Stun Spore|p2a: Articuno
+|-status|p2a: Articuno|par
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp|[from] move: Rest
+|-heal|p2a: Articuno|383/383 slp|[silent]
+|cant|p1a: Exeggcute|par
+|
+|upkeep
+|turn|46
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Exeggcute|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|312/383 slp
+|
+|upkeep
+|turn|47
+|
+|-curestatus|p2a: Articuno|slp|[msg]
+|move|p1a: Exeggcute|Explosion|p2a: Articuno
+|-damage|p2a: Articuno|144/383
+|faint|p1a: Exeggcute
+|c| Chrycks|AH
+|
+|switch|p1a: Dugtrio|Dugtrio|205/273
+|turn|48
+|
+|move|p1a: Dugtrio|Rock Slide|p2a: Articuno|[miss]
+|-miss|p1a: Dugtrio
+|move|p2a: Articuno|Blizzard|p1a: Dugtrio
+|-supereffective|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|switch|p1a: Gengar|Gengar|323/323
+|turn|49
+|c|☆kilimina|att
+|c|☆kilimina|tu peux m'expliquer pk t'es plus rapide?
+|c|☆Kayles|quoi?
+|c|☆kilimina|avec dug contre arti à +2
+|
+|switch|p2a: Nidoking|Nidoking|365/365
+|move|p1a: Gengar|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|158/365
+|-unboost|p2a: Nidoking|spd|1
+|-unboost|p2a: Nidoking|spa|1
+|
+|upkeep
+|turn|50
+|c|☆Kayles|tu as retiré tes invest?
+|c|☆kilimina|cad?
+|c|☆kilimina|non
+|c|☆Kayles|bah jsp
+|
+|move|p1a: Gengar|Psychic|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Magneton|Magneton|303/303 slp
+|turn|51
+|
+|move|p1a: Gengar|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|222/303 slp
+|-unboost|p2a: Magneton|spd|1
+|-unboost|p2a: Magneton|spa|1
+|cant|p2a: Magneton|slp
+|
+|upkeep
+|turn|52
+|
+|switch|p2a: Porygon|Porygon|187/333 par
+|move|p1a: Gengar|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|80/333 par
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Gengar|Psychic|p2a: Porygon
+|-damage|p2a: Porygon|0 fnt
+|faint|p2a: Porygon
+|
+|switch|p2a: Magneton|Magneton|222/303 slp
+|turn|54
+|
+|move|p1a: Gengar|Psychic|p2a: Magneton
+|-damage|p2a: Magneton|152/303 slp
+|-curestatus|p2a: Magneton|slp|[msg]
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Gengar|Hypnosis|p2a: Magneton|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Magneton|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|upkeep
+|turn|56
+|c|☆Kayles|gg
+|
+|switch|p2a: Articuno|Articuno|144/383
+|move|p1a: Gengar|Psychic|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|switch|p2a: Magneton|Magneton|152/303
+|turn|57
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|224/323 par
+|move|p1a: Gengar|Hypnosis|p2a: Magneton|[miss]
+|-miss|p1a: Gengar
+|
+|upkeep
+|turn|58
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|118/323 par
+|cant|p1a: Gengar|par
+|
+|upkeep
+|turn|59
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|13/323 par
+|move|p1a: Gengar|Hypnosis|p2a: Magneton|[miss]
+|-miss|p1a: Gengar
+|
+|upkeep
+|turn|60
+|c|☆kilimina|gg
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Kadabra|Kadabra|123/283 frz
+|turn|61
+|
+|cant|p1a: Kadabra|frz
+|move|p2a: Magneton|Thunderbolt|p1a: Kadabra
+|-damage|p1a: Kadabra|21/283 frz
+|
+|upkeep
+|turn|62
+|
+|cant|p1a: Kadabra|frz
+|move|p2a: Magneton|Thunderbolt|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|win|kilimina
+|c| Chrycks|gg
+|c| Pheooo|gg.

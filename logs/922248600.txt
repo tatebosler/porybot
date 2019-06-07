@@ -1,0 +1,257 @@
+|j|☆WelcomeToBopCity
+|j|☆7 Tools
+|player|p1|WelcomeToBopCity|2
+|player|p2|7 Tools|richboy-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Kognit6|Alakazam|313/313
+|turn|1
+|
+|move|p2a: Kognit6|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|cant|p1a: Jynx|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Kognit6|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|233/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Kognit6
+|-status|p2a: Kognit6|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Südstern5|Starmie|323/323
+|cant|p1a: Jynx|par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Südstern5|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|158/333 par
+|move|p1a: Jynx|Blizzard|p2a: Südstern5
+|-resisted|p2a: Südstern5
+|-damage|p2a: Südstern5|251/323
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Streetguard1|Tauros|353/353
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Rest
+|-heal|p1a: Jynx|333/333 slp|[silent]
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Streetguard1|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|395/523
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Streetguard1|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|269/523
+|move|p1a: Snorlax|Body Slam|p2a: Streetguard1
+|-damage|p2a: Streetguard1|234/353
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Streetguard1|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|8/523
+|move|p1a: Snorlax|Body Slam|p2a: Streetguard1
+|-damage|p2a: Streetguard1|116/353
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Streetguard1|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WelcomeToBopCity)
+|
+|switch|p2a: Infect4|Exeggutor|393/393
+|move|p1a: Tauros|Body Slam|p2a: Infect4
+|-damage|p2a: Infect4|276/393
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Jynx|Jynx|333/333 slp
+|move|p2a: Infect4|Sleep Powder|p1a: Jynx
+|-fail|p1a: Jynx|slp
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Streetguard1|Tauros|116/353
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Infect4|Exeggutor|276/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Infect4|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Jynx|Jynx|333/333 slp
+|move|p2a: Infect4|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|194/333 slp
+|-damage|p2a: Infect4|242/393|[from] Recoil|[of] p1a: Jynx
+|
+|upkeep
+|turn|15
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Infect4|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|54/333 slp
+|-damage|p2a: Infect4|207/393|[from] Recoil|[of] p1a: Jynx
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Lapras|Lapras|463/463
+|move|p2a: Infect4|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|333/463
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Jynx|Jynx|54/333 slp
+|switch|p2a: Südstern5|Starmie|251/323
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Südstern5|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|363/393
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Infect4|Exeggutor|207/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Infect4
+|-status|p2a: Infect4|par
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Jynx|Jynx|54/333 slp
+|move|p2a: Infect4|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Lapras|Lapras|333/463
+|turn|21
+|
+|switch|p2a: 3Dπ3|Chansey|703/703
+|move|p1a: Lapras|Blizzard|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|568/703
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Exeggutor|Exeggutor|363/393
+|move|p2a: 3Dπ3|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Infect4|Exeggutor|207/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Infect4
+|-resisted|p2a: Infect4
+|-damage|p2a: Infect4|152/393 par
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|cant|p2a: Infect4|par
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Lapras|Lapras|333/463
+|switch|p2a: Kognit6|Alakazam|313/313 slp
+|
+|upkeep
+|turn|26
+|inactive|7 Tools has 120 seconds left.
+|
+|switch|p2a: 3Dπ3|Chansey|568/703
+|move|p1a: Lapras|Blizzard|p2a: 3Dπ3|[miss]
+|-miss|p1a: Lapras
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Exeggutor|Exeggutor|363/393 par
+|move|p2a: 3Dπ3|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|263/393 par
+|
+|upkeep
+|turn|28
+|inactive|7 Tools has 120 seconds left.
+|
+|switch|p2a: Infect4|Exeggutor|152/393 par
+|switch|p1a: Tauros|Tauros|353/353
+|
+|upkeep
+|turn|29
+|inactive|7 Tools has 120 seconds left.
+|
+|switch|p2a: Südstern5|Starmie|251/323
+|move|p1a: Tauros|Blizzard|p2a: Südstern5
+|-resisted|p2a: Südstern5
+|-damage|p2a: Südstern5|211/323
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Exeggutor|Exeggutor|263/393 par
+|move|p2a: Südstern5|Thunder Wave|p1a: Exeggutor
+|-fail|p1a: Exeggutor|par
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Infect4|Exeggutor|152/393 par
+|move|p1a: Exeggutor|Explosion|p2a: Infect4
+|-damage|p2a: Infect4|0 fnt
+|faint|p2a: Infect4
+|faint|p1a: Exeggutor
+|inactive|7 Tools has 120 seconds left.
+|-message|WelcomeToBopCity forfeited.
+|
+|win|7 Tools
+|l|☆WelcomeToBopCity

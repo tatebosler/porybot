@@ -1,0 +1,514 @@
+|j|☆Same4youtwo
+|j|☆Jaajgko ☭
+|player|p1|Same4youtwo|266
+|player|p2|Jaajgko ☭|230
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|j| Zokuru
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|191/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|3
+|j| Beuredecahuete
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Alakazam|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|
+|upkeep
+|turn|4
+|j| coeur wanted
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|471/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|569/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|
+|upkeep
+|turn|9
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|113/313 par
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|269/313 par
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|401/703
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|433/703
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|409/703
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|423/703
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Chansey|Chansey|569/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|501/703 par
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|272/393
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Alakazam|Alakazam|269/313 par
+|move|p2a: Exeggutor|Double-Edge|p1a: Alakazam
+|-damage|p1a: Alakazam|156/313 par
+|-damage|p2a: Exeggutor|244/393|[from] Recoil|[of] p1a: Alakazam
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Exeggutor|Double-Edge|p1a: Alakazam
+|-damage|p1a: Alakazam|41/313 par
+|-damage|p2a: Exeggutor|216/393|[from] Recoil|[of] p1a: Alakazam
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|22
+|j| Frrf
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|259/323
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Chansey|Chansey|501/703 par
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Exeggutor|Exeggutor|216/393
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|105/393
+|
+|upkeep
+|turn|26
+|j| Spoire
+|
+|switch|p1a: Alakazam|Alakazam|41/313 par
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Starmie|Starmie|259/323
+|turn|27
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|switch|p2a: Chansey|Chansey|501/703 par
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Snorlax|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|364/413
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Rhydon|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|416/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Snorlax|Snorlax|523/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|379/523 par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|245/523 par
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|178/523 par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|112/523 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Starmie|Starmie|191/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|133/323 par
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Exeggutor|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|41/323 par
+|-damage|p1a: Exeggutor|370/393|[from] Recoil|[of] p2a: Starmie
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|202/323 par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Exeggutor|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|112/323 par
+|-damage|p1a: Exeggutor|348/393|[from] Recoil|[of] p2a: Starmie
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|273/323 par
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Snorlax|Snorlax|416/523
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|157/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|43/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|41
+|j| Skyrio
+|j| gangstar paradise
+|
+|switch|p2a: Rhydon|Rhydon|364/413
+|move|p1a: Snorlax|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|316/413
+|-status|p2a: Rhydon|par
+|
+|upkeep
+|turn|42
+|j| BlazingDark
+|
+|switch|p1a: Exeggutor|Exeggutor|348/393
+|move|p2a: Rhydon|Earthquake|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|186/393
+|
+|upkeep
+|turn|43
+|
+|switch|p2a: Starmie|Starmie|43/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Exeggutor|Exeggutor|105/393
+|turn|44
+|j| KyogreF4N
+|j| Dfmetal
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp|[from] move: Sleep Powder
+|cant|p1a: Exeggutor|slp
+|
+|upkeep
+|turn|45
+|j| Carmin06
+|
+|cant|p1a: Exeggutor|slp
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Exeggutor
+|l| Carmin06
+|
+|switch|p2a: Rhydon|Rhydon|316/413 par
+|switch|p1a: Tauros|Tauros|353/353
+|turn|46
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|301/703
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|652/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|253/703
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|604/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|237/703
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|588/703
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|203/703
+|
+|upkeep
+|turn|50
+|
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|72/413 par
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|51
+|l| gangstar paradise
+|
+|move|p1a: Tauros|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|52
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|253/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|251/353
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|156/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|63/353
+|
+|upkeep
+|turn|54
+|j| JjC527
+|l| JjC527
+|
+|switch|p1a: Snorlax|Snorlax|416/523
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|292/523
+|
+|upkeep
+|turn|55
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|171/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|100/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|51/353
+|
+|upkeep
+|turn|57
+|j| Vicky4Ever
+|
+|switch|p1a: Starmie|Starmie|259/323
+|move|p2a: Tauros|Hyper Beam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Tauros|Tauros|63/353
+|turn|58
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Snorlax|Snorlax|100/523
+|turn|59
+|c| Zokuru|Lol
+|l| Zokuru
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|win|Jaajgko ☭
+|c|☆Same4youtwo|gg
+|c|☆Jaajgko ☭|gg
+|c|☆Jaajgko ☭|j'la méritais pas du tout tho
+|l| Vicky4Ever
+|l|☆Jaajgko ☭
+|j| gangstar paradise
+|l| Skyrio
+|l| gangstar paradise
+|l| Frrf
+|l| Dfmetal
+|l|☆Same4youtwo
+|l| BlazingDark
+|j|☆Jaajgko ☭
+|player|p2|Jaajgko ☭|230
+|j| Rokhan
+|j| gangstar paradise
+|l| gangstar paradise
+|l| KyogreF4N

@@ -1,0 +1,452 @@
+|j|☆Xeefex101
+|j|☆rycubz
+|player|p1|Xeefex101|70
+|player|p2|rycubz|163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333/333
+|switch|p2a: Magmar|Magmar|333/333
+|turn|1
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Magmar
+|-status|p2a: Magmar|par
+|move|p2a: Magmar|Confuse Ray|p1a: Jolteon
+|-start|p1a: Jolteon|confusion
+|
+|upkeep
+|turn|2
+|
+|-activate|p1a: Jolteon|confusion
+|-damage|p1a: Jolteon|296/333|[from] confusion
+|move|p2a: Magmar|Fire Blast|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|73/333
+|-status|p1a: Jolteon|brn
+|
+|upkeep
+|turn|3
+|
+|-activate|p1a: Jolteon|confusion
+|-damage|p1a: Jolteon|54/333 brn|[from] confusion
+|-damage|p1a: Jolteon|34/333 brn|[from] brn|[of] p2a: Magmar
+|move|p2a: Magmar|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|4
+|
+|switch|p2a: Lapras|Lapras|463/463
+|move|p1a: Starmie|Surf|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|407/463
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|250/463
+|move|p2a: Lapras|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Venusaur|Venusaur|363/363
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|290/323|[from] confusion
+|
+|upkeep
+|turn|7
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|257/323|[from] confusion
+|move|p2a: Venusaur|Toxic|p1a: Starmie
+|-status|p1a: Starmie|tox
+|
+|upkeep
+|turn|8
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|224/323 tox|[from] confusion
+|-damage|p1a: Starmie|204/323 tox|[from] psn
+|move|p2a: Venusaur|Leech Seed|p1a: Starmie
+|-start|p1a: Starmie|move: Leech Seed
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Arcanine|Arcanine|383/383
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|spa|1
+|-boost|p2a: Venusaur|spd|1
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|221/363
+|move|p2a: Venusaur|Toxic|p1a: Arcanine
+|-status|p1a: Arcanine|tox
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|51/363
+|-damage|p1a: Arcanine|360/383 tox|[from] psn
+|move|p2a: Venusaur|Leech Seed|p1a: Arcanine
+|-start|p1a: Arcanine|move: Leech Seed
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Lapras|Lapras|250/463
+|move|p1a: Arcanine|Flamethrower|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|54/463
+|-status|p2a: Lapras|brn
+|-damage|p1a: Arcanine|314/383 tox|[from] psn
+|-damage|p1a: Arcanine|245/383 tox|[from] Leech Seed|[of] p2a: Lapras
+|-hint|In Gen 1, Leech Seed's damage is affected by Toxic's counter.
+|-heal|p2a: Lapras|123/463 brn|[silent]
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Lapras|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-damage|p2a: Lapras|95/463 brn|[from] brn|[of] p1a: Snorlax
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Snorlax
+|-damage|p1a: Snorlax|346/523
+|-damage|p2a: Lapras|67/463 brn|[from] brn|[of] p1a: Snorlax
+|-activate|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Gengar|Gengar|323/323
+|turn|15
+|
+|move|p2a: Gengar|Hypnosis|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Hypnosis
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Gengar|Hypnosis|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Hypnosis
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Venusaur|Venusaur|51/363
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Snorlax
+|-start|p1a: Snorlax|move: Leech Seed
+|cant|p1a: Snorlax|slp
+|-damage|p1a: Snorlax|314/523 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|83/363|[silent]
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Venusaur|Mega Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|256/523 slp
+|-heal|p2a: Venusaur|112/363|[from] drain|[of] p1a: Snorlax
+|cant|p1a: Snorlax|slp
+|-damage|p1a: Snorlax|224/523 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|144/363|[silent]
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|spa|1
+|-boost|p2a: Venusaur|spd|1
+|-damage|p1a: Snorlax|192/523 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|176/363|[silent]
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|spa|1
+|-boost|p2a: Venusaur|spd|1
+|-activate|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|-damage|p1a: Snorlax|491/523 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|208/363|[silent]
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|spa|1
+|-boost|p2a: Venusaur|spd|1
+|cant|p1a: Snorlax|slp
+|-damage|p1a: Snorlax|459/523 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|240/363|[silent]
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|spa|1
+|-boost|p2a: Venusaur|spd|1
+|-damage|p1a: Snorlax|427/523 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|272/363|[silent]
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|spa|1
+|-boost|p2a: Venusaur|spd|1
+|-end|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|238/363
+|-damage|p1a: Snorlax|395/523|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|270/363|[silent]
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|spa|1
+|-boost|p2a: Venusaur|spd|1
+|move|p1a: Snorlax|Ice Beam|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|51/363
+|-damage|p1a: Snorlax|363/523|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|83/363|[silent]
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Venusaur|Toxic|p1a: Snorlax
+|-status|p1a: Snorlax|tox
+|move|p1a: Snorlax|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|44/363
+|-damage|p1a: Snorlax|331/523 tox|[from] psn
+|-damage|p1a: Snorlax|267/523 tox|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|108/363|[silent]
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Venusaur|Mega Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|72/523 tox
+|-heal|p2a: Venusaur|205/363|[from] drain|[of] p1a: Snorlax
+|move|p1a: Snorlax|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|171/363
+|-status|p2a: Venusaur|frz
+|-damage|p1a: Snorlax|0 fnt|[from] psn
+|-hint|In Gen 1, Leech Seed recovery is not limited by the remaining HP of the seeded Pokemon.
+|-heal|p2a: Venusaur|299/363 frz|[silent]
+|faint|p1a: Snorlax
+|
+|switch|p1a: Arcanine|Arcanine|245/383 tox
+|turn|28
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|221/363 frz
+|-curestatus|p2a: Venusaur|frz|[msg]
+|-damage|p1a: Arcanine|222/383 psn|[from] psn|[of] p2a: Venusaur
+|move|p2a: Venusaur|Mega Drain|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|128/383 psn
+|-heal|p2a: Venusaur|268/363|[from] drain|[of] p1a: Arcanine
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|206/363
+|-damage|p1a: Arcanine|105/383 psn|[from] psn|[of] p2a: Venusaur
+|move|p2a: Venusaur|Mega Drain|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|21/383 psn
+|-heal|p2a: Venusaur|248/363|[from] drain|[of] p1a: Arcanine
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Arcanine|Fire Blast|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|172/363
+|-damage|p1a: Arcanine|0 fnt|[from] psn|[of] p2a: Venusaur
+|faint|p1a: Arcanine
+|
+|switch|p1a: Gengar|Gengar|323/323
+|turn|31
+|
+|move|p1a: Gengar|Hypnosis|p2a: Venusaur
+|-status|p2a: Venusaur|slp|[from] move: Hypnosis
+|cant|p2a: Venusaur|slp
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Gengar|Dream Eater|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|109/363 slp
+|cant|p2a: Venusaur|slp
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Gengar|Dream Eater|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|47/363 slp
+|cant|p2a: Venusaur|slp
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Gengar|Gengar|323/323
+|move|p1a: Gengar|Dream Eater|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Gengar|Hypnosis|p2a: Gengar|[miss]
+|-miss|p1a: Gengar
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Gengar|Hypnosis|p1a: Gengar|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Gengar|Hypnosis|p2a: Gengar
+|-message|Sleep Clause Mod activated.
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Gengar|Psychic|p2a: Gengar
+|-crit|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|66/323
+|move|p2a: Gengar|Hypnosis|p1a: Gengar
+|-status|p1a: Gengar|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Gengar|Dream Eater|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|156/323 slp
+|-heal|p2a: Gengar|149/323|[from] drain|[of] p1a: Gengar
+|cant|p1a: Gengar|slp
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Gengar|Dream Eater|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-heal|p2a: Gengar|227/323|[from] drain|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|switch|p1a: Starmie|Starmie|204/323 tox
+|turn|40
+|
+|move|p1a: Starmie|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|60/323
+|-damage|p1a: Starmie|184/323 psn|[from] psn|[of] p2a: Gengar
+|move|p2a: Gengar|Thunder|p1a: Starmie|[miss]
+|-miss|p2a: Gengar
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Dugtrio|Dugtrio|273/273
+|move|p1a: Starmie|Psychic|p2a: Dugtrio
+|-damage|p2a: Dugtrio|131/273
+|-unboost|p2a: Dugtrio|spd|1
+|-unboost|p2a: Dugtrio|spa|1
+|-damage|p1a: Starmie|164/323 psn|[from] psn|[of] p2a: Dugtrio
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Dugtrio|Slash|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|68/323 psn
+|move|p1a: Starmie|Surf|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Magmar|Magmar|333/333 par
+|turn|43
+|
+|move|p1a: Starmie|Surf|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|79/333 par
+|-damage|p1a: Starmie|48/323 psn|[from] psn|[of] p2a: Magmar
+|move|p2a: Magmar|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|upkeep
+|turn|44
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|15/323 psn|[from] confusion
+|-damage|p1a: Starmie|0 fnt|[from] psn|[of] p2a: Magmar
+|faint|p1a: Starmie
+|
+|switch|p1a: Venusaur|Venusaur|363/363
+|turn|45
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Magmar
+|-fail|p2a: Magmar
+|move|p2a: Magmar|Fire Blast|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|win|rycubz
+|l|☆Xeefex101

@@ -1,0 +1,530 @@
+|j|☆Beelzemon 2003
+|j|☆YAGHMA
+|player|p1|Beelzemon 2003|120
+|player|p2|YAGHMA|163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: BROLY|Snorlax|523/523
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YAGHMA)
+|inactive|Beelzemon 2003 also wants the timer to be on.
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: BROLY|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|158/703
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|509/703
+|move|p2a: BROLY|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|20/703
+|-mustrecharge|p2a: BROLY
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|371/703
+|cant|p2a: BROLY|recharge
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: LOLA|Jynx|333/333
+|switch|p2a: NAPPA|Exeggutor|393/393
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: BROLY|Snorlax|523/523
+|move|p1a: LOLA|Lovely Kiss|p2a: BROLY
+|-status|p2a: BROLY|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: PARAGUS|Alakazam|313/313
+|move|p1a: LOLA|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|206/313
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Chansey|Chansey|371/703
+|move|p2a: PARAGUS|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|122/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Lapras|Lapras|463/463
+|move|p2a: PARAGUS|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|330/463
+|-unboost|p1a: Lapras|spd|1
+|-unboost|p1a: Lapras|spa|1
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: LOLA|Jynx|333/333
+|move|p2a: PARAGUS|Psychic|p1a: LOLA
+|-resisted|p1a: LOLA
+|-damage|p1a: LOLA|260/333
+|
+|upkeep
+|turn|10
+|
+|move|p2a: PARAGUS|Thunder Wave|p1a: LOLA
+|-status|p1a: LOLA|par
+|move|p1a: LOLA|Blizzard|p2a: PARAGUS
+|-crit|p2a: PARAGUS
+|-damage|p2a: PARAGUS|2/313
+|
+|upkeep
+|turn|11
+|
+|move|p2a: PARAGUS|Recover|p2a: PARAGUS
+|-heal|p2a: PARAGUS|158/313
+|move|p1a: LOLA|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|54/313
+|
+|upkeep
+|turn|12
+|
+|move|p2a: PARAGUS|Recover|p2a: PARAGUS
+|-heal|p2a: PARAGUS|210/313
+|move|p1a: LOLA|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|98/313
+|
+|upkeep
+|turn|13
+|
+|move|p2a: PARAGUS|Recover|p2a: PARAGUS
+|-heal|p2a: PARAGUS|254/313
+|move|p1a: LOLA|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|139/313
+|
+|upkeep
+|turn|14
+|
+|move|p2a: PARAGUS|Psychic|p1a: LOLA
+|-resisted|p1a: LOLA
+|-damage|p1a: LOLA|188/333 par
+|cant|p1a: LOLA|par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: PARAGUS|Psychic|p1a: LOLA
+|-resisted|p1a: LOLA
+|-damage|p1a: LOLA|120/333 par
+|-unboost|p1a: LOLA|spd|1
+|-unboost|p1a: LOLA|spa|1
+|move|p1a: LOLA|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|71/313
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: PARAGUS|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|261/323
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: LOLA|Jynx|120/333 par
+|move|p2a: PARAGUS|Recover|p2a: PARAGUS
+|-heal|p2a: PARAGUS|227/313
+|
+|upkeep
+|turn|18
+|
+|move|p2a: PARAGUS|Psychic|p1a: LOLA
+|-resisted|p1a: LOLA
+|-damage|p1a: LOLA|52/333 par
+|-unboost|p1a: LOLA|spd|1
+|-unboost|p1a: LOLA|spa|1
+|cant|p1a: LOLA|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: PARAGUS|Psychic|p1a: LOLA
+|-resisted|p1a: LOLA
+|-damage|p1a: LOLA|0 fnt
+|faint|p1a: LOLA
+|
+|switch|p1a: Chansey|Chansey|122/703
+|turn|20
+|
+|move|p2a: PARAGUS|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|3/703
+|move|p1a: Chansey|Thunder Wave|p2a: PARAGUS
+|-status|p2a: PARAGUS|par
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: NAPPA|Exeggutor|393/393
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|354/703
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Starmie|Starmie|261/323
+|move|p2a: NAPPA|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: SON GOKU|Tauros|353/353
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|24
+|
+|cant|p1a: Starmie|slp
+|move|p2a: SON GOKU|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|158/323 slp
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: SON GOKU|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|250/353
+|
+|upkeep
+|turn|26
+|
+|move|p2a: SON GOKU|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|154/353
+|move|p1a: Tauros|Body Slam|p2a: SON GOKU
+|-damage|p2a: SON GOKU|245/353
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: SON GOKU|Hyper Beam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|286/363
+|-mustrecharge|p2a: SON GOKU
+|
+|upkeep
+|turn|28
+|
+|cant|p2a: SON GOKU|recharge
+|move|p1a: Golem|Explosion|p2a: SON GOKU
+|-damage|p2a: SON GOKU|0 fnt
+|faint|p2a: SON GOKU
+|faint|p1a: Golem
+|
+|switch|p2a: PARAGUS|Alakazam|227/313 par
+|switch|p1a: Lapras|Lapras|330/463
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|354/703
+|move|p2a: PARAGUS|Reflect|p2a: PARAGUS
+|-start|p2a: PARAGUS|Reflect
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Chansey|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|143/313 par
+|cant|p2a: PARAGUS|par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: PARAGUS|par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Chansey|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|67/313 par
+|move|p2a: PARAGUS|Recover|p2a: PARAGUS
+|-heal|p2a: PARAGUS|223/313 par
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Chansey|Thunderbolt|p2a: PARAGUS
+|-damage|p2a: PARAGUS|158/313 par
+|cant|p2a: PARAGUS|par
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Chansey|Thunderbolt|p2a: PARAGUS
+|-damage|p2a: PARAGUS|94/313 par
+|move|p2a: PARAGUS|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|35
+|
+|cant|p2a: PARAGUS|par
+|move|p1a: Chansey|Thunder Wave|p2a: PARAGUS
+|-fail|p2a: PARAGUS|par
+|
+|upkeep
+|turn|36
+|
+|move|p2a: PARAGUS|Recover|p2a: PARAGUS
+|-heal|p2a: PARAGUS|250/313 par
+|move|p1a: Chansey|Thunderbolt|p2a: PARAGUS
+|-damage|p2a: PARAGUS|188/313 par
+|
+|upkeep
+|turn|37
+|
+|move|p2a: PARAGUS|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|584/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: PARAGUS
+|-fail|p2a: PARAGUS|par
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Starmie|Starmie|158/323 slp
+|move|p2a: PARAGUS|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|97/323 slp
+|
+|upkeep
+|turn|39
+|
+|cant|p1a: Starmie|slp
+|move|p2a: PARAGUS|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|33/323 slp
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Chansey|Chansey|584/703 par
+|cant|p2a: PARAGUS|par
+|
+|upkeep
+|turn|41
+|
+|move|p2a: PARAGUS|Recover|p2a: PARAGUS
+|-heal|p2a: PARAGUS|313/313 par
+|move|p1a: Chansey|Thunderbolt|p2a: PARAGUS
+|-damage|p2a: PARAGUS|247/313 par
+|
+|upkeep
+|turn|42
+|
+|move|p2a: PARAGUS|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|451/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: PARAGUS
+|-fail|p2a: PARAGUS|par
+|
+|upkeep
+|turn|43
+|
+|move|p2a: PARAGUS|Recover|p2a: PARAGUS
+|-heal|p2a: PARAGUS|313/313 par
+|move|p1a: Chansey|Thunder Wave|p2a: PARAGUS
+|-fail|p2a: PARAGUS|par
+|
+|upkeep
+|turn|44
+|
+|cant|p2a: PARAGUS|par
+|move|p1a: Chansey|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|237/313 par
+|
+|upkeep
+|turn|45
+|
+|move|p2a: PARAGUS|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: PARAGUS
+|-fail|p2a: PARAGUS|par
+|
+|upkeep
+|turn|46
+|inactive|Beelzemon 2003 has 120 seconds left.
+|
+|move|p2a: PARAGUS|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|47
+|inactive|Beelzemon 2003 has 120 seconds left.
+|
+|switch|p1a: Starmie|Starmie|33/323 slp
+|move|p2a: PARAGUS|Thunder Wave|p1a: Starmie
+|-fail|p1a: Starmie
+|
+|upkeep
+|turn|48
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|move|p2a: PARAGUS|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|465/703 par
+|
+|upkeep
+|turn|49
+|
+|switch|p2a: RADITZ|Cloyster|303/303
+|move|p1a: Chansey|Thunderbolt|p2a: RADITZ
+|-crit|p2a: RADITZ
+|-supereffective|p2a: RADITZ
+|-damage|p2a: RADITZ|0 fnt
+|faint|p2a: RADITZ
+|
+|switch|p2a: BROLY|Snorlax|523/523 slp
+|turn|50
+|
+|switch|p2a: NAPPA|Exeggutor|393/393
+|switch|p1a: Tauros|Tauros|154/353
+|
+|upkeep
+|turn|51
+|
+|switch|p1a: Lapras|Lapras|330/463
+|move|p2a: NAPPA|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|210/463
+|
+|upkeep
+|turn|52
+|
+|switch|p2a: PARAGUS|Alakazam|237/313 par
+|move|p1a: Lapras|Blizzard|p2a: PARAGUS
+|-damage|p2a: PARAGUS|125/313 par
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Lapras|Blizzard|p2a: PARAGUS
+|-crit|p2a: PARAGUS
+|-damage|p2a: PARAGUS|0 fnt
+|faint|p2a: PARAGUS
+|
+|switch|p2a: BROLY|Snorlax|523/523 slp
+|turn|54
+|
+|move|p1a: Lapras|Blizzard|p2a: BROLY
+|-damage|p2a: BROLY|335/523 slp
+|cant|p2a: BROLY|slp
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Lapras|Blizzard|p2a: BROLY
+|-damage|p2a: BROLY|149/523 slp
+|-curestatus|p2a: BROLY|slp|[msg]
+|
+|upkeep
+|turn|56
+|
+|move|p1a: Lapras|Blizzard|p2a: BROLY|[miss]
+|-miss|p1a: Lapras
+|move|p2a: BROLY|Self-Destruct|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|faint|p2a: BROLY
+|
+|switch|p1a: Chansey|Chansey|465/703 par
+|switch|p2a: NAPPA|Exeggutor|393/393
+|turn|57
+|
+|move|p2a: NAPPA|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|338/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|58
+|
+|move|p2a: NAPPA|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|88/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Thunder Wave|p2a: NAPPA
+|-status|p2a: NAPPA|par
+|
+|upkeep
+|turn|59
+|
+|cant|p2a: NAPPA|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|439/703 par
+|
+|upkeep
+|turn|60
+|
+|switch|p1a: Starmie|Starmie|33/323 slp
+|move|p2a: NAPPA|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Chansey|Chansey|439/703 par
+|turn|61
+|
+|move|p2a: NAPPA|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: NAPPA
+|
+|switch|p2a: PRINCE VEGETA|Dragonite|385/385
+|switch|p1a: Tauros|Tauros|154/353
+|turn|62
+|
+|move|p1a: Tauros|Blizzard|p2a: PRINCE VEGETA
+|-supereffective|p2a: PRINCE VEGETA
+|-damage|p2a: PRINCE VEGETA|59/385
+|move|p2a: PRINCE VEGETA|Agility|p2a: PRINCE VEGETA
+|-boost|p2a: PRINCE VEGETA|spe|2
+|
+|upkeep
+|turn|63
+|
+|move|p2a: PRINCE VEGETA|Wrap|p1a: Tauros|[miss]
+|-miss|p2a: PRINCE VEGETA
+|move|p1a: Tauros|Body Slam|p2a: PRINCE VEGETA
+|-damage|p2a: PRINCE VEGETA|0 fnt
+|faint|p2a: PRINCE VEGETA
+|
+|win|Beelzemon 2003
+|l|☆YAGHMA
+|c|☆Beelzemon 2003|gg

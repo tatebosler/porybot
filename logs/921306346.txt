@@ -1,0 +1,422 @@
+|j|☆Rycera
+|j|☆Beelzemon 2003
+|player|p1|Rycera|163
+|player|p2|Beelzemon 2003|120
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Chansey|Chansey|703/703
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|c|☆Beelzemon 2003|glhf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Beelzemon 2003)
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|566/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|upkeep
+|turn|2
+|c|☆Rycera|I disconnected
+|c|☆Beelzemon 2003|yeah, that happens
+|
+|switch|p2a: Venusaur|Venusaur|363/363
+|move|p1a: Chansey|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|256/363
+|
+|upkeep
+|turn|3
+|c|☆Rycera|because of bad net
+|c|☆Rycera|*cries*
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Sleep Powder
+|cant|p1a: Chansey|slp
+|
+|upkeep
+|turn|4
+|inactive|Rycera has 270 seconds left.
+|c|☆Beelzemon 2003|that happened to me during a tournament final and i lost
+|c|☆Beelzemon 2003|XD
+|c|☆Rycera|Oh thats horrible
+|c|☆Rycera|lol
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|-damage|p1a: Chansey|523/703 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|299/363|[silent]
+|-curestatus|p1a: Chansey|slp|[msg]
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Venusaur|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Sleep Powder
+|cant|p1a: Chansey|slp
+|-damage|p1a: Chansey|480/703 slp|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|342/363|[silent]
+|
+|upkeep
+|turn|6
+|c|☆Beelzemon 2003|well, sometimes you just have bad luck
+|
+|switch|p1a: Jynx|Jynx|333/333
+|move|p2a: Venusaur|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|238/333
+|
+|upkeep
+|turn|7
+|c|☆Rycera|yup
+|
+|switch|p2a: Alakazam|Alakazam|313/313 par
+|move|p1a: Jynx|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|231/313 par
+|
+|upkeep
+|turn|8
+|inactive|Rycera has 270 seconds left.
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-fail|p2a: Alakazam
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|upkeep
+|turn|9
+|inactive|Rycera has 270 seconds left.
+|c|☆Rycera|forgot the stat
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Jynx|par
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|cant|p1a: Jynx|par
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|138/333 par
+|move|p1a: Jynx|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|230/313 par
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Jynx
+|-damage|p1a: Jynx|38/333 par
+|move|p1a: Jynx|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|136/313 par
+|
+|upkeep
+|turn|13
+|inactive|Rycera has 270 seconds left.
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|292/313 par
+|
+|upkeep
+|turn|14
+|inactive|Rycera has 270 seconds left.
+|
+|move|p1a: Tauros|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|173/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Blastoise|Blastoise|361/361
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Tauros|Thunderbolt|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|93/361
+|move|p2a: Blastoise|Counter|p1a: Tauros
+|-fail|p2a: Blastoise
+|
+|upkeep
+|turn|17
+|c|☆Beelzemon 2003|Dang!
+|c|☆Beelzemon 2003|:O
+|
+|move|p2a: Blastoise|Surf|p1a: Tauros
+|-damage|p1a: Tauros|232/353 par
+|move|p1a: Tauros|Body Slam|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|c|☆Rycera|hmm
+|
+|switch|p2a: Venusaur|Venusaur|342/363
+|turn|18
+|inactive|Rycera has 270 seconds left.
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|70/353 par
+|move|p1a: Tauros|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|231/363
+|
+|upkeep
+|turn|19
+|inactive|Rycera has 270 seconds left.
+|c|☆Rycera|paralysu=is
+|
+|move|p2a: Venusaur|Razor Leaf|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Dragonite|Dragonite|385/385
+|turn|20
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|69/363
+|move|p2a: Venusaur|Leech Seed|p1a: Dragonite
+|-start|p1a: Dragonite|move: Leech Seed
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Alakazam|Alakazam|173/313 par
+|move|p1a: Dragonite|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|113/313 par
+|-damage|p1a: Dragonite|361/385|[from] Leech Seed|[of] p2a: Alakazam
+|-heal|p2a: Alakazam|137/313 par|[silent]
+|
+|upkeep
+|turn|22
+|inactive|Rycera has 270 seconds left.
+|
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-damage|p2a: Alakazam|113/313 par
+|-damage|p1a: Dragonite|337/385|[from] Leech Seed|[of] p2a: Alakazam
+|-heal|p2a: Alakazam|137/313 par|[silent]
+|cant|p2a: Alakazam|partiallytrapped
+|
+|upkeep
+|turn|23
+|inactive|Rycera has 270 seconds left.
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|cant|p2a: Alakazam|partiallytrapped
+|
+|upkeep
+|turn|24
+|inactive|Rycera has 270 seconds left.
+|l|☆Rycera
+|inactive|Rycera disconnected and has 300 seconds to reconnect!
+|player|p1|
+|inactive|Rycera has 270 seconds to reconnect!
+|j|☆Rycera
+|inactive|Rycera reconnected and has 265 seconds left.
+|player|p1|Rycera|163
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|move|p1a: Jolteon|Double Kick|p2a: Jolteon
+|-damage|p2a: Jolteon|306/333
+|-damage|p2a: Jolteon|279/333
+|-hitcount|p2a: Jolteon|2
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|move|p1a: Jolteon|Toxic|p2a: Jolteon
+|-status|p2a: Jolteon|tox
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Jolteon|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|260/333 par
+|-damage|p2a: Jolteon|259/333 tox|[from] psn
+|cant|p1a: Jolteon|par
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Jolteon|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|187/333 par
+|-damage|p2a: Jolteon|219/333 tox|[from] psn
+|move|p1a: Jolteon|Body Slam|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|92/333 tox
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Jolteon|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|117/333 par
+|-damage|p2a: Jolteon|32/333 tox|[from] psn
+|move|p1a: Jolteon|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Charizard|Charizard|359/359
+|turn|29
+|
+|move|p2a: Charizard|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Dragonite|Dragonite|337/385
+|turn|30
+|
+|switch|p2a: Raichu|Raichu|323/323
+|move|p1a: Dragonite|Wrap|p2a: Raichu
+|-damage|p2a: Raichu|301/323
+|
+|upkeep
+|turn|31
+|
+|cant|p2a: Raichu|partiallytrapped
+|move|p1a: Dragonite|Wrap|p2a: Raichu|[from]Wrap
+|-damage|p2a: Raichu|279/323
+|
+|upkeep
+|turn|32
+|
+|cant|p2a: Raichu|partiallytrapped
+|move|p1a: Dragonite|Wrap|p2a: Raichu|[from]Wrap
+|-damage|p2a: Raichu|257/323
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Chansey|Chansey|480/703 slp
+|move|p2a: Raichu|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Raichu|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|321/703 slp
+|cant|p1a: Chansey|slp
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Raichu|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Dragonite|Dragonite|337/385
+|turn|36
+|
+|move|p2a: Raichu|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|cant|p1a: Dragonite|par
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Alakazam|Alakazam|137/313 par
+|move|p1a: Dragonite|Wrap|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|94/313 par
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Charizard|Charizard|359/359
+|move|p1a: Dragonite|Wrap|p2a: Charizard|[miss]
+|-miss|p1a: Dragonite
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Charizard|Slash|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|246/385 par
+|move|p1a: Dragonite|Surf|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|197/359
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Charizard|Slash|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|143/385 par
+|move|p1a: Dragonite|Thunderbolt|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|33/359
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Charizard|Slash|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|44/385 par
+|move|p1a: Dragonite|Wrap|p2a: Charizard
+|-damage|p2a: Charizard|14/359
+|
+|upkeep
+|turn|42
+|
+|cant|p2a: Charizard|partiallytrapped
+|move|p1a: Dragonite|Wrap|p2a: Charizard|[from]Wrap
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Raichu|Raichu|257/323
+|turn|43
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Jynx|Jynx|38/333 par
+|turn|44
+|c|☆Rycera|i lose
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Gyarados|Gyarados|393/393
+|turn|45
+|
+|move|p2a: Raichu|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|win|Beelzemon 2003
+|c|☆Beelzemon 2003|good game chum
+|c|☆Beelzemon 2003|I like your team
+|c|☆Rycera|hanks
+|c|☆Rycera|thanks lol
+|c|☆Rycera|bye
+|c|☆Beelzemon 2003|bye

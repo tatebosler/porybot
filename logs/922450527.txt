@@ -1,0 +1,499 @@
+|j|☆Rematchplease
+|j|☆starrank
+|player|p1|Rematchplease|126
+|player|p2|starrank|285
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lapras|Lapras|463/463
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|1
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Lapras|Sing|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Sing
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Lapras|Blizzard|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|148/523
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Lapras|Hydro Pump|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Chansey|Chansey|703/703
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by starrank)
+|
+|move|p1a: Lapras|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|561/703
+|move|p2a: Chansey|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Lapras
+|-damage|p1a: Lapras|363/463 par
+|move|p1a: Lapras|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|436/703
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Lapras|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|579/703
+|-status|p2a: Chansey|frz
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|switch|p1a: Blowoff|Cloyster|303/303
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Blowoff
+|-status|p1a: Blowoff|par
+|move|p1a: Blowoff|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: Blowoff
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|switch|p1a: Electrones|Starmie|323/323
+|turn|9
+|
+|move|p1a: Electrones|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|230/393
+|move|p2a: Exeggutor|Double-Edge|p1a: Electrones
+|-damage|p1a: Electrones|241/323
+|-damage|p2a: Exeggutor|210/393|[from] Recoil|[of] p1a: Electrones
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Electrones|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|124/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|move|p2a: Exeggutor|Sleep Powder|p1a: Electrones|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Electrones|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|12
+|
+|move|p1a: Electrones|Thunder|p2a: Tauros|[miss]
+|-miss|p1a: Electrones
+|move|p2a: Tauros|Body Slam|p1a: Electrones
+|-damage|p1a: Electrones|129/323
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Electrones|Thunder|p2a: Tauros
+|-damage|p2a: Tauros|234/353
+|move|p2a: Tauros|Hyper Beam|p1a: Electrones
+|-crit|p1a: Electrones
+|-damage|p1a: Electrones|0 fnt
+|faint|p1a: Electrones
+|
+|switch|p1a: Dewgong|Dewgong|383/383
+|turn|14
+|
+|switch|p2a: Starmie|Starmie|323/323 slp
+|move|p1a: Dewgong|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|252/323 slp
+|
+|upkeep
+|turn|15
+|
+|-curestatus|p2a: Starmie|slp|[msg]
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|195/323
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|140/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dewgong|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|45/323 par
+|-mustrecharge|p1a: Dewgong
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|206/323 par
+|
+|upkeep
+|turn|18
+|
+|cant|p1a: Dewgong|recharge
+|move|p2a: Starmie|Thunder Wave|p1a: Dewgong
+|-status|p1a: Dewgong|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Starmie|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|278/383 par
+|-unboost|p1a: Dewgong|spd|1
+|-unboost|p1a: Dewgong|spa|1
+|move|p1a: Dewgong|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|104/323 par
+|-mustrecharge|p1a: Dewgong
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|265/323 par
+|cant|p1a: Dewgong|recharge
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Starmie|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|122/383 par
+|move|p1a: Dewgong|Rest|p1a: Dewgong
+|-status|p1a: Dewgong|slp|[from] move: Rest
+|-heal|p1a: Dewgong|383/383 slp|[silent]
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Mahi Mahi|Articuno|383/383
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Mahi Mahi|Sky Attack||[still]
+|-prepare|p1a: Mahi Mahi|Sky Attack|p2a: Starmie
+|move|p2a: Starmie|Thunder Wave|p1a: Mahi Mahi
+|-status|p1a: Mahi Mahi|par
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Chansey|Chansey|579/703 frz
+|move|p1a: Mahi Mahi|Sky Attack|p2a: Chansey|[from]Sky Attack
+|-damage|p2a: Chansey|140/703 frz
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Starmie|Starmie|265/323 par
+|cant|p1a: Mahi Mahi|par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Starmie|Psychic|p1a: Mahi Mahi
+|-crit|p1a: Mahi Mahi
+|-damage|p1a: Mahi Mahi|201/383 par
+|cant|p1a: Mahi Mahi|par
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Starmie|Psychic|p1a: Mahi Mahi
+|-crit|p1a: Mahi Mahi
+|-damage|p1a: Mahi Mahi|32/383 par
+|move|p1a: Mahi Mahi|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|187/323 par
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|move|p1a: Mahi Mahi|Blizzard|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|169/323 par
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Starmie|Psychic|p1a: Mahi Mahi
+|-damage|p1a: Mahi Mahi|0 fnt
+|faint|p1a: Mahi Mahi
+|
+|switch|p1a: Dewgong|Dewgong|383/383 slp
+|turn|30
+|
+|cant|p1a: Dewgong|slp
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|
+|upkeep
+|turn|31
+|
+|-curestatus|p1a: Dewgong|slp|[msg]
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|266/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|207/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Brenda|Jynx|333/333
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Brenda|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|273/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|move|p2a: Starmie|Psychic|p1a: Brenda
+|-resisted|p1a: Brenda
+|-damage|p1a: Brenda|297/333
+|
+|upkeep
+|turn|36
+|j| tonyone87
+|
+|move|p1a: Brenda|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|177/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|move|p2a: Starmie|Psychic|p1a: Brenda
+|-resisted|p1a: Brenda
+|-damage|p1a: Brenda|272/333
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Brenda|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|31/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|192/323 par
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Chansey|Chansey|140/703 frz
+|move|p1a: Brenda|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|11/703 frz
+|
+|upkeep
+|turn|39
+|
+|switch|p1a: Dewgong|Dewgong|383/383
+|cant|p2a: Chansey|frz
+|
+|upkeep
+|turn|40
+|
+|switch|p2a: Starmie|Starmie|192/323 par
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|133/323 par
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Dewgong|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|22/323 par
+|-mustrecharge|p1a: Dewgong
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|183/323 par
+|
+|upkeep
+|turn|42
+|
+|cant|p1a: Dewgong|recharge
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Dewgong|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|84/323 par
+|-mustrecharge|p1a: Dewgong
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|44
+|
+|cant|p1a: Dewgong|recharge
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|245/323 par
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|189/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|66/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|227/323 par
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Dewgong|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|126/323 par
+|-mustrecharge|p1a: Dewgong
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|48
+|
+|cant|p1a: Dewgong|recharge
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|287/323 par
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|227/323 par
+|move|p2a: Starmie|Ice Beam|p1a: Dewgong
+|-resisted|p1a: Dewgong
+|-damage|p1a: Dewgong|362/383
+|
+|upkeep
+|turn|50
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|164/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|51
+|
+|move|p1a: Dewgong|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|95/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|52
+|
+|switch|p2a: Chansey|Chansey|11/703 frz
+|move|p1a: Dewgong|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Starmie|Starmie|95/323 par
+|turn|53
+|
+|move|p1a: Dewgong|Hyper Beam|p2a: Starmie|[miss]
+|-miss|p1a: Dewgong
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|256/323 par
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|195/323 par
+|move|p2a: Starmie|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|249/383
+|-unboost|p1a: Dewgong|spd|1
+|-unboost|p1a: Dewgong|spa|1
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Dewgong|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|90/323 par
+|move|p2a: Starmie|Psychic|p1a: Dewgong
+|-damage|p1a: Dewgong|81/383
+|
+|upkeep
+|turn|56
+|
+|move|p1a: Dewgong|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Tauros|Tauros|234/353
+|turn|57
+|
+|move|p2a: Tauros|Body Slam|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|switch|p1a: Lapras|Lapras|363/463 par
+|turn|58
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|239/463 par
+|move|p1a: Lapras|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|72/353
+|-status|p2a: Tauros|frz
+|
+|upkeep
+|turn|59
+|-message|starrank forfeited.
+|
+|win|Rematchplease
+|raw|Rematchplease's rating: 1179 &rarr; <strong>1201</strong><br />(+22 for winning)
+|raw|starrank's rating: 1143 &rarr; <strong>1121</strong><br />(-22 for losing)

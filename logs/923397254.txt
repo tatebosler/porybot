@@ -1,0 +1,505 @@
+|j|☆kilimina
+|j|☆OsaiY
+|player|p1|kilimina|172
+|player|p2|OsaiY|157
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Venusaur|Venusaur|363/363
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|j| Gatubraz
+|j| Butterchoke
+|j| Kayles
+|c|☆kilimina|good haxx have haxx
+|c|☆OsaiY|hf
+|
+|move|p2a: Starmie|Blizzard|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|161/363
+|move|p1a: Venusaur|Sleep Powder|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|c| Gatubraz|Rira bien qui critera le premier
+|c| Kayles|Merci gatu
+|
+|switch|p2a: Victreebel|Victreebel|363/363
+|move|p1a: Venusaur|Body Slam|p2a: Victreebel|[miss]
+|-miss|p1a: Venusaur
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|
+|upkeep
+|turn|3
+|c|☆kilimina|YES
+|c|☆kilimina|j'ai eu le premier de la compet
+|c|☆kilimina|gg moi
+|
+|move|p1a: Venusaur|Body Slam|p2a: Victreebel
+|-damage|p2a: Victreebel|292/363
+|move|p2a: Victreebel|Sleep Powder|p1a: Venusaur
+|-status|p1a: Venusaur|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Articuno|Articuno|383/383
+|switch|p2a: Starmie|Starmie|323/323 slp
+|
+|upkeep
+|turn|5
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Articuno|Mimic|p2a: Starmie
+|-start|p1a: Articuno|Mimic|Recover
+|
+|upkeep
+|turn|6
+|c|☆kilimina|gg wp
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Articuno|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|242/323 slp
+|-damage|p1a: Articuno|363/383|[from] Recoil|[of] p2a: Starmie
+|
+|upkeep
+|turn|7
+|c| Gatubraz|Articuno recover
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Articuno|Double-Edge|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|81/323 slp
+|-damage|p1a: Articuno|323/383|[from] Recoil|[of] p2a: Starmie
+|
+|upkeep
+|turn|8
+|c| Gatubraz|T'es tellement dans la merde
+|c|☆kilimina|j'aurais aimé tbolt
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Articuno|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|6/323 slp
+|-damage|p1a: Articuno|305/383|[from] Recoil|[of] p2a: Starmie
+|
+|upkeep
+|turn|9
+|c|☆kilimina|mais je vais me contenter de recover
+|c|☆kilimina|et du full sleep
+|c| Gatubraz|Full
+|c| Gatubraz|4 c'est la moyenne x)
+|c| Gatubraz|C'est 7 max je crois
+|
+|-curestatus|p2a: Starmie|slp|[msg]
+|move|p1a: Articuno|Double-Edge|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-damage|p1a: Articuno|304/383|[from] Recoil|[of] p2a: Starmie
+|faint|p2a: Starmie
+|c|☆kilimina|sleep jusqu'a la mort plutot
+|
+|switch|p2a: Rapidash|Rapidash|333/333
+|turn|10
+|
+|switch|p1a: Graveler|Graveler|313/313
+|move|p2a: Rapidash|Fire Spin|p1a: Graveler|[miss]
+|-miss|p2a: Rapidash
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Sandslash|Sandslash|353/353
+|move|p1a: Graveler|Body Slam|p2a: Sandslash
+|-damage|p2a: Sandslash|294/353
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Slowbro|Slowbro|393/393
+|move|p2a: Sandslash|Substitute|p2a: Sandslash
+|-start|p2a: Sandslash|Substitute
+|-damage|p2a: Sandslash|206/353
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Sandslash|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|285/393
+|move|p1a: Slowbro|Surf|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-end|p2a: Sandslash|Substitute
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Sandslash|Earthquake|p1a: Slowbro
+|-damage|p1a: Slowbro|169/393
+|move|p1a: Slowbro|Surf|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|switch|p2a: Victreebel|Victreebel|292/363
+|turn|15
+|
+|switch|p1a: Nidoking|Nidoking|365/365
+|move|p2a: Victreebel|Razor Leaf|p1a: Nidoking
+|-crit|p1a: Nidoking
+|-damage|p1a: Nidoking|221/365
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Rapidash|Rapidash|333/333
+|move|p1a: Nidoking|Ice Beam|p2a: Rapidash
+|-damage|p2a: Rapidash|258/333
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Nidoking
+|-damage|p1a: Nidoking|203/365
+|cant|p1a: Nidoking|partiallytrapped
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Graveler|Graveler|313/313
+|move|p2a: Rapidash|Fire Spin|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|301/313
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Omastar|Omastar|343/343
+|cant|p1a: Graveler|partiallytrapped
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Victreebel|Victreebel|292/363
+|switch|p1a: Slowbro|Slowbro|169/393
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Articuno|Articuno|304/383
+|move|p2a: Victreebel|Razor Leaf|p1a: Articuno
+|-crit|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|254/383
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Omastar|Omastar|343/343
+|move|p1a: Articuno|Double-Edge|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|313/343
+|-damage|p1a: Articuno|247/383|[from] Recoil|[of] p2a: Omastar
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Articuno|Blizzard|p2a: Omastar
+|-resisted|p2a: Omastar
+|-damage|p2a: Omastar|241/343
+|-status|p2a: Omastar|frz
+|cant|p2a: Omastar|frz
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Articuno|Mimic|p2a: Omastar
+|-start|p1a: Articuno|Mimic|Rest
+|cant|p2a: Omastar|frz
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Articuno|Rest|p1a: Articuno
+|-status|p1a: Articuno|slp|[from] move: Rest
+|-heal|p1a: Articuno|383/383 slp|[silent]
+|cant|p2a: Omastar|frz
+|
+|upkeep
+|turn|26
+|
+|cant|p1a: Articuno|slp
+|cant|p2a: Omastar|frz
+|
+|upkeep
+|turn|27
+|c|☆kilimina|tu peux pas te defreeze
+|c|☆kilimina|au cas ou
+|c|☆OsaiY|ha
+|c|☆kilimina|bon tier non?
+|c|☆OsaiY|donc un poke freeze il est juste mort
+|c|☆kilimina|yes
+|c| Gatubraz|Sauf
+|c| Butterchoke|sauf si il a haze ou fire spin
+|c|☆kilimina|mais tu peux freeze qu'un poké par match
+|c| Gatubraz|Si tu as haze
+|
+|switch|p2a: Victreebel|Victreebel|292/363
+|-curestatus|p1a: Articuno|slp|[msg]
+|
+|upkeep
+|turn|28
+|c| Gatubraz|Ou qu'en face il fait certains moves feu
+|c| Kayles|Deflag
+|c| Gatubraz|Fire blast je suis pas sur je crois que ça marche aussi
+|c| Gatubraz|Ptet flamethrower aussi
+|
+|switch|p2a: Rapidash|Rapidash|258/333
+|move|p1a: Articuno|Blizzard|p2a: Rapidash
+|-damage|p2a: Rapidash|68/333
+|
+|upkeep
+|turn|29
+|c| Gatubraz|Et roue de feu
+|c| Gatubraz|Si ça existe
+|
+|switch|p1a: Graveler|Graveler|301/313
+|move|p2a: Rapidash|Fire Spin|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|288/313
+|
+|upkeep
+|turn|30
+|c| Gatubraz|En 1g
+|c| Butterchoke|XD
+|
+|switch|p2a: Victreebel|Victreebel|292/363
+|cant|p1a: Graveler|partiallytrapped
+|
+|upkeep
+|turn|31
+|c| Butterchoke|c 4 g
+|
+|switch|p1a: Articuno|Articuno|383/383
+|move|p2a: Victreebel|Stun Spore|p1a: Articuno
+|-status|p1a: Articuno|par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Victreebel|Growth|p2a: Victreebel
+|-boost|p2a: Victreebel|spa|1
+|-boost|p2a: Victreebel|spd|1
+|cant|p1a: Articuno|par
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Victreebel|Growth|p2a: Victreebel
+|-boost|p2a: Victreebel|spa|1
+|-boost|p2a: Victreebel|spd|1
+|move|p1a: Articuno|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|114/363
+|
+|upkeep
+|turn|34
+|c|☆kilimina|ah
+|c|☆kilimina|aussi
+|c|☆kilimina|razor leaf fait tjrs un crit
+|c|☆OsaiY|ca je sais
+|c|☆kilimina|et les crits ignore les changements de stats
+|c|☆kilimina|des 2 pokés
+|c|☆OsaiY|ha
+|c|☆OsaiY|mdr
+|c|☆kilimina|ce tier pue oui
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Articuno
+|-crit|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|331/383 par
+|cant|p1a: Articuno|par
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Articuno
+|-crit|p1a: Articuno
+|-resisted|p1a: Articuno
+|-damage|p1a: Articuno|279/383 par
+|move|p1a: Articuno|Blizzard|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|c| Gatubraz|Oui si tu augmente tes stats c'est un lalus de crit
+|
+|switch|p2a: Rapidash|Rapidash|68/333
+|turn|36
+|
+|move|p2a: Rapidash|Fire Spin|p1a: Articuno|[miss]
+|-miss|p2a: Rapidash
+|cant|p1a: Articuno|par
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Articuno
+|-crit|p1a: Articuno
+|-supereffective|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|c|☆OsaiY|ban bah gg
+|
+|switch|p1a: Graveler|Graveler|288/313
+|turn|38
+|c|☆OsaiY|sauf un miracle
+|c|☆kilimina|nan pas dit
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|200/313
+|move|p1a: Graveler|Earthquake|p2a: Rapidash
+|-supereffective|p2a: Rapidash
+|-damage|p2a: Rapidash|0 fnt
+|faint|p2a: Rapidash
+|c|☆kilimina|tu peux fire spin jusqu'a ma mort
+|
+|switch|p2a: Dodrio|Dodrio|323/323
+|turn|39
+|c| Gatubraz|Tu pouvais tenter fire spin ouais x)
+|
+|switch|p1a: Venusaur|Venusaur|161/363 slp
+|move|p2a: Dodrio|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|46/363 slp
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Dodrio|Substitute|p2a: Dodrio
+|-start|p2a: Dodrio|Substitute
+|-damage|p2a: Dodrio|243/323
+|-curestatus|p1a: Venusaur|slp|[msg]
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Dodrio|Body Slam|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|switch|p1a: Magneton|Magneton|303/303
+|turn|42
+|
+|move|p2a: Dodrio|Body Slam|p1a: Magneton
+|-damage|p1a: Magneton|188/303
+|move|p1a: Magneton|Thunderbolt|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-end|p2a: Dodrio|Substitute
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Magneton|[miss]
+|-miss|p2a: Dodrio
+|move|p1a: Magneton|Reflect|p1a: Magneton
+|-start|p1a: Magneton|Reflect
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Dodrio|Body Slam|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|c| Gatubraz|Oof
+|
+|switch|p1a: Graveler|Graveler|200/313
+|turn|45
+|c| Butterchoke|la remontada
+|c| Gatubraz|Il a été meilleur sur ce coup là
+|
+|move|p2a: Dodrio|Body Slam|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|155/313
+|move|p1a: Graveler|Rock Slide|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|10/323
+|
+|upkeep
+|turn|46
+|c| Gatubraz|C'est pas fini!
+|
+|move|p2a: Dodrio|Body Slam|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|105/313
+|-status|p1a: Graveler|par
+|cant|p1a: Graveler|par
+|
+|upkeep
+|turn|47
+|c|☆kilimina|la remontada?
+|c| Gatubraz|ALLEZ
+|c| Gatubraz|Juste 2 paras!
+|c|☆kilimina|goat dodrio?
+|c| Gatubraz|Ou un crit
+|
+|move|p2a: Dodrio|Body Slam|p1a: Graveler
+|-crit|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|14/313 par
+|cant|p1a: Graveler|par
+|
+|upkeep
+|turn|48
+|c| Gatubraz|OH
+|c| Butterchoke|XD
+|l|☆kilimina
+|player|p1|
+|c| Gatubraz|Mdr
+|c|☆OsaiY|il est bien ce tier
+|c|☆OsaiY|finalement
+|j|☆kilimina
+|player|p1|kilimina|172
+|c| Gatubraz|Tu vois x)
+|
+|move|p2a: Dodrio|Body Slam|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|c|☆kilimina|lulz
+|
+|switch|p1a: Nidoking|Nidoking|203/365
+|turn|49
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|switch|p1a: Slowbro|Slowbro|169/393
+|turn|50
+|c| Butterchoke|dodrio
+|c|☆kilimina|SLOWBRO JE TE CHOISIS
+|c| Butterchoke|la remontada
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|win|OsaiY
+|c| Gatubraz|GG
+|c|☆kilimina|SLOWBRO
+|c| Kayles|LOL
+|c|☆kilimina|NANANANANAN
+|c|☆kilimina|gg
+|c| Kayles|Looooooooooooool
+|c|☆OsaiY|xD gg
+|l| Butterchoke
+|c| Gatubraz|Clairement le meilleur match de cette dl

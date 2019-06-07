@@ -1,0 +1,330 @@
+|j|☆Honig
+|j|☆ArielBrant
+|player|p1|Honig|107
+|player|p2|ArielBrant|115
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: SingStar|Jynx|333/333
+|switch|p2a: Gengar|Gengar|323/323
+|turn|1
+|c|☆Honig|hi
+|
+|move|p2a: Gengar|Hypnosis|p1a: SingStar|[miss]
+|-miss|p2a: Gengar
+|move|p1a: SingStar|Lovely Kiss|p2a: Gengar
+|-status|p2a: Gengar|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArielBrant)
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: SingStar|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|274/323
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: TheEggWonder|Chansey|703/703
+|move|p2a: Starmie|Thunder Wave|p1a: TheEggWonder
+|-status|p1a: TheEggWonder|par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|cant|p1a: TheEggWonder|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: TheEggWonder|[miss]
+|-miss|p2a: Snorlax
+|cant|p1a: TheEggWonder|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: TheEggWonder
+|-damage|p1a: TheEggWonder|183/703 par
+|-mustrecharge|p2a: Snorlax
+|cant|p1a: TheEggWonder|par
+|
+|upkeep
+|turn|7
+|
+|cant|p2a: Snorlax|recharge
+|move|p1a: TheEggWonder|Reflect|p1a: TheEggWonder
+|-start|p1a: TheEggWonder|Reflect
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: TheEggWonder
+|-damage|p1a: TheEggWonder|0 fnt
+|faint|p1a: TheEggWonder
+|
+|switch|p1a: Champignon|Machamp|383/383
+|turn|9
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Champignon|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|297/383
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Narwhale|Rhydon|413/413
+|move|p2a: Zapdos|Drill Peck|p1a: Narwhale
+|-resisted|p1a: Narwhale
+|-damage|p1a: Narwhale|376/413
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Narwhale|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|330/363
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: SuperStar|Starmie|323/323
+|move|p2a: Golem|Earthquake|p1a: SuperStar
+|-damage|p1a: SuperStar|174/323
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Electrode|Electrode|323/323
+|move|p1a: SuperStar|Thunder Wave|p2a: Electrode
+|-status|p2a: Electrode|par
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Narwhale|Rhydon|376/413
+|cant|p2a: Electrode|par
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Zapdos|Zapdos|297/383
+|move|p1a: Narwhale|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|204/383
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Starmie|Starmie|274/323
+|move|p1a: Narwhale|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|188/323
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: SuperStar|Starmie|174/323
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Electrode|Electrode|323/323 par
+|move|p1a: SuperStar|Thunderbolt|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|280/323 par
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Narwhale|Rhydon|376/413
+|move|p2a: Electrode|Thunder Wave|p1a: Narwhale
+|-immune|p1a: Narwhale
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Golem|Golem|330/363
+|move|p1a: Narwhale|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|296/363
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: TheBoss|Tauros|353/353
+|move|p2a: Golem|Earthquake|p1a: TheBoss
+|-damage|p1a: TheBoss|213/353
+|
+|upkeep
+|turn|22
+|
+|move|p1a: TheBoss|Blizzard|p2a: Golem|[miss]
+|-miss|p1a: TheBoss
+|move|p2a: Golem|Earthquake|p1a: TheBoss
+|-damage|p1a: TheBoss|83/353
+|
+|upkeep
+|turn|23
+|
+|move|p1a: TheBoss|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|96/363
+|move|p2a: Golem|Earthquake|p1a: TheBoss
+|-damage|p1a: TheBoss|0 fnt
+|faint|p1a: TheBoss
+|
+|switch|p1a: SingStar|Jynx|333/333
+|turn|24
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: SingStar|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|248/523
+|
+|upkeep
+|turn|25
+|
+|move|p1a: SingStar|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|80/523
+|move|p2a: Snorlax|Hyper Beam|p1a: SingStar
+|-damage|p1a: SingStar|12/333
+|-mustrecharge|p2a: Snorlax
+|
+|upkeep
+|turn|26
+|
+|move|p1a: SingStar|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Zapdos|Zapdos|204/383
+|turn|27
+|
+|switch|p2a: Golem|Golem|96/363
+|switch|p1a: Narwhale|Rhydon|376/413
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Golem|Earthquake|p1a: Narwhale
+|-supereffective|p1a: Narwhale
+|-damage|p1a: Narwhale|170/413
+|move|p1a: Narwhale|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Starmie|Starmie|188/323 par
+|turn|29
+|
+|switch|p1a: SuperStar|Starmie|174/323
+|move|p2a: Starmie|Thunderbolt|p1a: SuperStar
+|-supereffective|p1a: SuperStar
+|-damage|p1a: SuperStar|31/323
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Electrode|Electrode|280/323 par
+|move|p1a: SuperStar|Thunderbolt|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|234/323 par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: SuperStar|Recover|p1a: SuperStar
+|-heal|p1a: SuperStar|192/323
+|move|p2a: Electrode|Explosion|p1a: SuperStar
+|-damage|p1a: SuperStar|0 fnt
+|faint|p1a: SuperStar
+|faint|p2a: Electrode
+|
+|switch|p1a: Narwhale|Rhydon|170/413
+|switch|p2a: Starmie|Starmie|188/323 par
+|turn|32
+|
+|move|p1a: Narwhale|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|35/323 par
+|move|p2a: Starmie|Blizzard|p1a: Narwhale
+|-crit|p1a: Narwhale
+|-supereffective|p1a: Narwhale
+|-damage|p1a: Narwhale|0 fnt
+|faint|p1a: Narwhale
+|inactive|Honig has 120 seconds left.
+|
+|switch|p1a: Champignon|Machamp|383/383
+|turn|33
+|j| Saidash
+|
+|switch|p2a: Gengar|Gengar|323/323 slp
+|move|p1a: Champignon|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Zapdos|Zapdos|204/383
+|move|p1a: Champignon|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|44/383
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Champignon
+|-supereffective|p1a: Champignon
+|-damage|p1a: Champignon|162/383
+|move|p1a: Champignon|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Starmie|Starmie|35/323 par
+|turn|36
+|
+|switch|p2a: Gengar|Gengar|323/323 slp
+|move|p1a: Champignon|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|37
+|
+|cant|p2a: Gengar|slp
+|move|p1a: Champignon|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|61/323 slp
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Starmie|Starmie|35/323 par
+|move|p1a: Champignon|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Gengar|Gengar|61/323 slp
+|turn|39
+|
+|cant|p2a: Gengar|slp
+|move|p1a: Champignon|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|Honig
+|l|☆ArielBrant

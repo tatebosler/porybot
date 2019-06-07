@@ -1,0 +1,429 @@
+|j|☆SphereTeamSix
+|j|☆Lucamy
+|player|p1|SphereTeamSix|156
+|player|p2|Lucamy|99
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Ball Lightning|Electrode|323/323
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|1
+|
+|switch|p1a: Rock n Roll|Golem|363/363
+|move|p2a: Jolteon|Body Slam|p1a: Rock n Roll
+|-crit|p1a: Rock n Roll
+|-resisted|p1a: Rock n Roll
+|-damage|p1a: Rock n Roll|322/363
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Rock n Roll|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|269/393
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Ball Lightning|Electrode|323/323
+|move|p2a: Slowbro|Surf|p1a: Ball Lightning
+|-damage|p1a: Ball Lightning|214/323
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|move|p1a: Ball Lightning|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Rock n Roll|Golem|322/363
+|move|p2a: Jolteon|Body Slam|p1a: Rock n Roll
+|-resisted|p1a: Rock n Roll
+|-damage|p1a: Rock n Roll|303/363
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Slowbro|Slowbro|269/393
+|move|p1a: Rock n Roll|Rock Slide|p2a: Slowbro|[miss]
+|-miss|p1a: Rock n Roll
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Ball Lightning|Electrode|214/323
+|move|p2a: Slowbro|Surf|p1a: Ball Lightning
+|-damage|p1a: Ball Lightning|111/323
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Jolteon|Jolteon|333/333 par
+|move|p1a: Ball Lightning|Explosion|p2a: Jolteon
+|-damage|p2a: Jolteon|96/333 par
+|faint|p1a: Ball Lightning
+|
+|switch|p1a: Rock n Roll|Golem|303/363
+|turn|9
+|
+|switch|p2a: Slowbro|Slowbro|269/393
+|move|p1a: Rock n Roll|Rock Slide|p2a: Slowbro
+|-damage|p2a: Slowbro|181/393
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Rock n Roll|Rock Slide|p2a: Slowbro
+|-damage|p2a: Slowbro|86/393
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|-heal|p2a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Demon Baby|Gengar|323/323
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Demon Baby|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Egg Nut|Chansey|703/703
+|move|p2a: Golem|Earthquake|p1a: Egg Nut
+|-damage|p1a: Egg Nut|365/703
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Egg Nut|Sing|p2a: Golem
+|-status|p2a: Golem|slp|[from] move: Sing
+|-curestatus|p2a: Golem|slp|[msg]
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Egg Nut|Sing|p2a: Golem
+|-status|p2a: Golem|slp|[from] move: Sing
+|cant|p2a: Golem|slp
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Egg Nut|Soft-Boiled|p1a: Egg Nut
+|-heal|p1a: Egg Nut|703/703
+|cant|p2a: Golem|slp
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Angry Snatch|Cloyster|303/303
+|cant|p2a: Golem|slp
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Slowbro|Slowbro|393/393 slp
+|move|p1a: Angry Snatch|Surf|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|284/393 slp
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Angry Snatch|Blizzard|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|212/393 slp
+|-curestatus|p2a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Angry Snatch|Supersonic|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|-activate|p2a: Slowbro|confusion
+|-damage|p2a: Slowbro|184/393|[from] confusion
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Angry Snatch|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|129/393
+|-end|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|-heal|p2a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Demon Baby|Gengar|323/323
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Golem|Golem|363/363 slp
+|move|p1a: Demon Baby|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Demon Baby|Psychic|p2a: Golem
+|-damage|p2a: Golem|242/363 slp
+|-curestatus|p2a: Golem|slp|[msg]
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Egg Nut|Chansey|703/703
+|move|p2a: Golem|Earthquake|p1a: Egg Nut
+|-damage|p1a: Egg Nut|333/703
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Egg Nut|Sing|p2a: Golem|[miss]
+|-miss|p1a: Egg Nut
+|move|p2a: Golem|Earthquake|p1a: Egg Nut
+|-damage|p1a: Egg Nut|16/703
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Egg Nut|Sing|p2a: Golem|[miss]
+|-miss|p1a: Egg Nut
+|move|p2a: Golem|Earthquake|p1a: Egg Nut
+|-damage|p1a: Egg Nut|0 fnt
+|faint|p1a: Egg Nut
+|
+|switch|p1a: Rock n Roll|Golem|303/363
+|turn|28
+|
+|switch|p2a: Jolteon|Jolteon|96/333 par
+|move|p1a: Rock n Roll|Submission|p2a: Jolteon
+|-damage|p2a: Jolteon|2/333 par
+|-damage|p1a: Rock n Roll|280/363|[from] Recoil|[of] p2a: Jolteon
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Rock n Roll|Earthquake|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Slowbro|Slowbro|393/393 slp
+|turn|30
+|
+|switch|p1a: Demon Baby|Gengar|323/323
+|-curestatus|p2a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Golem|Golem|242/363
+|move|p1a: Demon Baby|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Demon Baby|Confuse Ray|p2a: Golem
+|-start|p2a: Golem|confusion
+|-activate|p2a: Golem|confusion
+|-damage|p2a: Golem|211/363|[from] confusion
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Angry Snatch|Cloyster|303/303
+|-activate|p2a: Golem|confusion
+|move|p2a: Golem|Earthquake|p1a: Angry Snatch
+|-damage|p1a: Angry Snatch|224/303
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Angry Snatch|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|336/393
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Angry Snatch|Supersonic|p2a: Slowbro|[miss]
+|-miss|p1a: Angry Snatch
+|move|p2a: Slowbro|Thunder Wave|p1a: Angry Snatch|[miss]
+|-miss|p2a: Slowbro
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Angry Snatch|Supersonic|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|-activate|p2a: Slowbro|confusion
+|-damage|p2a: Slowbro|308/393|[from] confusion
+|
+|upkeep
+|turn|37
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SphereTeamSix)
+|
+|move|p1a: Angry Snatch|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|-end|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|-damage|p2a: Slowbro|284/393 tox|[from] psn
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Angry Snatch|Supersonic|p2a: Slowbro
+|-start|p2a: Slowbro|confusion
+|-activate|p2a: Slowbro|confusion
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|-heal|p2a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|39
+|
+|switch|p1a: Demon Baby|Gengar|323/323
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Demon Baby|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Golem|Golem|211/363
+|turn|41
+|
+|move|p1a: Demon Baby|Confuse Ray|p2a: Golem
+|-start|p2a: Golem|confusion
+|-activate|p2a: Golem|confusion
+|-damage|p2a: Golem|180/363|[from] confusion
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Demon Baby|Psychic|p2a: Golem
+|-damage|p2a: Golem|55/363
+|-activate|p2a: Golem|confusion
+|move|p2a: Golem|Earthquake|p1a: Demon Baby
+|-crit|p1a: Demon Baby
+|-supereffective|p1a: Demon Baby
+|-damage|p1a: Demon Baby|0 fnt
+|faint|p1a: Demon Baby
+|
+|switch|p1a: Rock n Roll|Golem|280/363
+|turn|43
+|
+|move|p1a: Rock n Roll|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Machamp|Machamp|383/383
+|turn|44
+|
+|switch|p1a: Smokey|Weezing|333/333
+|move|p2a: Machamp|Submission|p1a: Smokey
+|-resisted|p1a: Smokey
+|-damage|p1a: Smokey|287/333
+|-damage|p2a: Machamp|372/383|[from] Recoil|[of] p1a: Smokey
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Smokey|Toxic|p2a: Machamp|[miss]
+|-miss|p1a: Smokey
+|move|p2a: Machamp|Earthquake|p1a: Smokey
+|-supereffective|p1a: Smokey
+|-damage|p1a: Smokey|130/333
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Smokey|Toxic|p2a: Machamp|[miss]
+|-miss|p1a: Smokey
+|move|p2a: Machamp|Earthquake|p1a: Smokey
+|-supereffective|p1a: Smokey
+|-damage|p1a: Smokey|0 fnt
+|faint|p1a: Smokey
+|c|☆Lucamy|sorry
+|
+|switch|p1a: Angry Snatch|Cloyster|224/303
+|turn|47
+|
+|move|p1a: Angry Snatch|Supersonic|p2a: Machamp|[miss]
+|-miss|p1a: Angry Snatch
+|move|p2a: Machamp|Submission|p1a: Angry Snatch
+|-supereffective|p1a: Angry Snatch
+|-damage|p1a: Angry Snatch|85/303
+|-damage|p2a: Machamp|338/383|[from] Recoil|[of] p1a: Angry Snatch
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Angry Snatch|Toxic|p2a: Machamp
+|-status|p2a: Machamp|tox
+|move|p2a: Machamp|Submission|p1a: Angry Snatch|[miss]
+|-miss|p2a: Machamp
+|-damage|p2a: Machamp|315/383 tox|[from] psn
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Angry Snatch|Supersonic|p2a: Machamp|[miss]
+|-miss|p1a: Angry Snatch
+|move|p2a: Machamp|Submission|p1a: Angry Snatch
+|-supereffective|p1a: Angry Snatch
+|-damage|p1a: Angry Snatch|0 fnt
+|-damage|p2a: Machamp|294/383 tox|[from] Recoil|[of] p1a: Angry Snatch
+|faint|p1a: Angry Snatch
+|
+|switch|p1a: Rock n Roll|Golem|280/363
+|turn|50
+|
+|move|p2a: Machamp|Submission|p1a: Rock n Roll
+|-crit|p1a: Rock n Roll
+|-supereffective|p1a: Rock n Roll
+|-damage|p1a: Rock n Roll|0 fnt
+|-damage|p2a: Machamp|224/383 tox|[from] Recoil|[of] p1a: Rock n Roll
+|faint|p1a: Rock n Roll
+|
+|win|Lucamy
+|l|☆SphereTeamSix

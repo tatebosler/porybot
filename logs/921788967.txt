@@ -1,0 +1,219 @@
+|j|☆vvvvvvvdsfawfq
+|j|☆Shea6045
+|player|p1|vvvvvvvdsfawfq|53
+|player|p2|Shea6045|99
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shea6045)
+|
+|switch|p1a: Chansey|Chansey|703/703
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Snorlax|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|365/413
+|-status|p2a: Rhydon|par
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Rhydon|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|284/393
+|-status|p1a: Exeggutor|frz
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Rhydon|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|386/523
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Rhydon|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|291/523
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Snorlax|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|178/413 par
+|move|p2a: Rhydon|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|215/523
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Snorlax|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|10
+|
+|switch|p1a: Gengar|Gengar|323/323
+|move|p2a: Tauros|Body Slam|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Gengar|Hypnosis|p2a: Tauros
+|-status|p2a: Tauros|slp|[from] move: Hypnosis
+|-curestatus|p2a: Tauros|slp|[msg]
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Gengar|Hypnosis|p2a: Tauros
+|-status|p2a: Tauros|slp|[from] move: Hypnosis
+|-curestatus|p2a: Tauros|slp|[msg]
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Gengar|Hypnosis|p2a: Tauros
+|-status|p2a: Tauros|slp|[from] move: Hypnosis
+|cant|p2a: Tauros|slp
+|
+|upkeep
+|turn|14
+|c|☆Shea6045|lol
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|cant|p2a: Tauros|slp
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Alakazam|Psychic|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|30/353 slp
+|cant|p2a: Tauros|slp
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Alakazam|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|17
+|
+|switch|p1a: Exeggutor|Exeggutor|284/393 frz
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Gengar|Gengar|323/323
+|switch|p2a: Starmie|Starmie|323/323
+|turn|18
+|
+|move|p2a: Starmie|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|156/323
+|move|p1a: Gengar|Hypnosis|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|19
+|
+|-curestatus|p2a: Starmie|slp|[msg]
+|move|p1a: Gengar|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|147/323
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|603/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|440/703
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|47/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|24
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|upkeep
+|turn|25
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|26
+|-message|Shea6045 forfeited.
+|
+|win|vvvvvvvdsfawfq
+|l|☆Shea6045
+|c|☆vvvvvvvdsfawfq|dumpster trash

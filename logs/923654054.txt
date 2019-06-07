@@ -1,0 +1,350 @@
+|j|☆MCBeavers
+|j|☆Gen1Cancer1
+|player|p1|MCBeavers|169
+|player|p2|Gen1Cancer1|lance-gen1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam
+|-status|p2a: Alakazam|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|switch|p1a: Kangaskhan|Kangaskhan|413/413
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|195/413
+|-status|p1a: Kangaskhan|par
+|move|p1a: Kangaskhan|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|190/383
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|334/393 par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|151/393 par
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Gengar|Gengar|323/323
+|turn|7
+|
+|move|p1a: Gengar|Hypnosis|p2a: Zapdos
+|-message|Sleep Clause Mod activated.
+|move|p2a: Zapdos|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Zapdos|Mimic|p1a: Gengar
+|-start|p2a: Zapdos|Mimic|Mega Drain
+|move|p1a: Gengar|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|111/383
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Gengar
+|-damage|p1a: Gengar|201/323 par
+|move|p1a: Gengar|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|29/383
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Gengar
+|-damage|p1a: Gengar|79/323 par
+|move|p1a: Gengar|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|11
+|
+|move|p2a: Exeggutor|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|turn|12
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|-curestatus|p1a: Zapdos|slp|[msg]
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Thunder Wave|p1a: Zapdos|[miss]
+|-miss|p2a: Slowbro
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Kangaskhan|Kangaskhan|195/413 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Kangaskhan
+|-fail|p1a: Kangaskhan|par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|307/393 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Slowbro|Surf|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|switch|p1a: Vaporeon|Vaporeon|463/463
+|turn|18
+|
+|move|p1a: Vaporeon|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|273/393 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Vaporeon
+|-status|p1a: Vaporeon|par
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|189/393 par
+|move|p2a: Slowbro|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|53/383
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|114/393 par
+|cant|p2a: Slowbro|par
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|32/393 par
+|move|p2a: Slowbro|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|24
+|
+|move|p1a: Tauros|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Chansey|Chansey|703/703
+|turn|25
+|
+|switch|p1a: Vaporeon|Vaporeon|463/463 par
+|move|p2a: Chansey|Thunder Wave|p1a: Vaporeon
+|-fail|p1a: Vaporeon|par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|315/463 par
+|move|p1a: Vaporeon|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|614/703
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|170/463 par
+|move|p1a: Vaporeon|Blizzard|p2a: Chansey|[miss]
+|-miss|p1a: Vaporeon
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|32/463 par
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|-heal|p1a: Vaporeon|463/463 slp|[silent]
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|316/463 slp
+|cant|p1a: Vaporeon|slp
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|163/463 slp
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|24/463
+|move|p1a: Vaporeon|Rest|p1a: Vaporeon
+|-status|p1a: Vaporeon|slp|[from] move: Rest
+|-heal|p1a: Vaporeon|463/463 slp|[silent]
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|306/463 slp
+|cant|p1a: Vaporeon|slp
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|152/463 slp
+|-curestatus|p1a: Vaporeon|slp|[msg]
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|35
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|359/703
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|252/353 par
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|429/703
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|149/353 par
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|52/353 par
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|172/703
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|Gen1Cancer1
+|c|☆MCBeavers|gg
+|raw|MCBeavers's rating: 1203 &rarr; <strong>1179</strong><br />(-24 for losing)
+|raw|Gen1Cancer1's rating: 1210 &rarr; <strong>1235</strong><br />(+25 for winning)
+|l|☆MCBeavers
+|c|☆Gen1Cancer1|Gg.

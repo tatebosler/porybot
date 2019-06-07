@@ -1,0 +1,438 @@
+|j|☆kilimina
+|j|☆Butterchoke
+|player|p1|kilimina|172
+|player|p2|Butterchoke|202
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton|303/303
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|1
+|c|☆Butterchoke|hf
+|c|☆kilimina|yt
+|j| Kayles
+|
+|move|p2a: Jolteon|Substitute|p2a: Jolteon
+|-start|p2a: Jolteon|Substitute
+|-damage|p2a: Jolteon|250/333
+|move|p1a: Magneton|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|upkeep
+|turn|2
+|c|☆kilimina|?
+|c|☆Butterchoke|ah
+|j| Gatubraz
+|c|☆Butterchoke|j savais pas ca
+|c| Kayles|Et ouais
+|
+|switch|p1a: Nidoking|Nidoking|365/365
+|move|p2a: Jolteon|Thunder Wave|p1a: Nidoking
+|-immune|p1a: Nidoking
+|
+|upkeep
+|turn|3
+|c| Gatubraz|Kili qui a tiut joué mdr
+|c|☆kilimina|t'as bcp a apprendre petit
+|c| Gatubraz|Les belles mecaniques de la 1g
+|
+|move|p1a: Nidoking|Ice Beam|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-end|p2a: Jolteon|Substitute
+|move|p2a: Jolteon|Pin Missile|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|342/365
+|-damage|p1a: Nidoking|319/365
+|-hitcount|p1a: Nidoking|2
+|
+|upkeep
+|turn|4
+|c| Gatubraz|Première leçon
+|c|☆Butterchoke|bon bah c gg
+|c| Gatubraz|Les crits
+|
+|switch|p2a: Kabutops|Kabutops|323/323
+|move|p1a: Nidoking|Body Slam|p2a: Kabutops
+|-resisted|p2a: Kabutops
+|-damage|p2a: Kabutops|294/323
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Slowbro|Slowbro|393/393
+|move|p2a: Kabutops|Substitute|p2a: Kabutops
+|-start|p2a: Kabutops|Substitute
+|-damage|p2a: Kabutops|214/323
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Kabutops|Swords Dance|p2a: Kabutops
+|-boost|p2a: Kabutops|atk|2
+|move|p1a: Slowbro|Psychic|p2a: Kabutops
+|-end|p2a: Kabutops|Substitute
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Kabutops|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|252/393
+|move|p1a: Slowbro|Psychic|p2a: Kabutops
+|-damage|p2a: Kabutops|95/323
+|
+|upkeep
+|turn|8
+|c| Gatubraz|Oof
+|c| Gatubraz|Gros degats
+|c| Gatubraz|Incroyable
+|
+|switch|p1a: Porygon|Porygon|333/333
+|move|p2a: Kabutops|Body Slam|p1a: Porygon
+|-damage|p1a: Porygon|152/333
+|
+|upkeep
+|turn|9
+|c| Gatubraz|Allez butter
+|
+|move|p2a: Kabutops|Body Slam|p1a: Porygon
+|-crit|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|c| Gatubraz|Creve ce slowbro
+|
+|switch|p1a: Nidoking|Nidoking|319/365
+|turn|10
+|c|☆Butterchoke|oui j ai mis un kill
+|c| Gatubraz|(Et magneton pour moi <3)
+|c|☆kilimina|slowbro is unbreakable
+|c| Gatubraz|Comme  patches?
+|
+|move|p1a: Nidoking|Earthquake|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|c| Gatubraz|Celui qui a la ref jle kiffe
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|turn|11
+|j| OsaiY
+|c|☆kilimina|ez ref
+|c|☆kilimina|c'est mario kart
+|c| Gatubraz|Evidemment
+|
+|switch|p1a: Graveler|Graveler|313/313
+|move|p2a: Kangaskhan|Blizzard|p1a: Graveler
+|-supereffective|p1a: Graveler
+|-damage|p1a: Graveler|121/313
+|
+|upkeep
+|turn|12
+|c| Gatubraz|Eh non c'était mario galaxy dommage
+|c| Gatubraz|Mais bien tenté
+|
+|switch|p1a: Articuno|Articuno|383/383
+|move|p2a: Kangaskhan|Blizzard|p1a: Articuno
+|-damage|p1a: Articuno|333/383
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|154/383
+|-status|p1a: Articuno|par
+|move|p1a: Articuno|Blizzard|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|137/413
+|
+|upkeep
+|turn|14
+|c| Gatubraz|Ça serait marrant de freeze le articuno
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Articuno
+|-damage|p1a: Articuno|55/383 par
+|move|p1a: Articuno|Rest|p1a: Articuno
+|-status|p1a: Articuno|slp|[from] move: Rest
+|-heal|p1a: Articuno|383/383 slp|[silent]
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|193/383 slp
+|cant|p1a: Articuno|slp
+|
+|upkeep
+|turn|16
+|c| Gatubraz|Oof
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|17/383 slp
+|-curestatus|p1a: Articuno|slp|[msg]
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|c| Gatubraz|Double oof
+|
+|switch|p1a: Magneton|Magneton|303/303
+|turn|18
+|
+|switch|p2a: Jolteon|Jolteon|250/333 par
+|move|p1a: Magneton|Thunder Wave|p2a: Jolteon
+|-fail|p2a: Jolteon|par
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Nidoking|Nidoking|319/365
+|switch|p2a: Kangaskhan|Kangaskhan|137/413
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Kangaskhan|Blizzard|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|178/365
+|move|p1a: Nidoking|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|18/413
+|
+|upkeep
+|turn|21
+|c|☆kilimina|pk je fais 0?
+|
+|switch|p2a: Hypno|Hypno|373/373
+|switch|p1a: Magneton|Magneton|303/303
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Magneton|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|move|p2a: Hypno|Thunder Wave|p1a: Magneton
+|-status|p1a: Magneton|par
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Magneton|Mimic|p2a: Hypno
+|-start|p1a: Magneton|Mimic|Psychic
+|move|p2a: Hypno|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|204/303 par
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Magneton|Thunderbolt|p2a: Hypno
+|-damage|p2a: Hypno|264/373 par
+|move|p2a: Hypno|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|99/303 par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Magneton|Psychic|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|227/373 par
+|cant|p2a: Hypno|par
+|
+|upkeep
+|turn|26
+|
+|cant|p1a: Magneton|par
+|move|p2a: Hypno|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Slowbro|Slowbro|252/393
+|turn|27
+|c| Gatubraz|Tu fais 0 parce que nidoking a une attaque plus basse qu'ajd en 1g
+|c| Gatubraz|Pareil pour nidoqueen
+|c|☆kilimina|ah ok?
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Hypno|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Slowbro|Psychic|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|148/373 par
+|-unboost|p2a: Hypno|spd|1
+|-unboost|p2a: Hypno|spa|1
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|232/393 par
+|
+|upkeep
+|turn|29
+|c|☆kilimina|bref
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|217/393 par
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|
+|upkeep
+|turn|30
+|c|☆kilimina|time to bro
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|-heal|p1a: Slowbro|393/393 slp|[silent]
+|move|p2a: Hypno|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|254/393 slp
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Weezing|Weezing|333/333
+|cant|p1a: Slowbro|slp
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Graveler|Graveler|121/313
+|move|p2a: Weezing|Haze|p2a: Weezing
+|-clearallboost
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|move|p1a: Graveler|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|move|p1a: Graveler|Explosion|p2a: Dragonite
+|-damage|p2a: Dragonite|136/385
+|faint|p1a: Graveler
+|
+|switch|p1a: Nidoking|Nidoking|178/365
+|turn|35
+|
+|move|p2a: Dragonite|Blizzard|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|switch|p1a: Slowbro|Slowbro|254/393 slp
+|turn|36
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Slowbro
+|-damage|p1a: Slowbro|113/393 slp
+|-mustrecharge|p2a: Dragonite
+|-curestatus|p1a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|37
+|c|☆Butterchoke|j ai choooke
+|c|☆Butterchoke|F
+|c| Gatubraz|Totalement
+|
+|cant|p2a: Dragonite|recharge
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|-heal|p1a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|38
+|c| Gatubraz|F
+|
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|cant|p1a: Slowbro|slp
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Dragonite|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|379/393 slp
+|-curestatus|p1a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Dragonite|Wrap|p1a: Slowbro|[from]Wrap
+|-damage|p1a: Slowbro|365/393
+|cant|p1a: Slowbro|partiallytrapped
+|
+|upkeep
+|turn|41
+|c|☆kilimina|ah
+|
+|move|p2a: Dragonite|Wrap|p1a: Slowbro|[from]Wrap
+|-damage|p1a: Slowbro|351/393
+|cant|p1a: Slowbro|partiallytrapped
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Dragonite|Blizzard|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|300/393
+|move|p1a: Slowbro|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|c| Gatubraz|Allez à dans 40 tours
+|c|☆kilimina|ah bah non
+|
+|switch|p2a: Kangaskhan|Kangaskhan|18/413
+|turn|43
+|c| Gatubraz|Tu pouvais continuer
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|215/393
+|move|p1a: Slowbro|Ice Beam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Weezing|Weezing|333/333
+|turn|44
+|c| Gatubraz|Butter
+|
+|move|p2a: Weezing|Explosion|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|faint|p2a: Weezing
+|
+|win|Butterchoke
+|c| Gatubraz|Ah j'ai rien dis
+|c|☆Butterchoke|gg
+|c|☆Butterchoke|=)
+|c|☆kilimina|NONONONNON
+|c| Gatubraz|GG
+|c|☆kilimina|BRO
+|c|☆kilimina|pk
+|c| Gatubraz|MORT AU BRO

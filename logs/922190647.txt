@@ -1,0 +1,275 @@
+|j|☆WelcomeToBopCity
+|j|☆doodles1992
+|player|p1|WelcomeToBopCity|2
+|player|p2|doodles1992|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx|[miss]
+|-miss|p2a: Jynx
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp|[from] move: Lovely Kiss
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|198/323
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|84/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|398/523 par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|245/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|120/323 par
+|
+|upkeep
+|turn|8
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|281/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|161/323 par
+|
+|upkeep
+|turn|10
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|11
+|
+|cant|p2a: Starmie|par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|46/323 par
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|207/323 par
+|move|p1a: Snorlax|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|4/323 par
+|-mustrecharge|p1a: Snorlax
+|
+|upkeep
+|turn|13
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Snorlax|recharge
+|
+|upkeep
+|turn|14
+|
+|cant|p2a: Starmie|par
+|move|p1a: Snorlax|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Golem|Golem|363/363
+|turn|15
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|323/393
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Exeggutor|Stun Spore|p2a: Zapdos|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|131/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Exeggutor|Explosion|p2a: Zapdos
+|-damage|p2a: Zapdos|86/383 par
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Jynx|Jynx|333/333
+|turn|19
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Jynx|Psychic|p2a: Golem
+|-damage|p2a: Golem|205/363
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Jynx|Blizzard|p2a: Golem|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Golem|Earthquake|p1a: Jynx
+|-damage|p1a: Jynx|113/333
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Jynx|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|22
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Snorlax|Snorlax|398/523 par
+|turn|23
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|247/523 par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|85/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|faint|p1a: Snorlax
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|switch|p1a: Lapras|Lapras|463/463
+|turn|25
+|
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor|[miss]
+|-miss|p1a: Lapras
+|move|p2a: Exeggutor|Sleep Powder|p1a: Lapras|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|172/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Lapras
+|-status|p1a: Lapras|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|27
+|
+|cant|p1a: Lapras|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|352/463 slp
+|-heal|p2a: Exeggutor|227/393|[from] drain|[of] p1a: Lapras
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Exeggutor|Mega Drain|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|334/383
+|-heal|p2a: Exeggutor|251/393|[from] drain|[of] p1a: Zapdos
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Lapras|Lapras|352/463 slp
+|move|p2a: Exeggutor|Explosion|p1a: Lapras
+|-damage|p1a: Lapras|35/463 slp
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Jynx|Jynx|333/333 slp
+|turn|30
+|
+|switch|p1a: Tauros|Tauros|353/353
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Tauros|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|158/333 slp
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Tauros|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Zapdos|Zapdos|86/383 par
+|turn|33
+|
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|WelcomeToBopCity
+|l|☆WelcomeToBopCity
+|c|☆doodles1992|gg

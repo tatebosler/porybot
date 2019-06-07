@@ -1,0 +1,317 @@
+|j|☆you cant luck
+|j|☆predator30
+|player|p1|you cant luck|96
+|player|p2|predator30|100
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323/323
+|switch|p2a: Patrick|Starmie|323/323
+|turn|1
+|c|☆predator30|you suck
+|c|☆predator30|you suck
+|
+|move|p2a: Patrick|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|137/323
+|move|p1a: Gengar|Night Shade|p2a: Patrick
+|-damage|p2a: Patrick|223/323
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Patrick|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|615/703
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Brick|Golem|363/363
+|move|p1a: Chansey|Thunder Wave|p2a: Brick
+|-immune|p2a: Brick
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Brick|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|321/393
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Eat|Exeggutor|393/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Eat
+|-status|p2a: Eat|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Exeggutor|Psychic|p2a: Eat
+|-resisted|p2a: Eat
+|-damage|p2a: Eat|337/393 par
+|move|p2a: Eat|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Patrick|Starmie|223/323
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Patrick|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|164/323
+|move|p1a: Starmie|Thunder Wave|p2a: Patrick
+|-status|p2a: Patrick|par
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|move|p2a: Patrick|Recover|p2a: Patrick
+|-heal|p2a: Patrick|323/323 par
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Patrick
+|-supereffective|p2a: Patrick
+|-damage|p2a: Patrick|167/323 par
+|move|p2a: Patrick|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|165/323
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Patrick
+|-supereffective|p2a: Patrick
+|-damage|p2a: Patrick|12/323 par
+|move|p2a: Patrick|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|7/323
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|168/323
+|move|p2a: Patrick|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|c|☆you cant luck|always
+|
+|switch|p1a: Gengar|Gengar|137/323
+|turn|13
+|c|☆predator30|YOU SUCK
+|c|☆predator30|YOU SUCK
+|
+|move|p1a: Gengar|Night Shade|p2a: Patrick
+|-damage|p2a: Patrick|0 fnt
+|faint|p2a: Patrick
+|
+|switch|p2a: Moo|Tauros|353/353
+|turn|14
+|
+|move|p2a: Moo|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|j| Komodo Drogo
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|15
+|
+|switch|p2a: Brick|Golem|363/363
+|move|p1a: Snorlax|Body Slam|p2a: Brick
+|-resisted|p2a: Brick
+|-damage|p2a: Brick|321/363
+|-status|p2a: Brick|par
+|
+|upkeep
+|turn|16
+|j| Aurada
+|
+|move|p1a: Snorlax|Earthquake|p2a: Brick
+|-crit|p2a: Brick
+|-supereffective|p2a: Brick
+|-damage|p2a: Brick|32/363 par
+|move|p2a: Brick|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|433/523
+|
+|upkeep
+|turn|17
+|c|☆predator30|hacke
+|
+|switch|p2a: Eat|Exeggutor|337/393 par
+|move|p1a: Snorlax|Earthquake|p2a: Eat
+|-resisted|p2a: Eat
+|-damage|p2a: Eat|289/393 par
+|
+|upkeep
+|turn|18
+|c|☆you cant luck|no u
+|
+|move|p1a: Snorlax|Body Slam|p2a: Eat
+|-damage|p2a: Eat|163/393 par
+|move|p2a: Eat|Explosion|p1a: Snorlax
+|-damage|p1a: Snorlax|119/523
+|faint|p2a: Eat
+|
+|switch|p2a: Moo|Tauros|353/353
+|turn|19
+|
+|move|p2a: Moo|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|20
+|j| SkyGatr
+|
+|move|p1a: Tauros|Body Slam|p2a: Moo
+|-damage|p2a: Moo|246/353
+|move|p2a: Moo|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|249/353
+|
+|upkeep
+|turn|21
+|c| Komodo Drogo|Gen 1 is lame af
+|c|☆you cant luck|yes
+|
+|move|p2a: Moo|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|141/353
+|move|p1a: Tauros|Body Slam|p2a: Moo
+|-crit|p2a: Moo
+|-damage|p2a: Moo|34/353
+|
+|upkeep
+|turn|22
+|c|☆you cant luck|pred needs the lame gen to luck his wins
+|
+|move|p2a: Moo|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|☆predator30|GG
+|c|☆you cant luck|always winning speed ties
+|
+|switch|p1a: Chansey|Chansey|615/703
+|turn|23
+|
+|move|p2a: Moo|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|537/703
+|move|p1a: Chansey|Thunderbolt|p2a: Moo
+|-damage|p2a: Moo|0 fnt
+|faint|p2a: Moo
+|
+|switch|p2a: Waffle House|Chansey|703/703
+|turn|24
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Waffle House
+|-status|p2a: Waffle House|par
+|cant|p2a: Waffle House|par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Waffle House
+|-damage|p2a: Waffle House|633/703 par
+|move|p2a: Waffle House|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Waffle House|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|458/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Waffle House
+|-damage|p2a: Waffle House|554/703 par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Chansey|Ice Beam|p2a: Waffle House
+|-damage|p2a: Waffle House|474/703 par
+|move|p2a: Waffle House|Counter|p1a: Chansey
+|-fail|p2a: Waffle House
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Waffle House|Soft-Boiled|p2a: Waffle House
+|-heal|p2a: Waffle House|703/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Waffle House
+|-damage|p2a: Waffle House|627/703 par
+|
+|upkeep
+|turn|29
+|
+|cant|p1a: Chansey|par
+|move|p2a: Waffle House|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|386/703 par
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Brick|Golem|32/363 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|31
+|
+|cant|p1a: Chansey|par
+|move|p2a: Brick|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Brick
+|c|☆predator30|GOTTEM
+|c|☆you cant luck|ofc
+|
+|switch|p1a: Exeggutor|Exeggutor|321/393 slp
+|switch|p2a: Sing|Lapras|463/463
+|turn|32
+|c|☆you cant luck|only predator
+|c|☆predator30|GGGGG
+|
+|move|p2a: Sing|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|70/393 slp
+|cant|p1a: Exeggutor|slp
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Sing|Blizzard|p1a: Exeggutor|[miss]
+|-miss|p2a: Sing
+|cant|p1a: Exeggutor|slp
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Sing|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|predator30
+|l|☆you cant luck
+|c|☆predator30|GEN 1 GOAT

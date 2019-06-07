@@ -1,0 +1,305 @@
+|j|☆plata2
+|j|☆NoobWannabe
+|player|p1|plata2|150
+|player|p2|NoobWannabe|290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Bring me Egg|Starmie|323/323
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NoobWannabe)
+|
+|move|p2a: Bring me Egg|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|239/393
+|move|p1a: Exeggutor|Mega Drain|p2a: Bring me Egg
+|-crit|p2a: Bring me Egg
+|-supereffective|p2a: Bring me Egg
+|-damage|p2a: Bring me Egg|95/323
+|-heal|p1a: Exeggutor|353/393|[from] drain|[of] p2a: Bring me Egg
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Bring me Egg|Recover|p2a: Bring me Egg
+|-heal|p2a: Bring me Egg|256/323
+|move|p1a: Exeggutor|Mega Drain|p2a: Bring me Egg
+|-supereffective|p2a: Bring me Egg
+|-damage|p2a: Bring me Egg|143/323
+|-heal|p1a: Exeggutor|393/393|[from] drain|[of] p2a: Bring me Egg
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Bring me Egg|Recover|p2a: Bring me Egg
+|-heal|p2a: Bring me Egg|304/323
+|move|p1a: Exeggutor|Sleep Powder|p2a: Bring me Egg|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Bring me Egg|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|71/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Bring me Egg
+|-status|p2a: Bring me Egg|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: The KING|Snorlax|523/523
+|move|p1a: Exeggutor|Explosion|p2a: The KING
+|-damage|p2a: The KING|175/523
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|6
+|
+|switch|p2a: I Sleep|Exeggutor|393/393
+|move|p1a: Tauros|Hyper Beam|p2a: I Sleep
+|-damage|p2a: I Sleep|192/393
+|-mustrecharge|p1a: Tauros
+|
+|upkeep
+|turn|7
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: I Sleep|Sleep Powder|p1a: Tauros|[miss]
+|-miss|p2a: I Sleep
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Tauros|Hyper Beam|p2a: I Sleep
+|-crit|p2a: I Sleep
+|-damage|p2a: I Sleep|0 fnt
+|faint|p2a: I Sleep
+|
+|switch|p2a: FatNurse|Chansey|703/703
+|turn|9
+|
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-damage|p2a: FatNurse|440/703
+|move|p2a: FatNurse|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|10
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|703/703
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-damage|p2a: FatNurse|441/703
+|
+|upkeep
+|turn|11
+|inactive|plata2 has 120 seconds left.
+|inactive|plata2 has 90 seconds left.
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|703/703
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-crit|p2a: FatNurse
+|-damage|p2a: FatNurse|179/703
+|
+|upkeep
+|turn|12
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|530/703
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-damage|p2a: FatNurse|267/703
+|
+|upkeep
+|turn|13
+|inactive|plata2 has 90 seconds left.
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|618/703
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|14
+|
+|move|p2a: FatNurse|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|253/353 par
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-crit|p2a: FatNurse
+|-damage|p2a: FatNurse|88/703
+|
+|upkeep
+|turn|15
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|439/703
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-damage|p2a: FatNurse|163/703
+|
+|upkeep
+|turn|16
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|514/703
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-damage|p2a: FatNurse|226/703
+|
+|upkeep
+|turn|17
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|577/703
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-damage|p2a: FatNurse|288/703
+|
+|upkeep
+|turn|18
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|639/703
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-crit|p2a: FatNurse
+|-damage|p2a: FatNurse|66/703
+|
+|upkeep
+|turn|19
+|inactive|plata2 has 120 seconds left.
+|c|☆plata2|no paralize?
+|
+|move|p2a: FatNurse|Soft-Boiled|p2a: FatNurse
+|-heal|p2a: FatNurse|417/703
+|move|p1a: Tauros|Body Slam|p2a: FatNurse
+|-crit|p2a: FatNurse
+|-damage|p2a: FatNurse|0 fnt
+|faint|p2a: FatNurse
+|
+|switch|p2a: The KING|Snorlax|175/523
+|turn|20
+|
+|move|p2a: The KING|Reflect|p2a: The KING
+|-start|p2a: The KING|Reflect
+|move|p1a: Tauros|Hyper Beam|p2a: The KING
+|-damage|p2a: The KING|68/523
+|-mustrecharge|p1a: Tauros
+|
+|upkeep
+|turn|21
+|
+|move|p2a: The KING|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|133/353 par
+|cant|p1a: Tauros|recharge
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: The KING|Rest|p2a: The KING
+|-status|p2a: The KING|slp|[from] move: Rest
+|-heal|p2a: The KING|523/523 slp|[silent]
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Golem|Earthquake|p2a: The KING
+|-damage|p2a: The KING|445/523 slp
+|cant|p2a: The KING|slp
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Golem|Earthquake|p2a: The KING
+|-damage|p2a: The KING|366/523 slp
+|-curestatus|p2a: The KING|slp|[msg]
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Golem|Earthquake|p2a: The KING
+|-damage|p2a: The KING|285/523
+|move|p2a: The KING|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|321/363
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Golem|Earthquake|p2a: The KING
+|-damage|p2a: The KING|195/523
+|move|p2a: The KING|Rest|p2a: The KING
+|-status|p2a: The KING|slp|[from] move: Rest
+|-heal|p2a: The KING|523/523 slp|[silent]
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Golem|Earthquake|p2a: The KING
+|-damage|p2a: The KING|441/523 slp
+|cant|p2a: The KING|slp
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Golem|Earthquake|p2a: The KING
+|-damage|p2a: The KING|359/523 slp
+|-curestatus|p2a: The KING|slp|[msg]
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Golem|Earthquake|p2a: The KING
+|-damage|p2a: The KING|272/523
+|move|p2a: The KING|Body Slam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|278/363
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Golem|Earthquake|p2a: The KING
+|-crit|p2a: The KING
+|-damage|p2a: The KING|0 fnt
+|faint|p2a: The KING
+|
+|switch|p2a: Spoiled Bull|Tauros|353/353
+|turn|31
+|
+|move|p2a: Spoiled Bull|Blizzard|p1a: Golem|[miss]
+|-miss|p2a: Spoiled Bull
+|move|p1a: Golem|Explosion|p2a: Spoiled Bull
+|-damage|p2a: Spoiled Bull|45/353
+|faint|p1a: Golem
+|j| dethrik
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|32
+|c|☆NoobWannabe|so lucky
+|
+|switch|p2a: Bring me Egg|Starmie|304/323 slp
+|move|p1a: Alakazam|Psychic|p2a: Bring me Egg
+|-resisted|p2a: Bring me Egg
+|-damage|p2a: Bring me Egg|235/323 slp
+|-unboost|p2a: Bring me Egg|spd|1
+|-unboost|p2a: Bring me Egg|spa|1
+|
+|upkeep
+|turn|33
+|c|☆plata2|ye
+|j| LeGrosTest
+|-message|NoobWannabe forfeited.
+|
+|win|plata2
+|l| LeGrosTest
+|l| dethrik

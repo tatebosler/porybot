@@ -1,0 +1,237 @@
+|j|☆awiec
+|j|☆RED-PBI
+|player|p1|awiec|18
+|player|p2|RED-PBI|163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gar|Gengar, L50|166/166
+|switch|p2a: Venusaur|Venusaur, L84|304/304
+|turn|1
+|c|☆awiec|...
+|c|☆RED-PBI|*nods*
+|
+|move|p2a: Venusaur|Leech Seed|p1a: Gar
+|-start|p1a: Gar|move: Leech Seed
+|move|p1a: Gar|Hypnosis|p2a: Venusaur|[miss]
+|-miss|p1a: Gar
+|-damage|p1a: Gar|156/166|[from] Leech Seed|[of] p2a: Venusaur
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam|p1a: Gar
+|move|p1a: Gar|Hypnosis|p2a: Venusaur|[miss]
+|-miss|p1a: Gar
+|-damage|p1a: Gar|146/166|[from] Leech Seed|[of] p2a: Venusaur
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Palm|Exeggutor, L50|201/201
+|move|p2a: Venusaur|Solar Beam|p1a: Palm|[from]Solar Beam
+|-resisted|p1a: Palm
+|-damage|p1a: Palm|145/201
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Venusaur|Toxic|p1a: Palm
+|-status|p1a: Palm|tox
+|move|p1a: Palm|Psychic|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|72/304
+|-damage|p1a: Palm|133/201 tox|[from] psn
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Snorlax|Snorlax, L82|419/419
+|move|p1a: Palm|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|338/419
+|-damage|p1a: Palm|109/201 tox|[from] psn
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Gar|Gengar, L50|146/166
+|move|p2a: Snorlax|Body Slam|p1a: Gar
+|-immune|p1a: Gar
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Gar|Hypnosis|p2a: Snorlax|[miss]
+|-miss|p1a: Gar
+|move|p2a: Snorlax|Earthquake|p1a: Gar
+|-supereffective|p1a: Gar
+|-damage|p1a: Gar|0 fnt
+|faint|p1a: Gar
+|
+|switch|p1a: Brah|Slowbro, L50|201/201
+|turn|8
+|
+|switch|p2a: Venusaur|Venusaur, L84|72/304
+|move|p1a: Brah|Amnesia|p1a: Brah
+|-boost|p1a: Brah|spd|2
+|-boost|p1a: Brah|spa|2
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Palm|Exeggutor, L50|109/201 tox
+|-damage|p1a: Palm|97/201 psn|[from] psn
+|move|p2a: Venusaur|Leech Seed|p1a: Palm
+|-immune|p1a: Palm
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Snorlax|Snorlax, L82|338/419
+|move|p1a: Palm|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|179/419
+|-damage|p1a: Palm|85/201 psn|[from] psn|[of] p2a: Snorlax
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Palm|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|1/419
+|faint|p1a: Palm
+|
+|switch|p1a: Tesla|Zapdos, L50|196/196
+|turn|12
+|
+|move|p1a: Tesla|Drill Peck|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Charizard|Charizard, L84|303/303
+|turn|13
+|
+|move|p2a: Charizard|Mega Punch|p1a: Tesla
+|-damage|p1a: Tesla|104/196
+|move|p1a: Tesla|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Donny|Rhydon, L50|211/211
+|move|p2a: Charizard|Seismic Toss|p1a: Donny
+|-damage|p1a: Donny|127/211
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Venusaur|Venusaur, L84|72/304
+|move|p1a: Donny|Rock Slide|p2a: Venusaur
+|-damage|p2a: Venusaur|32/304
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Tesla|Zapdos, L50|104/196
+|move|p2a: Venusaur|Leech Seed|p1a: Tesla
+|-start|p1a: Tesla|move: Leech Seed
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Venusaur|Toxic|p1a: Tesla
+|-status|p1a: Tesla|tox
+|move|p1a: Tesla|Drill Peck|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|switch|p2a: Charizard|Charizard, L84|303/303 par
+|turn|18
+|
+|switch|p1a: Donny|Rhydon, L50|127/211
+|move|p2a: Charizard|Seismic Toss|p1a: Donny
+|-damage|p1a: Donny|43/211
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Blastoise|Blastoise, L84|299/299
+|move|p1a: Donny|Rock Slide|p2a: Blastoise|[miss]
+|-miss|p1a: Donny
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Brah|Slowbro, L50|201/201
+|move|p2a: Blastoise|Ice Beam|p1a: Brah
+|-crit|p1a: Brah
+|-resisted|p1a: Brah
+|-damage|p1a: Brah|139/201
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Blastoise|Skull Bash||[still]
+|-prepare|p2a: Blastoise|Skull Bash|p1a: Brah
+|move|p1a: Brah|Amnesia|p1a: Brah
+|-boost|p1a: Brah|spd|2
+|-boost|p1a: Brah|spa|2
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Blastoise|Skull Bash|p1a: Brah|[from]Skull Bash
+|-crit|p1a: Brah
+|-damage|p1a: Brah|0 fnt
+|faint|p1a: Brah
+|
+|switch|p1a: Tesla|Zapdos, L50|104/196 tox
+|turn|23
+|
+|switch|p2a: Pikachu|Pikachu, L88|178/178
+|move|p1a: Tesla|Thunderbolt|p2a: Pikachu
+|-resisted|p2a: Pikachu
+|-damage|p2a: Pikachu|146/178
+|-damage|p1a: Tesla|92/196 psn|[from] psn|[of] p2a: Pikachu
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Donny|Rhydon, L50|43/211
+|move|p2a: Pikachu|Thunderbolt|p1a: Donny
+|-immune|p1a: Donny
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Pikachu|Surf|p1a: Donny
+|-supereffective|p1a: Donny
+|-damage|p1a: Donny|0 fnt
+|faint|p1a: Donny
+|
+|switch|p1a: Moo|Tauros|353/353
+|turn|26
+|
+|move|p1a: Moo|Body Slam|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|c|☆RED-PBI|....
+|
+|switch|p2a: Poliwrath|Poliwrath|320/320
+|turn|27
+|-message|RED-PBI forfeited.
+|
+|win|awiec

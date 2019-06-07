@@ -1,0 +1,519 @@
+|j|☆starrank
+|j|☆Delphoxboy
+|player|p1|starrank|285
+|player|p2|Delphoxboy|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: King|Dragonite|385/385
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: King
+|-status|p2a: King|par
+|move|p2a: King|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|291/313
+|
+|upkeep
+|turn|2
+|
+|cant|p1a: Alakazam|partiallytrapped
+|cant|p2a: King|par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Alakazam|Psychic|p2a: King
+|-damage|p2a: King|248/385 par
+|move|p2a: King|Wrap|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|249/313
+|
+|upkeep
+|turn|4
+|
+|cant|p1a: Alakazam|partiallytrapped
+|move|p2a: King|Wrap|p1a: Alakazam|[from]Wrap
+|-damage|p1a: Alakazam|207/313
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: King|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|502/523
+|
+|upkeep
+|turn|6
+|
+|cant|p1a: Snorlax|partiallytrapped
+|move|p2a: King|Wrap|p1a: Snorlax|[from]Wrap
+|-damage|p1a: Snorlax|481/523
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: King|Blizzard|p1a: Snorlax|[miss]
+|-miss|p2a: King
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Snorlax|Body Slam|p2a: King
+|-damage|p2a: King|134/385 par
+|move|p2a: King|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|366/523
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Snorlax|Body Slam|p2a: King
+|-damage|p2a: King|20/385 par
+|move|p2a: King|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|251/523
+|-status|p1a: Snorlax|frz
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: King|Agility|p2a: King
+|-boost|p2a: King|spe|2
+|
+|upkeep
+|turn|11
+|
+|move|p2a: King|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|176/323
+|-mustrecharge|p2a: King
+|move|p1a: Starmie|Psychic|p2a: King
+|-damage|p2a: King|0 fnt
+|faint|p2a: King
+|
+|switch|p2a: I’m in Smash|Exeggutor|393/393
+|turn|12
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: I’m in Smash|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: I’m in Smash
+|
+|upkeep
+|turn|13
+|
+|move|p2a: I’m in Smash|Sleep Powder|p1a: Exeggutor
+|-status|p1a: Exeggutor|slp|[from] move: Sleep Powder
+|cant|p1a: Exeggutor|slp
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Alakazam|Alakazam|207/313
+|move|p2a: I’m in Smash|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|157/313
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: I’m in Smash
+|-status|p2a: I’m in Smash|par
+|cant|p2a: I’m in Smash|par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313
+|cant|p2a: I’m in Smash|par
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Alakazam|Psychic|p2a: I’m in Smash
+|-resisted|p2a: I’m in Smash
+|-damage|p2a: I’m in Smash|358/393 par
+|move|p2a: I’m in Smash|Sleep Powder|p1a: Alakazam
+|-message|Sleep Clause Mod activated.
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: I’m in Smash
+|-damage|p2a: I’m in Smash|258/393 par
+|move|p2a: I’m in Smash|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|240/313
+|-heal|p2a: I’m in Smash|294/393 par|[from] drain|[of] p1a: Alakazam
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: I’m in Smash
+|-damage|p2a: I’m in Smash|194/393 par
+|move|p2a: I’m in Smash|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|165/313
+|-heal|p2a: I’m in Smash|231/393 par|[from] drain|[of] p1a: Alakazam
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313
+|move|p2a: I’m in Smash|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|246/313
+|-heal|p2a: I’m in Smash|264/393 par|[from] drain|[of] p1a: Alakazam
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: I’m in Smash
+|-damage|p2a: I’m in Smash|164/393 par
+|move|p2a: I’m in Smash|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|175/313
+|-heal|p2a: I’m in Smash|199/393 par|[from] drain|[of] p1a: Alakazam
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: I’m in Smash
+|-damage|p2a: I’m in Smash|99/393 par
+|move|p2a: I’m in Smash|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|105/313
+|-heal|p2a: I’m in Smash|134/393 par|[from] drain|[of] p1a: Alakazam
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|261/313
+|cant|p2a: I’m in Smash|par
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: I’m in Smash
+|-damage|p2a: I’m in Smash|34/393 par
+|cant|p2a: I’m in Smash|par
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Snorlax|Snorlax|251/523 frz
+|cant|p2a: I’m in Smash|par
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393 slp
+|move|p2a: I’m in Smash|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|337/393 slp
+|
+|upkeep
+|turn|27
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by starrank)
+|
+|switch|p1a: Alakazam|Alakazam|261/313
+|move|p2a: I’m in Smash|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|208/313
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: I’m in Smash
+|-damage|p2a: I’m in Smash|0 fnt
+|faint|p2a: I’m in Smash
+|
+|switch|p2a: Shelly|Blastoise|361/361
+|turn|29
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Shelly
+|-status|p2a: Shelly|par
+|move|p2a: Shelly|Mimic|p1a: Alakazam
+|-start|p2a: Shelly|Mimic|Thunder Wave
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Chansey|Chansey|703/703
+|cant|p2a: Shelly|par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Shelly
+|-damage|p2a: Shelly|261/361 par
+|move|p2a: Shelly|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Shelly|Surf|p1a: Chansey
+|-damage|p1a: Chansey|601/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Shelly
+|-damage|p2a: Shelly|161/361 par
+|
+|upkeep
+|turn|33
+|
+|cant|p2a: Shelly|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|34
+|l|☆starrank
+|inactive|starrank disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|starrank has 30 seconds to reconnect!
+|j|☆starrank
+|inactive|starrank reconnected and has 95 seconds left.
+|player|p1|starrank|285
+|inactive|starrank has 90 seconds left.
+|
+|move|p2a: Shelly|Surf|p1a: Chansey
+|-damage|p1a: Chansey|511/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|35
+|
+|cant|p2a: Shelly|par
+|move|p1a: Chansey|Seismic Toss|p2a: Shelly
+|-damage|p2a: Shelly|61/361 par
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Shelly|Surf|p1a: Chansey
+|-damage|p1a: Chansey|413/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Shelly|Surf|p1a: Chansey
+|-damage|p1a: Chansey|312/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|38
+|
+|cant|p2a: Shelly|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|663/703 par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Shelly|Surf|p1a: Chansey
+|-damage|p1a: Chansey|567/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Shelly
+|-damage|p2a: Shelly|0 fnt
+|faint|p2a: Shelly
+|
+|switch|p2a: Prime|Primeape|333/333
+|turn|40
+|
+|move|p2a: Prime|Submission|p1a: Chansey|[miss]
+|-miss|p2a: Prime
+|move|p1a: Chansey|Thunder Wave|p2a: Prime
+|-status|p2a: Prime|par
+|
+|upkeep
+|turn|41
+|
+|switch|p1a: Snorlax|Snorlax|251/523 frz
+|move|p2a: Prime|Submission|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|-damage|p2a: Prime|271/333 par|[from] Recoil|[of] p1a: Snorlax
+|faint|p1a: Snorlax
+|
+|switch|p1a: Starmie|Starmie|176/323
+|turn|42
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|move|p2a: Prime|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|244/323
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Starmie|Psychic|p2a: Prime
+|-supereffective|p2a: Prime
+|-damage|p2a: Prime|0 fnt
+|faint|p2a: Prime
+|
+|switch|p2a: Houdini|Alakazam|313/313
+|turn|44
+|
+|move|p2a: Houdini|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|move|p1a: Starmie|Thunder Wave|p2a: Houdini
+|-status|p2a: Houdini|par
+|
+|upkeep
+|turn|45
+|
+|cant|p2a: Houdini|par
+|move|p1a: Starmie|Ice Beam|p2a: Houdini
+|-crit|p2a: Houdini
+|-damage|p2a: Houdini|194/313 par
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Houdini|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|144/323 par
+|move|p1a: Starmie|Ice Beam|p2a: Houdini
+|-damage|p2a: Houdini|129/313 par
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Houdini|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|44/323 par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|48
+|
+|switch|p1a: Chansey|Chansey|567/703 par
+|cant|p2a: Houdini|par
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Houdini|Recover|p2a: Houdini
+|-heal|p2a: Houdini|285/313 par
+|move|p1a: Chansey|Seismic Toss|p2a: Houdini
+|-damage|p2a: Houdini|185/313 par
+|
+|upkeep
+|turn|50
+|
+|cant|p2a: Houdini|par
+|move|p1a: Chansey|Seismic Toss|p2a: Houdini
+|-damage|p2a: Houdini|85/313 par
+|
+|upkeep
+|turn|51
+|
+|move|p2a: Houdini|Recover|p2a: Houdini
+|-heal|p2a: Houdini|241/313 par
+|move|p1a: Chansey|Seismic Toss|p2a: Houdini
+|-damage|p2a: Houdini|141/313 par
+|
+|upkeep
+|turn|52
+|
+|cant|p2a: Houdini|par
+|move|p1a: Chansey|Seismic Toss|p2a: Houdini
+|-damage|p2a: Houdini|41/313 par
+|
+|upkeep
+|turn|53
+|
+|cant|p2a: Houdini|par
+|move|p1a: Chansey|Seismic Toss|p2a: Houdini
+|-damage|p2a: Houdini|0 fnt
+|faint|p2a: Houdini
+|
+|switch|p2a: Maggy|Magmar|333/333
+|turn|54
+|
+|move|p2a: Maggy|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|532/703 par|[from] confusion
+|
+|upkeep
+|turn|55
+|
+|move|p2a: Maggy|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|363/703 par
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Maggy
+|-status|p2a: Maggy|par
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Maggy|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|200/703 par
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|165/703 par|[from] confusion
+|
+|upkeep
+|turn|57
+|
+|cant|p2a: Maggy|par
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|130/703 par|[from] confusion
+|
+|upkeep
+|turn|58
+|
+|move|p2a: Maggy|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Alakazam|Alakazam|208/313
+|turn|59
+|
+|move|p1a: Alakazam|Psychic|p2a: Maggy
+|-damage|p2a: Maggy|196/333 par
+|-unboost|p2a: Maggy|spd|1
+|-unboost|p2a: Maggy|spa|1
+|move|p2a: Maggy|Confuse Ray|p1a: Alakazam
+|-start|p1a: Alakazam|confusion
+|
+|upkeep
+|turn|60
+|
+|-activate|p1a: Alakazam|confusion
+|-damage|p1a: Alakazam|171/313|[from] confusion
+|move|p2a: Maggy|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|71/313
+|
+|upkeep
+|turn|61
+|
+|-activate|p1a: Alakazam|confusion
+|-damage|p1a: Alakazam|34/313|[from] confusion
+|move|p2a: Maggy|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|62
+|
+|move|p1a: Tauros|Earthquake|p2a: Maggy
+|-crit|p2a: Maggy
+|-supereffective|p2a: Maggy
+|-damage|p2a: Maggy|0 fnt
+|faint|p2a: Maggy
+|
+|win|starrank
+|l|☆Delphoxboy
+|raw|starrank's rating: 1091 &rarr; <strong>1117</strong><br />(+26 for winning)
+|raw|Delphoxboy's rating: 1082 &rarr; <strong>1060</strong><br />(-22 for losing)

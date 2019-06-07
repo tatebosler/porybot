@@ -1,0 +1,314 @@
+|j|☆berumico
+|j|☆chimlup
+|player|p1|berumico|265
+|player|p2|chimlup|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos|383/383
+|switch|p2a: Dragonite|Dragonite|385/385
+|turn|1
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|133/385
+|-status|p2a: Dragonite|par
+|move|p2a: Dragonite|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|248/383
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by berumico)
+|
+|move|p1a: Zapdos|Reflect|p1a: Zapdos
+|-start|p1a: Zapdos|Reflect
+|move|p2a: Dragonite|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|161/383
+|-mustrecharge|p2a: Dragonite
+|
+|upkeep
+|turn|3
+|j|%sprinkles1
+|j| Savage Cebolla
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Golem|Golem|363/363
+|turn|4
+|
+|move|p1a: Zapdos|Hyper Beam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|319/363
+|-mustrecharge|p1a: Zapdos
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|58/383
+|
+|upkeep
+|turn|5
+|
+|cant|p1a: Zapdos|recharge
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|6
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|348/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Golem|Rock Slide|p1a: Snorlax
+|-damage|p1a: Snorlax|285/523
+|move|p1a: Snorlax|Fire Blast|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|268/363
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Golem|Earthquake|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Golem|Golem|363/363
+|turn|9
+|l| Savage Cebolla
+|inactive|berumico has 120 seconds left.
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Golem|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|427/523
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Golem|Fire Blast|p2a: Snorlax|[miss]
+|-miss|p1a: Golem
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Golem|Fire Blast|p2a: Snorlax
+|-damage|p2a: Snorlax|344/523
+|move|p2a: Snorlax|Seismic Toss|p1a: Golem
+|-damage|p1a: Golem|263/363
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Golem|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|293/523
+|move|p2a: Snorlax|Seismic Toss|p1a: Golem
+|-damage|p1a: Golem|163/363
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Golem|Fire Blast|p2a: Snorlax|[miss]
+|-miss|p1a: Golem
+|move|p2a: Snorlax|Seismic Toss|p1a: Golem
+|-damage|p1a: Golem|63/363
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Golem|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|121/523
+|faint|p1a: Golem
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|turn|15
+|
+|move|p1a: Jolteon|Double Kick|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|94/523
+|-damage|p2a: Snorlax|67/523
+|-hitcount|p2a: Snorlax|2
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Jolteon|Substitute|p1a: Jolteon
+|-start|p1a: Jolteon|Substitute
+|-damage|p1a: Jolteon|250/333
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Jolteon|Hyper Beam|p2a: Snorlax|[miss]
+|-miss|p1a: Jolteon
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Jolteon|Hyper Beam|p2a: Snorlax|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Snorlax|Seismic Toss|p1a: Jolteon
+|-end|p1a: Jolteon|Substitute
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Jolteon|Double Kick|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-damage|p2a: Snorlax|499/523
+|-damage|p2a: Snorlax|475/523
+|-hitcount|p2a: Snorlax|2
+|move|p2a: Snorlax|Counter|p1a: Jolteon
+|-damage|p1a: Jolteon|202/333
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Jolteon|Hyper Beam|p2a: Snorlax|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Snorlax|Counter|p1a: Jolteon
+|-fail|p2a: Snorlax
+|
+|upkeep
+|turn|21
+|j| SecundaVivifica
+|
+|move|p1a: Jolteon|Hyper Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|243/523
+|-mustrecharge|p1a: Jolteon
+|move|p2a: Snorlax|Counter|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Gengar|Gengar|323/323
+|turn|22
+|
+|move|p1a: Gengar|Hypnosis|p2a: Snorlax|[miss]
+|-miss|p1a: Gengar
+|move|p2a: Snorlax|Seismic Toss|p1a: Gengar
+|-damage|p1a: Gengar|223/323
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Gengar|Hypnosis|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Hypnosis
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|143/323
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Gengar|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|184/523 slp
+|-mustrecharge|p1a: Gengar
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|26
+|
+|cant|p1a: Gengar|recharge
+|move|p2a: Snorlax|Seismic Toss|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Gengar|Explosion|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Gengar
+|
+|switch|p1a: Tauros|Tauros|353/353
+|switch|p2a: Gengar|Gengar|323/323
+|turn|28
+|
+|move|p2a: Gengar|Toxic|p1a: Tauros
+|-status|p1a: Tauros|tox
+|move|p1a: Tauros|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|274/323
+|-status|p2a: Gengar|par
+|-damage|p1a: Tauros|331/353 tox|[from] psn
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Gengar
+|-immune|p2a: Gengar
+|-damage|p1a: Tauros|287/353 tox|[from] psn
+|cant|p2a: Gengar|par
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Tauros|Thunderbolt|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|174/323 par
+|-damage|p1a: Tauros|221/353 tox|[from] psn
+|cant|p2a: Gengar|par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Tauros|Thunderbolt|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|85/323 par
+|-damage|p1a: Tauros|133/353 tox|[from] psn
+|cant|p2a: Gengar|par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Tauros|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|35/323 par
+|-damage|p1a: Tauros|23/353 tox|[from] psn
+|cant|p2a: Gengar|par
+|
+|upkeep
+|turn|33
+|c|☆chimlup|omfg
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Tauros|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|366/393
+|-damage|p1a: Tauros|0 fnt|[from] psn
+|faint|p1a: Tauros
+|
+|win|chimlup
+|l|☆berumico
+|l| SecundaVivifica

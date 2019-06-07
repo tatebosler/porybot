@@ -1,0 +1,313 @@
+|j|☆Boubzi
+|j|☆doodles1992
+|player|p1|Boubzi|43
+|player|p2|doodles1992|293
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|275/323
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Starmie|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|346/393
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Exeggutor|Mega Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|456/523
+|-heal|p2a: Exeggutor|379/393|[from] drain|[of] p1a: Snorlax
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|340/393
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Jynx|Jynx|333/333 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jynx
+|-fail|p2a: Jynx
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Tauros|Tauros|353/353
+|cant|p2a: Jynx|par
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Tauros|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|164/333 par
+|move|p2a: Jynx|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|175/353
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Tauros|Body Slam|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Golem|Golem|363/363
+|turn|10
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Golem|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|194/413
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Golem|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Exeggutor|Exeggutor|340/393
+|turn|12
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|588/703 slp
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Snorlax|Snorlax|456/523 slp
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|16
+|
+|cant|p2a: Chansey|slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|17
+|
+|cant|p2a: Chansey|slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|18
+|
+|-curestatus|p2a: Chansey|slp|[msg]
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|358/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|262/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|282/703
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|633/703
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|168/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Snorlax
+|
+|switch|p2a: Golem|Golem|363/363
+|switch|p1a: Exeggutor|Exeggutor|340/393
+|turn|24
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Golem
+|-status|p2a: Golem|slp|[from] move: Sleep Powder
+|cant|p2a: Golem|slp
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Chansey|Chansey|703/703
+|switch|p2a: Zapdos|Zapdos|383/383
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|466/703
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|355/703
+|move|p1a: Chansey|Ice Beam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|122/383
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Exeggutor|Exeggutor|379/393
+|move|p1a: Chansey|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|255/393
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Zapdos|Zapdos|122/383
+|switch|p1a: Tauros|Tauros|175/353
+|turn|30
+|
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|19/383
+|move|p2a: Zapdos|Drill Peck|p1a: Tauros
+|-damage|p1a: Tauros|80/353
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|move|p1a: Tauros|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|195/333
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Exeggutor|Exeggutor|340/393
+|move|p2a: Jolteon|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|288/393
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Zapdos|Zapdos|19/383
+|move|p1a: Exeggutor|Poison Powder|p2a: Zapdos
+|-status|p2a: Zapdos|psn
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|108/393
+|-damage|p2a: Zapdos|0 fnt|[from] psn|[of] p1a: Exeggutor
+|faint|p2a: Zapdos
+|
+|switch|p2a: Jolteon|Jolteon|195/333
+|turn|35
+|
+|move|p2a: Jolteon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|54/393
+|move|p1a: Exeggutor|Explosion|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Golem|Golem|363/363 slp
+|switch|p1a: Starmie|Starmie|275/323
+|turn|36
+|
+|switch|p1a: Tauros|Tauros|80/353
+|cant|p2a: Golem|slp
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Tauros|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|148/363 slp
+|cant|p2a: Golem|slp
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Tauros|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|win|Boubzi
+|c|☆doodles1992|gg
+|c|☆Boubzi|gg

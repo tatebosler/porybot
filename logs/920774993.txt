@@ -1,0 +1,311 @@
+|j|☆strayman96
+|j|☆Vrsty dudh
+|player|p1|strayman96|252
+|player|p2|Vrsty dudh|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rat|Raticate|313/313
+|switch|p2a: Gengar|Gengar|323/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Rat|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Rat|Super Fang|p2a: Gengar
+|-damage|p2a: Gengar|162/323
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Rat|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|281/393
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Rat|Super Fang|p2a: Exeggutor
+|-damage|p2a: Exeggutor|141/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Rat
+|-status|p1a: Rat|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Floof|Flareon|333/333
+|move|p2a: Exeggutor|Psychic|p1a: Floof
+|-damage|p1a: Floof|215/333
+|-unboost|p1a: Floof|spd|1
+|-unboost|p1a: Floof|spa|1
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Floof|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|600/703
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Floof|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|385/703
+|move|p2a: Chansey|Ice Beam|p1a: Floof
+|-crit|p1a: Floof
+|-damage|p1a: Floof|73/333
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Floof|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|180/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|531/703
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Floof|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|325/703
+|move|p2a: Chansey|Thunder Wave|p1a: Floof
+|-status|p1a: Floof|par
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|676/703
+|move|p1a: Floof|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|287/703
+|-mustrecharge|p1a: Floof
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|638/703
+|cant|p1a: Floof|recharge
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Chansey|Ice Beam|p1a: Floof
+|-damage|p1a: Floof|0 fnt
+|faint|p1a: Floof
+|
+|switch|p1a: Egg|Chansey|703/703
+|turn|12
+|
+|move|p2a: Chansey|Ice Beam|p1a: Egg
+|-damage|p1a: Egg|625/703
+|move|p1a: Egg|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Egg|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|564/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Egg
+|-damage|p1a: Egg|577/703
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Egg|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|452/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Egg
+|-damage|p1a: Egg|541/703
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Egg|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|313/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|664/703 par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Egg|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|533/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Egg
+|-damage|p1a: Egg|512/703
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Egg|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|341/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|692/703 par
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Egg|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|554/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Egg
+|-damage|p1a: Egg|479/703
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Egg|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|366/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Egg|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|188/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|539/703 par
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Egg|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|346/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|697/703 par
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Gengar|Gengar|162/323
+|move|p1a: Egg|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|98/323
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Gengar|Explosion|p1a: Egg
+|-crit|p1a: Egg
+|-damage|p1a: Egg|0 fnt
+|faint|p1a: Egg
+|faint|p2a: Gengar
+|
+|switch|p2a: Chansey|Chansey|697/703 par
+|switch|p1a: Ball|Electrode|323/323
+|turn|24
+|
+|move|p1a: Ball|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|599/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Ball
+|-status|p1a: Ball|par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Ball|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|506/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Ball
+|-damage|p1a: Ball|231/323 par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Ball|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|39/703 par
+|faint|p1a: Ball
+|
+|switch|p1a: Horn|Tauros|353/353
+|turn|27
+|
+|move|p1a: Horn|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|28
+|
+|move|p1a: Horn|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|move|p2a: Zapdos|Thunder Wave|p1a: Horn
+|-status|p1a: Horn|par
+|-damage|p2a: Zapdos|360/383 tox|[from] psn
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Horn
+|-crit|p1a: Horn
+|-damage|p1a: Horn|12/353 par
+|-damage|p2a: Zapdos|314/383 tox|[from] psn
+|cant|p1a: Horn|par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Horn
+|-damage|p1a: Horn|0 fnt
+|faint|p1a: Horn
+|
+|switch|p1a: Spoon|Alakazam|313/313
+|turn|31
+|
+|switch|p2a: Exeggutor|Exeggutor|141/393
+|move|p1a: Spoon|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|86/393
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Spoon|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Explosion|p1a: Spoon
+|-damage|p1a: Spoon|0 fnt
+|faint|p1a: Spoon
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Rat|Raticate|313/313 slp
+|switch|p2a: Tauros|Tauros|353/353
+|turn|33
+|
+|move|p2a: Tauros|Body Slam|p1a: Rat
+|-damage|p1a: Rat|165/313 slp
+|cant|p1a: Rat|slp
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Tauros|Body Slam|p1a: Rat
+|-damage|p1a: Rat|32/313 slp
+|cant|p1a: Rat|slp
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Tauros|Earthquake|p1a: Rat
+|-damage|p1a: Rat|0 fnt
+|faint|p1a: Rat
+|
+|win|Vrsty dudh
+|raw|strayman96's rating: 1014 &rarr; <strong>1001</strong><br />(-13 for losing)
+|raw|Vrsty dudh's rating: 1000 &rarr; <strong>1042</strong><br />(+42 for winning)
+|c|☆strayman96|gg
+|l|☆strayman96

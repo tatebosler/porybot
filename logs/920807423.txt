@@ -1,0 +1,306 @@
+|j|☆Chatroom55
+|j|☆Honig
+|player|p1|Chatroom55|1
+|player|p2|Honig|107
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: T-Vex|Venusaur|363/363
+|turn|1
+|
+|move|p1a: Starmie|Blizzard|p2a: T-Vex
+|-supereffective|p2a: T-Vex
+|-damage|p2a: T-Vex|177/363
+|move|p2a: T-Vex|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: T-Vex|Razor Leaf|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|340/393
+|
+|upkeep
+|turn|3
+|
+|move|p2a: T-Vex|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|224/393
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Psychic|p2a: T-Vex
+|-supereffective|p2a: T-Vex
+|-damage|p2a: T-Vex|0 fnt
+|faint|p2a: T-Vex
+|
+|switch|p2a: OverBethlehem|Starmie|323/323
+|turn|4
+|
+|move|p2a: OverBethlehem|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|63/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: OverBethlehem|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: OverBethlehem|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: OverBethlehem
+|
+|upkeep
+|turn|6
+|
+|move|p2a: OverBethlehem|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: OverBethlehem
+|-status|p2a: OverBethlehem|par
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: MaDudes|Dugtrio|273/273
+|move|p1a: Chansey|Thunder Wave|p2a: MaDudes
+|-immune|p2a: MaDudes
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: MaDudes|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|388/523
+|
+|upkeep
+|turn|9
+|
+|move|p2a: MaDudes|Earthquake|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|130/523
+|move|p1a: Snorlax|Body Slam|p2a: MaDudes
+|-damage|p2a: MaDudes|114/273
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Exeggutor|Exeggutor|63/393 par
+|move|p2a: MaDudes|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|8/393 par
+|
+|upkeep
+|turn|11
+|
+|move|p2a: MaDudes|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|12
+|
+|switch|p2a: OverBethlehem|Starmie|323/323 par
+|move|p1a: Tauros|Blizzard|p2a: OverBethlehem
+|-crit|p2a: OverBethlehem
+|-resisted|p2a: OverBethlehem
+|-damage|p2a: OverBethlehem|251/323 par
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: OverBethlehem|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Rhydon|Earthquake|p2a: OverBethlehem
+|-damage|p2a: OverBethlehem|87/323 par
+|move|p2a: OverBethlehem|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|137/413
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Rhydon|Earthquake|p2a: OverBethlehem
+|-damage|p2a: OverBethlehem|0 fnt
+|faint|p2a: OverBethlehem
+|c|☆Honig|MA DUUUUUDES!
+|
+|switch|p2a: MaDudes|Dugtrio|114/273
+|turn|16
+|
+|switch|p1a: Starmie|Starmie|323/323 slp
+|move|p2a: MaDudes|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|205/323 slp
+|
+|upkeep
+|turn|17
+|
+|move|p2a: MaDudes|Earthquake|p1a: Starmie|[miss]
+|-miss|p2a: MaDudes
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|18
+|
+|move|p2a: MaDudes|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|92/323 slp
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|19
+|
+|move|p2a: MaDudes|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|20
+|
+|move|p2a: MaDudes|Sand Attack|p1a: Tauros
+|-unboost|p1a: Tauros|accuracy|1
+|move|p1a: Tauros|Blizzard|p2a: MaDudes
+|-supereffective|p2a: MaDudes
+|-damage|p2a: MaDudes|0 fnt
+|faint|p2a: MaDudes
+|
+|switch|p2a: BeHappy|Raichu|323/323
+|turn|21
+|
+|switch|p1a: Rhydon|Rhydon|137/413
+|move|p2a: BeHappy|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|turn|22
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chatroom55)
+|
+|switch|p2a: YourMom|Snorlax|523/523
+|move|p1a: Chansey|Thunder Wave|p2a: YourMom
+|-status|p2a: YourMom|par
+|
+|upkeep
+|turn|23
+|
+|cant|p1a: Chansey|par
+|cant|p2a: YourMom|par
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: YourMom|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|548/703 par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Chansey|Seismic Toss|p2a: YourMom
+|-damage|p2a: YourMom|423/523 par
+|move|p2a: YourMom|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|399/703 par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|move|p2a: YourMom|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|264/703 par
+|faint|p2a: YourMom
+|
+|switch|p2a: PoliceFinalForm|Tauros|353/353
+|turn|27
+|
+|move|p2a: PoliceFinalForm|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|34/703 par
+|-mustrecharge|p2a: PoliceFinalForm
+|move|p1a: Chansey|Thunder Wave|p2a: PoliceFinalForm
+|-status|p2a: PoliceFinalForm|par
+|
+|upkeep
+|turn|28
+|
+|cant|p2a: PoliceFinalForm|recharge
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|385/703 par
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Snorlax|Snorlax|130/523
+|move|p2a: PoliceFinalForm|Hyper Beam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|30
+|
+|move|p1a: Tauros|Body Slam|p2a: PoliceFinalForm
+|-damage|p2a: PoliceFinalForm|249/353 par
+|move|p2a: PoliceFinalForm|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|259/353
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Tauros|Body Slam|p2a: PoliceFinalForm
+|-crit|p2a: PoliceFinalForm
+|-damage|p2a: PoliceFinalForm|65/353 par
+|move|p2a: PoliceFinalForm|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|74/353
+|-mustrecharge|p2a: PoliceFinalForm
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Tauros|Earthquake|p2a: PoliceFinalForm
+|-crit|p2a: PoliceFinalForm
+|-damage|p2a: PoliceFinalForm|0 fnt
+|faint|p2a: PoliceFinalForm
+|
+|switch|p2a: BeHappy|Raichu|323/323
+|turn|33
+|
+|move|p1a: Tauros|Earthquake|p2a: BeHappy
+|-supereffective|p2a: BeHappy
+|-damage|p2a: BeHappy|99/323
+|move|p2a: BeHappy|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Chansey|Chansey|385/703 par
+|turn|34
+|
+|move|p2a: BeHappy|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|225/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: BeHappy
+|-damage|p2a: BeHappy|0 fnt
+|faint|p2a: BeHappy
+|
+|win|Chatroom55
+|l|☆Chatroom55
+|raw|Chatroom55's rating: 1447 &rarr; <strong>1454</strong><br />(+7 for winning)
+|raw|Honig's rating: 1186 &rarr; <strong>1177</strong><br />(-9 for losing)

@@ -1,0 +1,249 @@
+|j|☆I play da pokemons
+|j|☆Ladderengel
+|player|p1|I play da pokemons|101
+|player|p2|Ladderengel|25
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|1
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp|[from] move: Sleep Powder
+|cant|p2a: Exeggutor|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Exeggutor|Double-Edge|p2a: Chansey
+|-damage|p2a: Chansey|491/703
+|-damage|p1a: Exeggutor|340/393|[from] Recoil|[of] p2a: Chansey
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Slowbro|Slowbro|393/393
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|4
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Snorlax|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|294/393
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Snorlax|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|194/393
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Slowbro|Surf|p2a: Snorlax
+|-damage|p2a: Snorlax|54/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|95/393
+|-status|p1a: Slowbro|par
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|-heal|p1a: Slowbro|393/393 slp|[silent]
+|move|p2a: Snorlax|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|297/393 slp
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|cant|p1a: Slowbro|slp
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|225/393 slp
+|-curestatus|p1a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|146/393
+|move|p1a: Slowbro|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|13
+|
+|move|p2a: Tauros|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|48/393
+|move|p1a: Slowbro|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Slowbro|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|174/393
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Slowbro|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|cant|p1a: Slowbro|par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|-heal|p1a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Slowbro|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Hyper Beam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Snorlax|Snorlax|54/523 par
+|turn|19
+|
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|move|p1a: Snorlax|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|273/523 slp
+|-mustrecharge|p1a: Snorlax
+|
+|upkeep
+|turn|20
+|
+|cant|p1a: Snorlax|recharge
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|21
+|
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Self-Destruct|p2a: Snorlax|[miss]
+|-miss|p1a: Snorlax
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|faint|p1a: Snorlax
+|
+|switch|p1a: Slowbro|Slowbro|393/393 slp
+|turn|22
+|j| ErPeris
+|
+|cant|p1a: Slowbro|slp
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|146/523
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|271/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|135/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|-message|Ladderengel forfeited.
+|
+|win|I play da pokemons
+|l|☆Ladderengel
+|j|☆Ladderengel
+|player|p2|Ladderengel|25
+|raw|I play da pokemons's rating: 1184 &rarr; <strong>1204</strong><br />(+20 for winning)
+|raw|Ladderengel's rating: 1120 &rarr; <strong>1099</strong><br />(-21 for losing)
+|l|☆I play da pokemons

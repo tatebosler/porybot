@@ -1,0 +1,291 @@
+|j|☆tonyone87
+|j|☆Honig
+|player|p1|tonyone87|162
+|player|p2|Honig|107
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: VoltLeon|Jolteon|333/333
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Honig)
+|inactive|tonyone87 has 120 seconds left.
+|
+|move|p2a: VoltLeon|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: VoltLeon
+|-status|p2a: VoltLeon|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: TheKnife|Kingler|313/313
+|switch|p1a: Tauros|Tauros|353/353
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|move|p2a: TheKnife|Crabhammer|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|200/313
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: RunEggRun|Chansey|703/703
+|move|p1a: Alakazam|Psychic|p2a: RunEggRun
+|-damage|p2a: RunEggRun|584/703
+|-unboost|p2a: RunEggRun|spd|1
+|-unboost|p2a: RunEggRun|spa|1
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: RunEggRun|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Executer|Exeggutor|393/393
+|move|p1a: Chansey|Ice Beam|p2a: Executer
+|-crit|p2a: Executer
+|-supereffective|p2a: Executer
+|-damage|p2a: Executer|156/393
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Alakazam|Alakazam|200/313
+|move|p2a: Executer|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Executer
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|switch|p2a: Zippidizap|Zapdos|383/383
+|turn|8
+|
+|move|p2a: Zippidizap|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|447/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Zippidizap
+|-status|p2a: Zippidizap|par
+|
+|upkeep
+|turn|9
+|
+|cant|p2a: Zippidizap|par
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Zippidizap|Light Screen|p2a: Zippidizap
+|-start|p2a: Zippidizap|Light Screen
+|move|p1a: Chansey|Ice Beam|p2a: Zippidizap
+|-supereffective|p2a: Zippidizap
+|-damage|p2a: Zippidizap|312/383 par
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Zippidizap|Drill Peck|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|12
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Zippidizap|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: TheKnife|Kingler|313/313
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|14
+|
+|move|p2a: TheKnife|Swords Dance|p2a: TheKnife
+|-boost|p2a: TheKnife|atk|2
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|upkeep
+|turn|15
+|
+|move|p2a: TheKnife|Swords Dance|p2a: TheKnife
+|-boost|p2a: TheKnife|atk|2
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: TheKnife|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|329/523 par
+|move|p1a: Snorlax|Ice Beam|p2a: TheKnife
+|-resisted|p2a: TheKnife
+|-damage|p2a: TheKnife|183/313
+|
+|upkeep
+|turn|17
+|
+|move|p2a: TheKnife|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|71/523 par
+|-mustrecharge|p2a: TheKnife
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|upkeep
+|turn|18
+|
+|cant|p2a: TheKnife|recharge
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Slowbro|Slowbro|393/393
+|move|p2a: TheKnife|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|170/393
+|
+|upkeep
+|turn|20
+|
+|move|p2a: TheKnife|Body Slam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|33/393
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Thunder Wave|p2a: TheKnife
+|-status|p2a: TheKnife|par
+|
+|upkeep
+|turn|21
+|
+|move|p2a: TheKnife|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|22
+|
+|move|p1a: Tauros|Body Slam|p2a: TheKnife
+|-crit|p2a: TheKnife
+|-damage|p2a: TheKnife|16/313 par
+|cant|p2a: TheKnife|par
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Tauros|Body Slam|p2a: TheKnife
+|-crit|p2a: TheKnife
+|-damage|p2a: TheKnife|0 fnt
+|faint|p2a: TheKnife
+|
+|switch|p2a: Zippidizap|Zapdos|312/383 par
+|turn|24
+|
+|switch|p1a: Jynx|Jynx|333/333 par
+|move|p2a: Zippidizap|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx|par
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Zippidizap|Drill Peck|p1a: Jynx
+|-damage|p1a: Jynx|167/333 par
+|move|p1a: Jynx|Ice Beam|p2a: Zippidizap
+|-crit|p2a: Zippidizap
+|-supereffective|p2a: Zippidizap
+|-damage|p2a: Zippidizap|0 fnt
+|faint|p2a: Zippidizap
+|
+|switch|p2a: RunEggRun|Chansey|584/703
+|turn|26
+|
+|move|p2a: RunEggRun|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|91/333 par
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Rest
+|-heal|p1a: Jynx|333/333 slp|[silent]
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: NeverSeenThis|Tauros|353/353
+|cant|p1a: Jynx|slp
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Snorlax|Snorlax|71/523 par
+|move|p2a: NeverSeenThis|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|29
+|
+|move|p1a: Tauros|Body Slam|p2a: NeverSeenThis
+|-damage|p2a: NeverSeenThis|242/353
+|move|p2a: NeverSeenThis|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|247/353
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Tauros|Body Slam|p2a: NeverSeenThis
+|-damage|p2a: NeverSeenThis|135/353
+|move|p2a: NeverSeenThis|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|52/353
+|
+|upkeep
+|turn|31
+|
+|move|p2a: NeverSeenThis|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Jynx|Jynx|333/333 slp
+|turn|32
+|
+|move|p2a: NeverSeenThis|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|162/333 slp
+|-curestatus|p1a: Jynx|slp|[msg]
+|
+|upkeep
+|turn|33
+|
+|move|p2a: NeverSeenThis|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|Honig
+|raw|tonyone87's rating: 1447 &rarr; <strong>1420</strong><br />(-27 for losing)
+|raw|Honig's rating: 1321 &rarr; <strong>1348</strong><br />(+27 for winning)
+|l|☆tonyone87

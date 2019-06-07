@@ -1,0 +1,249 @@
+|j|☆doodles1992
+|j|☆Leeo_7
+|player|p1|doodles1992|293
+|player|p2|Leeo_7|150
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Leeo_7)
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Lovely Kiss
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Jynx|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|331/393
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|266/393
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Exeggutor|Mega Drain|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|223/393
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Slowbro|Surf|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|242/393 par
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Slowbro|Surf|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|82/393 par
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Slowbro|Surf|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|turn|10
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|146/393
+|move|p2a: Slowbro|Surf|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|turn|11
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|66/393
+|move|p2a: Slowbro|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|45/383
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|13
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|571/703
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|471/703
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|249/313 par
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|186/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|371/703
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|127/313 par
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|271/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|63/313 par
+|
+|upkeep
+|turn|19
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|20
+|
+|move|p2a: Tauros|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-damage|p2a: Tauros|286/353|[from] Recoil|[of] p1a: Chansey
+|faint|p1a: Chansey
+|
+|switch|p1a: Zapdos|Zapdos|45/383
+|turn|21
+|
+|move|p2a: Tauros|Body Slam|p1a: Zapdos|[miss]
+|-miss|p2a: Tauros
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|move|p1a: Zapdos|Drill Peck|p2a: Tauros
+|-damage|p2a: Tauros|201/353
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Jynx|Jynx|333/333
+|move|p2a: Tauros|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|164/333
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Tauros|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|-damage|p2a: Tauros|160/353|[from] Recoil|[of] p1a: Jynx
+|faint|p1a: Jynx
+|
+|switch|p1a: Golem|Golem|363/363
+|turn|24
+|
+|move|p2a: Tauros|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|240/363
+|move|p1a: Golem|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|20/353
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Tauros|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|112/363
+|move|p1a: Golem|Rock Slide|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Jynx|Jynx|333/333
+|turn|26
+|
+|move|p2a: Jynx|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Zapdos|Zapdos|45/383
+|turn|27
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|67/333
+|move|p2a: Jynx|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|Leeo_7
+|l|☆Leeo_7
+|c|☆doodles1992|gg

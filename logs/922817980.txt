@@ -1,0 +1,599 @@
+|j|☆M-Kaz
+|j|☆Same4youtwo
+|player|p1|M-Kaz|162
+|player|p2|Same4youtwo|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|c|☆Same4youtwo|hf
+|c|☆M-Kaz|m'ouais
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by M-Kaz)
+|j| Zokuru
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx|[miss]
+|-miss|p1a: Alakazam
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam
+|-status|p1a: Alakazam|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|569/703
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|430/523
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|569/703
+|move|p2a: Chansey|Counter|p1a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|491/703
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Alakazam|Alakazam|313/313 slp
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Snorlax|Snorlax|430/523
+|switch|p2a: Tauros|Tauros|353/353
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|292/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|237/353
+|
+|upkeep
+|turn|11
+|j| Rokhan
+|j| kilimina
+|
+|move|p2a: Tauros|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|191/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|35/353
+|
+|upkeep
+|turn|12
+|j| BIHI
+|j| Alkione
+|inactive|Same4youtwo has 270 seconds left.
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|206/323
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|13
+|inactive|Same4youtwo has 270 seconds left.
+|
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|94/323 par
+|move|p1a: Starmie|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|255/323 par
+|move|p2a: Tauros|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|53/323 par
+|-mustrecharge|p2a: Tauros
+|
+|upkeep
+|turn|15
+|j| Staxi
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|214/323 par
+|cant|p2a: Tauros|recharge
+|
+|upkeep
+|turn|16
+|inactive|Same4youtwo has 270 seconds left.
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Chansey|Chansey|603/703 par
+|turn|17
+|
+|switch|p1a: Snorlax|Snorlax|191/523
+|move|p2a: Chansey|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|l| Alkione
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|18
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Tauros|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|242/323
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|620/703
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Jynx|Jynx|333/333
+|move|p1a: Chansey|Seismic Toss|p2a: Jynx
+|-damage|p2a: Jynx|233/333
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Chansey|Seismic Toss|p2a: Jynx
+|-damage|p2a: Jynx|133/333
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Chansey|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Tauros|Tauros|353/353
+|cant|p2a: Jynx|par
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|399/523
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Chansey|Chansey|620/703
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|299/523 par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|199/523 par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|99/523 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|30
+|j| GreenEdenn
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|471/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Jynx|Jynx|133/333 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Jynx
+|-fail|p2a: Jynx
+|
+|upkeep
+|turn|33
+|inactive|M-Kaz has 270 seconds left.
+|inactive|M-Kaz has 240 seconds left.
+|
+|switch|p2a: Chansey|Chansey|603/703 par
+|move|p1a: Exeggutor|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|315/703 par
+|-mustrecharge|p1a: Exeggutor
+|
+|upkeep
+|turn|34
+|
+|cant|p1a: Exeggutor|recharge
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|265/393
+|
+|upkeep
+|turn|35
+|j| Celysi(´・・ )
+|c|☆M-Kaz|lol
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|188/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|36
+|
+|switch|p2a: Starmie|Starmie|242/323
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|37
+|j| msnt
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|switch|p1a: Tauros|Tauros|353/353
+|
+|upkeep
+|turn|38
+|j| LTO3Seconds2Late
+|j| Snowy❄FRZ
+|inactive|M-Kaz has 240 seconds left.
+|
+|switch|p1a: Alakazam|Alakazam|313/313 slp
+|move|p2a: Jolteon|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam
+|
+|upkeep
+|turn|39
+|
+|switch|p1a: Chansey|Chansey|620/703
+|move|p2a: Jolteon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|504/703
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|41
+|
+|switch|p2a: Snorlax|Snorlax|471/523
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|371/523
+|
+|upkeep
+|turn|42
+|l|☆M-Kaz
+|inactive|M-Kaz disconnected and has 300 seconds to reconnect!
+|player|p1|
+|j|☆M-Kaz
+|inactive|M-Kaz reconnected and has 245 seconds left.
+|player|p1|M-Kaz|162
+|inactive|M-Kaz has 240 seconds left.
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|98/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|44
+|inactive|Same4youtwo has 270 seconds left.
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|45
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Body Slam|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|76/333
+|-status|p2a: Jolteon|par
+|
+|upkeep
+|turn|46
+|j| Siamato
+|
+|switch|p2a: Jynx|Jynx|133/333 par
+|move|p1a: Tauros|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Starmie|Starmie|242/323 slp
+|turn|47
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|21/323 slp
+|
+|upkeep
+|turn|48
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Chansey|Chansey|188/703 par
+|turn|49
+|
+|cant|p1a: Tauros|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|539/703 par
+|
+|upkeep
+|turn|50
+|
+|cant|p1a: Tauros|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|
+|upkeep
+|turn|51
+|
+|switch|p1a: Chansey|Chansey|504/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|434/703 par
+|
+|upkeep
+|turn|52
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|628/703 par
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|555/703 par
+|
+|upkeep
+|turn|54
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|481/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|55
+|
+|switch|p2a: Jolteon|Jolteon|76/333 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|56
+|j| Michy47
+|
+|move|p2a: Jolteon|Rest|p2a: Jolteon
+|-status|p2a: Jolteon|slp|[from] move: Rest
+|-heal|p2a: Jolteon|333/333 slp|[silent]
+|move|p1a: Chansey|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|233/333 slp
+|
+|upkeep
+|turn|57
+|
+|switch|p1a: Exeggutor|Exeggutor|265/393
+|cant|p2a: Jolteon|slp
+|
+|upkeep
+|turn|58
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|579/703 par
+|
+|upkeep
+|turn|59
+|
+|switch|p1a: Chansey|Chansey|481/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|402/703 par
+|
+|upkeep
+|turn|60
+|
+|switch|p2a: Jolteon|Jolteon|233/333 slp
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|61
+|
+|-curestatus|p2a: Jolteon|slp|[msg]
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|62
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|601/703 par
+|-damage|p1a: Chansey|499/703 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Counter|p2a: Jolteon
+|-damage|p2a: Jolteon|29/333
+|
+|upkeep
+|turn|63
+|
+|switch|p1a: Exeggutor|Exeggutor|265/393
+|move|p2a: Jolteon|Double Kick|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|255/393
+|-damage|p1a: Exeggutor|245/393
+|-hitcount|p1a: Exeggutor|2
+|
+|upkeep
+|turn|64
+|
+|switch|p2a: Chansey|Chansey|579/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|456/703 par
+|
+|upkeep
+|turn|65
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353 par
+|switch|p2a: Jolteon|Jolteon|29/333
+|turn|66
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|206/353 par
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|67
+|
+|switch|p1a: Starmie|Starmie|214/323 par
+|move|p2a: Jolteon|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Chansey|Chansey|499/703 par
+|turn|68
+|inactive|Same4youtwo has 270 seconds left.
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|290/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|M-Kaz
+|l| Celysi(´・・ )
+|l| Michy47
+|l|☆M-Kaz
+|l| Siamato
+|l| Snowy❄FRZ
+|l| Staxi
+|l| Zokuru
+|l|☆Same4youtwo
+|l| kilimina
+|l| Rokhan
+|j| Staxi
+|l| Staxi
+|l| msnt
+|j| un nouveau depart!
+|l| un nouveau depart!
+|l| LTO3Seconds2Late
+|j| Akola
+|l| Akola
+|l| GreenEdenn
+|j|☆Same4youtwo
+|inactive|Same4youtwo reconnected.
+|player|p2|Same4youtwo|101
+|l|☆Same4youtwo
+|inactive|Same4youtwo disconnected and has 300 seconds to reconnect!
+|player|p2|
+|j|☆Same4youtwo
+|inactive|Same4youtwo reconnected.
+|player|p2|Same4youtwo|101

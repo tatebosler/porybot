@@ -1,0 +1,335 @@
+|j|☆Pheooo
+|j|☆Gatubraz
+|player|p1|Pheooo|red-gen1
+|player|p2|Gatubraz|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rhydon|Rhydon|413/413
+|switch|p2a: Golduck|Golduck|363/363
+|turn|1
+|c|☆Pheooo|j'ai pas vu ta team
+|c|☆Gatubraz|Mdrr
+|c|☆Pheooo|hf
+|c|☆Gatubraz|T'es le pire
+|c|☆Pheooo|j'ai juste changé le lead
+|c|☆Pheooo|bah on m'a dit que la dl etait pas basé sur la compet
+|c|☆Pheooo|mais sur le haxx
+|c|☆Pheooo|a quoi bon build
+|j| OsaiY
+|j| kilimina
+|j| Kayles
+|j| Butterchoke
+|
+|switch|p1a: Vaporeon|Vaporeon|463/463
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|upkeep
+|turn|2
+|c|☆Pheooo|gg
+|c|☆Pheooo|j'ai pas haze du coup
+|
+|switch|p1a: Abra|Abra|253/253
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Abra|Thunder Wave|p2a: Golduck
+|-status|p2a: Golduck|par
+|move|p2a: Golduck|Surf|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|switch|p1a: Raichu|Raichu|323/323
+|turn|4
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|285/363 par
+|move|p2a: Golduck|Surf|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|136/323
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|201/363 par
+|cant|p2a: Golduck|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|123/363 par
+|move|p2a: Golduck|Rest|p2a: Golduck
+|-status|p2a: Golduck|slp|[from] move: Rest
+|-heal|p2a: Golduck|363/363 slp|[silent]
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|275/363 slp
+|cant|p2a: Golduck|slp
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|196/363 slp
+|-curestatus|p2a: Golduck|slp|[msg]
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Golduck
+|-crit|p2a: Golduck
+|-supereffective|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|c|☆Gatubraz|Mdr
+|c| kilimina|boplay
+|
+|switch|p2a: Golem|Golem|363/363
+|turn|10
+|
+|move|p1a: Raichu|Surf|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|c|☆Gatubraz|Jui con
+|
+|switch|p2a: Parasect|Parasect|323/323
+|turn|11
+|c| kilimina|ui
+|
+|switch|p1a: Moltres|Moltres|383/383
+|move|p2a: Parasect|Swords Dance|p2a: Parasect
+|-boost|p2a: Parasect|atk|2
+|
+|upkeep
+|turn|12
+|c| kilimina|PARASECT
+|
+|switch|p2a: Raticate|Raticate|313/313
+|move|p1a: Moltres|Fire Blast|p2a: Raticate
+|-damage|p2a: Raticate|55/313
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Raticate|Bubble Beam|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Raichu|Raichu|136/323
+|turn|14
+|c| Butterchoke|oof
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Parasect|Parasect|323/323
+|turn|15
+|c|☆Pheooo|mdrrr
+|c|☆Pheooo|on est 1-1 sur les crits
+|c|☆Pheooo|ca va
+|
+|switch|p1a: Moltres|Moltres|383/383
+|move|p2a: Parasect|Spore|p1a: Moltres
+|-status|p1a: Moltres|slp|[from] move: Spore
+|
+|upkeep
+|turn|16
+|c|☆Gatubraz|"Ca va"
+|c| kilimina|HARD ESPEON
+|c|☆Pheooo|pour du rby
+|c|☆Pheooo|ca va
+|c|☆Gatubraz|Bah oui crit le truc a +3c'est la meme x)
+|
+|switch|p1a: Vileplume|Vileplume|353/353
+|move|p2a: Parasect|Swords Dance|p2a: Parasect
+|-boost|p2a: Parasect|atk|2
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Vileplume|Sleep Powder|p2a: Parasect|[miss]
+|-miss|p1a: Vileplume
+|move|p2a: Parasect|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|206/353
+|-status|p1a: Vileplume|par
+|
+|upkeep
+|turn|18
+|c|☆Pheooo|""
+|
+|move|p2a: Parasect|Body Slam|p1a: Vileplume
+|-crit|p1a: Vileplume
+|-damage|p1a: Vileplume|66/353 par
+|move|p1a: Vileplume|Stun Spore|p2a: Parasect
+|-status|p2a: Parasect|par
+|
+|upkeep
+|turn|19
+|c| Butterchoke|parasect sweep?
+|
+|move|p1a: Vileplume|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|254/323 par
+|move|p2a: Parasect|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Vaporeon|Vaporeon|463/463
+|turn|20
+|
+|move|p1a: Vaporeon|Ice Beam|p2a: Parasect
+|-supereffective|p2a: Parasect
+|-damage|p2a: Parasect|65/323 par
+|move|p2a: Parasect|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|295/463
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Jynx|Jynx|333/333
+|move|p1a: Vaporeon|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|294/333
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Jynx|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|192/463
+|-unboost|p1a: Vaporeon|spd|1
+|-unboost|p1a: Vaporeon|spa|1
+|move|p1a: Vaporeon|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|201/333
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Jynx|Psychic|p1a: Vaporeon
+|-damage|p1a: Vaporeon|33/463
+|-unboost|p1a: Vaporeon|spd|1
+|-unboost|p1a: Vaporeon|spa|1
+|move|p1a: Vaporeon|Body Slam|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|35/333
+|-status|p2a: Jynx|par
+|
+|upkeep
+|turn|24
+|c|☆Pheooo|let me think
+|c|☆Pheooo|enfaite flemme
+|c| Kayles|Waw
+|
+|switch|p2a: Parasect|Parasect|65/323 par
+|move|p1a: Vaporeon|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|4/323 par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Vaporeon|Body Slam|p2a: Parasect
+|-damage|p2a: Parasect|0 fnt
+|faint|p2a: Parasect
+|
+|switch|p2a: Electabuzz|Electabuzz|333/333
+|turn|26
+|c|☆Pheooo|pas lui
+|c|☆Pheooo|bah gg
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Raichu|Raichu|136/323
+|turn|27
+|
+|move|p2a: Electabuzz|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|move|p1a: Raichu|Light Screen|p1a: Raichu
+|-start|p1a: Raichu|Light Screen
+|
+|upkeep
+|turn|28
+|c|☆Gatubraz|En vrai
+|c|☆Gatubraz|C'est pas de l'irrespect
+|c|☆Pheooo|mais pourquoi j'ai in ce truc
+|c|☆Gatubraz|Je suis là pour m'amuser
+|
+|move|p2a: Electabuzz|Metronome|p2a: Electabuzz
+|move|p2a: Electabuzz|Egg Bomb|p1a: Raichu|[from]Metronome|[miss]
+|-miss|p2a: Electabuzz
+|move|p1a: Raichu|Thunder Wave|p2a: Electabuzz
+|-status|p2a: Electabuzz|par
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Electabuzz|Metronome|p2a: Electabuzz
+|move|p2a: Electabuzz|Bite|p1a: Raichu|[from]Metronome
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|19/323 par
+|move|p1a: Raichu|Surf|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|191/333 par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Electabuzz|Metronome|p2a: Electabuzz
+|move|p2a: Electabuzz|Lick|p1a: Raichu|[from]Metronome
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|c|☆Pheooo|ofc
+|c|☆Pheooo|que des bons moves
+|
+|switch|p1a: Moltres|Moltres|383/383 slp
+|turn|31
+|c|☆Gatubraz|Lick x
+|
+|cant|p1a: Moltres|slp
+|move|p2a: Electabuzz|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|200/383 slp
+|
+|upkeep
+|turn|32
+|
+|cant|p1a: Moltres|slp
+|move|p2a: Electabuzz|Thunderbolt|p1a: Moltres
+|-crit|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|win|Gatubraz
+|l|☆Pheooo

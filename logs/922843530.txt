@@ -1,0 +1,269 @@
+|j|☆Dr Nibs
+|j|☆kilimina
+|player|p1|Dr Nibs|250
+|player|p2|kilimina|172
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Venusaur|Venusaur|363/363
+|turn|1
+|c|☆Dr Nibs|Hf
+|l|☆Dr Nibs
+|player|p1|
+|c|☆kilimina|gl hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kilimina)
+|inactiveoff|Battle timer is now OFF.
+|j| Kayles
+|j|☆Dr Nibs
+|player|p1|Dr Nibs|250
+|j| Butterchoke
+|c|☆Dr Nibs|Excuse moi
+|c|☆Dr Nibs|Ca y est
+|
+|switch|p2a: Magneton|Magneton|303/303
+|move|p1a: Exeggutor|Mega Drain|p2a: Magneton
+|-damage|p2a: Magneton|250/303
+|
+|upkeep
+|turn|2
+|c|☆kilimina|tkt
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383/383
+|move|p2a: Magneton|Mimic|p1a: Nidoqueen
+|-start|p2a: Magneton|Mimic|Hyper Beam
+|
+|upkeep
+|turn|3
+|c|☆kilimina|nice, je l'avais deja :messi:
+|c|☆Dr Nibs|Ptdr
+|
+|switch|p2a: Articuno|Articuno|383/383
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|283/383
+|-status|p2a: Articuno|par
+|
+|upkeep
+|turn|4
+|c|☆Dr Nibs|Ez
+|j| Oehp
+|c| Kayles|trop beau
+|c|☆kilimina|good build
+|c|☆Dr Nibs|Le plan marche à la perfection jusque là
+|c| Kayles|j'avais jamais vu articuno sous cet angle
+|c| Oehp|etre choqué d'etre para en RBY
+|c|☆Dr Nibs|Haxx.
+|c|☆kilimina|qui est choque?
+|c|☆kilimina|c'est mon gameplan
+|c|☆kilimina|comme ca je suis pas freeze
+|
+|move|p1a: Nidoqueen|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|179/383 par
+|cant|p2a: Articuno|par
+|
+|upkeep
+|turn|5
+|c|☆Dr Nibs|Hop
+|c|☆kilimina|barbatruc
+|
+|switch|p1a: Pikachu|Pikachu|273/273
+|move|p2a: Articuno|Rest|p2a: Articuno
+|-status|p2a: Articuno|slp|[from] move: Rest
+|-heal|p2a: Articuno|383/383 slp|[silent]
+|
+|upkeep
+|turn|6
+|c|☆kilimina|oh il est trop mimi...
+|c| Oehp|etonnant de la part de killi
+|
+|switch|p2a: Venusaur|Venusaur|363/363
+|move|p1a: Pikachu|Surf|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|339/363
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Pikachu|Thunder Wave|p2a: Venusaur
+|-status|p2a: Venusaur|par
+|cant|p2a: Venusaur|par
+|
+|upkeep
+|turn|8
+|c|☆Dr Nibs|Hop
+|
+|move|p1a: Pikachu|Seismic Toss|p2a: Venusaur
+|-damage|p2a: Venusaur|239/363 par
+|move|p2a: Venusaur|Sleep Powder|p1a: Pikachu
+|-status|p1a: Pikachu|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Nidoking|Nidoking|365/365
+|
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kilimina)
+|c|☆kilimina|no respet
+|c|☆kilimina|clic clic clic
+|
+|move|p2a: Nidoking|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|122/393
+|move|p1a: Exeggutor|Psychic|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-supereffective|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|c|☆Dr Nibs|Oh non ce crit
+|
+|switch|p2a: Venusaur|Venusaur|239/363 par
+|turn|11
+|c|☆Dr Nibs|Tu peux desac rimer j'ai une co d'espagnol
+|inactiveoff|Battle timer is now OFF.
+|c|☆kilimina|ca met la pression
+|c|☆Dr Nibs|Ty
+|
+|move|p1a: Exeggutor|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|c|☆kilimina|att, pk j'ai mis ce mon deja?
+|
+|switch|p2a: Magneton|Magneton|250/303
+|turn|12
+|c|☆Dr Nibs|Tu voulais taper hyper beam mais t'as oublie la para
+|c|☆Dr Nibs|Voila pk
+|c|☆kilimina|ah ui
+|
+|move|p2a: Magneton|Double-Edge|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|4/393
+|-damage|p2a: Magneton|221/303|[from] Recoil|[of] p1a: Exeggutor
+|move|p1a: Exeggutor|Explosion|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|faint|p1a: Exeggutor
+|c|☆Dr Nibs|Exeggutor.
+|c|☆Dr Nibs|3 kills
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|switch|p1a: Gyarados|Gyarados|393/393
+|turn|13
+|
+|move|p1a: Gyarados|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|37/393
+|move|p2a: Slowbro|Thunder Wave|p1a: Gyarados
+|-status|p1a: Gyarados|par
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|-heal|p2a: Slowbro|393/393 slp|[silent]
+|move|p1a: Gyarados|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|34/393 slp
+|
+|upkeep
+|turn|15
+|c|☆kilimina|mais euh
+|c| Kayles|tu es surpris?
+|c| Oehp|IL EST OU AMNESIA SLOWBRO
+|c|☆Dr Nibs|Hop
+|
+|switch|p2a: Graveler|Graveler|313/313
+|switch|p1a: Cloyster|Cloyster|303/303
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Cloyster|Surf|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|
+|switch|p2a: Articuno|Articuno|383/383 slp
+|turn|17
+|c|☆kilimina|gg
+|c|☆kilimina|lulz
+|
+|switch|p2a: Slowbro|Slowbro|34/393 slp
+|move|p1a: Cloyster|Surf|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Articuno|Articuno|383/383 slp
+|turn|18
+|c|☆Dr Nibs|gg
+|
+|cant|p2a: Articuno|slp
+|move|p1a: Cloyster|Surf|p2a: Articuno
+|-damage|p2a: Articuno|291/383 slp
+|
+|upkeep
+|turn|19
+|
+|-curestatus|p2a: Articuno|slp|[msg]
+|move|p1a: Cloyster|Surf|p2a: Articuno
+|-damage|p2a: Articuno|201/383
+|
+|upkeep
+|turn|20
+|c|☆kilimina|freeze
+|
+|move|p2a: Articuno|Ice Beam|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|269/303
+|move|p1a: Cloyster|Explosion|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|faint|p1a: Cloyster
+|
+|win|Dr Nibs
+|c|☆kilimina|rip
+|l| Oehp
+|c|☆Dr Nibs|Je gagnais avec nido anyway
+|l| Butterchoke
+|c|☆Dr Nibs|Deso du haxx on va dire
+|c|☆kilimina|ptdr
+|c|☆Dr Nibs|Meme si c'est du rby
+|l| Kayles
+|c|☆kilimina|barf
+|c|☆kilimina|bro winnait si pas de double crit on va dire
+|c|☆Dr Nibs|Nan
+|c|☆Dr Nibs|J'ai 3 blizzard
+|c|☆Dr Nibs|Ca freeze blizzard
+|c|☆Dr Nibs|En soi
+|c|☆Dr Nibs|C'était pas sur
+|c|☆kilimina|oui
+|c|☆Dr Nibs|A 100%
+|c|☆kilimina|bah
+|c|☆kilimina|si je freeze cloyster
+|c|☆kilimina|j'avais win à la fin
+|c|☆Dr Nibs|Ca se faisait
+|c|☆kilimina|donc c'est pas sur
+|c|☆kilimina|vive le rby ^^
+|c|☆Dr Nibs|Apres j'ai clef derriere qui gere bro
+|c|☆Dr Nibs|Avec light screen
+|c|☆Dr Nibs|Il le pp stall

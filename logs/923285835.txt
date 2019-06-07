@@ -1,0 +1,338 @@
+|j|☆EMIL_OLBERG
+|j|☆fox.vulpus
+|player|p1|EMIL_OLBERG|29
+|player|p2|fox.vulpus|261
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Neun|Ninetales|349/349
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Neun
+|-status|p2a: Neun|par
+|move|p2a: Neun|Confuse Ray|p1a: Alakazam
+|-start|p1a: Alakazam|confusion
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EMIL_OLBERG)
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Neun|Fire Spin|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|667/703
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Hearn|Alakazam|313/313
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Hearn|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|567/703
+|move|p1a: Chansey|Thunder Wave|p2a: Hearn
+|-status|p2a: Hearn|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Hearn
+|-damage|p2a: Hearn|213/313 par
+|move|p2a: Hearn|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|439/703
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Hearn
+|-damage|p2a: Hearn|113/313 par
+|move|p2a: Hearn|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Armenia|Persian|333/333
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Armenia|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|251/393
+|-mustrecharge|p2a: Armenia
+|
+|upkeep
+|turn|9
+|
+|cant|p2a: Armenia|recharge
+|move|p1a: Exeggutor|Sleep Powder|p2a: Armenia|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Armenia|Screech|p1a: Exeggutor
+|-unboost|p1a: Exeggutor|def|2
+|move|p1a: Exeggutor|Sleep Powder|p2a: Armenia|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Armenia|Slash|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|236/383
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Armenia|Screech|p1a: Zapdos|[miss]
+|-miss|p2a: Armenia
+|move|p1a: Zapdos|Thunder Wave|p2a: Armenia
+|-status|p2a: Armenia|par
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|move|p2a: Armenia|Slash|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|84/383
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Armenia
+|-damage|p2a: Armenia|173/333 par
+|move|p2a: Armenia|Slash|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|15
+|
+|move|p1a: Tauros|Body Slam|p2a: Armenia
+|-damage|p2a: Armenia|35/333 par
+|move|p2a: Armenia|Screech|p1a: Tauros
+|-unboost|p1a: Tauros|def|2
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Tauros|Body Slam|p2a: Armenia
+|-crit|p2a: Armenia
+|-damage|p2a: Armenia|0 fnt
+|faint|p2a: Armenia
+|
+|switch|p2a: Paxillo|Starmie|323/323
+|turn|17
+|
+|switch|p1a: Chansey|Chansey|439/703 par
+|move|p2a: Paxillo|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Paxillo|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|348/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Paxillo
+|-status|p2a: Paxillo|par
+|
+|upkeep
+|turn|19
+|
+|cant|p2a: Paxillo|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|699/703 par
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Neun|Ninetales|349/349 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Neun|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|567/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Neun
+|-damage|p2a: Neun|249/349 par
+|
+|upkeep
+|turn|22
+|
+|cant|p2a: Neun|par
+|move|p1a: Chansey|Seismic Toss|p2a: Neun
+|-damage|p2a: Neun|149/349 par
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Neun|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|291/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Neun|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|143/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|494/703 par
+|
+|upkeep
+|turn|25
+|
+|cant|p2a: Neun|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Crimino|Vileplume|353/353
+|move|p1a: Chansey|Seismic Toss|p2a: Crimino
+|-damage|p2a: Crimino|253/353
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Crimino|Sleep Powder|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p1a: Chansey|Thunder Wave|p2a: Crimino
+|-status|p2a: Crimino|par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Crimino
+|-damage|p2a: Crimino|153/353 par
+|move|p2a: Crimino|Swords Dance|p2a: Crimino
+|-boost|p2a: Crimino|atk|2
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Crimino|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|656/703 par
+|-heal|p2a: Crimino|176/353 par|[from] drain|[of] p1a: Chansey
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Crimino|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|362/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Crimino
+|-damage|p2a: Crimino|76/353 par
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Crimino|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|33/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Crimino
+|-damage|p2a: Crimino|0 fnt
+|faint|p2a: Crimino
+|
+|switch|p2a: Jupiter|Jolteon|333/333
+|turn|32
+|
+|move|p2a: Jupiter|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|33
+|
+|move|p2a: Jupiter|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|move|p1a: Alakazam|Thunder Wave|p2a: Jupiter
+|-status|p2a: Jupiter|par
+|
+|upkeep
+|turn|34
+|inactive|EMIL_OLBERG has 120 seconds left.
+|
+|cant|p2a: Jupiter|par
+|move|p1a: Alakazam|Psychic|p2a: Jupiter
+|-damage|p2a: Jupiter|205/333 par
+|
+|upkeep
+|turn|35
+|inactive|EMIL_OLBERG has 90 seconds left.
+|
+|cant|p2a: Jupiter|par
+|move|p1a: Alakazam|Psychic|p2a: Jupiter
+|-damage|p2a: Jupiter|80/333 par
+|-unboost|p2a: Jupiter|spd|1
+|-unboost|p2a: Jupiter|spa|1
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Alakazam|Psychic|p2a: Jupiter
+|-damage|p2a: Jupiter|0 fnt
+|faint|p2a: Jupiter
+|
+|switch|p2a: Paxillo|Starmie|323/323 par
+|turn|37
+|
+|switch|p1a: Exeggutor|Exeggutor|251/393
+|move|p2a: Paxillo|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|91/393
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Exeggutor|Explosion|p2a: Paxillo
+|-damage|p2a: Paxillo|33/323 par
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|39
+|
+|move|p1a: Tauros|Body Slam|p2a: Paxillo
+|-damage|p2a: Paxillo|0 fnt
+|faint|p2a: Paxillo
+|
+|switch|p2a: Hearn|Alakazam|113/313 par
+|turn|40
+|
+|move|p1a: Tauros|Body Slam|p2a: Hearn
+|-damage|p2a: Hearn|0 fnt
+|faint|p2a: Hearn
+|
+|switch|p2a: Neun|Ninetales|149/349 par
+|turn|41
+|
+|move|p1a: Tauros|Earthquake|p2a: Neun
+|-supereffective|p2a: Neun
+|-damage|p2a: Neun|0 fnt
+|faint|p2a: Neun
+|
+|win|EMIL_OLBERG

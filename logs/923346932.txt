@@ -1,0 +1,263 @@
+|j|☆XXa xaxaxaxaxaxa
+|j|☆PolarGuy
+|player|p1|XXa xaxaxaxaxaxa|191
+|player|p2|PolarGuy|117
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: B-2 Spirit|Gengar|323/323
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: B-2 Spirit
+|-status|p1a: B-2 Spirit|par
+|cant|p1a: B-2 Spirit|par
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by XXa xaxaxaxaxaxa)
+|
+|move|p2a: Alakazam|Psychic|p1a: B-2 Spirit
+|-supereffective|p1a: B-2 Spirit
+|-damage|p1a: B-2 Spirit|105/323 par
+|-unboost|p1a: B-2 Spirit|spd|1
+|-unboost|p1a: B-2 Spirit|spa|1
+|move|p1a: B-2 Spirit|Explosion|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|faint|p1a: B-2 Spirit
+|
+|switch|p2a: Jynx|Jynx|333/333
+|switch|p1a: AH-64 Apache|Victreebel|363/363
+|turn|3
+|
+|switch|p1a: USS Zumwalt|Cloyster|303/303
+|move|p2a: Jynx|Ice Beam|p1a: USS Zumwalt
+|-resisted|p1a: USS Zumwalt
+|-damage|p1a: USS Zumwalt|274/303
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: USS Zumwalt|Clamp|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|323/383
+|
+|upkeep
+|turn|5
+|j| Aybekay
+|
+|cant|p2a: Zapdos|partiallytrapped
+|move|p1a: USS Zumwalt|Clamp|p2a: Zapdos|[from]Clamp
+|-damage|p2a: Zapdos|263/383
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: AH-64 Apache|Victreebel|363/363
+|move|p2a: Zapdos|Light Screen|p2a: Zapdos
+|-start|p2a: Zapdos|Light Screen
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Zapdos|Drill Peck|p1a: AH-64 Apache
+|-supereffective|p1a: AH-64 Apache
+|-damage|p1a: AH-64 Apache|128/363
+|move|p1a: AH-64 Apache|Stun Spore|p2a: Zapdos|[miss]
+|-miss|p1a: AH-64 Apache
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: M1A2 Abrams|Tauros|353/353
+|move|p2a: Zapdos|Drill Peck|p1a: M1A2 Abrams
+|-damage|p1a: M1A2 Abrams|258/353
+|
+|upkeep
+|turn|9
+|l| Aybekay
+|
+|move|p1a: M1A2 Abrams|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|38/383
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: M1A2 Abrams
+|-damage|p1a: M1A2 Abrams|83/353
+|move|p1a: M1A2 Abrams|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Gengar|Gengar|323/323
+|turn|11
+|
+|move|p1a: M1A2 Abrams|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|112/323
+|move|p2a: Gengar|Seismic Toss|p1a: M1A2 Abrams
+|-damage|p1a: M1A2 Abrams|0 fnt
+|faint|p1a: M1A2 Abrams
+|
+|switch|p1a: F-15 Eagle|Zapdos|383/383
+|turn|12
+|
+|move|p2a: Gengar|Explosion|p1a: F-15 Eagle
+|-crit|p1a: F-15 Eagle
+|-damage|p1a: F-15 Eagle|0 fnt
+|faint|p1a: F-15 Eagle
+|faint|p2a: Gengar
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|switch|p1a: USS Zumwalt|Cloyster|274/303
+|turn|13
+|
+|move|p1a: USS Zumwalt|Toxic|p2a: Snorlax
+|-status|p2a: Snorlax|tox
+|move|p2a: Snorlax|Earthquake|p1a: USS Zumwalt
+|-damage|p1a: USS Zumwalt|218/303
+|-damage|p2a: Snorlax|491/523 tox|[from] psn
+|
+|upkeep
+|turn|14
+|
+|move|p1a: USS Zumwalt|Clamp|p2a: Snorlax
+|-damage|p2a: Snorlax|438/523 tox
+|cant|p2a: Snorlax|partiallytrapped
+|-damage|p2a: Snorlax|374/523 tox|[from] psn
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: F-35 Lightning|Dragonite|385/385
+|cant|p2a: Snorlax|partiallytrapped
+|-damage|p2a: Snorlax|278/523 tox|[from] psn
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Blastoise|Blastoise|361/361
+|move|p1a: F-35 Lightning|Wrap|p2a: Blastoise
+|-damage|p2a: Blastoise|345/361
+|
+|upkeep
+|turn|17
+|
+|move|p1a: F-35 Lightning|Wrap|p2a: Blastoise|[from]Wrap
+|-damage|p2a: Blastoise|329/361
+|cant|p2a: Blastoise|partiallytrapped
+|
+|upkeep
+|turn|18
+|
+|move|p1a: F-35 Lightning|Wrap|p2a: Blastoise
+|-damage|p2a: Blastoise|313/361
+|cant|p2a: Blastoise|partiallytrapped
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: USS Zumwalt|Cloyster|218/303
+|cant|p2a: Blastoise|partiallytrapped
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Blastoise|Earthquake|p1a: USS Zumwalt
+|-damage|p1a: USS Zumwalt|171/303
+|move|p1a: USS Zumwalt|Toxic|p2a: Blastoise
+|-status|p2a: Blastoise|tox
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Jynx|Jynx|333/333
+|move|p1a: USS Zumwalt|Clamp|p2a: Jynx
+|-damage|p2a: Jynx|291/333
+|
+|upkeep
+|turn|22
+|
+|cant|p2a: Jynx|partiallytrapped
+|move|p1a: USS Zumwalt|Clamp|p2a: Jynx|[from]Clamp
+|-damage|p2a: Jynx|249/333
+|
+|upkeep
+|turn|23
+|
+|cant|p2a: Jynx|partiallytrapped
+|move|p1a: USS Zumwalt|Clamp|p2a: Jynx|[from]Clamp
+|-damage|p2a: Jynx|207/333
+|
+|upkeep
+|turn|24
+|inactive|XXa xaxaxaxaxaxa has 120 seconds left.
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: USS Zumwalt
+|-status|p1a: USS Zumwalt|slp|[from] move: Lovely Kiss
+|cant|p1a: USS Zumwalt|slp
+|
+|upkeep
+|turn|25
+|inactive|XXa xaxaxaxaxaxa has 120 seconds left.
+|
+|move|p2a: Jynx|Ice Beam|p1a: USS Zumwalt
+|-resisted|p1a: USS Zumwalt
+|-damage|p1a: USS Zumwalt|144/303 slp
+|cant|p1a: USS Zumwalt|slp
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Jynx|Psychic|p1a: USS Zumwalt
+|-damage|p1a: USS Zumwalt|32/303 slp
+|cant|p1a: USS Zumwalt|slp
+|
+|upkeep
+|turn|27
+|inactive|XXa xaxaxaxaxaxa has 120 seconds left.
+|
+|switch|p1a: AH-64 Apache|Victreebel|128/363
+|move|p2a: Jynx|Ice Beam|p1a: AH-64 Apache
+|-supereffective|p1a: AH-64 Apache
+|-damage|p1a: AH-64 Apache|0 fnt
+|faint|p1a: AH-64 Apache
+|
+|switch|p1a: F-35 Lightning|Dragonite|385/385
+|turn|28
+|
+|move|p2a: Jynx|Ice Beam|p1a: F-35 Lightning
+|-supereffective|p1a: F-35 Lightning
+|-damage|p1a: F-35 Lightning|0 fnt
+|faint|p1a: F-35 Lightning
+|
+|switch|p1a: USS Zumwalt|Cloyster|32/303 slp
+|turn|29
+|inactive|XXa xaxaxaxaxaxa has 120 seconds left.
+|inactive|XXa xaxaxaxaxaxa has 90 seconds left.
+|inactive|XXa xaxaxaxaxaxa has 60 seconds left.
+|inactive|XXa xaxaxaxaxaxa has 30 seconds left.
+|inactive|XXa xaxaxaxaxaxa has 20 seconds left.
+|inactive|XXa xaxaxaxaxaxa has 15 seconds left.
+|inactive|XXa xaxaxaxaxaxa has 10 seconds left.
+|inactive|XXa xaxaxaxaxaxa has 5 seconds left.
+|-message|XXa xaxaxaxaxaxa lost due to inactivity.
+|
+|win|PolarGuy

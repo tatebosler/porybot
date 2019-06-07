@@ -1,0 +1,1310 @@
+|j|☆Omastar & Khaetis
+|j|☆Ejthewolf
+|player|p1|Omastar & Khaetis|47
+|player|p2|Ejthewolf|223
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|move|p1a: Starmie|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ejthewolf)
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223/323 par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|123/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|284/323 par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|184/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Alakazam|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423/523
+|
+|upkeep
+|turn|6
+|inactive|Ejthewolf has 120 seconds left.
+|inactive|Ejthewolf has 90 seconds left.
+|inactive|Ejthewolf has 60 seconds left.
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|377/523
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|243/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Snorlax|Ice Beam|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|287/303
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Cloyster|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|600/703
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|561/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|
+|upkeep
+|turn|12
+|inactive|Ejthewolf has 90 seconds left.
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-fail|p1a: Starmie
+|
+|upkeep
+|turn|13
+|inactive|Ejthewolf has 90 seconds left.
+|
+|switch|p2a: Chansey|Chansey|561/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|465/703
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Snorlax|Snorlax|423/523
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|417/703
+|
+|upkeep
+|turn|16
+|inactive|Ejthewolf has 90 seconds left.
+|inactive|Ejthewolf has 60 seconds left.
+|inactive|Ejthewolf has 30 seconds left.
+|inactive|Ejthewolf has 20 seconds left.
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|17
+|inactive|Ejthewolf has 30 seconds left this turn.
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|324/523 par
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|223/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|396/703
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Snorlax|Snorlax|243/523
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Cloyster|Cloyster|287/303
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Cloyster|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|381/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Cloyster|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|612/703
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey|[miss]
+|-miss|p1a: Cloyster
+|move|p2a: Chansey|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|107/303
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Snorlax|Snorlax|381/523 slp
+|move|p1a: Cloyster|Clamp|p2a: Snorlax
+|-damage|p2a: Snorlax|330/523 slp
+|
+|upkeep
+|turn|27
+|inactive|Ejthewolf has 90 seconds left.
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|265/323 par
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Chansey|Chansey|612/703
+|switch|p1a: Snorlax|Snorlax|523/523
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|626/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|533/703
+|
+|upkeep
+|turn|32
+|inactive|Ejthewolf has 120 seconds left.
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Alakazam|Alakazam|313/313 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|248/313 par
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|399/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|35
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|36
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|190/313 par
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Alakazam|Psychic|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|217/523
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|413/703
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|429/703
+|
+|upkeep
+|turn|40
+|j| victorsaur
+|
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|121/523
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|132/703
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|483/703
+|move|p1a: Snorlax|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|42
+|
+|switch|p1a: Starmie|Starmie|265/323 par
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|206/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|43
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|44
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|move|p2a: Starmie|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|637/703 par
+|
+|upkeep
+|turn|45
+|
+|switch|p2a: Alakazam|Alakazam|190/313 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|131/313 par
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|287/313 par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|226/313 par
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|245/313 par
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|509/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|203/313 par
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|320/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|133/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|484/703 par
+|
+|upkeep
+|turn|51
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|227/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|578/703 par
+|
+|upkeep
+|turn|52
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Alakazam|Psychic|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|206/323 par
+|
+|upkeep
+|turn|53
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|54
+|inactive|Ejthewolf has 120 seconds left.
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223/323 par
+|move|p1a: Starmie|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|271/313 par
+|
+|upkeep
+|turn|55
+|
+|move|p2a: Alakazam|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|152/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|313/323 par
+|
+|upkeep
+|turn|56
+|
+|switch|p1a: Chansey|Chansey|578/703 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|478/703 par
+|
+|upkeep
+|turn|57
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|228/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|579/703 par
+|
+|upkeep
+|turn|58
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|479/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|59
+|
+|switch|p1a: Starmie|Starmie|313/323 par
+|move|p2a: Alakazam|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|249/323 par
+|
+|upkeep
+|turn|60
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|61
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703 par
+|
+|upkeep
+|turn|62
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|472/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|63
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223/323 par
+|
+|upkeep
+|turn|64
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|65
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|66
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Ice Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|209/313 par
+|
+|upkeep
+|turn|67
+|l| victorsaur
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|68
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|250/313 par
+|
+|upkeep
+|turn|69
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|186/313 par
+|
+|upkeep
+|turn|70
+|
+|switch|p1a: Snorlax|Snorlax|121/523
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|71
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|72
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|428/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|73
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|74
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|201/323 par
+|
+|upkeep
+|turn|75
+|
+|switch|p2a: Alakazam|Alakazam|186/313 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|76
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|move|p1a: Starmie|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|233/313 par
+|
+|upkeep
+|turn|77
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223/323 par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|78
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|123/323 par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|79
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|284/323 par
+|
+|upkeep
+|turn|80
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|184/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|81
+|
+|switch|p1a: Chansey|Chansey|603/703 par
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|82
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|83
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|174/313 par
+|
+|upkeep
+|turn|84
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|200/313 par
+|
+|upkeep
+|turn|85
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|86
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|87
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Starmie|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|274/313 par
+|
+|upkeep
+|turn|88
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223/323 par
+|move|p1a: Starmie|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|230/313 par
+|
+|upkeep
+|turn|89
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|123/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|284/323 par
+|
+|upkeep
+|turn|90
+|inactive|Ejthewolf has 120 seconds left.
+|j| LuLLaBYEzZz
+|inactive|Ejthewolf has 90 seconds left.
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|184/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|91
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Starmie|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|143/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|upkeep
+|turn|92
+|
+|switch|p1a: Cloyster|Cloyster|107/303
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|299/313 par
+|
+|upkeep
+|turn|93
+|inactive|Ejthewolf has 90 seconds left.
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Cloyster|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|56/323
+|faint|p1a: Cloyster
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|switch|p1a: Chansey|Chansey|603/703 par
+|turn|94
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|217/323
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|95
+|
+|switch|p2a: Alakazam|Alakazam|299/313 par
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|241/313 par
+|
+|upkeep
+|turn|96
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Thunderbolt|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|110/313 par
+|
+|upkeep
+|turn|97
+|l| LuLLaBYEzZz
+|
+|switch|p1a: Snorlax|Snorlax|428/523
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|266/313 par
+|
+|upkeep
+|turn|98
+|j| LuLLaBYEzZz
+|j| victorsaur
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|277/393
+|
+|upkeep
+|turn|99
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|260/323 par
+|
+|upkeep
+|turn|100
+|
+|switch|p2a: Alakazam|Alakazam|266/313 par
+|move|p1a: Starmie|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|192/313 par
+|
+|upkeep
+|turn|101
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|102
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223/323 par
+|move|p1a: Starmie|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|151/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|upkeep
+|turn|103
+|
+|move|p1a: Starmie|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|32/313 par
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|104
+|c|☆Ejthewolf|well
+|c|☆Ejthewolf|damn
+|inactive|Omastar & Khaetis has 120 seconds left.
+|inactive|Ejthewolf has 120 seconds left.
+|
+|switch|p2a: Starmie|Starmie|217/323 par
+|move|p1a: Starmie|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|166/323 par
+|
+|upkeep
+|turn|105
+|
+|switch|p1a: Chansey|Chansey|603/703 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|
+|upkeep
+|turn|106
+|inactive|Ejthewolf has 90 seconds left.
+|
+|switch|p2a: Snorlax|Snorlax|330/523 slp
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|238/523 slp
+|
+|upkeep
+|turn|107
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|108
+|inactive|Ejthewolf has 90 seconds left.
+|
+|switch|p2a: Exeggutor|Exeggutor|277/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|109
+|
+|switch|p2a: Starmie|Starmie|323/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|200/323 par
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|upkeep
+|turn|110
+|
+|switch|p1a: Chansey|Chansey|603/703 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|
+|upkeep
+|turn|111
+|
+|switch|p2a: Snorlax|Snorlax|238/523
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|upkeep
+|turn|112
+|inactive|Omastar & Khaetis has 90 seconds left.
+|
+|cant|p1a: Chansey|par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|113
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|114
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|367/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|115
+|
+|switch|p2a: Starmie|Starmie|323/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|261/323 par
+|
+|upkeep
+|turn|116
+|
+|switch|p1a: Chansey|Chansey|603/703 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|506/703 par
+|
+|upkeep
+|turn|117
+|inactive|Ejthewolf has 90 seconds left.
+|
+|switch|p2a: Snorlax|Snorlax|367/523
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|118
+|
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|199/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|550/703 par
+|
+|upkeep
+|turn|119
+|
+|switch|p1a: Snorlax|Snorlax|428/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|279/523
+|
+|upkeep
+|turn|120
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Snorlax|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|209/523
+|
+|upkeep
+|turn|121
+|
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|122
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|259/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|123
+|inactive|Omastar & Khaetis has 60 seconds left.
+|
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|190/523
+|
+|upkeep
+|turn|124
+|inactive|Omastar & Khaetis has 60 seconds left.
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|123/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|125
+|inactive|Omastar & Khaetis has 60 seconds left.
+|
+|cant|p1a: Snorlax|slp
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|453/523 slp
+|
+|upkeep
+|turn|126
+|inactive|Omastar & Khaetis has 60 seconds left.
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|385/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|127
+|inactive|Omastar & Khaetis has 60 seconds left.
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|116/523
+|move|p2a: Snorlax|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|312/523
+|
+|upkeep
+|turn|128
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|129
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|355/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|130
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|181/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|131
+|
+|switch|p2a: Starmie|Starmie|261/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|203/323 par
+|
+|upkeep
+|turn|132
+|
+|switch|p1a: Chansey|Chansey|550/703 par
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|133
+|
+|switch|p2a: Snorlax|Snorlax|181/523
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|
+|upkeep
+|turn|134
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|23/523
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|135
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|362/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|136
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|202/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|137
+|inactive|Ejthewolf has 120 seconds left.
+|
+|switch|p2a: Starmie|Starmie|203/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|86/323 par
+|
+|upkeep
+|turn|138
+|
+|move|p1a: Exeggutor|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|139
+|j| 1vLTA2 ACII
+|inactive|Omastar & Khaetis has 30 seconds left.
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|256/393
+|-status|p1a: Exeggutor|frz
+|cant|p1a: Exeggutor|frz
+|
+|upkeep
+|turn|140
+|inactive|Omastar & Khaetis has 30 seconds left.
+|c|☆Ejthewolf|hai ya
+|inactive|Omastar & Khaetis has 20 seconds left.
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|121/393 frz
+|cant|p1a: Exeggutor|frz
+|
+|upkeep
+|turn|141
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|inactive|Omastar & Khaetis has 20 seconds left.
+|inactive|Ejthewolf has 120 seconds left.
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|16/393 frz
+|cant|p1a: Exeggutor|frz
+|
+|upkeep
+|turn|142
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|inactive|Omastar & Khaetis has 20 seconds left.
+|
+|move|p2a: Tauros|Earthquake|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|inactive|Omastar & Khaetis has 20 seconds left.
+|
+|switch|p1a: Starmie|Starmie|223/323 par
+|turn|143
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|
+|switch|p2a: Snorlax|Snorlax|202/523
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|144
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|100/323 par
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|64/523
+|
+|upkeep
+|turn|145
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|move|p2a: Snorlax|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|turn|146
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|switch|p2a: Exeggutor|Exeggutor|277/393 slp
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|166/393 slp
+|
+|upkeep
+|turn|147
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor|[miss]
+|-miss|p1a: Rhydon
+|
+|upkeep
+|turn|148
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Rhydon|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|48/393 slp
+|
+|upkeep
+|turn|149
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Rhydon|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|150
+|inactive|Omastar & Khaetis has 30 seconds left.
+|inactive|Omastar & Khaetis has 20 seconds left.
+|
+|switch|p1a: Chansey|Chansey|550/703 par
+|move|p2a: Tauros|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|352/703 par
+|
+|upkeep
+|turn|151
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|inactive|Omastar & Khaetis has 20 seconds left.
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Tauros|Hyper Beam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|334/413
+|-mustrecharge|p2a: Tauros
+|
+|upkeep
+|turn|152
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|inactive|Omastar & Khaetis has 20 seconds left.
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|211/353
+|
+|upkeep
+|turn|153
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|inactive|Omastar & Khaetis has 20 seconds left.
+|
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|101/413
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|64/353
+|
+|upkeep
+|turn|154
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|inactive|Omastar & Khaetis has 20 seconds left.
+|
+|move|p2a: Tauros|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|inactive|Omastar & Khaetis has 25 seconds left this turn.
+|l| LuLLaBYEzZz
+|
+|switch|p1a: Snorlax|Snorlax|312/523
+|turn|155
+|inactive|Omastar & Khaetis has 30 seconds left this turn.
+|
+|switch|p2a: Alakazam|Alakazam|32/313 par
+|move|p1a: Snorlax|Body Slam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Snorlax|Snorlax|64/523
+|turn|156
+|c|☆Ejthewolf|speedties
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|64/353
+|turn|157
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|97/523
+|-mustrecharge|p2a: Tauros
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Omastar & Khaetis
+|l| 1vLTA2 ACII
+|c| victorsaur|close match
+|c|☆Omastar & Khaetis|Gg
+|raw|Omastar &amp; Khaetis's rating: 1443 &rarr; <strong>1459</strong><br />(+16 for winning)
+|raw|Ejthewolf's rating: 1359 &rarr; <strong>1344</strong><br />(-15 for losing)
+|l| victorsaur
+|c|☆Ejthewolf|ugh
+|c|☆Ejthewolf|gg
+|l|☆Ejthewolf

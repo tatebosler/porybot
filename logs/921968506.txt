@@ -1,0 +1,491 @@
+|j|☆starrank
+|j|☆charm1
+|player|p1|starrank|285
+|player|p2|charm1|290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Moltres|Moltres|383/383
+|turn|1
+|c|☆charm1|hi
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|cant|p2a: Moltres|par
+|
+|upkeep
+|turn|2
+|c|☆starrank|hi~
+|
+|move|p1a: Alakazam|Psychic|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|151/383 par
+|cant|p2a: Moltres|par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Alakazam|Psychic|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|4
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Jolteon|Pin Missile|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|317/393
+|-damage|p1a: Exeggutor|241/393
+|-damage|p1a: Exeggutor|165/393
+|-damage|p1a: Exeggutor|89/393
+|-hitcount|p1a: Exeggutor|4
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|599/703
+|-damage|p1a: Chansey|495/703
+|-hitcount|p1a: Chansey|2
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Jolteon|Focus Energy|p2a: Jolteon
+|-start|p2a: Jolteon|move: Focus Energy
+|move|p1a: Chansey|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Exeggutor|Exeggutor|89/393
+|move|p2a: Jolteon|Double Kick|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|80/393
+|-damage|p1a: Exeggutor|71/393
+|-hitcount|p1a: Exeggutor|2
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Exeggutor|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|169/523
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|9
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Snorlax|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|253/353
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Lapras|Lapras|463/463
+|turn|11
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Lapras|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|upkeep
+|turn|12
+|
+|-activate|p1a: Starmie|confusion
+|-damage|p1a: Starmie|290/323|[from] confusion
+|move|p2a: Lapras|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|140/323
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Chansey|Chansey|495/703
+|move|p2a: Lapras|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|430/703
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Jolteon|Jolteon|333/333 par
+|move|p1a: Chansey|Thunder Wave|p2a: Jolteon
+|-fail|p2a: Jolteon|par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|233/333 par
+|move|p2a: Jolteon|Pin Missile|p1a: Chansey
+|-damage|p1a: Chansey|406/703
+|-damage|p1a: Chansey|382/703
+|-damage|p1a: Chansey|358/703
+|-hitcount|p1a: Chansey|3
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-crit|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|500/703
+|-damage|p1a: Chansey|297/703
+|-hitcount|p1a: Chansey|2
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|648/703
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|543/703
+|-damage|p1a: Chansey|438/703
+|-hitcount|p1a: Chansey|2
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|133/333 par
+|move|p2a: Jolteon|Focus Energy|p2a: Jolteon
+|-start|p2a: Jolteon|move: Focus Energy
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|33/333 par
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|335/703
+|-damage|p1a: Chansey|232/703
+|-hitcount|p1a: Chansey|2
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|583/703
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|483/703
+|-damage|p1a: Chansey|383/703
+|-hitcount|p1a: Chansey|2
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Lapras|Lapras|463/463
+|turn|22
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|
+|upkeep
+|turn|23
+|
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|348/703|[from] confusion
+|move|p2a: Lapras|Surf|p1a: Chansey
+|-damage|p1a: Chansey|251/703
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Starmie|Starmie|140/323
+|move|p2a: Lapras|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|107/323
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Chansey|Chansey|251/703
+|move|p2a: Lapras|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|178/703
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|529/703
+|cant|p2a: Lapras|par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|363/463 par
+|cant|p2a: Lapras|par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|263/463 par
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|
+|upkeep
+|turn|29
+|
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|163/463 par
+|move|p2a: Lapras|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|467/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Starmie|Starmie|107/323
+|move|p2a: Lapras|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|73/323
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Chansey|Chansey|467/703
+|move|p2a: Lapras|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|394/703
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|63/463 par
+|move|p2a: Lapras|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|328/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|679/703
+|cant|p2a: Lapras|par
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|turn|35
+|
+|move|p2a: Dragonite|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Dragonite|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|548/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Gengar|Gengar|323/323
+|turn|37
+|c|☆charm1|gg
+|
+|move|p2a: Gengar|Hypnosis|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p1a: Chansey|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|upkeep
+|turn|38
+|
+|cant|p2a: Gengar|par
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|283/323 par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|156/323 par
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Starmie|Starmie|73/323
+|move|p2a: Gengar|Confuse Ray|p1a: Starmie
+|-start|p1a: Starmie|confusion
+|
+|upkeep
+|turn|41
+|
+|-activate|p1a: Starmie|confusion
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|234/323
+|move|p2a: Gengar|Hypnosis|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Chansey|Chansey|548/703 par
+|cant|p2a: Gengar|par
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|513/703 par|[from] confusion
+|
+|upkeep
+|turn|44
+|
+|cant|p2a: Gengar|par
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|93/323 par
+|
+|upkeep
+|turn|45
+|
+|cant|p2a: Gengar|par
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|478/703 par|[from] confusion
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Chansey
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|443/703 par|[from] confusion
+|
+|upkeep
+|turn|47
+|
+|cant|p2a: Gengar|par
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|48
+|
+|cant|p2a: Gengar|par
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|22/323 par
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|668/703 par|[from] confusion
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Gengar|Night Shade|p1a: Chansey
+|-damage|p1a: Chansey|568/703 par
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|533/703 par|[from] confusion
+|
+|upkeep
+|turn|51
+|
+|move|p2a: Gengar|Night Shade|p1a: Chansey
+|-damage|p1a: Chansey|433/703 par
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|398/703 par|[from] confusion
+|
+|upkeep
+|turn|52
+|
+|move|p2a: Gengar|Night Shade|p1a: Chansey
+|-damage|p1a: Chansey|298/703 par
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|649/703 par
+|
+|upkeep
+|turn|53
+|
+|move|p2a: Gengar|Night Shade|p1a: Chansey
+|-damage|p1a: Chansey|549/703 par
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Ice Beam|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|starrank
+|c|☆starrank|gg
+|raw|starrank's rating: 1117 &rarr; <strong>1134</strong><br />(+17 for winning)
+|raw|charm1's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆charm1|xD
+|c|☆charm1|im s ohorrible
+|c|☆charm1|in gen 1
+|c|☆charm1|im new  2 this
+|c|☆starrank|me too
+|c|☆charm1|just made a random team
+|c|☆charm1|well chansey
+|c|☆charm1|is very good
+|c|☆starrank|but i think chansy is really good pokemon in GEN1
+|c|☆charm1|yep
+|c|☆charm1|with thunder wave
+|c|☆charm1|I didn't know soft boil was a thing I n this gen
+|l|☆charm1
+|c|☆starrank|because in gen1 the spa=spd=105

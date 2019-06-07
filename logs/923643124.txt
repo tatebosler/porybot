@@ -1,0 +1,581 @@
+|j|☆MewtwoSaki
+|j|☆diro
+|player|p1|MewtwoSaki|2
+|player|p2|diro|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|580/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|249/313
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|320/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|86/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|437/703 par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|301/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|208/313 par
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|262/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|108/313 par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|8/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|9
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|164/313 par
+|
+|upkeep
+|turn|10
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|
+|upkeep
+|turn|11
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|162/313 par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|62/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|218/313 par
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam|[miss]
+|-miss|p1a: Alakazam
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|118/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|18/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|174/313 par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|17
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|257/313 par
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Chansey|Chansey|301/703 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|169/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|520/703 par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|279/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|152/313 par
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|308/313 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|630/703 par
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|512/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Alakazam|Alakazam|257/313 par
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|153/313 par
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|53/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|209/313 par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|109/313 par
+|move|p2a: Alakazam|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|208/313 par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|9/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|165/313 par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|65/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|221/313 par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|121/313 par
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|21/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|177/313 par
+|
+|upkeep
+|turn|30
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|77/313 par
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|233/313 par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|133/313 par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|33/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|189/313 par
+|
+|upkeep
+|turn|33
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|89/313 par
+|
+|upkeep
+|turn|34
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|245/313 par
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|145/313 par
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|36
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|45/313 par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|38
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|423/703
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|146/703
+|-mustrecharge|p2a: Snorlax
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|recharge
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|497/703
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|351/703
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|702/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|557/703
+|
+|upkeep
+|turn|44
+|
+|switch|p2a: Chansey|Chansey|512/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|412/703 par
+|
+|upkeep
+|turn|45
+|
+|switch|p1a: Alakazam|Alakazam|208/313 par
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|141/313 par
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Snorlax|Snorlax|423/523 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|47
+|
+|switch|p1a: Chansey|Chansey|557/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|17/703
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|323/523 par
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|49
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|197/523 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Tauros
+|-damage|p1a: Tauros|25/353
+|faint|p2a: Snorlax
+|
+|switch|p2a: Starmie|Starmie|323/323
+|turn|50
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Alakazam|Alakazam|141/313 par
+|turn|51
+|
+|switch|p2a: Chansey|Chansey|412/703 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|52
+|
+|switch|p2a: Tauros|Tauros|353/353
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|297/313 par
+|
+|upkeep
+|turn|53
+|
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|turn|54
+|
+|move|p2a: Tauros|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|268/383
+|move|p1a: Zapdos|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|181/353 par
+|cant|p2a: Tauros|par
+|
+|upkeep
+|turn|56
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|57
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Zapdos
+|-status|p1a: Zapdos|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|58
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|cant|p2a: Exeggutor|par
+|
+|upkeep
+|turn|59
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|310/413
+|move|p2a: Exeggutor|Psychic|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|upkeep
+|turn|60
+|
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|207/413
+|move|p2a: Exeggutor|Psychic|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|upkeep
+|turn|61
+|
+|switch|p1a: The King|Snorlax|523/523
+|move|p2a: Exeggutor|Psychic|p1a: The King
+|-damage|p1a: The King|373/523
+|-unboost|p1a: The King|spd|1
+|-unboost|p1a: The King|spa|1
+|
+|upkeep
+|turn|62
+|
+|move|p1a: The King|Reflect|p1a: The King
+|-start|p1a: The King|Reflect
+|move|p2a: Exeggutor|Psychic|p1a: The King
+|-damage|p1a: The King|137/523
+|
+|upkeep
+|turn|63
+|
+|move|p1a: The King|Amnesia|p1a: The King
+|-boost|p1a: The King|spd|2
+|-boost|p1a: The King|spa|2
+|cant|p2a: Exeggutor|par
+|
+|upkeep
+|turn|64
+|
+|move|p1a: The King|Rest|p1a: The King
+|-status|p1a: The King|slp|[from] move: Rest
+|-heal|p1a: The King|523/523 slp|[silent]
+|move|p2a: Exeggutor|Explosion|p1a: The King
+|-damage|p1a: The King|354/523 slp
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Starmie|Starmie|323/323
+|turn|65
+|
+|move|p2a: Starmie|Thunderbolt|p1a: The King
+|-damage|p1a: The King|284/523 slp
+|cant|p1a: The King|slp
+|
+|upkeep
+|turn|66
+|
+|move|p2a: Starmie|Thunderbolt|p1a: The King
+|-crit|p1a: The King
+|-damage|p1a: The King|87/523 slp
+|-curestatus|p1a: The King|slp|[msg]
+|
+|upkeep
+|turn|67
+|
+|move|p2a: Starmie|Blizzard|p1a: The King
+|-damage|p1a: The King|12/523
+|move|p1a: The King|Rest|p1a: The King
+|-fail|p1a: The King
+|
+|upkeep
+|turn|68
+|
+|move|p2a: Starmie|Thunderbolt|p1a: The King
+|-damage|p1a: The King|0 fnt
+|faint|p1a: The King
+|
+|switch|p1a: Rhydon|Rhydon|207/413
+|turn|69
+|
+|move|p2a: Starmie|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Zapdos|Zapdos|268/383 slp
+|turn|70
+|
+|move|p2a: Starmie|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|110/383 slp
+|cant|p1a: Zapdos|slp
+|
+|upkeep
+|turn|71
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|42/383 slp
+|-curestatus|p1a: Zapdos|slp|[msg]
+|
+|upkeep
+|turn|72
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|win|diro

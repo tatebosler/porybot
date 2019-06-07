@@ -1,0 +1,302 @@
+|j|☆Sra. Pulia
+|j|☆Carnetric
+|player|p1|Sra. Pulia|188
+|player|p2|Carnetric|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: X-Salad|Ivysaur|323/323
+|switch|p2a: Pikachu|Pikachu|273/273
+|turn|1
+|
+|switch|p2a: Pidgeot|Pidgeot|369/369
+|move|p1a: X-Salad|Sleep Powder|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Luxus|Raichu|323/323
+|cant|p2a: Pidgeot|slp
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Muk|Muk|413/413
+|move|p1a: Luxus|Thunder|p2a: Muk
+|-damage|p2a: Muk|246/413
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Luxus|Body Slam|p2a: Muk
+|-damage|p2a: Muk|167/413
+|move|p2a: Muk|Hyper Beam|p1a: Luxus
+|-crit|p1a: Luxus
+|-damage|p1a: Luxus|3/323
+|-mustrecharge|p2a: Muk
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Luxus|Submission|p2a: Muk
+|-resisted|p2a: Muk
+|-damage|p2a: Muk|132/413
+|-damage|p1a: Luxus|0 fnt|[from] Recoil|[of] p2a: Muk
+|faint|p1a: Luxus
+|
+|switch|p1a: Dra. Claw|Kingler|313/313
+|turn|6
+|
+|move|p1a: Dra. Claw|Ice Beam|p2a: Muk
+|-damage|p2a: Muk|66/413
+|-status|p2a: Muk|frz
+|cant|p2a: Muk|recharge
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Pikachu|Pikachu|273/273
+|move|p1a: Dra. Claw|Stomp|p2a: Pikachu
+|-damage|p2a: Pikachu|150/273
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: X-Salad|Ivysaur|323/323
+|move|p2a: Pikachu|Thunderbolt|p1a: X-Salad
+|-resisted|p1a: X-Salad
+|-damage|p1a: X-Salad|278/323
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Pikachu|Thunder Wave|p1a: X-Salad
+|-status|p1a: X-Salad|par
+|move|p1a: X-Salad|Toxic|p2a: Pikachu
+|-status|p2a: Pikachu|tox
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Charizard|Charizard|359/359
+|switch|p1a: THE DAWG|Arcanine|383/383
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|move|p1a: THE DAWG|Skull Bash||[still]
+|-prepare|p1a: THE DAWG|Skull Bash|p2a: Charizard
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Charizard|Earthquake|p1a: THE DAWG
+|-supereffective|p1a: THE DAWG
+|-damage|p1a: THE DAWG|78/383
+|move|p1a: THE DAWG|Skull Bash|p2a: Charizard|[from]Skull Bash
+|-damage|p2a: Charizard|266/359
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Charizard|Earthquake|p1a: THE DAWG
+|-supereffective|p1a: THE DAWG
+|-damage|p1a: THE DAWG|0 fnt
+|faint|p1a: THE DAWG
+|
+|switch|p1a: Dra. Claw|Kingler|313/313
+|turn|14
+|
+|switch|p2a: Balbasear|Bulbasaur|293/293
+|move|p1a: Dra. Claw|Swords Dance|p1a: Dra. Claw
+|-boost|p1a: Dra. Claw|atk|2
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Dra. Claw|Ice Beam|p2a: Balbasear
+|-supereffective|p2a: Balbasear
+|-damage|p2a: Balbasear|159/293
+|-message|Freeze Clause activated.
+|move|p2a: Balbasear|Leech Seed|p1a: Dra. Claw
+|-start|p1a: Dra. Claw|move: Leech Seed
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dra. Claw|Ice Beam|p2a: Balbasear
+|-supereffective|p2a: Balbasear
+|-damage|p2a: Balbasear|28/293
+|-damage|p1a: Dra. Claw|294/313|[from] Leech Seed|[of] p2a: Balbasear
+|-heal|p2a: Balbasear|47/293|[silent]
+|move|p2a: Balbasear|Growth|p2a: Balbasear
+|-boost|p2a: Balbasear|spa|1
+|-boost|p2a: Balbasear|spd|1
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dra. Claw|Ice Beam|p2a: Balbasear
+|-crit|p2a: Balbasear
+|-supereffective|p2a: Balbasear
+|-damage|p2a: Balbasear|0 fnt
+|faint|p2a: Balbasear
+|
+|switch|p2a: Squirtle|Squirtle|291/291
+|turn|18
+|
+|move|p1a: Dra. Claw|Swords Dance|p1a: Dra. Claw
+|-boost|p1a: Dra. Claw|atk|2
+|-damage|p1a: Dra. Claw|275/313|[from] Leech Seed|[of] p2a: Squirtle
+|move|p2a: Squirtle|Substitute|p2a: Squirtle
+|-start|p2a: Squirtle|Substitute
+|-damage|p2a: Squirtle|219/291
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Dra. Claw|Stomp|p2a: Squirtle
+|-end|p2a: Squirtle|Substitute
+|-damage|p1a: Dra. Claw|256/313|[from] Leech Seed|[of] p2a: Squirtle
+|-heal|p2a: Squirtle|238/291|[silent]
+|move|p2a: Squirtle|Withdraw|p2a: Squirtle
+|-boost|p2a: Squirtle|def|1
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Dra. Claw|Stomp|p2a: Squirtle
+|-damage|p2a: Squirtle|82/291
+|-damage|p1a: Dra. Claw|237/313|[from] Leech Seed|[of] p2a: Squirtle
+|-heal|p2a: Squirtle|101/291|[silent]
+|move|p2a: Squirtle|Substitute|p2a: Squirtle
+|-start|p2a: Squirtle|Substitute
+|-damage|p2a: Squirtle|29/291
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Dra. Claw|Stomp|p2a: Squirtle
+|-crit|p2a: Squirtle
+|-end|p2a: Squirtle|Substitute
+|-damage|p1a: Dra. Claw|218/313|[from] Leech Seed|[of] p2a: Squirtle
+|-heal|p2a: Squirtle|48/291|[silent]
+|move|p2a: Squirtle|Withdraw|p2a: Squirtle
+|-boost|p2a: Squirtle|def|1
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Dra. Claw|Stomp|p2a: Squirtle
+|-damage|p2a: Squirtle|0 fnt
+|faint|p2a: Squirtle
+|
+|switch|p2a: Pikachu|Pikachu|150/273 tox
+|turn|23
+|
+|move|p2a: Pikachu|Thunder Wave|p1a: Dra. Claw
+|-status|p1a: Dra. Claw|par
+|-damage|p2a: Pikachu|133/273 psn|[from] psn|[of] p1a: Dra. Claw
+|move|p1a: Dra. Claw|Stomp|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|
+|switch|p2a: Pidgeot|Pidgeot|369/369 slp
+|turn|24
+|
+|cant|p2a: Pidgeot|slp
+|cant|p1a: Dra. Claw|par
+|-damage|p1a: Dra. Claw|199/313 par|[from] Leech Seed|[of] p2a: Pidgeot
+|
+|upkeep
+|turn|25
+|
+|cant|p2a: Pidgeot|slp
+|move|p1a: Dra. Claw|Ice Beam|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|246/369 slp
+|-damage|p1a: Dra. Claw|180/313 par|[from] Leech Seed|[of] p2a: Pidgeot
+|-heal|p2a: Pidgeot|265/369 slp|[silent]
+|
+|upkeep
+|turn|26
+|
+|cant|p2a: Pidgeot|slp
+|move|p1a: Dra. Claw|Stomp|p2a: Pidgeot
+|-damage|p2a: Pidgeot|55/369 slp
+|-damage|p1a: Dra. Claw|161/313 par|[from] Leech Seed|[of] p2a: Pidgeot
+|-heal|p2a: Pidgeot|74/369 slp|[silent]
+|
+|upkeep
+|turn|27
+|
+|cant|p2a: Pidgeot|slp
+|cant|p1a: Dra. Claw|par
+|-damage|p1a: Dra. Claw|142/313 par|[from] Leech Seed|[of] p2a: Pidgeot
+|-heal|p2a: Pidgeot|93/369 slp|[silent]
+|
+|upkeep
+|turn|28
+|
+|cant|p2a: Pidgeot|slp
+|cant|p1a: Dra. Claw|par
+|-damage|p1a: Dra. Claw|123/313 par|[from] Leech Seed|[of] p2a: Pidgeot
+|-heal|p2a: Pidgeot|112/369 slp|[silent]
+|
+|upkeep
+|turn|29
+|
+|-curestatus|p2a: Pidgeot|slp|[msg]
+|move|p1a: Dra. Claw|Stomp|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Charizard|Charizard|266/359
+|turn|30
+|
+|move|p2a: Charizard|Slash|p1a: Dra. Claw
+|-crit|p1a: Dra. Claw
+|-damage|p1a: Dra. Claw|41/313 par
+|move|p1a: Dra. Claw|Crabhammer|p2a: Charizard
+|-crit|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Muk|Muk|66/413 frz
+|turn|31
+|
+|cant|p2a: Muk|frz
+|cant|p1a: Dra. Claw|par
+|-damage|p1a: Dra. Claw|22/313 par|[from] Leech Seed|[of] p2a: Muk
+|-heal|p2a: Muk|85/413 frz|[silent]
+|
+|upkeep
+|turn|32
+|
+|cant|p2a: Muk|frz
+|move|p1a: Dra. Claw|Stomp|p2a: Muk
+|-crit|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|win|Sra. Pulia
+|c|☆Sra. Pulia|gg
+|c|☆Carnetric|gg
+|l|☆Carnetric
+|raw|Sra. Pulia's rating: 1000 &rarr; <strong>1043</strong><br />(+43 for winning)
+|raw|Carnetric's rating: 1028 &rarr; <strong>1013</strong><br />(-15 for losing)

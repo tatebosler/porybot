@@ -1,0 +1,283 @@
+|j|☆Dr Nibs
+|j|☆Kayles
+|player|p1|Dr Nibs|250
+|player|p2|Kayles|229
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Arcanine|Arcanine|383/383
+|turn|1
+|
+|switch|p1a: Gyarados|Gyarados|393/393
+|move|p2a: Arcanine|Substitute|p2a: Arcanine
+|-start|p2a: Arcanine|Substitute
+|-damage|p2a: Arcanine|288/383
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Arcanine|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|308/393
+|move|p1a: Gyarados|Body Slam|p2a: Arcanine
+|-activate|p2a: Arcanine|Substitute|[damage]
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Arcanine|Body Slam|p1a: Gyarados
+|-damage|p1a: Gyarados|221/393
+|move|p1a: Gyarados|Body Slam|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-end|p2a: Arcanine|Substitute
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Arcanine|Substitute|p2a: Arcanine
+|-start|p2a: Arcanine|Substitute
+|-damage|p2a: Arcanine|193/383
+|move|p1a: Gyarados|Hydro Pump|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-end|p2a: Arcanine|Substitute
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Exeggcute|Exeggcute|323/323
+|move|p1a: Gyarados|Blizzard|p2a: Exeggcute
+|-supereffective|p2a: Exeggcute
+|-damage|p2a: Exeggcute|57/323
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Gyarados|Body Slam|p2a: Exeggcute
+|-damage|p2a: Exeggcute|0 fnt
+|faint|p2a: Exeggcute
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|7
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383/383
+|move|p2a: Zapdos|Drill Peck|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|201/383
+|
+|upkeep
+|turn|8
+|c|☆Dr Nibs|Aie
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|111/383
+|move|p1a: Nidoqueen|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|7/383
+|move|p1a: Nidoqueen|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|240/383
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Clefable|Clefable|393/393
+|move|p2a: Zapdos|Drill Peck|p1a: Clefable
+|-damage|p1a: Clefable|284/393
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Arcanine|Arcanine|193/383
+|move|p1a: Clefable|Thunder Wave|p2a: Arcanine
+|-status|p2a: Arcanine|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Clefable|Reflect|p1a: Clefable
+|-start|p1a: Clefable|Reflect
+|move|p2a: Arcanine|Body Slam|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|106/393
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Clefable|Rest|p1a: Clefable
+|-status|p1a: Clefable|slp|[from] move: Rest
+|-heal|p1a: Clefable|393/393 slp|[silent]
+|cant|p2a: Arcanine|par
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Charizard|Charizard|359/359
+|switch|p2a: Gengar|Gengar|323/323
+|
+|upkeep
+|turn|15
+|j| SempaiLugia
+|
+|move|p2a: Gengar|Hypnosis|p1a: Charizard
+|-status|p1a: Charizard|slp|[from] move: Hypnosis
+|cant|p1a: Charizard|slp
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Nidoqueen|Nidoqueen|7/383
+|move|p2a: Gengar|Psychic|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|turn|17
+|
+|switch|p2a: Arcanine|Arcanine|193/383 par
+|move|p1a: Exeggutor|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|39/383 par
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Exeggutor|Psychic|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|switch|p2a: Kadabra|Kadabra|283/283
+|turn|19
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|228/283
+|-unboost|p2a: Kadabra|spd|1
+|-unboost|p2a: Kadabra|spa|1
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Kadabra|Psychic|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|297/393 par
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|move|p1a: Exeggutor|Sleep Powder|p2a: Kadabra
+|-status|p2a: Kadabra|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Zapdos|Zapdos|240/383
+|move|p1a: Exeggutor|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|166/383
+|-unboost|p2a: Zapdos|spd|1
+|-unboost|p2a: Zapdos|spa|1
+|
+|upkeep
+|turn|22
+|c|☆Kayles|mais bordel stop
+|
+|switch|p2a: Kadabra|Kadabra|228/283 slp
+|move|p1a: Exeggutor|Explosion|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Gengar|Gengar|323/323
+|switch|p1a: Machamp|Machamp|383/383
+|turn|23
+|
+|move|p2a: Gengar|Psychic|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|146/383
+|move|p1a: Machamp|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|63/323
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Clefable|Clefable|393/393 slp
+|move|p2a: Gengar|Psychic|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|205/393 slp
+|-unboost|p1a: Clefable|spd|1
+|-unboost|p1a: Clefable|spa|1
+|
+|upkeep
+|turn|25
+|c|☆Dr Nibs|Oh non
+|
+|move|p2a: Gengar|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|58/393 slp
+|cant|p1a: Clefable|slp
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Gengar|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p1a: Charizard|Charizard|359/359 slp
+|turn|27
+|
+|move|p2a: Gengar|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|266/359 slp
+|cant|p1a: Charizard|slp
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Gengar|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|177/359 slp
+|-curestatus|p1a: Charizard|slp|[msg]
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Gengar|Explosion|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|faint|p2a: Gengar
+|
+|switch|p2a: Zapdos|Zapdos|166/383
+|switch|p1a: Machamp|Machamp|146/383
+|turn|30
+|c|☆Dr Nibs|C'est dommage de perdre sur une drop psychic mais c'est le rby
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Gyarados|Gyarados|221/393
+|turn|31
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|win|Kayles
+|c|☆Kayles|gg

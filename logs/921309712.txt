@@ -1,0 +1,346 @@
+|j|☆Rycera
+|j|☆Beelzemon 2003
+|player|p1|Rycera|163
+|player|p2|Beelzemon 2003|120
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333/333
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|c|☆Beelzemon 2003|let's a go!
+|c|☆Beelzemon 2003|:D
+|
+|switch|p2a: Dugtrio|Dugtrio|273/273
+|move|p1a: Jolteon|Thunderbolt|p2a: Dugtrio
+|-immune|p2a: Dugtrio
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Beelzemon 2003)
+|c|☆Rycera|h,, yup
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Dugtrio|Slash|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|222/323
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Electrode|Electrode|323/323
+|move|p1a: Starmie|Surf|p2a: Electrode
+|-damage|p2a: Electrode|184/323
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Electrode|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|move|p1a: Starmie|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|61/323
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Electrode|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|24/323 par
+|faint|p2a: Electrode
+|
+|switch|p2a: Dugtrio|Dugtrio|273/273
+|turn|6
+|
+|move|p2a: Dugtrio|Slash|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|turn|7
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|78/393
+|move|p1a: Exeggutor|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|202/323
+|-heal|p1a: Exeggutor|138/393|[from] drain|[of] p2a: Starmie
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|10
+|
+|move|p2a: Starmie|Surf|p1a: Tauros
+|-damage|p1a: Tauros|204/353
+|move|p1a: Tauros|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|82/323
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|11
+|c|☆Beelzemon 2003|:o
+|
+|move|p1a: Tauros|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Scyther|Scyther|343/343
+|turn|12
+|
+|move|p1a: Tauros|Fire Blast|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|130/343
+|move|p2a: Scyther|Slash|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|87/353
+|
+|upkeep
+|turn|13
+|inactive|Rycera has 270 seconds left.
+|
+|move|p2a: Scyther|Quick Attack|p1a: Tauros
+|-damage|p1a: Tauros|53/353
+|move|p1a: Tauros|Ice Beam|p2a: Scyther
+|-crit|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|switch|p2a: Dugtrio|Dugtrio|273/273
+|turn|14
+|
+|move|p2a: Dugtrio|Slash|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|15
+|
+|switch|p2a: Tangela|Tangela|333/333
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Snorlax|[miss]
+|-miss|p2a: Tangela
+|move|p1a: Snorlax|Ice Beam|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|177/333
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sleep Powder
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sleep Powder
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|21
+|c|☆Beelzemon 2003|XD
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|22
+|c|☆Rycera|what was happening??
+|c|☆Beelzemon 2003|Snorlax was a fast sleeper
+|inactive|Rycera has 270 seconds left.
+|inactive|Rycera has 240 seconds left.
+|
+|move|p2a: Tangela|Growth|p2a: Tangela
+|-boost|p2a: Tangela|spa|1
+|-boost|p2a: Tangela|spd|1
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|23
+|c|☆Rycera|hmm
+|inactive|Rycera has 240 seconds left.
+|inactive|Rycera has 210 seconds left.
+|inactive|Rycera has 180 seconds left.
+|inactive|Rycera has 150 seconds left.
+|
+|move|p2a: Tangela|Mega Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|456/523 slp
+|-heal|p2a: Tangela|210/333|[from] drain|[of] p1a: Snorlax
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Tangela|Mega Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|399/523 slp
+|-heal|p2a: Tangela|238/333|[from] drain|[of] p1a: Snorlax
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|25
+|inactive|Rycera has 150 seconds left.
+|inactive|Rycera has 120 seconds left.
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Snorlax|[miss]
+|-miss|p2a: Tangela
+|move|p1a: Snorlax|Ice Beam|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|115/333
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Tangela|Mega Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|334/523
+|-heal|p2a: Tangela|147/333|[from] drain|[of] p1a: Snorlax
+|move|p1a: Snorlax|Ice Beam|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|28/333
+|
+|upkeep
+|turn|27
+|inactive|Rycera has 90 seconds left.
+|
+|move|p2a: Tangela|Sleep Powder|p1a: Snorlax|[miss]
+|-miss|p2a: Tangela
+|move|p1a: Snorlax|Ice Beam|p2a: Tangela
+|-supereffective|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|c|☆Beelzemon 2003|:o
+|
+|switch|p2a: Lapras|Lapras|463/463
+|turn|28
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|286/523|[from] confusion
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Lapras|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|194/523
+|-end|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Self-Destruct|p2a: Lapras
+|-damage|p2a: Lapras|104/463
+|faint|p1a: Snorlax
+|c|☆Beelzemon 2003|big boom!
+|inactive|Rycera has 90 seconds left.
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|turn|30
+|c|☆Rycera|yyup
+|
+|switch|p2a: Dugtrio|Dugtrio|273/273
+|move|p1a: Jolteon|Body Slam|p2a: Dugtrio
+|-damage|p2a: Dugtrio|198/273
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Jolteon|Toxic|p2a: Dugtrio
+|-status|p2a: Dugtrio|tox
+|move|p2a: Dugtrio|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|49/333
+|-damage|p2a: Dugtrio|181/273 tox|[from] psn
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Jolteon|Body Slam|p2a: Dugtrio
+|-damage|p2a: Dugtrio|105/273 tox
+|move|p2a: Dugtrio|Slash|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|inactive|Rycera has 90 seconds left.
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|33
+|c|☆Beelzemon 2003|Welp!
+|
+|move|p2a: Dugtrio|Earthquake|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|4/313
+|-damage|p2a: Dugtrio|71/273 tox|[from] psn
+|move|p1a: Alakazam|Psychic|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|faint|p2a: Dugtrio
+|
+|switch|p2a: Lapras|Lapras|104/463
+|turn|34
+|
+|move|p1a: Alakazam|Psychic|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|win|Rycera
+|c|☆Beelzemon 2003|well done!
+|c|☆Beelzemon 2003|:D
+|c|☆Rycera|so close
+|c|☆Beelzemon 2003|you beat me!
+|c|☆Rycera|thanks
+|c|☆Rycera|gg
+|c|☆Beelzemon 2003|congratulations!
+|c|☆Beelzemon 2003|gg chum, gg
+|c|☆Beelzemon 2003|:)
+|c|☆Rycera|now bye....you are legend
+|c|☆Beelzemon 2003|thnx
+|c|☆Beelzemon 2003|u2
+|c|☆Beelzemon 2003|bye

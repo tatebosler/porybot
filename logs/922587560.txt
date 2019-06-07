@@ -1,0 +1,444 @@
+|j|☆QQent1
+|j|☆7 Tools
+|player|p1|QQent1|101
+|player|p2|7 Tools|richboy-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333/333
+|switch|p2a: Südstern5|Starmie|323/323
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 7 Tools)
+|
+|switch|p2a: Terraformer8|Rhydon|413/413
+|move|p1a: Jolteon|Body Slam|p2a: Terraformer8
+|-resisted|p2a: Terraformer8
+|-damage|p2a: Terraformer8|389/413
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Terraformer8|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|309/393
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Südstern5|Starmie|323/323
+|move|p1a: Exeggutor|Sleep Powder|p2a: Südstern5
+|-status|p2a: Südstern5|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Infect4|Exeggutor|393/393
+|move|p1a: Exeggutor|Mega Drain|p2a: Infect4
+|-resisted|p2a: Infect4
+|-damage|p2a: Infect4|368/393
+|-heal|p1a: Exeggutor|321/393|[from] drain|[of] p2a: Infect4
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Infect4|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Infect4
+|move|p1a: Exeggutor|Psychic|p2a: Infect4
+|-resisted|p2a: Infect4
+|-damage|p2a: Infect4|316/393
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Infect4|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Infect4
+|move|p1a: Exeggutor|Psychic|p2a: Infect4
+|-resisted|p2a: Infect4
+|-damage|p2a: Infect4|266/393
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Exeggutor|Psychic|p2a: Infect4
+|-crit|p2a: Infect4
+|-resisted|p2a: Infect4
+|-damage|p2a: Infect4|164/393
+|-unboost|p2a: Infect4|spd|1
+|-unboost|p2a: Infect4|spa|1
+|move|p2a: Infect4|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Infect4
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Infect4|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Infect4
+|move|p1a: Exeggutor|Psychic|p2a: Infect4
+|-resisted|p2a: Infect4
+|-damage|p2a: Infect4|81/393
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Infect4|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Infect4
+|move|p1a: Exeggutor|Psychic|p2a: Infect4
+|-resisted|p2a: Infect4
+|-damage|p2a: Infect4|1/393
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Infect4
+|-crit|p2a: Infect4
+|-resisted|p2a: Infect4
+|-damage|p2a: Infect4|0 fnt
+|-heal|p1a: Exeggutor|322/393|[from] drain|[of] p2a: Infect4
+|faint|p2a: Infect4
+|inactive|7 Tools has 120 seconds left.
+|
+|switch|p2a: bigbones2|Snorlax|523/523
+|turn|11
+|
+|move|p1a: Exeggutor|Psychic|p2a: bigbones2
+|-crit|p2a: bigbones2
+|-damage|p2a: bigbones2|214/523
+|move|p2a: bigbones2|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|199/393
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Exeggutor|Psychic|p2a: bigbones2
+|-damage|p2a: bigbones2|47/523
+|move|p2a: bigbones2|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|83/393
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: 3Dπ3|Chansey|703/703
+|move|p1a: Exeggutor|Mega Drain|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|646/703
+|-heal|p1a: Exeggutor|111/393|[from] drain|[of] p2a: 3Dπ3
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Südstern5|Starmie|323/323 slp
+|move|p1a: Exeggutor|Explosion|p2a: Südstern5
+|-damage|p2a: Südstern5|44/323 slp
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|15
+|
+|switch|p2a: 3Dπ3|Chansey|646/703
+|move|p1a: Starmie|Ice Beam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|569/703
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Starmie|Ice Beam|p2a: 3Dπ3
+|-crit|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|437/703
+|move|p2a: 3Dπ3|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|163/323
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Gengar|Gengar|323/323
+|move|p2a: 3Dπ3|Soft-Boiled|p2a: 3Dπ3
+|-heal|p2a: 3Dπ3|703/703
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Gengar|Hypnosis|p2a: 3Dπ3
+|-message|Sleep Clause Mod activated.
+|move|p2a: 3Dπ3|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Terraformer8|Rhydon|389/413
+|move|p1a: Gengar|Hypnosis|p2a: Terraformer8
+|-message|Sleep Clause Mod activated.
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Terraformer8|Substitute|p2a: Terraformer8
+|-start|p2a: Terraformer8|Substitute
+|-damage|p2a: Terraformer8|286/413
+|cant|p1a: Gengar|par
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Terraformer8|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|22
+|
+|move|p1a: Tauros|Earthquake|p2a: Terraformer8
+|-supereffective|p2a: Terraformer8
+|-end|p2a: Terraformer8|Substitute
+|move|p2a: Terraformer8|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|217/353
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Südstern5|Starmie|44/323 slp
+|move|p1a: Tauros|Blizzard|p2a: Südstern5
+|-resisted|p2a: Südstern5
+|-damage|p2a: Südstern5|10/323 slp
+|
+|upkeep
+|turn|24
+|
+|cant|p2a: Südstern5|slp
+|move|p1a: Tauros|Body Slam|p2a: Südstern5
+|-damage|p2a: Südstern5|0 fnt
+|faint|p2a: Südstern5
+|
+|switch|p2a: Streetguard1|Tauros|353/353
+|turn|25
+|
+|move|p1a: Tauros|Body Slam|p2a: Streetguard1
+|-damage|p2a: Streetguard1|245/353
+|move|p2a: Streetguard1|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|116/353
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: Streetguard1|Hyper Beam|p1a: Golem|[miss]
+|-miss|p2a: Streetguard1
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: 3Dπ3|Chansey|703/703
+|move|p1a: Golem|Earthquake|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|376/703
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Tauros|Tauros|116/353
+|move|p2a: 3Dπ3|Ice Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|turn|29
+|
+|switch|p1a: Golem|Golem|363/363
+|switch|p2a: Terraformer8|Rhydon|286/413
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Golem|Earthquake|p2a: Terraformer8
+|-supereffective|p2a: Terraformer8
+|-damage|p2a: Terraformer8|78/413
+|move|p2a: Terraformer8|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|116/363
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: bigbones2|Snorlax|47/523
+|move|p1a: Golem|Earthquake|p2a: bigbones2
+|-damage|p2a: bigbones2|0 fnt
+|faint|p2a: bigbones2
+|
+|switch|p2a: Streetguard1|Tauros|245/353
+|turn|32
+|
+|switch|p1a: Starmie|Starmie|163/323 par
+|move|p2a: Streetguard1|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|82/323 par
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Streetguard1|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|turn|34
+|
+|switch|p2a: 3Dπ3|Chansey|376/703
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|239/703
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|92/703
+|move|p2a: 3Dπ3|Soft-Boiled|p2a: 3Dπ3
+|-heal|p2a: 3Dπ3|443/703
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: 3Dπ3
+|-status|p2a: 3Dπ3|par
+|cant|p2a: 3Dπ3|par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|296/703 par
+|move|p2a: 3Dπ3|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|upkeep
+|turn|38
+|inactive|QQent1 has 120 seconds left.
+|
+|cant|p1a: Jolteon|par
+|move|p2a: 3Dπ3|Soft-Boiled|p2a: 3Dπ3
+|-heal|p2a: 3Dπ3|647/703 par
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|501/703 par
+|move|p2a: 3Dπ3|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|263/333 par
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|370/703 par
+|move|p2a: 3Dπ3|Soft-Boiled|p2a: 3Dπ3
+|-heal|p2a: 3Dπ3|703/703 par
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-crit|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|426/703 par
+|move|p2a: 3Dπ3|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|192/333 par
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|281/703 par
+|move|p2a: 3Dπ3|Soft-Boiled|p2a: 3Dπ3
+|-heal|p2a: 3Dπ3|632/703 par
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-crit|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|348/703 par
+|cant|p2a: 3Dπ3|par
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|204/703 par
+|move|p2a: 3Dπ3|Soft-Boiled|p2a: 3Dπ3
+|-heal|p2a: 3Dπ3|555/703 par
+|
+|upkeep
+|turn|45
+|
+|cant|p1a: Jolteon|par
+|move|p2a: 3Dπ3|Soft-Boiled|p2a: 3Dπ3
+|-heal|p2a: 3Dπ3|703/703 par
+|
+|upkeep
+|turn|46
+|
+|cant|p1a: Jolteon|par
+|move|p2a: 3Dπ3|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|115/333 par
+|
+|upkeep
+|turn|47
+|inactive|7 Tools has 120 seconds left.
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-crit|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|442/703 par
+|move|p2a: 3Dπ3|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|46/333 par
+|
+|upkeep
+|turn|48
+|
+|cant|p1a: Jolteon|par
+|move|p2a: 3Dπ3|Soft-Boiled|p2a: 3Dπ3
+|-heal|p2a: 3Dπ3|703/703 par
+|
+|upkeep
+|turn|49
+|inactive|7 Tools has 120 seconds left.
+|
+|move|p1a: Jolteon|Body Slam|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|559/703 par
+|move|p2a: 3Dπ3|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Golem|Golem|116/363
+|turn|50
+|
+|move|p1a: Golem|Earthquake|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|207/703 par
+|cant|p2a: 3Dπ3|par
+|
+|upkeep
+|turn|51
+|
+|move|p1a: Golem|Earthquake|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|0 fnt
+|faint|p2a: 3Dπ3
+|
+|switch|p2a: Streetguard1|Tauros|245/353
+|turn|52
+|
+|move|p2a: Streetguard1|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|win|7 Tools

@@ -1,0 +1,436 @@
+|j|☆limiles
+|j|☆SirStripes
+|player|p1|limiles|101
+|player|p2|SirStripes|165
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Persian|Persian|333/333
+|switch|p2a: Eggsy|Chansey|703/703
+|turn|1
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|369/703
+|move|p2a: Eggsy|Reflect|p2a: Eggsy
+|-start|p2a: Eggsy|Reflect
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|9/703
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|360/703
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Doppal|Gengar|323/323
+|move|p1a: Persian|Slash|p2a: Doppal
+|-immune|p2a: Doppal
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Persian|Thunderbolt|p2a: Doppal
+|-damage|p2a: Doppal|272/323
+|move|p2a: Doppal|Confuse Ray|p1a: Persian
+|-start|p1a: Persian|confusion
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|move|p2a: Doppal|Mega Drain|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|248/313
+|-heal|p2a: Doppal|304/323|[from] drain|[of] p1a: Alakazam
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|261/323
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Starmie|Surf|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|343/393
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Exeggutor|Mimic|p2a: Starmie
+|-start|p1a: Exeggutor|Mimic|Thunderbolt
+|move|p2a: Starmie|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|220/393
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|move|p2a: Starmie|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|103/393
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|142/323 par
+|-heal|p1a: Exeggutor|162/393|[from] drain|[of] p2a: Starmie
+|move|p2a: Starmie|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|39/393
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Balerion|Charizard|359/359
+|move|p1a: Exeggutor|Mega Drain|p2a: Balerion
+|-resisted|p2a: Balerion
+|-damage|p2a: Balerion|344/359
+|-heal|p1a: Exeggutor|46/393|[from] drain|[of] p2a: Balerion
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Balerion|Swords Dance|p2a: Balerion
+|-boost|p2a: Balerion|atk|2
+|move|p1a: Exeggutor|Sleep Powder|p2a: Balerion|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Balerion|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|15
+|
+|move|p1a: Starmie|Hydro Pump|p2a: Balerion
+|-supereffective|p2a: Balerion
+|-damage|p2a: Balerion|34/359
+|move|p2a: Balerion|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|190/323
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Balerion|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|34/323 par
+|move|p1a: Starmie|Thunderbolt|p2a: Balerion
+|-supereffective|p2a: Balerion
+|-damage|p2a: Balerion|0 fnt
+|faint|p2a: Balerion
+|
+|switch|p2a: Eggsy|Chansey|360/703
+|turn|17
+|
+|move|p2a: Eggsy|Light Screen|p2a: Eggsy
+|-start|p2a: Eggsy|Light Screen
+|move|p1a: Starmie|Hydro Pump|p2a: Eggsy
+|-damage|p2a: Eggsy|286/703
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Eggsy|Reflect|p2a: Eggsy
+|-start|p2a: Eggsy|Reflect
+|move|p1a: Starmie|Hydro Pump|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|12/703
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|363/703
+|move|p1a: Starmie|Thunderbolt|p2a: Eggsy
+|-damage|p2a: Eggsy|325/703
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|676/703
+|move|p1a: Starmie|Hydro Pump|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|399/703
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|703/703
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Eggsy|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Persian|Persian|333/333
+|turn|23
+|
+|move|p1a: Persian|Slash|p2a: Eggsy|[miss]
+|-miss|p1a: Persian
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|move|p2a: Eggsy|Seismic Toss|p1a: Persian|[miss]
+|-miss|p2a: Eggsy
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|
+|upkeep
+|turn|24
+|c|☆SirStripes|Well, that was mathematically improbable.
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|351/703
+|move|p2a: Eggsy|Seismic Toss|p1a: Persian
+|-damage|p1a: Persian|233/333
+|
+|upkeep
+|turn|25
+|c|☆limiles|in gen 1 it is
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|26/703
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|377/703
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|44/703
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|395/703
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|20/703
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|371/703
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|8/703
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|359/703
+|
+|upkeep
+|turn|29
+|c|☆SirStripes|I'm saying it was highly improbable that both would miss.
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|7/703
+|move|p2a: Eggsy|Soft-Boiled|p2a: Eggsy
+|-heal|p2a: Eggsy|358/703
+|
+|upkeep
+|turn|30
+|c|☆limiles|i know but that's one for history
+|
+|move|p1a: Persian|Slash|p2a: Eggsy
+|-crit|p2a: Eggsy
+|-damage|p2a: Eggsy|0 fnt
+|faint|p2a: Eggsy
+|
+|switch|p2a: Doppal|Gengar|304/323
+|turn|31
+|
+|move|p1a: Persian|Thunderbolt|p2a: Doppal
+|-damage|p2a: Doppal|254/323
+|move|p2a: Doppal|Thunderbolt|p1a: Persian
+|-crit|p1a: Persian
+|-damage|p1a: Persian|13/333
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Moltres|Moltres|383/383
+|move|p2a: Doppal|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|226/383
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Doppal|Confuse Ray|p1a: Moltres
+|-start|p1a: Moltres|confusion
+|-activate|p1a: Moltres|confusion
+|move|p1a: Moltres|Fire Spin|p2a: Doppal
+|-damage|p2a: Doppal|234/323
+|
+|upkeep
+|turn|34
+|
+|cant|p2a: Doppal|partiallytrapped
+|-end|p1a: Moltres|confusion
+|move|p1a: Moltres|Fire Spin|p2a: Doppal|[from]Fire Spin
+|-damage|p2a: Doppal|214/323
+|
+|upkeep
+|turn|35
+|
+|cant|p2a: Doppal|partiallytrapped
+|move|p1a: Moltres|Fire Spin|p2a: Doppal|[from]Fire Spin
+|-damage|p2a: Doppal|194/323
+|
+|upkeep
+|turn|36
+|
+|cant|p2a: Doppal|partiallytrapped
+|move|p1a: Moltres|Fire Spin|p2a: Doppal|[from]Fire Spin
+|-damage|p2a: Doppal|174/323
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Doppal|Thunderbolt|p1a: Moltres
+|-crit|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|turn|38
+|
+|move|p1a: Jolteon|Thunder|p2a: Doppal|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Doppal|Confuse Ray|p1a: Jolteon
+|-start|p1a: Jolteon|confusion
+|
+|upkeep
+|turn|39
+|
+|-activate|p1a: Jolteon|confusion
+|move|p1a: Jolteon|Thunder|p2a: Doppal|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Doppal|Mega Drain|p1a: Jolteon
+|-damage|p1a: Jolteon|296/333
+|-heal|p2a: Doppal|192/323|[from] drain|[of] p1a: Jolteon
+|
+|upkeep
+|turn|40
+|
+|-activate|p1a: Jolteon|confusion
+|-damage|p1a: Jolteon|259/333|[from] confusion
+|move|p2a: Doppal|Psychic|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|97/333
+|
+|upkeep
+|turn|41
+|
+|-activate|p1a: Jolteon|confusion
+|move|p1a: Jolteon|Thunder|p2a: Doppal
+|-damage|p2a: Doppal|59/323
+|move|p2a: Doppal|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|16/333
+|-unboost|p1a: Jolteon|spd|1
+|-unboost|p1a: Jolteon|spa|1
+|
+|upkeep
+|turn|42
+|
+|-end|p1a: Jolteon|confusion
+|move|p1a: Jolteon|Thunder|p2a: Doppal
+|-damage|p2a: Doppal|0 fnt
+|faint|p2a: Doppal
+|
+|switch|p2a: Merlyn|Alakazam|313/313
+|turn|43
+|
+|move|p1a: Jolteon|Thunder|p2a: Merlyn
+|-damage|p2a: Merlyn|230/313
+|move|p2a: Merlyn|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Persian|Persian|13/333
+|turn|44
+|
+|move|p2a: Merlyn|Psychic|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|switch|p1a: Alakazam|Alakazam|248/313 par
+|turn|45
+|
+|move|p2a: Merlyn|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|151/313 par
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Merlyn|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|53/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Merlyn|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|win|SirStripes
+|c|☆SirStripes|Gg
+|c|☆limiles|gg
+|l|☆SirStripes
+|raw|limiles's rating: 1070 &rarr; <strong>1046</strong><br />(-24 for losing)
+|raw|SirStripes's rating: 1008 &rarr; <strong>1054</strong><br />(+46 for winning)

@@ -1,0 +1,356 @@
+|j|☆snapperjack
+|j|☆alpha male psyduck
+|player|p1|snapperjack|1
+|player|p2|alpha male psyduck|juggler-gen1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|c|☆alpha male psyduck|hf
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|move|p2a: Jynx|Lovely Kiss|p1a: Alakazam
+|-status|p1a: Alakazam|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|2
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Jynx|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|206/313 slp
+|
+|upkeep
+|turn|3
+|j| xJokesOnYou
+|
+|switch|p1a: Starmie|Starmie|323/323
+|cant|p2a: Jynx|par
+|
+|upkeep
+|turn|4
+|l| xJokesOnYou
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|252/333 par
+|move|p2a: Jynx|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|252/323
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|173/333 par
+|move|p2a: Jynx|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|188/323
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|cant|p2a: Zapdos|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: Zapdos|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Golem|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|331/393
+|-status|p2a: Slowbro|par
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Starmie|Starmie|323/323
+|cant|p2a: Slowbro|par
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|13/393 par
+|move|p2a: Slowbro|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|12
+|c|☆alpha male psyduck|eh
+|c|☆alpha male psyduck|i used thunderwave on your switch in btw
+|
+|switch|p2a: Jynx|Jynx|173/333 par
+|move|p1a: Starmie|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|93/333 par
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Golem|Golem|363/363
+|cant|p2a: Jynx|par
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Slowbro|Slowbro|13/393 par
+|move|p1a: Golem|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|j| Vishnug123
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|turn|15
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Kangaskhan|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|111/323 par
+|
+|upkeep
+|turn|16
+|l| Vishnug123
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Gengar|Gengar|323/323
+|turn|17
+|
+|switch|p2a: Zapdos|Zapdos|383/383 par
+|move|p1a: Gengar|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|308/383 par
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Golem|Golem|363/363
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Kangaskhan|Surf|p1a: Golem
+|-crit|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|c|☆alpha male psyduck|ok my crits make up for the earlier paras
+|c|☆alpha male psyduck|:p
+|
+|switch|p1a: Victreebel|Victreebel|363/363
+|turn|20
+|
+|switch|p2a: Zapdos|Zapdos|308/383 par
+|move|p1a: Victreebel|Sleep Powder|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|upkeep
+|turn|21
+|c|☆alpha male psyduck|wraps gonna miss bro
+|
+|move|p1a: Victreebel|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|293/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|22
+|c|☆alpha male psyduck|hmm
+|j| TheDarkestLight787
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Victreebel|Wrap|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|295/323
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Zapdos|Zapdos|293/383 par
+|move|p1a: Victreebel|Wrap|p2a: Zapdos
+|-damage|p2a: Zapdos|278/383 par
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Starmie|Starmie|295/323
+|move|p1a: Victreebel|Wrap|p2a: Starmie|[miss]
+|-miss|p1a: Victreebel
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Victreebel
+|-status|p1a: Victreebel|par
+|move|p1a: Victreebel|Sleep Powder|p2a: Starmie|[miss]
+|-miss|p1a: Victreebel
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Zapdos|Zapdos|278/383 par
+|move|p1a: Victreebel|Sleep Powder|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Zapdos|Drill Peck|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|377/413
+|
+|upkeep
+|turn|28
+|c|☆alpha male psyduck|double ground? interesting
+|
+|switch|p1a: Gengar|Gengar|323/323
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Gengar|Hypnosis|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|slp|[from] move: Hypnosis
+|cant|p2a: Kangaskhan|slp
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|124/413 slp
+|cant|p2a: Kangaskhan|slp
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Jynx|Jynx|93/333 par
+|move|p1a: Gengar|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Starmie|Starmie|295/323
+|turn|32
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|move|p1a: Gengar|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|turn|33
+|
+|move|p2a: Rhydon|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Victreebel|Victreebel|363/363 par
+|turn|34
+|
+|switch|p2a: Zapdos|Zapdos|278/383 par
+|move|p1a: Victreebel|Razor Leaf|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|229/383 par
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Victreebel
+|-crit|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|switch|p1a: Rhydon|Rhydon|377/413
+|turn|36
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|274/413
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Rhydon|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|149/413
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Rhydon|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|15/413
+|move|p1a: Rhydon|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Zapdos|Zapdos|229/383 par
+|turn|39
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Zapdos|[miss]
+|-miss|p1a: Rhydon
+|cant|p2a: Zapdos|par
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Rhydon|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|c|☆alpha male psyduck|gg
+|
+|switch|p2a: Kangaskhan|Kangaskhan|124/413 slp
+|turn|41
+|c|☆snapperjack|gg
+|
+|cant|p2a: Kangaskhan|slp
+|move|p1a: Rhydon|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|win|snapperjack
+|l| TheDarkestLight787

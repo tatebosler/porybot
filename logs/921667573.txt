@@ -1,0 +1,84 @@
+|j|☆earswab
+|j|☆7 Tools
+|player|p1|earswab|115
+|player|p2|7 Tools|richboy-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323/323
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 7 Tools)
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|cant|p1a: Gengar|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Starmie|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|138/323 par
+|-unboost|p1a: Gengar|spd|1
+|-unboost|p1a: Gengar|spa|1
+|cant|p1a: Gengar|par
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Hypno|Hypno|373/373
+|move|p2a: Starmie|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|322/373
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|cant|p1a: Hypno|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Starmie|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|196/373 par
+|move|p1a: Hypno|Hypnosis|p2a: Starmie|[miss]
+|-miss|p1a: Hypno
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Starmie|Blizzard|p1a: Hypno|[miss]
+|-miss|p2a: Starmie
+|cant|p1a: Hypno|par
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Starmie|Blizzard|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|23/373 par
+|move|p1a: Hypno|Hypnosis|p2a: Starmie|[miss]
+|-miss|p1a: Hypno
+|
+|upkeep
+|turn|8
+|-message|earswab forfeited.
+|
+|win|7 Tools
+|l|☆earswab

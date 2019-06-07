@@ -1,0 +1,426 @@
+|j|☆Ladderengel
+|j|☆Ladder 200T
+|player|p1|Ladderengel|25
+|player|p2|Ladder 200T|30
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|245/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Starmie|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|83/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|610/703
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Starmie|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Chansey|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|359/393
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Exeggutor|Exeggutor|83/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Exeggutor|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Starmie|Starmie|323/323 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Starmie
+|-fail|p2a: Starmie
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|move|p2a: Starmie|Blizzard|p1a: Jolteon
+|-damage|p1a: Jolteon|238/333
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Jolteon|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Chansey|Chansey|610/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|67/703
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|418/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|c|☆Ladder 200T|gg
+|
+|switch|p1a: Exeggutor|Exeggutor|83/393
+|turn|14
+|
+|switch|p1a: Jolteon|Jolteon|238/333
+|switch|p2a: Starmie|Starmie|323/323 par
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|584/703 par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Jolteon|Double Kick|p2a: Chansey|[miss]
+|-miss|p1a: Jolteon
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Exeggutor|Exeggutor|359/393
+|move|p1a: Jolteon|Double Kick|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|350/393
+|-damage|p2a: Exeggutor|341/393
+|-hitcount|p2a: Exeggutor|2
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jolteon
+|-status|p1a: Jolteon|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|cant|p1a: Jolteon|slp
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Snorlax|Snorlax|523/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|374/523 par
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|227/523 par
+|move|p1a: Snorlax|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|443/523
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|78/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|386/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|249/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|111/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|376/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|247/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|110/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|374/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|239/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|104/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|382/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|254/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Dodrio|Dodrio|323/323
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|35
+|c|☆Ladder 200T|gg
+|
+|move|p2a: Dodrio|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|378/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Dodrio|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|244/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Slowbro|Slowbro|393/393
+|move|p2a: Dodrio|Body Slam|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|202/393
+|
+|upkeep
+|turn|38
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ladder 200T)
+|
+|switch|p2a: Exeggutor|Exeggutor|341/393 par
+|move|p1a: Slowbro|Thunder Wave|p2a: Exeggutor
+|-fail|p2a: Exeggutor|par
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|move|p2a: Exeggutor|Sleep Powder|p1a: Slowbro
+|-message|Sleep Clause Mod activated.
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Exeggutor|Exeggutor|83/393
+|move|p2a: Exeggutor|Explosion|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Slowbro|Slowbro|202/393
+|switch|p2a: Snorlax|Snorlax|443/523
+|turn|41
+|
+|move|p1a: Slowbro|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Self-Destruct|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|faint|p2a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353/353
+|switch|p2a: Tauros|Tauros|353/353
+|turn|42
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|155/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|256/353
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Starmie|Starmie|323/323 par
+|turn|44
+|
+|switch|p1a: Jolteon|Jolteon|238/333 slp
+|move|p2a: Starmie|Thunder Wave|p1a: Jolteon
+|-fail|p1a: Jolteon
+|
+|upkeep
+|turn|45
+|
+|cant|p1a: Jolteon|slp
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Dodrio|Dodrio|323/323
+|cant|p1a: Jolteon|slp
+|
+|upkeep
+|turn|47
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Dodrio|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|91/333 slp
+|
+|upkeep
+|turn|48
+|
+|cant|p1a: Jolteon|slp
+|move|p2a: Dodrio|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Snorlax|Snorlax|244/523
+|turn|49
+|
+|move|p2a: Dodrio|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|103/523
+|move|p1a: Snorlax|Ice Beam|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|165/323
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Dodrio|Agility|p2a: Dodrio
+|-boost|p2a: Dodrio|spe|2
+|move|p1a: Snorlax|Ice Beam|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|11/323
+|
+|upkeep
+|turn|51
+|
+|move|p2a: Dodrio|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|155/353
+|turn|52
+|
+|move|p2a: Dodrio|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|Ladder 200T

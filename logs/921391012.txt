@@ -1,0 +1,334 @@
+|j|☆false
+|j|☆Dinosaur_Ryusaki
+|player|p1|false|#nadeko
+|player|p2|Dinosaur_Ryusaki|70
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Be warned of this|Exeggutor|393/393
+|turn|1
+|j| Kuytared ❄
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Be warned of this
+|-damage|p2a: Be warned of this|293/393
+|move|p2a: Be warned of this|Stun Spore|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|2
+|l| Kuytared ❄
+|
+|switch|p2a: Das Nashorn|Rhydon|413/413
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Das Nashorn|Rock Slide|p1a: Exeggutor
+|-damage|p1a: Exeggutor|269/393
+|
+|upkeep
+|turn|4
+|j| Outx Stall Lord
+|l| Outx Stall Lord
+|
+|switch|p2a: Be warned of this|Exeggutor|293/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Be warned of this
+|-status|p2a: Be warned of this|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: François Hang Ying|Chansey|703/703
+|move|p1a: Exeggutor|Psychic|p2a: François Hang Ying
+|-damage|p2a: François Hang Ying|579/703
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Alakazam|Alakazam|313/313 par
+|move|p2a: François Hang Ying|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam|par
+|
+|upkeep
+|turn|7
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Das Nashorn|Rhydon|413/413
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Exeggutor|Exeggutor|269/393
+|move|p2a: Das Nashorn|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|183/393
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Exeggutor|Psychic|p2a: Das Nashorn
+|-damage|p2a: Das Nashorn|221/413
+|move|p2a: Das Nashorn|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|19/393
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Patrick|Starmie|323/323
+|move|p1a: Exeggutor|Psychic|p2a: Patrick
+|-resisted|p2a: Patrick
+|-damage|p2a: Patrick|265/323
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Alakazam|Alakazam|313/313 par
+|move|p2a: Patrick|Blizzard|p1a: Alakazam|[miss]
+|-miss|p2a: Patrick
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Das Nashorn|Rhydon|221/413
+|move|p1a: Alakazam|Psychic|p2a: Das Nashorn
+|-crit|p2a: Das Nashorn
+|-damage|p2a: Das Nashorn|0 fnt
+|faint|p2a: Das Nashorn
+|
+|switch|p2a: François Hang Ying|Chansey|579/703
+|turn|14
+|
+|move|p2a: François Hang Ying|Reflect|p2a: François Hang Ying
+|-start|p2a: François Hang Ying|Reflect
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|move|p1a: Alakazam|Psychic|p2a: François Hang Ying
+|-damage|p2a: François Hang Ying|454/703
+|-unboost|p2a: François Hang Ying|spd|1
+|-unboost|p2a: François Hang Ying|spa|1
+|
+|upkeep
+|turn|16
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|113/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|269/313 par
+|
+|upkeep
+|turn|17
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|169/313 par
+|move|p1a: Alakazam|Psychic|p2a: François Hang Ying
+|-damage|p2a: François Hang Ying|260/703
+|
+|upkeep
+|turn|18
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|69/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|225/313 par
+|
+|upkeep
+|turn|19
+|j| bub runk
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|125/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|281/313 par
+|
+|upkeep
+|turn|20
+|
+|move|p2a: François Hang Ying|Soft-Boiled|p2a: François Hang Ying
+|-heal|p2a: François Hang Ying|611/703
+|move|p1a: Alakazam|Psychic|p2a: François Hang Ying
+|-crit|p2a: François Hang Ying
+|-damage|p2a: François Hang Ying|382/703
+|-unboost|p2a: François Hang Ying|spd|1
+|-unboost|p2a: François Hang Ying|spa|1
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Be warned of this|Exeggutor|293/393 slp
+|move|p1a: Alakazam|Psychic|p2a: Be warned of this
+|-resisted|p2a: Be warned of this
+|-damage|p2a: Be warned of this|241/393 slp
+|
+|upkeep
+|turn|22
+|
+|cant|p2a: Be warned of this|slp
+|move|p1a: Alakazam|Psychic|p2a: Be warned of this
+|-resisted|p2a: Be warned of this
+|-damage|p2a: Be warned of this|182/393 slp
+|
+|upkeep
+|turn|23
+|
+|cant|p2a: Be warned of this|slp
+|move|p1a: Alakazam|Seismic Toss|p2a: Be warned of this
+|-damage|p2a: Be warned of this|82/393 slp
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: François Hang Ying|Chansey|382/703
+|move|p1a: Alakazam|Seismic Toss|p2a: François Hang Ying
+|-damage|p2a: François Hang Ying|282/703
+|
+|upkeep
+|turn|25
+|
+|move|p2a: François Hang Ying|Soft-Boiled|p2a: François Hang Ying
+|-heal|p2a: François Hang Ying|633/703
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|181/313 par
+|move|p1a: Alakazam|Psychic|p2a: François Hang Ying
+|-damage|p2a: François Hang Ying|512/703
+|
+|upkeep
+|turn|27
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|81/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|237/313 par
+|
+|upkeep
+|turn|28
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|137/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|293/313 par
+|
+|upkeep
+|turn|29
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|193/313 par
+|move|p1a: Alakazam|Psychic|p2a: François Hang Ying
+|-damage|p2a: François Hang Ying|377/703
+|
+|upkeep
+|turn|30
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|93/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|249/313 par
+|
+|upkeep
+|turn|31
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|149/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|305/313 par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|205/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|33
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|105/313 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|261/313 par
+|
+|upkeep
+|turn|34
+|
+|move|p2a: François Hang Ying|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|161/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Laxative|Snorlax|523/523
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Laxative|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|151/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Laxative
+|-status|p2a: Laxative|par
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Chansey|Chansey|703/703
+|cant|p2a: Laxative|par
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Laxative|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|391/703
+|move|p1a: Chansey|Counter|p2a: Laxative
+|-damage|p2a: Laxative|0 fnt
+|faint|p2a: Laxative
+|
+|switch|p2a: Rémy Gaillard|Tauros|353/353
+|turn|39
+|
+|move|p2a: Rémy Gaillard|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|324/703
+|move|p1a: Chansey|Thunder Wave|p2a: Rémy Gaillard
+|-status|p2a: Rémy Gaillard|par
+|
+|upkeep
+|turn|40
+|-message|Dinosaur_Ryusaki forfeited.
+|
+|win|false
+|l|☆Dinosaur_Ryusaki
+|l|☆false
+|l| bub runk
+|j| the pirate99

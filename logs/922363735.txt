@@ -1,0 +1,242 @@
+|j|☆WizzardTheRaven23
+|j|☆Pro Pxnda
+|player|p1|WizzardTheRaven23|153
+|player|p2|Pro Pxnda|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blitzvogel|Zapdos|383/383
+|switch|p2a: Gengar|Gengar|323/323
+|turn|1
+|
+|move|p2a: Gengar|Hypnosis|p1a: Blitzvogel
+|-status|p1a: Blitzvogel|slp|[from] move: Hypnosis
+|-curestatus|p1a: Blitzvogel|slp|[msg]
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Blitzvogel|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Stern|Starmie|323/323
+|move|p2a: Golem|Rock Slide|p1a: Stern
+|-damage|p1a: Stern|223/323
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Stern|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|559/703
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Giitauros|Tauros|353/353
+|move|p2a: Chansey|Thunderbolt|p1a: Giitauros
+|-damage|p1a: Giitauros|254/353
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Gengar|Gengar|323/323
+|move|p1a: Giitauros|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Steiker|Alakazam|313/313
+|move|p2a: Gengar|Hypnosis|p1a: Steiker
+|-status|p1a: Steiker|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|cant|p1a: Steiker|slp
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Aero|Aerodactyl|363/363
+|move|p2a: Snorlax|Body Slam|p1a: Aero
+|-resisted|p1a: Aero
+|-damage|p1a: Aero|293/363
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Aero|Double-Edge|p2a: Snorlax
+|-damage|p2a: Snorlax|411/523
+|-damage|p1a: Aero|265/363|[from] Recoil|[of] p2a: Snorlax
+|move|p2a: Snorlax|Surf|p1a: Aero
+|-supereffective|p1a: Aero
+|-damage|p1a: Aero|107/363
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Aero|Hyper Beam|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|260/363
+|-mustrecharge|p1a: Aero
+|
+|upkeep
+|turn|12
+|
+|cant|p1a: Aero|recharge
+|move|p2a: Golem|Rock Slide|p1a: Aero
+|-supereffective|p1a: Aero
+|-damage|p1a: Aero|0 fnt
+|faint|p1a: Aero
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|turn|13
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Exeggutor|Mega Drain|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|369/393
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Chansey|Chansey|559/703
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Stern|Starmie|223/323
+|switch|p2a: Gengar|Gengar|323/323
+|turn|15
+|
+|move|p1a: Stern|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|143/323
+|move|p2a: Gengar|Confuse Ray|p1a: Stern
+|-start|p1a: Stern|confusion
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Steiker|Alakazam|313/313 slp
+|move|p2a: Gengar|Mega Drain|p1a: Steiker
+|-damage|p1a: Steiker|284/313 slp
+|-heal|p2a: Gengar|157/323|[from] drain|[of] p1a: Steiker
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Snorlax|Snorlax|411/523
+|cant|p1a: Steiker|slp
+|
+|upkeep
+|turn|18
+|
+|cant|p1a: Steiker|slp
+|move|p2a: Snorlax|Body Slam|p1a: Steiker
+|-crit|p1a: Steiker
+|-damage|p1a: Steiker|0 fnt
+|faint|p1a: Steiker
+|
+|switch|p1a: Giitauros|Tauros|254/353
+|turn|19
+|
+|move|p1a: Giitauros|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|307/523
+|move|p2a: Snorlax|Self-Destruct|p1a: Giitauros
+|-damage|p1a: Giitauros|0 fnt
+|faint|p1a: Giitauros
+|faint|p2a: Snorlax
+|
+|switch|p1a: Stern|Starmie|223/323
+|switch|p2a: Exeggutor|Exeggutor|369/393
+|turn|20
+|
+|move|p1a: Stern|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|238/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Stern
+|-status|p1a: Stern|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|21
+|j| TheDarkestLight787
+|
+|switch|p1a: Blitzvogel|Zapdos|383/383
+|move|p2a: Exeggutor|Mega Drain|p1a: Blitzvogel
+|-resisted|p1a: Blitzvogel
+|-damage|p1a: Blitzvogel|360/383
+|-heal|p2a: Exeggutor|249/393|[from] drain|[of] p1a: Blitzvogel
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Golem|Golem|260/363
+|move|p1a: Blitzvogel|Toxic|p2a: Golem
+|-status|p2a: Golem|tox
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Stern|Starmie|223/323 slp
+|move|p2a: Golem|Rock Slide|p1a: Stern
+|-crit|p1a: Stern
+|-damage|p1a: Stern|18/323 slp
+|-damage|p2a: Golem|238/363 tox|[from] psn
+|
+|upkeep
+|turn|24
+|c| TheDarkestLight787|wiz wtf is that
+|c| TheDarkestLight787|toxic on zap
+|
+|cant|p1a: Stern|slp
+|move|p2a: Golem|Rock Slide|p1a: Stern
+|-damage|p1a: Stern|0 fnt
+|faint|p1a: Stern
+|
+|switch|p1a: Blitzvogel|Zapdos|360/383
+|turn|25
+|
+|move|p1a: Blitzvogel|Drill Peck|p2a: Golem
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|166/363 tox
+|move|p2a: Golem|Rock Slide|p1a: Blitzvogel
+|-supereffective|p1a: Blitzvogel
+|-damage|p1a: Blitzvogel|158/383
+|-damage|p2a: Golem|122/363 tox|[from] psn
+|
+|upkeep
+|turn|26
+|c| TheDarkestLight787|toxic is bad gen 1
+|
+|move|p1a: Blitzvogel|Drill Peck|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|85/363 tox
+|move|p2a: Golem|Rock Slide|p1a: Blitzvogel
+|-supereffective|p1a: Blitzvogel
+|-damage|p1a: Blitzvogel|0 fnt
+|faint|p1a: Blitzvogel
+|
+|win|Pro Pxnda

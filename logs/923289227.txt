@@ -1,0 +1,481 @@
+|j|☆kilimina
+|j|☆Chrycks
+|player|p1|kilimina|172
+|player|p2|Chrycks|23
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Magneton|Magneton|303/303
+|switch|p2a: Little Alakazam|Mr. Mime|283/283
+|turn|1
+|c|☆kilimina|good luck :messi:
+|c|☆Chrycks|de même :hihi:
+|
+|move|p2a: Little Alakazam|Thunder Wave|p1a: Magneton
+|-status|p1a: Magneton|par
+|cant|p1a: Magneton|par
+|
+|upkeep
+|turn|2
+|c|☆kilimina|ca commence...
+|c|☆kilimina|j'ai peur
+|c|☆Chrycks|xDD
+|
+|move|p2a: Little Alakazam|Psychic|p1a: Magneton
+|-crit|p1a: Magneton
+|-damage|p1a: Magneton|123/303 par
+|move|p1a: Magneton|Thunder Wave|p2a: Little Alakazam
+|-status|p2a: Little Alakazam|par
+|
+|upkeep
+|turn|3
+|c|☆Chrycks|oh merde
+|
+|cant|p2a: Little Alakazam|par
+|move|p1a: Magneton|Rest|p1a: Magneton
+|-status|p1a: Magneton|slp|[from] move: Rest
+|-heal|p1a: Magneton|303/303 slp|[silent]
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Little Alakazam|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|207/303 slp
+|cant|p1a: Magneton|slp
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Little Alakazam|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|115/303 slp
+|-curestatus|p1a: Magneton|slp|[msg]
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Little Alakazam|Thunder Wave|p1a: Magneton
+|-status|p1a: Magneton|par
+|move|p1a: Magneton|Thunderbolt|p2a: Little Alakazam
+|-damage|p2a: Little Alakazam|157/283 par
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Little Alakazam|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|21/303 par
+|-unboost|p1a: Magneton|spd|1
+|-unboost|p1a: Magneton|spa|1
+|cant|p1a: Magneton|par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Little Alakazam|Psychic|p1a: Magneton
+|-damage|p1a: Magneton|0 fnt
+|faint|p1a: Magneton
+|
+|switch|p1a: Nidoking|Nidoking|365/365
+|turn|9
+|
+|move|p1a: Nidoking|Earthquake|p2a: Little Alakazam
+|-damage|p2a: Little Alakazam|9/283 par
+|move|p2a: Little Alakazam|Psychic|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|128/365
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Nidoking|Body Slam|p2a: Little Alakazam
+|-crit|p2a: Little Alakazam
+|-damage|p2a: Little Alakazam|0 fnt
+|faint|p2a: Little Alakazam
+|
+|switch|p2a: Little Mewtwo|Alakazam|313/313
+|turn|11
+|
+|switch|p1a: Slowbro|Slowbro|393/393
+|move|p2a: Little Mewtwo|Psychic|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|252/393
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Little Mewtwo|Thunder Wave|p1a: Slowbro
+|-status|p1a: Slowbro|par
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Cleaving Blacks|Tentacruel|363/363
+|cant|p1a: Slowbro|par
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|242/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Slowbro|[from]Wrap
+|-damage|p1a: Slowbro|232/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Slowbro|[from]Wrap
+|-damage|p1a: Slowbro|222/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Slowbro
+|-damage|p1a: Slowbro|213/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Slowbro|[from]Wrap
+|-damage|p1a: Slowbro|204/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Slowbro|[from]Wrap
+|-damage|p1a: Slowbro|195/393 par
+|cant|p1a: Slowbro|partiallytrapped
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Cleaving Blacks|Swords Dance|p2a: Cleaving Blacks
+|-boost|p2a: Cleaving Blacks|atk|2
+|move|p1a: Slowbro|Psychic|p2a: Cleaving Blacks
+|-supereffective|p2a: Cleaving Blacks
+|-damage|p2a: Cleaving Blacks|59/363
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Venusaur|Venusaur|363/363
+|move|p2a: Cleaving Blacks|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|341/363
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Venusaur|[from]Wrap
+|-damage|p1a: Venusaur|319/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Venusaur|[from]Wrap
+|-damage|p1a: Venusaur|297/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Venusaur
+|-damage|p1a: Venusaur|275/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Venusaur|[from]Wrap
+|-damage|p1a: Venusaur|253/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Venusaur|[from]Wrap
+|-damage|p1a: Venusaur|231/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Venusaur|[from]Wrap
+|-damage|p1a: Venusaur|209/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Venusaur|[from]Wrap
+|-damage|p1a: Venusaur|187/363
+|cant|p1a: Venusaur|partiallytrapped
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Cleaving Blacks|Hyper Beam|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|c|☆kilimina|SALO
+|
+|switch|p1a: Porygon|Porygon|333/333
+|turn|30
+|c|☆Chrycks|;-;
+|
+|move|p2a: Cleaving Blacks|Wrap|p1a: Porygon|[miss]
+|-miss|p2a: Cleaving Blacks
+|move|p1a: Porygon|Thunder Wave|p2a: Cleaving Blacks
+|-status|p2a: Cleaving Blacks|par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Porygon|Tri Attack|p2a: Cleaving Blacks
+|-crit|p2a: Cleaving Blacks
+|-damage|p2a: Cleaving Blacks|0 fnt
+|faint|p2a: Cleaving Blacks
+|
+|switch|p2a: Little Mewtwo|Alakazam|313/313
+|turn|32
+|
+|move|p2a: Little Mewtwo|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|164/333
+|-unboost|p1a: Porygon|spd|1
+|-unboost|p1a: Porygon|spa|1
+|move|p1a: Porygon|Thunder Wave|p2a: Little Mewtwo
+|-status|p2a: Little Mewtwo|par
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Slowbro|Slowbro|195/393 par
+|move|p2a: Little Mewtwo|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|122/393 par
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Little Mewtwo|Psychic|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|13/393 par
+|-unboost|p1a: Slowbro|spd|1
+|-unboost|p1a: Slowbro|spa|1
+|move|p1a: Slowbro|Rest|p1a: Slowbro
+|-status|p1a: Slowbro|slp|[from] move: Rest
+|-heal|p1a: Slowbro|393/393 slp|[silent]
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Porygon|Porygon|164/333
+|move|p2a: Little Mewtwo|Psychic|p1a: Porygon
+|-damage|p1a: Porygon|0 fnt
+|faint|p1a: Porygon
+|
+|switch|p1a: Slowbro|Slowbro|393/393 slp
+|turn|36
+|
+|switch|p2a: Boo|Haunter|293/293
+|cant|p1a: Slowbro|slp
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Graveler|Graveler|313/313
+|move|p2a: Boo|Substitute|p2a: Boo
+|-start|p2a: Boo|Substitute
+|-damage|p2a: Boo|220/293
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Boo|Psychic|p1a: Graveler
+|-damage|p1a: Graveler|199/313
+|-unboost|p1a: Graveler|spd|1
+|-unboost|p1a: Graveler|spa|1
+|move|p1a: Graveler|Earthquake|p2a: Boo
+|-supereffective|p2a: Boo
+|-end|p2a: Boo|Substitute
+|
+|upkeep
+|turn|39
+|
+|switch|p2a: Yamete|Tangela|333/333
+|move|p1a: Graveler|Earthquake|p2a: Yamete
+|-resisted|p2a: Yamete
+|-damage|p2a: Yamete|281/333
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Nidoking|Nidoking|128/365
+|move|p2a: Yamete|Mega Drain|p1a: Nidoking
+|-damage|p1a: Nidoking|68/365
+|-heal|p2a: Yamete|311/333|[from] drain|[of] p1a: Nidoking
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Nidoking|Ice Beam|p2a: Yamete
+|-crit|p2a: Yamete
+|-supereffective|p2a: Yamete
+|-damage|p2a: Yamete|47/333
+|move|p2a: Yamete|Body Slam|p1a: Nidoking
+|-damage|p1a: Nidoking|10/365
+|
+|upkeep
+|turn|42
+|
+|switch|p2a: Sac à viande|Lapras|463/463
+|move|p1a: Nidoking|Body Slam|p2a: Sac à viande
+|-damage|p2a: Sac à viande|386/463
+|-status|p2a: Sac à viande|par
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Sac à viande
+|-supereffective|p2a: Sac à viande
+|-damage|p2a: Sac à viande|266/463 par
+|cant|p2a: Sac à viande|par
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Nidoking|Thunderbolt|p2a: Sac à viande
+|-supereffective|p2a: Sac à viande
+|-damage|p2a: Sac à viande|141/463 par
+|move|p2a: Sac à viande|Surf|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|switch|p1a: Slowbro|Slowbro|393/393 slp
+|turn|45
+|
+|switch|p1a: Graveler|Graveler|199/313
+|move|p2a: Sac à viande|Thunderbolt|p1a: Graveler
+|-immune|p1a: Graveler
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Graveler|Rock Slide|p2a: Sac à viande
+|-supereffective|p2a: Sac à viande
+|-damage|p2a: Sac à viande|0 fnt
+|faint|p2a: Sac à viande
+|
+|switch|p2a: Little Mewtwo|Alakazam|313/313 par
+|turn|47
+|
+|move|p1a: Graveler|Explosion|p2a: Little Mewtwo
+|-damage|p2a: Little Mewtwo|0 fnt
+|faint|p2a: Little Mewtwo
+|faint|p1a: Graveler
+|
+|switch|p1a: Slowbro|Slowbro|393/393 slp
+|switch|p2a: Boo|Haunter|220/293
+|turn|48
+|
+|move|p2a: Boo|Confuse Ray|p1a: Slowbro
+|-start|p1a: Slowbro|confusion
+|-curestatus|p1a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Boo|Substitute|p2a: Boo
+|-start|p2a: Boo|Substitute
+|-damage|p2a: Boo|147/293
+|-activate|p1a: Slowbro|confusion
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|upkeep
+|turn|50
+|c|☆kilimina|oh non...
+|
+|move|p2a: Boo|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|296/393
+|-end|p1a: Slowbro|confusion
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|upkeep
+|turn|51
+|c|☆Chrycks|>w<
+|
+|move|p2a: Boo|Confuse Ray|p1a: Slowbro
+|-start|p1a: Slowbro|confusion
+|-activate|p1a: Slowbro|confusion
+|move|p1a: Slowbro|Psychic|p2a: Boo
+|-supereffective|p2a: Boo
+|-end|p2a: Boo|Substitute
+|
+|upkeep
+|turn|52
+|
+|move|p2a: Boo|Substitute|p2a: Boo
+|-start|p2a: Boo|Substitute
+|-damage|p2a: Boo|74/293
+|-end|p1a: Slowbro|confusion
+|move|p1a: Slowbro|Psychic|p2a: Boo
+|-supereffective|p2a: Boo
+|-end|p2a: Boo|Substitute
+|
+|upkeep
+|turn|53
+|
+|move|p2a: Boo|Confuse Ray|p1a: Slowbro
+|-start|p1a: Slowbro|confusion
+|-activate|p1a: Slowbro|confusion
+|move|p1a: Slowbro|Psychic|p2a: Boo
+|-supereffective|p2a: Boo
+|-damage|p2a: Boo|0 fnt
+|faint|p2a: Boo
+|c|☆kilimina|slowbro is too good
+|
+|switch|p2a: Yamete|Tangela|47/333
+|turn|54
+|c|☆Chrycks|yeah
+|c|☆Chrycks|gg :(
+|c|☆kilimina|crit confusion
+|
+|move|p2a: Yamete|Body Slam|p1a: Slowbro
+|-damage|p1a: Slowbro|253/393
+|-end|p1a: Slowbro|confusion
+|move|p1a: Slowbro|Psychic|p2a: Yamete
+|-damage|p2a: Yamete|0 fnt
+|faint|p2a: Yamete
+|
+|win|kilimina
+|c|☆kilimina|gg

@@ -1,0 +1,398 @@
+|j|☆Snowy❄FRZ
+|j|☆pkmn fudging sucks
+|player|p1|Snowy❄FRZ|2
+|player|p2|pkmn fudging sucks|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|j| Totodile Squad
+|j| bub runk
+|j| PuffyPuffyPuffPuff
+|c|☆pkmn fudging sucks|hf
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|2
+|j| TrailBlazer324
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|571/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|438/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|move|p1a: Alakazam|Psychic|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|262/313
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Chansey|Chansey|438/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|315/703 par
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro
+|-damage|p2a: Slowbro|297/393
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Snorlax|Body Slam|p2a: Slowbro|[miss]
+|-miss|p1a: Snorlax
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|move|p2a: Slowbro|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|9
+|c|☆pkmn fudging sucks|thats retarded
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|10
+|j| SempaiLugia
+|
+|switch|p2a: Chansey|Chansey|315/703 par
+|move|p1a: Exeggutor|Double-Edge|p2a: Chansey
+|-damage|p2a: Chansey|91/703 par
+|-damage|p1a: Exeggutor|337/393|[from] Recoil|[of] p2a: Chansey
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|210/393
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Exeggutor|Double-Edge|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|-damage|p1a: Exeggutor|188/393|[from] Recoil|[of] p2a: Chansey
+|faint|p2a: Chansey
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Snowy❄FRZ)
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|13
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|362/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|338/393
+|-unboost|p2a: Exeggutor|spd|1
+|-unboost|p2a: Exeggutor|spa|1
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Snorlax|Snorlax|523/523 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Snorlax|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|409/523 par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Snorlax|Snorlax|362/523 slp
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|229/523 slp
+|
+|upkeep
+|turn|19
+|
+|cant|p2a: Snorlax|slp
+|move|p1a: Snorlax|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Exeggutor|Exeggutor|338/393
+|turn|20
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|244/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|227/393
+|-status|p2a: Exeggutor|par
+|
+|upkeep
+|turn|21
+|inactive|pkmn fudging sucks has 120 seconds left.
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|move|p2a: Exeggutor|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|261/313
+|-unboost|p1a: Alakazam|spd|1
+|-unboost|p1a: Alakazam|spa|1
+|
+|upkeep
+|turn|22
+|inactive|pkmn fudging sucks has 120 seconds left.
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|127/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|23
+|inactive|pkmn fudging sucks has 120 seconds left.
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Exeggutor|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|76/313 slp
+|-mustrecharge|p2a: Exeggutor
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Lapras|Lapras|463/463
+|cant|p2a: Exeggutor|recharge
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Alakazam|Alakazam|262/313
+|turn|26
+|
+|switch|p1a: Alakazam|Alakazam|76/313 slp
+|move|p2a: Alakazam|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|575/703
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|upkeep
+|turn|29
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|317/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|162/313 par
+|
+|upkeep
+|turn|31
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|668/703 par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|213/313 par
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313 par
+|move|p1a: Chansey|Seismic Toss|p2a: Alakazam
+|-damage|p2a: Alakazam|213/313 par
+|
+|upkeep
+|turn|34
+|inactive|pkmn fudging sucks has 120 seconds left.
+|
+|switch|p2a: Slowbro|Slowbro|297/393
+|move|p1a: Chansey|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|197/393
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Slowbro|Rest|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Rest
+|-heal|p2a: Slowbro|393/393 slp|[silent]
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Exeggutor|Exeggutor|188/393
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Exeggutor|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|324/393 slp
+|-curestatus|p2a: Slowbro|slp|[msg]
+|
+|upkeep
+|turn|38
+|l| Totodile Squad
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Slowbro
+|-status|p2a: Slowbro|slp|[from] move: Sleep Powder
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|39
+|
+|switch|p1a: Lapras|Lapras|463/463
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|170/393 slp
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|41
+|l| TrailBlazer324
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|5/393 slp
+|cant|p2a: Slowbro|slp
+|
+|upkeep
+|turn|42
+|c|☆pkmn fudging sucks|gg
+|
+|switch|p2a: Alakazam|Alakazam|213/313 par
+|move|p1a: Lapras|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|153/313 par
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Lapras|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|44
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|231/463
+|move|p1a: Lapras|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|191/353
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|116/463
+|move|p1a: Lapras|Blizzard|p2a: Tauros
+|-damage|p2a: Tauros|13/353
+|-status|p2a: Tauros|frz
+|
+|upkeep
+|turn|46
+|
+|cant|p2a: Tauros|frz
+|move|p1a: Lapras|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Slowbro|Slowbro|5/393 slp
+|turn|47
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|Snowy❄FRZ

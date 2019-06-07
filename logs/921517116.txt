@@ -1,0 +1,491 @@
+|j|☆Ejthewolf
+|j|☆Honig
+|player|p1|Ejthewolf|223
+|player|p2|Honig|107
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: SingStar|Jynx|333/333
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Honig)
+|
+|switch|p2a: TheEggWonder|Chansey|703/703
+|move|p1a: Alakazam|Thunder Wave|p2a: TheEggWonder
+|-status|p2a: TheEggWonder|par
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: TheEggWonder|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: TheEggWonder|Reflect|p2a: TheEggWonder
+|-start|p2a: TheEggWonder|Reflect
+|move|p1a: Chansey|Thunderbolt|p2a: TheEggWonder
+|-damage|p2a: TheEggWonder|627/703 par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Chansey|Thunder Wave|p2a: TheEggWonder
+|-fail|p2a: TheEggWonder|par
+|move|p2a: TheEggWonder|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703 par
+|
+|upkeep
+|turn|5
+|
+|cant|p2a: TheEggWonder|par
+|move|p1a: Chansey|Thunderbolt|p2a: TheEggWonder
+|-damage|p2a: TheEggWonder|550/703 par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Chansey|Thunderbolt|p2a: TheEggWonder
+|-damage|p2a: TheEggWonder|472/703 par
+|move|p2a: TheEggWonder|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503/703 par
+|
+|upkeep
+|turn|7
+|
+|cant|p2a: TheEggWonder|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: TheEggWonder|Soft-Boiled|p2a: TheEggWonder
+|-heal|p2a: TheEggWonder|703/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Chansey|Thunder Wave|p2a: TheEggWonder
+|-fail|p2a: TheEggWonder|par
+|cant|p2a: TheEggWonder|par
+|
+|upkeep
+|turn|10
+|
+|move|p2a: TheEggWonder|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: TheEggWonder
+|-fail|p2a: TheEggWonder|par
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Chansey|Thunder Wave|p2a: TheEggWonder
+|-fail|p2a: TheEggWonder|par
+|move|p2a: TheEggWonder|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Chansey|Thunder Wave|p2a: TheEggWonder
+|-fail|p2a: TheEggWonder|par
+|move|p2a: TheEggWonder|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|13
+|
+|cant|p2a: TheEggWonder|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Chansey|Thunder Wave|p2a: TheEggWonder
+|-fail|p2a: TheEggWonder|par
+|move|p2a: TheEggWonder|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: TheEggWonder|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|16
+|
+|move|p2a: TheEggWonder|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|403/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Narwhale|Rhydon|413/413
+|move|p1a: Chansey|Thunder Wave|p2a: Narwhale
+|-immune|p2a: Narwhale
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Narwhale|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|301/393
+|-status|p1a: Exeggutor|par
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: TheEggWonder|Chansey|703/703 par
+|move|p1a: Exeggutor|Psychic|p2a: TheEggWonder
+|-damage|p2a: TheEggWonder|578/703 par
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Narwhale|Rhydon|413/413
+|move|p1a: Exeggutor|Explosion|p2a: Narwhale
+|-resisted|p2a: Narwhale
+|-damage|p2a: Narwhale|294/413
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|21
+|
+|switch|p2a: TheEggWonder|Chansey|578/703 par
+|move|p1a: Starmie|Blizzard|p2a: TheEggWonder
+|-damage|p2a: TheEggWonder|489/703 par
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Chansey|Chansey|403/703 par
+|cant|p2a: TheEggWonder|par
+|
+|upkeep
+|turn|23
+|j| ArielBrant
+|
+|switch|p2a: Narwhale|Rhydon|294/413
+|move|p1a: Chansey|Ice Beam|p2a: Narwhale
+|-supereffective|p2a: Narwhale
+|-damage|p2a: Narwhale|62/413
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Narwhale|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|231/323
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: TheEggWonder|Chansey|489/703 par
+|move|p1a: Starmie|Psychic|p2a: TheEggWonder
+|-crit|p2a: TheEggWonder
+|-damage|p2a: TheEggWonder|283/703 par
+|
+|upkeep
+|turn|26
+|l| ArielBrant
+|
+|switch|p1a: Chansey|Chansey|403/703 par
+|switch|p2a: Narwhale|Rhydon|62/413
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|move|p2a: Narwhale|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|184/313
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: TheEggWonder|Chansey|283/703 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|403/703 par
+|move|p2a: TheEggWonder|Soft-Boiled|p2a: TheEggWonder
+|-heal|p2a: TheEggWonder|634/703 par
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: TheBoss|Tauros|353/353
+|move|p1a: Chansey|Ice Beam|p2a: TheBoss
+|-damage|p2a: TheBoss|251/353
+|
+|upkeep
+|turn|31
+|j| ArielBrant
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: TheBoss|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|402/523
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Champignon|Machamp|383/383
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Champignon|Submission|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|251/523
+|-damage|p2a: Champignon|346/383|[from] Recoil|[of] p1a: Snorlax
+|move|p1a: Snorlax|Body Slam|p2a: Champignon
+|-damage|p2a: Champignon|222/383
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: SuperStar|Starmie|323/323
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|35
+|
+|move|p2a: SuperStar|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|406/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|36
+|l| ArielBrant
+|
+|move|p2a: SuperStar|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|289/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Chansey|Chansey|403/703 par
+|move|p2a: SuperStar|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|229/703 par
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Narwhale|Rhydon|62/413
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|580/703 par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Narwhale|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|165/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|move|p2a: Narwhale|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|176/313
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Narwhale|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|42
+|c|☆Ejthewolf|mfw rhydon crits so much
+|
+|switch|p2a: TheEggWonder|Chansey|634/703 par
+|move|p1a: Tauros|Earthquake|p2a: TheEggWonder
+|-damage|p2a: TheEggWonder|428/703 par
+|
+|upkeep
+|turn|43
+|inactive|Ejthewolf has 120 seconds left.
+|
+|move|p1a: Tauros|Hyper Beam|p2a: TheEggWonder
+|-damage|p2a: TheEggWonder|0 fnt
+|faint|p2a: TheEggWonder
+|
+|switch|p2a: TheBoss|Tauros|251/353
+|turn|44
+|
+|move|p1a: Tauros|Body Slam|p2a: TheBoss
+|-damage|p2a: TheBoss|151/353
+|move|p2a: TheBoss|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|253/353
+|
+|upkeep
+|turn|45
+|inactive|Ejthewolf has 120 seconds left.
+|
+|move|p2a: TheBoss|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|85/353
+|-mustrecharge|p2a: TheBoss
+|move|p1a: Tauros|Hyper Beam|p2a: TheBoss
+|-crit|p2a: TheBoss
+|-damage|p2a: TheBoss|0 fnt
+|faint|p2a: TheBoss
+|
+|switch|p2a: SuperStar|Starmie|323/323
+|turn|46
+|
+|switch|p1a: Starmie|Starmie|231/323
+|move|p2a: SuperStar|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|182/323
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|move|p2a: SuperStar|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|48
+|
+|move|p2a: SuperStar|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|26/323 par
+|move|p1a: Starmie|Blizzard|p2a: SuperStar
+|-crit|p2a: SuperStar
+|-resisted|p2a: SuperStar
+|-damage|p2a: SuperStar|230/323
+|
+|upkeep
+|turn|49
+|
+|move|p2a: SuperStar|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Snorlax|Snorlax|289/523
+|turn|50
+|
+|move|p2a: SuperStar|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: SuperStar
+|-damage|p2a: SuperStar|112/323
+|
+|upkeep
+|turn|51
+|
+|move|p2a: SuperStar|Recover|p2a: SuperStar
+|-heal|p2a: SuperStar|273/323
+|move|p1a: Snorlax|Body Slam|p2a: SuperStar
+|-damage|p2a: SuperStar|163/323
+|-status|p2a: SuperStar|par
+|
+|upkeep
+|turn|52
+|
+|move|p2a: SuperStar|Recover|p2a: SuperStar
+|-heal|p2a: SuperStar|323/323 par
+|move|p1a: Snorlax|Body Slam|p2a: SuperStar
+|-damage|p2a: SuperStar|209/323 par
+|
+|upkeep
+|turn|53
+|
+|switch|p1a: Chansey|Chansey|165/703 par
+|move|p2a: SuperStar|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Tauros|Tauros|85/353
+|turn|54
+|
+|move|p1a: Tauros|Hyper Beam|p2a: SuperStar
+|-damage|p2a: SuperStar|14/323 par
+|-mustrecharge|p1a: Tauros
+|cant|p2a: SuperStar|par
+|
+|upkeep
+|turn|55
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: SuperStar|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|56
+|
+|move|p2a: SuperStar|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Snorlax|Snorlax|289/523 par
+|turn|57
+|
+|move|p2a: SuperStar|Recover|p2a: SuperStar
+|-heal|p2a: SuperStar|175/323 par
+|move|p1a: Snorlax|Ice Beam|p2a: SuperStar
+|-resisted|p2a: SuperStar
+|-damage|p2a: SuperStar|147/323 par
+|
+|upkeep
+|turn|58
+|
+|move|p2a: SuperStar|Recover|p2a: SuperStar
+|-heal|p2a: SuperStar|308/323 par
+|move|p1a: Snorlax|Ice Beam|p2a: SuperStar
+|-resisted|p2a: SuperStar
+|-damage|p2a: SuperStar|278/323 par
+|
+|upkeep
+|turn|59
+|
+|move|p2a: SuperStar|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|71/523 par
+|move|p1a: Snorlax|Body Slam|p2a: SuperStar
+|-damage|p2a: SuperStar|160/323 par
+|
+|upkeep
+|turn|60
+|
+|move|p2a: SuperStar|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|win|Honig

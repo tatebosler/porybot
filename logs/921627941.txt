@@ -1,0 +1,316 @@
+|j|☆AlphaVolt 12
+|j|☆7 Tools
+|player|p1|AlphaVolt 12|265
+|player|p2|7 Tools|richboy-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Tauros|Tauros|353/353
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 7 Tools)
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|4
+|j| EmRE mOR 9
+|
+|move|p1a: Tauros|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|446/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|234/353
+|
+|upkeep
+|turn|5
+|c| EmRE mOR 9|Ist para eigentlich ein segen
+|c| EmRE mOR 9|Oder die hölle
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|6
+|c| EmRE mOR 9|Weil kannst nicht gefreezt werden
+|inactive|7 Tools has 120 seconds left.
+|inactive|7 Tools has 90 seconds left.
+|inactive|7 Tools has 60 seconds left.
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|7
+|inactive|7 Tools has 60 seconds left.
+|l| EmRE mOR 9
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|9
+|inactive|7 Tools has 60 seconds left.
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|374/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|391/523
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Snorlax|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|62/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|254/523
+|
+|upkeep
+|turn|11
+|inactive|7 Tools has 60 seconds left.
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Snorlax|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|208/323
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|82/323
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|243/323
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|114/323
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|275/323
+|move|p1a: Snorlax|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|155/323
+|-status|p2a: Starmie|frz
+|
+|upkeep
+|turn|15
+|inactive|7 Tools has 90 seconds left.
+|
+|cant|p2a: Starmie|frz
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|37/323 frz
+|
+|upkeep
+|turn|16
+|
+|cant|p2a: Starmie|frz
+|move|p1a: Snorlax|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Victreebel|Victreebel|363/363
+|turn|17
+|
+|move|p2a: Victreebel|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|237/523 par
+|cant|p1a: Snorlax|partiallytrapped
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Victreebel|Wrap|p1a: Snorlax|[from]Wrap
+|-damage|p1a: Snorlax|220/523 par
+|cant|p1a: Snorlax|partiallytrapped
+|
+|upkeep
+|turn|19
+|inactive|7 Tools has 120 seconds left.
+|
+|move|p2a: Victreebel|Wrap|p1a: Snorlax
+|-damage|p1a: Snorlax|203/523 par
+|cant|p1a: Snorlax|partiallytrapped
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Victreebel|Wrap|p1a: Snorlax|[from]Wrap
+|-damage|p1a: Snorlax|186/523 par
+|cant|p1a: Snorlax|partiallytrapped
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Victreebel|Wrap|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|156/523 par
+|cant|p1a: Snorlax|partiallytrapped
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Victreebel|Wrap|p1a: Snorlax|[from]Wrap
+|-damage|p1a: Snorlax|126/523 par
+|cant|p1a: Snorlax|partiallytrapped
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|24
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|615/703
+|-status|p2a: Chansey|frz
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Tauros|Tauros|234/353
+|switch|p2a: Snorlax|Snorlax|62/523 par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|27
+|inactive|7 Tools has 120 seconds left.
+|inactive|7 Tools has 90 seconds left.
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|276/393
+|
+|upkeep
+|turn|28
+|inactive|7 Tools has 90 seconds left.
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|83/393
+|-mustrecharge|p2a: Tauros
+|move|p1a: Exeggutor|Sleep Powder|p2a: Tauros
+|-status|p2a: Tauros|slp|[from] move: Sleep Powder
+|-hint|In Gen 1, if a Pokémon that has just used Hyper Beam and has yet to recharge is targeted with a sleep inducing move, any other status it may already have will be ignored and sleep will be induced regardless.
+|
+|upkeep
+|turn|29
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|205/353 slp
+|
+|upkeep
+|turn|30
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|42/353 slp
+|
+|upkeep
+|turn|31
+|
+|cant|p2a: Tauros|slp
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Victreebel|Victreebel|363/363
+|turn|32
+|
+|move|p2a: Victreebel|Wrap|p1a: Exeggutor|[miss]
+|-miss|p2a: Victreebel
+|move|p1a: Exeggutor|Explosion|p2a: Victreebel
+|-damage|p2a: Victreebel|9/363
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|33
+|
+|move|p1a: Alakazam|Psychic|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|turn|34
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Rhydon|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|246/313
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|205/413
+|move|p2a: Rhydon|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|180/313
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Rhydon|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|62/313 par
+|move|p1a: Alakazam|Psychic|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|-message|7 Tools forfeited.
+|
+|win|AlphaVolt 12

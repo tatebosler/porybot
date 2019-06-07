@@ -1,0 +1,365 @@
+|j|☆Karlo not karlos
+|j|☆nansha
+|player|p1|Karlo not karlos|166
+|player|p2|nansha|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Aerodactyl|Aerodactyl|363/363
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Aerodactyl|Agility|p1a: Aerodactyl
+|-boost|p1a: Aerodactyl|spe|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Aerodactyl|Agility|p1a: Aerodactyl
+|-boost|p1a: Aerodactyl|spe|2
+|move|p2a: Starmie|Surf|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|43/363
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Aerodactyl|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|197/323
+|-mustrecharge|p1a: Aerodactyl
+|move|p2a: Starmie|Surf|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|switch|p1a: Dragonite|Dragonite|385/385
+|turn|4
+|
+|switch|p1a: Lapras|Lapras|463/463
+|move|p2a: Starmie|Ice Beam|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|443/463
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Lapras|Confuse Ray|p2a: Zapdos
+|-start|p2a: Zapdos|confusion
+|
+|upkeep
+|turn|6
+|
+|-activate|p2a: Zapdos|confusion
+|move|p2a: Zapdos|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|192/463
+|move|p1a: Lapras|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|183/383
+|
+|upkeep
+|turn|7
+|
+|-activate|p2a: Zapdos|confusion
+|-damage|p2a: Zapdos|147/383|[from] confusion
+|move|p1a: Lapras|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Lapras|Lapras|463/463
+|turn|8
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Lapras
+|-start|p2a: Lapras|confusion
+|-activate|p2a: Lapras|confusion
+|move|p2a: Lapras|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|49/463
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|319/463
+|-end|p2a: Lapras|confusion
+|move|p2a: Lapras|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Onix|Onix|273/273
+|turn|10
+|
+|move|p1a: Onix|Bind|p2a: Lapras
+|-damage|p2a: Lapras|309/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Onix|Bind|p2a: Lapras|[from]Bind
+|-damage|p2a: Lapras|299/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Onix|Bind|p2a: Lapras|[from]Bind
+|-damage|p2a: Lapras|289/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Onix|Bind|p2a: Lapras
+|-damage|p2a: Lapras|280/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Onix|Bind|p2a: Lapras|[from]Bind
+|-damage|p2a: Lapras|271/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Onix|Bind|p2a: Lapras|[from]Bind
+|-damage|p2a: Lapras|262/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Onix|Bind|p2a: Lapras|[from]Bind
+|-damage|p2a: Lapras|253/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Onix|Bind|p2a: Lapras|[from]Bind
+|-damage|p2a: Lapras|244/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Onix|Bind|p2a: Lapras
+|-damage|p2a: Lapras|234/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Onix|Bind|p2a: Lapras|[from]Bind
+|-damage|p2a: Lapras|224/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Onix|Bind|p2a: Lapras|[from]Bind
+|-damage|p2a: Lapras|214/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Gengar|Gengar|323/323
+|move|p1a: Onix|Bind|p2a: Gengar
+|-damage|p2a: Gengar|323/323
+|
+|upkeep
+|turn|22
+|
+|cant|p2a: Gengar|partiallytrapped
+|move|p1a: Onix|Bind|p2a: Gengar|[from]Bind
+|-damage|p2a: Gengar|323/323
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Onix
+|-start|p1a: Onix|confusion
+|-activate|p1a: Onix|confusion
+|move|p1a: Onix|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|126/323
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Gengar|Psychic|p1a: Onix
+|-crit|p1a: Onix
+|-damage|p1a: Onix|0 fnt
+|faint|p1a: Onix
+|
+|switch|p1a: Charizard|Charizard|359/359
+|turn|25
+|
+|switch|p2a: Starmie|Starmie|197/323
+|move|p1a: Charizard|Earthquake|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|36/323
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Starmie|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Charizard|Charizard|359/359
+|turn|27
+|
+|move|p2a: Starmie|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|95/359
+|move|p1a: Charizard|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Lapras|Lapras|214/463
+|turn|28
+|
+|move|p1a: Charizard|Fire Spin|p2a: Lapras
+|-damage|p2a: Lapras|197/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Charizard|Fire Spin|p2a: Lapras|[from]Fire Spin
+|-damage|p2a: Lapras|180/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Charizard|Fire Spin|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|352/363
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Charizard|Fire Spin|p2a: Golem|[from]Fire Spin
+|-damage|p2a: Golem|341/363
+|cant|p2a: Golem|partiallytrapped
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Charizard|Fire Spin|p2a: Golem|[from]Fire Spin
+|-damage|p2a: Golem|330/363
+|cant|p2a: Golem|partiallytrapped
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Charizard|Fire Spin|p2a: Golem|[from]Fire Spin
+|-damage|p2a: Golem|319/363
+|cant|p2a: Golem|partiallytrapped
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Charizard|Fire Spin|p2a: Golem|[from]Fire Spin
+|-damage|p2a: Golem|308/363
+|cant|p2a: Golem|partiallytrapped
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Charizard|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|187/363
+|move|p2a: Golem|Earthquake|p1a: Charizard
+|-immune|p1a: Charizard
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Charizard|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|64/363
+|move|p2a: Golem|Hyper Beam|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Dragonite|Dragonite|385/385
+|turn|37
+|
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|move|p2a: Golem|Rest|p2a: Golem
+|-status|p2a: Golem|slp|[from] move: Rest
+|-heal|p2a: Golem|363/363 slp|[silent]
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Lapras|Lapras|180/463
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|24/463
+|-mustrecharge|p1a: Dragonite
+|move|p2a: Lapras|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|312/385
+|
+|upkeep
+|turn|40
+|
+|cant|p1a: Dragonite|recharge
+|move|p2a: Lapras|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|240/385
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Dragonite|Ice Beam|p2a: Lapras
+|-crit|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|42
+|
+|move|p1a: Dragonite|Hyper Beam|p2a: Alakazam
+|-damage|p2a: Alakazam|81/313
+|-mustrecharge|p1a: Dragonite
+|move|p2a: Alakazam|Psychic|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|nansha
+|raw|Karlo not karlos's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|nansha's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)
+|l|☆Karlo not karlos

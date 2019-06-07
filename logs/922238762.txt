@@ -1,0 +1,321 @@
+|j|☆WelcomeToBopCity
+|j|☆7 Tools
+|player|p1|WelcomeToBopCity|2
+|player|p2|7 Tools|richboy-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Infect4|Exeggutor|393/393
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 7 Tools)
+|inactive|WelcomeToBopCity has 120 seconds left.
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Infect4|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Infect4|Sleep Powder|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Infect4|Stun Spore|p1a: Exeggutor|[miss]
+|-miss|p2a: Infect4
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Infect4
+|-status|p2a: Infect4|slp|[from] move: Sleep Powder
+|cant|p2a: Infect4|slp
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|switch|p2a: 3Dπ3|Chansey|703/703
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Jynx|Jynx|333/333 slp
+|move|p2a: 3Dπ3|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Streetguard1|Tauros|353/353
+|-curestatus|p1a: Jynx|slp|[msg]
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Streetguard1|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|389/523
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: bigbones2|Snorlax|523/523
+|move|p1a: Snorlax|Body Slam|p2a: bigbones2
+|-damage|p2a: bigbones2|386/523
+|
+|upkeep
+|turn|9
+|
+|move|p2a: bigbones2|Reflect|p2a: bigbones2
+|-start|p2a: bigbones2|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: bigbones2
+|-damage|p2a: bigbones2|315/523
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Snorlax|Self-Destruct|p2a: bigbones2
+|-damage|p2a: bigbones2|106/523
+|faint|p1a: Snorlax
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|turn|11
+|
+|switch|p2a: terraformer8|Rhydon|413/413
+|move|p1a: Zapdos|Thunderbolt|p2a: terraformer8
+|-immune|p2a: terraformer8
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: terraformer8|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|307/393
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: 3Dπ3|Chansey|703/703
+|move|p1a: Exeggutor|Stun Spore|p2a: 3Dπ3
+|-status|p2a: 3Dπ3|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Exeggutor|Explosion|p2a: 3Dπ3
+|-damage|p2a: 3Dπ3|0 fnt
+|faint|p2a: 3Dπ3
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Streetguard1|Tauros|353/353
+|turn|15
+|
+|move|p2a: Streetguard1|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|161/333
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Blizzard|p2a: Streetguard1
+|-damage|p2a: Streetguard1|187/353
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Streetguard1|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|17
+|inactive|7 Tools has 120 seconds left.
+|
+|switch|p2a: Infect4|Exeggutor|393/393 slp
+|move|p1a: Tauros|Body Slam|p2a: Infect4
+|-damage|p2a: Infect4|287/393 slp
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Tauros|Body Slam|p2a: Infect4
+|-damage|p2a: Infect4|171/393 slp
+|-curestatus|p2a: Infect4|slp|[msg]
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: terraformer8|Rhydon|413/413
+|move|p1a: Tauros|Hyper Beam|p2a: terraformer8
+|-resisted|p2a: terraformer8
+|-damage|p2a: terraformer8|334/413
+|-mustrecharge|p1a: Tauros
+|
+|upkeep
+|turn|20
+|inactive|7 Tools has 120 seconds left.
+|
+|switch|p2a: kognit6|Alakazam|313/313
+|cant|p1a: Tauros|recharge
+|
+|upkeep
+|turn|21
+|
+|move|p2a: kognit6|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|move|p1a: Tauros|Body Slam|p2a: kognit6
+|-damage|p2a: kognit6|149/313
+|
+|upkeep
+|turn|22
+|
+|move|p2a: kognit6|Recover|p2a: kognit6
+|-heal|p2a: kognit6|305/313
+|move|p1a: Tauros|Body Slam|p2a: kognit6
+|-damage|p2a: kognit6|151/313
+|
+|upkeep
+|turn|23
+|
+|move|p2a: kognit6|Recover|p2a: kognit6
+|-heal|p2a: kognit6|307/313
+|move|p1a: Tauros|Body Slam|p2a: kognit6
+|-damage|p2a: kognit6|145/313
+|
+|upkeep
+|turn|24
+|
+|move|p2a: kognit6|Recover|p2a: kognit6
+|-heal|p2a: kognit6|301/313
+|move|p1a: Tauros|Body Slam|p2a: kognit6
+|-damage|p2a: kognit6|147/313
+|
+|upkeep
+|turn|25
+|
+|move|p2a: kognit6|Recover|p2a: kognit6
+|-heal|p2a: kognit6|303/313
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: kognit6|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|178/353 par
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|27
+|
+|move|p2a: kognit6|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|10/353 par
+|move|p1a: Tauros|Hyper Beam|p2a: kognit6
+|-crit|p2a: kognit6
+|-damage|p2a: kognit6|0 fnt
+|faint|p2a: kognit6
+|
+|switch|p2a: Streetguard1|Tauros|187/353
+|turn|28
+|
+|move|p2a: Streetguard1|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Lapras|Lapras|463/463
+|turn|29
+|
+|move|p2a: Streetguard1|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|337/463
+|-status|p1a: Lapras|par
+|move|p1a: Lapras|Blizzard|p2a: Streetguard1
+|-damage|p2a: Streetguard1|10/353
+|
+|upkeep
+|turn|30
+|inactive|7 Tools has 120 seconds left.
+|inactive|7 Tools has 90 seconds left.
+|
+|move|p2a: Streetguard1|Hyper Beam|p1a: Lapras|[miss]
+|-miss|p2a: Streetguard1
+|move|p1a: Lapras|Thunderbolt|p2a: Streetguard1
+|-damage|p2a: Streetguard1|0 fnt
+|faint|p2a: Streetguard1
+|
+|switch|p2a: Infect4|Exeggutor|171/393
+|turn|31
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Infect4|Explosion|p1a: Zapdos
+|-damage|p1a: Zapdos|93/383
+|faint|p2a: Infect4
+|
+|switch|p2a: terraformer8|Rhydon|334/413
+|turn|32
+|
+|move|p1a: Zapdos|Drill Peck|p2a: terraformer8
+|-resisted|p2a: terraformer8
+|-damage|p2a: terraformer8|294/413
+|move|p2a: terraformer8|Substitute|p2a: terraformer8
+|-start|p2a: terraformer8|Substitute
+|-damage|p2a: terraformer8|191/413
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Zapdos|Drill Peck|p2a: terraformer8
+|-resisted|p2a: terraformer8
+|-activate|p2a: terraformer8|Substitute|[damage]
+|move|p2a: terraformer8|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Lapras|Lapras|337/463 par
+|turn|34
+|
+|move|p2a: terraformer8|Rock Slide|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|104/463 par
+|move|p1a: Lapras|Sing|p2a: terraformer8
+|-status|p2a: terraformer8|slp|[from] move: Sing
+|
+|upkeep
+|turn|35
+|
+|cant|p2a: terraformer8|slp
+|move|p1a: Lapras|Blizzard|p2a: terraformer8
+|-supereffective|p2a: terraformer8
+|-end|p2a: terraformer8|Substitute
+|
+|upkeep
+|turn|36
+|
+|cant|p2a: terraformer8|slp
+|cant|p1a: Lapras|par
+|
+|upkeep
+|turn|37
+|
+|cant|p2a: terraformer8|slp
+|move|p1a: Lapras|Blizzard|p2a: terraformer8
+|-supereffective|p2a: terraformer8
+|-damage|p2a: terraformer8|0 fnt
+|faint|p2a: terraformer8
+|
+|switch|p2a: bigbones2|Snorlax|106/523
+|turn|38
+|
+|move|p2a: bigbones2|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|win|7 Tools
+|l|☆WelcomeToBopCity

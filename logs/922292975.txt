@@ -1,0 +1,247 @@
+|j|☆Boubzi
+|j|☆Le GrosTest
+|player|p1|Boubzi|43
+|player|p2|Le GrosTest|168
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Rapidash|Rapidash|333/333
+|turn|1
+|j| JjC527
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|switch|p2a: Chansey|Chansey|703/703
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|174/413
+|move|p1a: Rhydon|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|300/703
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|651/703
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|400/703
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|222/703
+|-mustrecharge|p1a: Tauros
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|253/353 par
+|cant|p1a: Tauros|recharge
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|573/703
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Rapidash|Rapidash|333/333
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rapidash|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Rapidash|Fire Blast|p1a: Exeggutor|[miss]
+|-miss|p2a: Rapidash
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rapidash
+|-status|p2a: Rapidash|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|338/393
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Exeggutor|Poison Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|psn
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|340/393
+|-unboost|p1a: Exeggutor|spd|1
+|-unboost|p1a: Exeggutor|spa|1
+|-damage|p2a: Exeggutor|314/393 psn|[from] psn|[of] p1a: Exeggutor
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Sleep Powder
+|-damage|p2a: Exeggutor|290/393 psn|[from] psn|[of] p1a: Chansey
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|switch|p1a: Alakazam|Alakazam|313/313
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Exeggutor|Exeggutor|290/393 psn
+|-damage|p2a: Exeggutor|266/393 psn|[from] psn
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-fail|p2a: Exeggutor
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|move|p2a: Exeggutor|Stun Spore|p1a: Alakazam|[miss]
+|-miss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|242/393 psn|[from] psn|[of] p1a: Alakazam
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|185/393 psn
+|move|p2a: Exeggutor|Stun Spore|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|-damage|p2a: Exeggutor|161/393 psn|[from] psn|[of] p1a: Alakazam
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|104/313 par
+|faint|p2a: Exeggutor
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Boubzi)
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|turn|19
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Exeggutor|Exeggutor|340/393
+|turn|20
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|224/393
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Poison Powder|p2a: Kangaskhan|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|120/393 par
+|move|p1a: Exeggutor|Poison Powder|p2a: Kangaskhan|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|23
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|405/523
+|move|p1a: Snorlax|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|282/413
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Snorlax|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|161/413
+|move|p2a: Kangaskhan|Counter|p1a: Snorlax
+|-damage|p1a: Snorlax|163/523
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|253/353 par
+|turn|26
+|
+|move|p2a: Kangaskhan|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|88/353 par
+|-mustrecharge|p2a: Kangaskhan
+|move|p1a: Tauros|Blizzard|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|35/413
+|
+|upkeep
+|turn|27
+|
+|cant|p2a: Kangaskhan|recharge
+|move|p1a: Tauros|Body Slam|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|28
+|
+|move|p2a: Snorlax|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Rhydon|Rhydon|174/413
+|turn|29
+|-message|Boubzi forfeited.
+|
+|win|Le GrosTest
+|l|☆Boubzi

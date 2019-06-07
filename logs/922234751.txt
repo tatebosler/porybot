@@ -1,0 +1,304 @@
+|j|☆SempaiLugia
+|j|☆WelcomeToBopCity
+|player|p1|SempaiLugia|102
+|player|p2|WelcomeToBopCity|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp|[from] move: Lovely Kiss
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Jynx|Blizzard|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|265/333 slp
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|3
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Jynx|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|214/333 slp
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Jynx|Psychic|p2a: Jynx|[miss]
+|-miss|p1a: Jynx
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|5
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Jynx|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|158/333 slp
+|
+|upkeep
+|turn|6
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Jynx|Blizzard|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|90/333 slp
+|
+|upkeep
+|turn|7
+|
+|-curestatus|p2a: Jynx|slp|[msg]
+|move|p1a: Jynx|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|35/333
+|-unboost|p2a: Jynx|spd|1
+|-unboost|p2a: Jynx|spa|1
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Jynx|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|9
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp|[from] move: Lovely Kiss
+|cant|p2a: Exeggutor|slp
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Lapras|Lapras|463/463
+|move|p1a: Jynx|Blizzard|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|430/463
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Lapras|Sing|p1a: Chansey|[miss]
+|-miss|p2a: Lapras
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Jynx|Jynx|333/333
+|move|p2a: Lapras|Sing|p1a: Jynx|[miss]
+|-miss|p2a: Lapras
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Jynx|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|322/463
+|move|p2a: Lapras|Sing|p1a: Jynx|[miss]
+|-miss|p2a: Lapras
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Jynx|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|222/463
+|move|p2a: Lapras|Sing|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Sing
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Chansey|Chansey|703/703
+|switch|p2a: Snorlax|Snorlax|523/523
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Snorlax|Earthquake|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|239/703
+|move|p1a: Chansey|Counter|p2a: Snorlax
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|270/393
+|-status|p1a: Exeggutor|par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|158/393 par
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|20
+|
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|move|p2a: Snorlax|Self-Destruct|p1a: Snorlax
+|-damage|p1a: Snorlax|124/523
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|21
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|22
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|154/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|156/353
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Tauros|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|182/383
+|-mustrecharge|p1a: Tauros
+|
+|upkeep
+|turn|24
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Zapdos|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|4/353 par
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|27
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|cant|p2a: Zapdos|par
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Chansey|Chansey|239/703
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|30
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|move|p1a: Starmie|Blizzard|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Lapras|Lapras|222/463
+|turn|31
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|176/323 par
+|move|p1a: Starmie|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|74/463
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Jynx|Jynx|333/333 slp
+|move|p2a: Lapras|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|260/333 slp
+|
+|upkeep
+|turn|33
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Lapras|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|181/333 slp
+|
+|upkeep
+|turn|34
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Lapras|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|109/333 slp
+|
+|upkeep
+|turn|35
+|
+|cant|p1a: Jynx|slp
+|move|p2a: Lapras|Hyper Beam|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Starmie|Starmie|176/323 par
+|turn|36
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|WelcomeToBopCity

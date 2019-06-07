@@ -1,0 +1,110 @@
+|j|☆Aweburne
+|j|☆Rycera
+|player|p1|Aweburne|284
+|player|p2|Rycera|163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Chansey|Chansey|703/703
+|turn|1
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|629/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|555/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|476/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|399/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|427/703
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|327/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|351/703
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Jynx|Jynx|333/333
+|move|p2a: Chansey|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|256/333
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Lovely Kiss
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Jynx|Toxic|p2a: Chansey
+|-fail|p2a: Chansey
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Jynx|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|243/703 slp
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|-curestatus|p2a: Chansey|slp|[msg]
+|
+|upkeep
+|turn|11
+|l|☆Aweburne
+|player|p1|
+|c|☆Rycera|ho
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rycera)
+|inactive|Aweburne has 30 seconds to reconnect!
+|inactive|Aweburne has 20 seconds to reconnect!
+|inactive|Aweburne has 15 seconds to reconnect!
+|inactive|Aweburne has 10 seconds to reconnect!
+|inactive|Aweburne has 5 seconds to reconnect!
+|-message|Aweburne lost due to inactivity.
+|
+|win|Rycera
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

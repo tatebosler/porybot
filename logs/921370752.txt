@@ -1,0 +1,291 @@
+|j|☆ErPeris
+|j|☆a_girl_or_boy
+|player|p1|ErPeris|30
+|player|p2|a_girl_or_boy|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: IQ 101|Pikachu|273/273
+|turn|1
+|c|☆ErPeris|hf
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: IQ 101|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|363/393
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Give Me a Chance|Chansey|703/703
+|move|p1a: Exeggutor|Sleep Powder|p2a: Give Me a Chance
+|-status|p2a: Give Me a Chance|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Jolty|Jolteon|333/333
+|move|p1a: Exeggutor|Psychic|p2a: Jolty
+|-damage|p2a: Jolty|223/333
+|-unboost|p2a: Jolty|spd|1
+|-unboost|p2a: Jolty|spa|1
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by a_girl_or_boy)
+|
+|move|p2a: Jolty|Pin Missile|p1a: Exeggutor|[miss]
+|-miss|p2a: Jolty
+|move|p1a: Exeggutor|Stun Spore|p2a: Jolty
+|-status|p2a: Jolty|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Exeggutor|Psychic|p2a: Jolty
+|-damage|p2a: Jolty|47/333 par
+|-unboost|p2a: Jolty|spd|1
+|-unboost|p2a: Jolty|spa|1
+|move|p2a: Jolty|Agility|p2a: Jolty
+|-boost|p2a: Jolty|spe|2
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Jolty|Pin Missile|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|320/393
+|-damage|p1a: Exeggutor|277/393
+|-damage|p1a: Exeggutor|234/393
+|-damage|p1a: Exeggutor|191/393
+|-hitcount|p1a: Exeggutor|4
+|move|p1a: Exeggutor|Psychic|p2a: Jolty
+|-damage|p2a: Jolty|0 fnt
+|faint|p2a: Jolty
+|
+|switch|p2a: the sleeping peep|Snorlax|523/523
+|turn|7
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: the sleeping peep|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|462/703
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: the sleeping peep|Counter|p1a: Chansey
+|-fail|p2a: the sleeping peep
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Chansey|Thunder Wave|p2a: the sleeping peep
+|-status|p2a: the sleeping peep|par
+|move|p2a: the sleeping peep|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|352/703
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: the sleeping peep|par
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Chansey|Seismic Toss|p2a: the sleeping peep
+|-damage|p2a: the sleeping peep|423/523 par
+|cant|p2a: the sleeping peep|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Chansey|Seismic Toss|p2a: the sleeping peep
+|-damage|p2a: the sleeping peep|323/523 par
+|move|p2a: the sleeping peep|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|595/703
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223/323
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Starmie|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|526/703
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|123/323 par
+|move|p2a: Starmie|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|382/703
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|23/323 par
+|move|p2a: Starmie|Surf|p1a: Chansey
+|-damage|p1a: Chansey|272/703
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: IQ 101|Pikachu|273/273
+|turn|18
+|
+|move|p2a: IQ 101|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|203/703
+|move|p1a: Chansey|Thunder Wave|p2a: IQ 101
+|-status|p2a: IQ 101|par
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Chansey|Seismic Toss|p2a: IQ 101
+|-damage|p2a: IQ 101|173/273 par
+|move|p2a: IQ 101|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|127/703
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|478/703
+|move|p2a: IQ 101|Surf|p1a: Chansey
+|-damage|p1a: Chansey|430/703
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Chansey|Seismic Toss|p2a: IQ 101
+|-damage|p2a: IQ 101|73/273 par
+|move|p2a: IQ 101|Agility|p2a: IQ 101
+|-boost|p2a: IQ 101|spe|2
+|
+|upkeep
+|turn|22
+|
+|cant|p2a: IQ 101|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Give Me a Chance|Chansey|703/703 slp
+|move|p1a: Chansey|Seismic Toss|p2a: Give Me a Chance
+|-damage|p2a: Give Me a Chance|603/703 slp
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Dodrio|Dodrio|323/323
+|cant|p2a: Give Me a Chance|slp
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Dodrio|Body Slam|p2a: Give Me a Chance
+|-damage|p2a: Give Me a Chance|316/703 slp
+|cant|p2a: Give Me a Chance|slp
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Dodrio|Agility|p1a: Dodrio
+|-boost|p1a: Dodrio|spe|2
+|cant|p2a: Give Me a Chance|slp
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Dodrio|Body Slam|p2a: Give Me a Chance
+|-damage|p2a: Give Me a Chance|14/703 slp
+|cant|p2a: Give Me a Chance|slp
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Dodrio|Agility|p1a: Dodrio
+|-boost|p1a: Dodrio|spe|2
+|cant|p2a: Give Me a Chance|slp
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Dodrio|Agility|p1a: Dodrio
+|-boost|p1a: Dodrio|spe|2
+|-curestatus|p2a: Give Me a Chance|slp|[msg]
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Dodrio|Body Slam|p2a: Give Me a Chance
+|-damage|p2a: Give Me a Chance|0 fnt
+|faint|p2a: Give Me a Chance
+|
+|switch|p2a: Nicki Minaj|Jynx|333/333
+|turn|31
+|inactive|ErPeris has 270 seconds left.
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: Nicki Minaj
+|-damage|p2a: Nicki Minaj|1/333
+|-mustrecharge|p1a: Dodrio
+|move|p2a: Nicki Minaj|Toxic|p1a: Dodrio
+|-status|p1a: Dodrio|tox
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: the sleeping peep|Snorlax|323/523 par
+|cant|p1a: Dodrio|recharge
+|-damage|p1a: Dodrio|303/323 tox|[from] psn
+|
+|upkeep
+|turn|33
+|inactive|ErPeris has 270 seconds left.
+|
+|move|p1a: Dodrio|Body Slam|p2a: the sleeping peep
+|-damage|p2a: the sleeping peep|188/523 par
+|-damage|p1a: Dodrio|263/323 tox|[from] psn
+|cant|p2a: the sleeping peep|par
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Dodrio|Hyper Beam|p2a: the sleeping peep
+|-damage|p2a: the sleeping peep|0 fnt
+|faint|p2a: the sleeping peep
+|-message|a_girl_or_boy forfeited.
+|
+|win|ErPeris
+|l|☆a_girl_or_boy
+|c|☆ErPeris|gg

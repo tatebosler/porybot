@@ -1,0 +1,85 @@
+|j|☆blade1418
+|j|☆EMIL_OLBERG
+|player|p1|blade1418|40
+|player|p2|EMIL_OLBERG|29
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard|359/359
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EMIL_OLBERG)
+|
+|switch|p1a: Hypno|Hypno|373/373
+|move|p2a: Jolteon|Thunderbolt|p1a: Hypno
+|-damage|p1a: Hypno|258/373
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Hypno
+|-status|p1a: Hypno|par
+|cant|p1a: Hypno|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Hypno
+|-crit|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|214/373 par
+|-damage|p1a: Hypno|170/373 par
+|-damage|p1a: Hypno|126/373 par
+|-hitcount|p1a: Hypno|3
+|cant|p1a: Hypno|par
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Clefable|Clefable|393/393
+|move|p2a: Jolteon|Pin Missile|p1a: Clefable
+|-damage|p1a: Clefable|383/393
+|-damage|p1a: Clefable|373/393
+|-damage|p1a: Clefable|363/393
+|-hitcount|p1a: Clefable|3
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|move|p1a: Clefable|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|upkeep
+|turn|6
+|inactive|blade1418 has 120 seconds left.
+|inactive|EMIL_OLBERG has 120 seconds left.
+|
+|move|p2a: Jolteon|Double Kick|p1a: Clefable
+|-crit|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|273/393 par
+|-damage|p1a: Clefable|183/393 par
+|-hitcount|p1a: Clefable|2
+|cant|p1a: Clefable|par
+|
+|upkeep
+|turn|7
+|inactive|blade1418 has 120 seconds left.
+|-message|blade1418 forfeited.
+|
+|win|EMIL_OLBERG
+|l|☆blade1418
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

@@ -1,0 +1,1059 @@
+|j|☆Same4youtwo
+|j|☆M-Kaz
+|player|p1|Same4youtwo|101
+|player|p2|M-Kaz|162
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|j| GreenEdenn
+|j| Zokuru
+|j| Rokhan
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|2
+|j| BIHI
+|j| Celysi(´・・ )
+|j| Michy47
+|c| Celysi(´・・ )|btw pk aucun de vous est sur bb ? c plus facile de cliquer apres
+|j| kilimina
+|j| Staxi
+|
+|move|p1a: Starmie|Surf|p2a: Chansey
+|-damage|p2a: Chansey|591/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|223/323
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|move|p2a: Chansey|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423/523
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|379/523
+|
+|upkeep
+|turn|6
+|j| Siamato
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|236/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|7
+|l| kilimina
+|c| Michy47|Siamato go enchainer apres
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|280/393
+|-status|p1a: Exeggutor|par
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|154/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|74/523
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|366/523 slp
+|
+|upkeep
+|turn|10
+|
+|cant|p2a: Snorlax|slp
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|199/523 slp
+|
+|upkeep
+|turn|11
+|
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|12
+|j| kilimina
+|
+|cant|p2a: Snorlax|slp
+|move|p1a: Exeggutor|Explosion|p2a: Snorlax
+|-damage|p2a: Snorlax|32/523 slp
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|13
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c| Siamato|Nop j'ai juste cliqué sur la notif pour voir ce qui se passait haha
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|14
+|j| Mindnight
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|259/323 par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|195/323 par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|16
+|c| Mindnight|qui a win g1
+|c| Michy47|kaz
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|133/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|294/323 par
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|236/323 par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|170/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|70/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|231/323 par
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|135/323 par
+|move|p1a: Starmie|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|40/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|201/323 par
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|458/703
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Starmie|Starmie|201/323 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-fail|p1a: Starmie
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|260/323 par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|263/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|174/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|27
+|
+|cant|p2a: Exeggutor|par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-hint|In Gen 1, recovery moves fail if (user's maximum HP - user's current HP + 1) is divisible by 256.
+|-fail|p1a: Starmie
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-fail|p1a: Starmie
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-hint|In Gen 1, recovery moves fail if (user's maximum HP - user's current HP + 1) is divisible by 256.
+|-fail|p1a: Starmie
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-fail|p1a: Starmie
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-fail|p1a: Starmie
+|move|p1a: Starmie|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|362/393 par
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Exeggutor|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|199/323 par
+|-mustrecharge|p2a: Exeggutor
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|32
+|
+|cant|p2a: Exeggutor|recharge
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Exeggutor|Hyper Beam|p1a: Starmie|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Starmie|Surf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|262/393 par
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|223/323 par
+|move|p1a: Starmie|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|230/393 par
+|
+|upkeep
+|turn|35
+|
+|cant|p2a: Exeggutor|par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|233/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|move|p1a: Starmie|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|208/393 par
+|
+|upkeep
+|turn|37
+|j| un nouveau depart!
+|
+|cant|p2a: Exeggutor|par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323 par
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Starmie|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|186/393 par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-fail|p1a: Starmie
+|move|p1a: Starmie|Surf|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|91/393 par
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: Golem|Golem|363/363
+|cant|p2a: Exeggutor|par
+|
+|upkeep
+|turn|41
+|c|☆M-Kaz|es-ce qu'onpeut se mettre d'accord sur le fait que tu as tout ?
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Golem|Rock Slide|p2a: Starmie
+|-damage|p2a: Starmie|211/323
+|
+|upkeep
+|turn|42
+|c|☆Same4youtwo|Complétement
+|
+|switch|p1a: Chansey|Chansey|458/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|366/703
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|44
+|
+|switch|p2a: Exeggutor|Exeggutor|91/393 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|45
+|c| Michy47|aller kaz
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: Exeggutor|Explosion|p1a: Golem
+|-crit|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|152/363
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|46
+|
+|switch|p1a: Starmie|Starmie|323/323 par
+|move|p2a: Tauros|Blizzard|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|283/323 par
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: Chansey|Chansey|591/703 par
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|48
+|
+|switch|p1a: Golem|Golem|152/363
+|switch|p2a: Tauros|Tauros|353/353
+|
+|upkeep
+|turn|49
+|
+|switch|p1a: Snorlax|Snorlax|423/523
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|225/523
+|
+|upkeep
+|turn|50
+|j| riiion
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|88/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|51
+|
+|switch|p1a: Golem|Golem|152/363
+|move|p2a: Tauros|Blizzard|p1a: Golem
+|-crit|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|c|☆M-Kaz|tu fais du bizarre
+|
+|switch|p1a: Starmie|Starmie|283/323 par
+|turn|52
+|
+|switch|p2a: Chansey|Chansey|591/703 par
+|switch|p1a: Snorlax|Snorlax|88/523
+|
+|upkeep
+|turn|53
+|
+|switch|p2a: Starmie|Starmie|211/323 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|54
+|
+|cant|p1a: Snorlax|slp
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|55
+|
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|57
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|348/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|214/323 par
+|
+|upkeep
+|turn|58
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|59
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|338/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|60
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|147/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|61
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|62
+|
+|switch|p1a: Chansey|Chansey|366/703 par
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|240/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|upkeep
+|turn|63
+|
+|move|p2a: Alakazam|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|61/703 par
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|move|p1a: Chansey|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|upkeep
+|turn|64
+|
+|switch|p1a: Starmie|Starmie|283/323 par
+|move|p2a: Alakazam|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|218/323 par
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|65
+|c| Siamato|C'est de la folie cette gen
+|
+|cant|p2a: Alakazam|par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|66
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|118/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|279/323 par
+|
+|upkeep
+|turn|67
+|
+|cant|p2a: Alakazam|par
+|move|p1a: Starmie|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|249/313 par
+|
+|upkeep
+|turn|68
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|179/323 par
+|move|p1a: Starmie|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|190/313 par
+|
+|upkeep
+|turn|69
+|
+|switch|p1a: Snorlax|Snorlax|523/523 slp
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|70
+|
+|switch|p2a: Tauros|Tauros|353/353
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|71
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|395/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|72
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|256/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|73
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|149/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|74
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|459/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|75
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|397/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|76
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|300/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|236/353
+|
+|upkeep
+|turn|77
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|204/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|78
+|
+|switch|p2a: Chansey|Chansey|591/703 par
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|79
+|
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|80
+|
+|cant|p1a: Snorlax|par
+|move|p2a: Chansey|Counter|p1a: Snorlax
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|81
+|
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|359/703 par
+|move|p2a: Chansey|Counter|p1a: Snorlax
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|82
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|422/703 par
+|
+|upkeep
+|turn|83
+|
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|186/703 par
+|move|p2a: Chansey|Counter|p1a: Snorlax
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|84
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|537/703 par
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|302/703 par
+|
+|upkeep
+|turn|85
+|
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|55/703 par
+|move|p2a: Chansey|Counter|p1a: Snorlax
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|86
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|406/703 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|119/703 par
+|
+|upkeep
+|turn|87
+|
+|cant|p2a: Chansey|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Starmie|Starmie|323/323 par
+|turn|88
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|425/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|89
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|90
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|418/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|91
+|
+|cant|p2a: Starmie|par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|207/323 par
+|
+|upkeep
+|turn|92
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|213/323 par
+|
+|upkeep
+|turn|93
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|85/323 par
+|
+|upkeep
+|turn|94
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|246/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|35/323 par
+|
+|upkeep
+|turn|95
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|196/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|83/323 par
+|
+|upkeep
+|turn|96
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|244/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|121/323 par
+|
+|upkeep
+|turn|97
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|282/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|170/323 par
+|
+|upkeep
+|turn|98
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|198/323 par
+|
+|upkeep
+|turn|99
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|move|p1a: Snorlax|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|238/323 par
+|
+|upkeep
+|turn|100
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|move|p1a: Snorlax|Earthquake|p2a: Starmie
+|-damage|p2a: Starmie|225/323 par
+|
+|upkeep
+|turn|101
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|237/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|102
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|430/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|103
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|104
+|
+|switch|p1a: Chansey|Chansey|61/703 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|j| Akola
+|
+|switch|p1a: Snorlax|Snorlax|430/523
+|turn|105
+|
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|209/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|106
+|
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|88/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|107
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|249/323 par
+|
+|upkeep
+|turn|108
+|
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|22/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|109
+|
+|move|p2a: Starmie|Blizzard|p1a: Tauros|[miss]
+|-miss|p2a: Starmie
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|110
+|
+|move|p2a: Starmie|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|230/353 par
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|111
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|141/353 par
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|112
+|
+|cant|p2a: Starmie|par
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|113
+|
+|cant|p2a: Starmie|par
+|move|p1a: Tauros|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Alakazam|Alakazam|190/313 par
+|turn|114
+|
+|move|p2a: Alakazam|Psychic|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Starmie|Starmie|179/323 par
+|turn|115
+|
+|move|p2a: Alakazam|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|118/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|279/323 par
+|
+|upkeep
+|turn|116
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|179/323 par
+|move|p1a: Starmie|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|95/313 par
+|
+|upkeep
+|turn|117
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|79/323 par
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|240/323 par
+|
+|upkeep
+|turn|118
+|
+|move|p2a: Alakazam|Seismic Toss|p1a: Starmie
+|-damage|p1a: Starmie|140/323 par
+|move|p1a: Starmie|Surf|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Tauros|Tauros|236/353
+|turn|119
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Snorlax|Snorlax|430/523 par
+|turn|120
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|307/523 par
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|121
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|237/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|122
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|459/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|123
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|393/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|124
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|294/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|33/353
+|
+|upkeep
+|turn|125
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|176/523
+|-mustrecharge|p2a: Tauros
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Same4youtwo
+|l|☆M-Kaz
+|c|☆Same4youtwo|gg
+|l| Zokuru
+|l|☆Same4youtwo
+|l| Siamato
+|l| Rokhan
+|l| Celysi(´・・ )
+|j| Alkione
+|l| Staxi
+|l| kilimina
+|l| Michy47
+|l| Akola
+|j| BlazingDark =)
+|l| BlazingDark =)
+|l| Alkione
+|l| Mindnight
+|l| GreenEdenn
+|l| un nouveau depart!
+|j|☆Same4youtwo
+|player|p1|Same4youtwo|101

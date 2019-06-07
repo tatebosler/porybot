@@ -1,0 +1,335 @@
+|j|☆Rycera
+|j|☆Dalvin95
+|player|p1|Rycera|163
+|player|p2|Dalvin95|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jolteon|Jolteon|333/333
+|switch|p2a: Charizard|Charizard|359/359
+|turn|1
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Charizard
+|-crit|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|c|☆Rycera|new team??
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dalvin95)
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|372/523
+|move|p2a: Snorlax|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|102/333
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Jolteon|Toxic|p2a: Snorlax|[miss]
+|-miss|p1a: Jolteon
+|move|p2a: Snorlax|Earthquake|p1a: Jolteon
+|-supereffective|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|inactive|Rycera has 270 seconds left.
+|inactive|Rycera has 240 seconds left.
+|c|☆Dalvin95|Yoooo
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|turn|4
+|c|☆Rycera|yoooo
+|c|☆Rycera|do I know you?
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|5
+|c|☆Rycera|I am battling with you
+|c|☆Rycera|okay
+|inactive|Rycera has 210 seconds left.
+|
+|switch|p2a: Scyther|Scyther|343/343
+|move|p1a: Exeggutor|Psychic|p2a: Scyther
+|-damage|p2a: Scyther|154/343
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Scyther|Slash|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|274/393
+|move|p1a: Exeggutor|Psychic|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|switch|p2a: Dodrio|Dodrio|323/323
+|turn|7
+|inactive|Rycera has 210 seconds left.
+|
+|move|p2a: Dodrio|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|39/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Dodrio
+|-message|Sleep Clause Mod activated.
+|
+|upkeep
+|turn|8
+|c|☆Rycera|hmm
+|
+|move|p2a: Dodrio|Fury Attack|p1a: Exeggutor
+|-damage|p1a: Exeggutor|19/393
+|-damage|p1a: Exeggutor|0 fnt
+|-hitcount|p1a: Exeggutor|2
+|faint|p1a: Exeggutor
+|c|☆Rycera|wanna chat?
+|inactive|Rycera has 180 seconds left.
+|inactive|Rycera has 150 seconds left.
+|inactive|Rycera has 120 seconds left.
+|inactive|Rycera has 90 seconds left.
+|inactive|Rycera has 60 seconds left.
+|c|☆Rycera|hi
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|9
+|inactive|Dalvin95 has 270 seconds left.
+|c|☆Rycera|the timer is not stopping
+|inactive|Dalvin95 has 240 seconds left.
+|inactive|Dalvin95 has 210 seconds left.
+|c|☆Rycera|dont know why??
+|inactive|Dalvin95 has 180 seconds left.
+|inactive|Dalvin95 has 150 seconds left.
+|inactive|Dalvin95 has 120 seconds left.
+|l|☆Dalvin95
+|inactive|Dalvin95 disconnected and has 300 seconds to reconnect!
+|player|p2|
+|inactive|Dalvin95 has 270 seconds to reconnect!
+|inactive|Dalvin95 has 240 seconds to reconnect!
+|inactive|Dalvin95 has 210 seconds to reconnect!
+|inactive|Dalvin95 has 180 seconds to reconnect!
+|inactive|Dalvin95 has 150 seconds to reconnect!
+|inactive|Dalvin95 has 120 seconds to reconnect!
+|inactive|Dalvin95 has 90 seconds to reconnect!
+|inactive|Dalvin95 has 60 seconds to reconnect!
+|j|☆Dalvin95
+|inactive|Dalvin95 reconnected and has 120 seconds left.
+|player|p2|Dalvin95|170
+|
+|move|p1a: Tauros|Ice Beam|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|168/323
+|move|p2a: Dodrio|Fury Attack|p1a: Tauros
+|-damage|p1a: Tauros|333/353
+|-damage|p1a: Tauros|313/353
+|-hitcount|p1a: Tauros|2
+|
+|upkeep
+|turn|10
+|inactive|Rycera has 60 seconds left.
+|inactive|Dalvin95 has 120 seconds left.
+|
+|move|p1a: Tauros|Ice Beam|p2a: Dodrio
+|-crit|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|faint|p2a: Dodrio
+|inactive|Dalvin95 has 120 seconds left.
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|11
+|c|☆Rycera|where were you??
+|
+|move|p2a: Jolteon|Double Kick|p1a: Tauros
+|-supereffective|p1a: Tauros
+|-damage|p1a: Tauros|277/353
+|-damage|p1a: Tauros|241/353
+|-hitcount|p1a: Tauros|2
+|move|p1a: Tauros|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|109/333
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|☆Rycera|hmm
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|13
+|
+|move|p2a: Jolteon|Double Kick|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|471/523
+|-damage|p1a: Snorlax|419/523
+|-hitcount|p1a: Snorlax|2
+|move|p1a: Snorlax|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|inactive|Dalvin95 has 150 seconds left.
+|
+|switch|p2a: Lapras|Lapras|463/463
+|turn|14
+|inactive|Dalvin95 has 150 seconds left.
+|inactive|Rycera has 90 seconds left.
+|inactive|Rycera has 60 seconds left.
+|c|☆Rycera|hmm
+|c|☆Dalvin95|Heh
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Snorlax|[miss]
+|-miss|p2a: Lapras
+|move|p1a: Snorlax|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|367/463
+|
+|upkeep
+|turn|15
+|inactive|Dalvin95 has 150 seconds left.
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|371/523|[from] confusion
+|
+|upkeep
+|turn|16
+|inactive|Dalvin95 has 150 seconds left.
+|
+|move|p2a: Lapras|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|291/523
+|-end|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|353/463
+|
+|upkeep
+|turn|17
+|inactive|Rycera has 60 seconds left.
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Snorlax
+|-damage|p1a: Snorlax|118/523
+|move|p1a: Snorlax|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|253/463
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|inactive|Rycera has 60 seconds left.
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|19
+|inactive|Rycera has 60 seconds left.
+|c|☆Dalvin95|Ala
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|move|p2a: Lapras|Confuse Ray|p1a: Alakazam
+|-start|p1a: Alakazam|confusion
+|
+|upkeep
+|turn|20
+|c|☆Rycera|ala
+|
+|switch|p2a: Snorlax|Snorlax|372/523 slp
+|-activate|p1a: Alakazam|confusion
+|-damage|p1a: Alakazam|276/313|[from] confusion
+|
+|upkeep
+|turn|21
+|
+|-activate|p1a: Alakazam|confusion
+|-damage|p1a: Alakazam|239/313|[from] confusion
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|22
+|
+|-end|p1a: Alakazam|confusion
+|move|p1a: Alakazam|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|107/313
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|263/313
+|move|p2a: Snorlax|Hyper Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|inactive|Rycera has 90 seconds left.
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|24
+|inactive|Rycera has 90 seconds left.
+|inactive|Dalvin95 has 180 seconds left.
+|c|☆Dalvin95|😈
+|c|☆Rycera|hmm
+|
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|225/523 par
+|move|p2a: Snorlax|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|105/323
+|-mustrecharge|p2a: Snorlax
+|
+|upkeep
+|turn|25
+|inactive|Dalvin95 has 180 seconds left.
+|c|☆Rycera|you win?
+|inactive|Rycera has 90 seconds left.
+|
+|move|p1a: Starmie|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|122/523 par
+|cant|p2a: Snorlax|recharge
+|
+|upkeep
+|turn|26
+|inactive|Dalvin95 has 180 seconds left.
+|
+|switch|p2a: Lapras|Lapras|253/463 par
+|move|p1a: Starmie|Psychic|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|47/463 par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Starmie|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Snorlax|Snorlax|122/523 par
+|turn|28
+|
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|Rycera
+|c|☆Rycera|so close
+|c|☆Dalvin95|Tht was cool
+|c|☆Rycera|of course
+|c|☆Dalvin95|Rematch?
+|l|☆Dalvin95

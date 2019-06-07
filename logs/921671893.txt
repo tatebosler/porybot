@@ -1,0 +1,363 @@
+|j|☆AnnieCHastur
+|j|☆7 Tools
+|player|p1|AnnieCHastur|2
+|player|p2|7 Tools|richboy-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323/323
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Gengar
+|-status|p1a: Gengar|par
+|move|p1a: Gengar|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|136/323
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|297/323
+|cant|p1a: Gengar|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Starmie|Psychic|p1a: Gengar
+|-crit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|c|☆AnnieCHastur|every time i play pokemon i am reminded that i am not a lucky person
+|
+|switch|p1a: Chansey|Chansey|703/703
+|turn|4
+|c|☆7 Tools|bro
+|c|☆7 Tools|gengar doesnt win against starmie
+|c|☆7 Tools|just switch to chansey before it dies
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|498/703 par
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|133/323 par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|294/323 par
+|move|p1a: Chansey|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|147/323 par
+|
+|upkeep
+|turn|7
+|c|☆AnnieCHastur|ty for the advice
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|151/313
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Alakazam|Psychic|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|187/523
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|move|p2a: Snorlax|Body Slam|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|10
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Tauros|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|366/413
+|-status|p2a: Rhydon|par
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Tauros|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|115/413 par
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|198/353
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Tauros|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|13
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|256/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|100/353
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros|[miss]
+|-miss|p1a: Tauros
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|turn|15
+|
+|switch|p2a: Victreebel|Victreebel|363/363
+|move|p1a: Rhydon|Earthquake|p2a: Victreebel
+|-damage|p2a: Victreebel|184/363
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Chansey|Chansey|498/703 par
+|move|p2a: Victreebel|Razor Leaf|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|383/703 par
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Victreebel|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|347/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Victreebel|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|408/413
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Chansey|Chansey|347/703 par
+|move|p2a: Victreebel|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|313/703 par
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Victreebel|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|279/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Victreebel|Wrap|p1a: Zapdos
+|-damage|p1a: Zapdos|370/383
+|
+|upkeep
+|turn|22
+|
+|cant|p1a: Zapdos|partiallytrapped
+|move|p2a: Victreebel|Wrap|p1a: Zapdos|[from]Wrap
+|-damage|p1a: Zapdos|357/383
+|
+|upkeep
+|turn|23
+|
+|cant|p1a: Zapdos|partiallytrapped
+|move|p2a: Victreebel|Wrap|p1a: Zapdos|[from]Wrap
+|-damage|p1a: Zapdos|344/383
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Starmie|Starmie|147/323 par
+|move|p1a: Zapdos|Drill Peck|p2a: Starmie
+|-damage|p2a: Starmie|57/323 par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Chansey|Chansey|703/703
+|turn|26
+|
+|switch|p1a: Chansey|Chansey|279/703 par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|200/703 par
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Victreebel|Victreebel|184/363
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|551/703 par
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Victreebel|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|516/703 par
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Rhydon|Rhydon|408/413
+|move|p2a: Victreebel|Wrap|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|403/413
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Victreebel|Wrap|p1a: Rhydon|[from]Wrap
+|-damage|p1a: Rhydon|398/413
+|cant|p1a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Zapdos|Zapdos|344/383
+|turn|32
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|454/703
+|move|p2a: Chansey|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|204/703
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|555/703
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|64/703
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|415/703
+|cant|p1a: Zapdos|par
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|451/703
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|204/383 par
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|202/703
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|69/383 par
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Tauros|Tauros|256/353
+|turn|41
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Tauros
+|-damage|p2a: Tauros|165/353
+|move|p2a: Tauros|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Chansey|Chansey|516/703 par
+|turn|42
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|7 Tools
+|l|☆AnnieCHastur

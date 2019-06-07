@@ -1,0 +1,347 @@
+|j|☆LADDERENGEL
+|j|☆ramzi86
+|player|p1|LADDERENGEL|richboy-gen3
+|player|p2|ramzi86|114
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Sonia|Jynx|333/333
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ramzi86)
+|inactive|LADDERENGEL has 120 seconds left.
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Sonia
+|-status|p2a: Sonia|par
+|move|p2a: Sonia|Lovely Kiss|p1a: Starmie|[miss]
+|-miss|p2a: Sonia
+|
+|upkeep
+|turn|2
+|inactive|LADDERENGEL has 120 seconds left.
+|
+|move|p1a: Starmie|Psychic|p2a: Sonia
+|-resisted|p2a: Sonia
+|-damage|p2a: Sonia|278/333 par
+|-unboost|p2a: Sonia|spd|1
+|-unboost|p2a: Sonia|spa|1
+|cant|p2a: Sonia|par
+|
+|upkeep
+|turn|3
+|inactive|LADDERENGEL has 120 seconds left.
+|inactive|ramzi86 has 120 seconds left.
+|inactive|ramzi86 has 90 seconds left.
+|inactive|ramzi86 has 60 seconds left.
+|
+|move|p1a: Starmie|Psychic|p2a: Sonia
+|-resisted|p2a: Sonia
+|-damage|p2a: Sonia|188/333 par
+|move|p2a: Sonia|Lovely Kiss|p1a: Starmie|[miss]
+|-miss|p2a: Sonia
+|
+|upkeep
+|turn|4
+|inactive|LADDERENGEL has 90 seconds left.
+|
+|move|p1a: Starmie|Psychic|p2a: Sonia
+|-resisted|p2a: Sonia
+|-damage|p2a: Sonia|109/333 par
+|cant|p2a: Sonia|par
+|
+|upkeep
+|turn|5
+|inactive|LADDERENGEL has 90 seconds left.
+|c|☆LADDERENGEL|lucky me
+|
+|switch|p1a: Snorlax|Snorlax, M|523/523
+|switch|p2a: Boum|Exeggutor|393/393
+|
+|upkeep
+|turn|6
+|inactive|ramzi86 has 60 seconds left.
+|
+|move|p2a: Boum|Sleep Powder|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Exeggutor|Exeggutor, M|393/393
+|move|p2a: Boum|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|339/393
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Sonia|Jynx|109/333 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Sonia
+|-fail|p2a: Sonia
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Exeggutor|Hyper Beam|p2a: Sonia
+|-damage|p2a: Sonia|0 fnt
+|faint|p2a: Sonia
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|10
+|
+|switch|p1a: Jolteon|Jolteon, M|333/333
+|move|p2a: Zapdos|Drill Peck|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|273/333
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Attila|Snorlax|523/523
+|move|p1a: Jolteon|Double Kick|p2a: Attila
+|-crit|p2a: Attila
+|-supereffective|p2a: Attila
+|-damage|p2a: Attila|427/523
+|-damage|p2a: Attila|331/523
+|-hitcount|p2a: Attila|2
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Attila
+|-damage|p2a: Attila|180/523
+|move|p2a: Attila|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|33/333
+|-mustrecharge|p2a: Attila
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Attila
+|-damage|p2a: Attila|38/523
+|cant|p2a: Attila|recharge
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Boum|Exeggutor|393/393
+|move|p1a: Jolteon|Thunderbolt|p2a: Boum
+|-resisted|p2a: Boum
+|-damage|p2a: Boum|339/393
+|-status|p2a: Boum|par
+|
+|upkeep
+|turn|15
+|inactive|ramzi86 has 120 seconds left.
+|
+|switch|p1a: Exeggutor|Exeggutor, M|339/393
+|move|p2a: Boum|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|287/393
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Exeggutor|Psychic|p2a: Boum
+|-resisted|p2a: Boum
+|-damage|p2a: Boum|287/393 par
+|move|p2a: Boum|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|235/393
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Exeggutor|Psychic|p2a: Boum
+|-resisted|p2a: Boum
+|-damage|p2a: Boum|231/393 par
+|move|p2a: Boum|Psychic|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|129/393
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Attila|Snorlax|38/523
+|move|p1a: Exeggutor|Psychic|p2a: Attila
+|-crit|p2a: Attila
+|-damage|p2a: Attila|0 fnt
+|faint|p2a: Attila
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|19
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Zapdos|Drill Peck|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|332/383
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|move|p2a: Zapdos|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|upkeep
+|turn|21
+|
+|cant|p1a: Zapdos|par
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|227/383 par
+|
+|upkeep
+|turn|22
+|
+|cant|p1a: Zapdos|par
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|110/383 par
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|184/383 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Jolteon|Jolteon, M|33/333
+|turn|24
+|
+|move|p1a: Jolteon|Rest|p1a: Jolteon
+|-status|p1a: Jolteon|slp|[from] move: Rest
+|-heal|p1a: Jolteon|333/333 slp|[silent]
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|upkeep
+|turn|25
+|
+|cant|p2a: Zapdos|par
+|cant|p1a: Jolteon|slp
+|
+|upkeep
+|turn|26
+|
+|cant|p2a: Zapdos|par
+|-curestatus|p1a: Jolteon|slp|[msg]
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Boum|Exeggutor|231/393 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Boum
+|-crit|p2a: Boum
+|-resisted|p2a: Boum
+|-damage|p2a: Boum|133/393 par
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Exeggutor|Exeggutor, M|129/393
+|move|p2a: Boum|Explosion|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|faint|p2a: Boum
+|
+|switch|p1a: Jolteon|Jolteon, M|333/333
+|switch|p2a: Ram|Alakazam|313/313
+|turn|29
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Ram|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Zapdos|Zapdos|184/383 par
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Jolteon|Jolteon, M|333/333
+|cant|p2a: Zapdos|par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|83/383 par
+|move|p2a: Zapdos|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Ram|Alakazam|313/313
+|move|p1a: Jolteon|Thunderbolt|p2a: Ram
+|-damage|p2a: Ram|209/313
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Ram|Psychic|p1a: Jolteon
+|-crit|p1a: Jolteon
+|-damage|p1a: Jolteon|106/333 par
+|move|p1a: Jolteon|Thunder Wave|p2a: Ram
+|-status|p2a: Ram|par
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Ram
+|-damage|p2a: Ram|115/313 par
+|move|p2a: Ram|Psychic|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|36
+|
+|switch|p2a: Zapdos|Zapdos|83/383 par
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Nasser|Tauros|353/353
+|turn|37
+|inactive|LADDERENGEL has 120 seconds left.
+|
+|move|p1a: Tauros|Body Slam|p2a: Nasser
+|-crit|p2a: Nasser
+|-damage|p2a: Nasser|147/353
+|move|p2a: Nasser|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|252/353
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Nasser|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|42/353
+|move|p1a: Tauros|Hyper Beam|p2a: Nasser
+|-damage|p2a: Nasser|0 fnt
+|faint|p2a: Nasser
+|-message|ramzi86 forfeited.
+|
+|win|LADDERENGEL
+|l|☆ramzi86

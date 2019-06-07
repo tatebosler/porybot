@@ -1,0 +1,164 @@
+|j|☆Mad_trainer_thanos
+|j|☆doodles1992
+|player|p1|Mad_trainer_thanos|276
+|player|p2|doodles1992|293
+|teamsize|p1|5
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Help|Weedle|283/283
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|1
+|
+|move|p2a: Jolteon|Body Slam|p1a: Help
+|-crit|p1a: Help
+|-damage|p1a: Help|88/283
+|move|p1a: Help|Poison Sting|p2a: Jolteon
+|-damage|p2a: Jolteon|318/333
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Jolteon|Body Slam|p1a: Help
+|-damage|p1a: Help|0 fnt
+|faint|p1a: Help
+|
+|switch|p1a: XD|Voltorb|283/283
+|turn|3
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: XD|Explosion|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|306/363
+|faint|p1a: XD
+|
+|switch|p1a: Lol|Metapod|303/303
+|turn|4
+|
+|move|p2a: Golem|Rock Slide|p1a: Lol
+|-supereffective|p1a: Lol
+|-damage|p1a: Lol|35/303
+|move|p1a: Lol|Harden|p1a: Lol
+|-boost|p1a: Lol|def|1
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Golem|Rock Slide|p1a: Lol
+|-supereffective|p1a: Lol
+|-damage|p1a: Lol|0 fnt
+|faint|p1a: Lol
+|
+|switch|p1a: Jk|Magikarp|243/243
+|turn|6
+|
+|switch|p2a: Jolteon|Jolteon|318/333
+|move|p1a: Jk|Dragon Rage|p2a: Jolteon
+|-damage|p2a: Jolteon|278/333
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Jk
+|-supereffective|p1a: Jk
+|-damage|p1a: Jk|0 fnt
+|faint|p1a: Jk
+|
+|switch|p1a: Idk|Paras|273/273
+|turn|8
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Idk|Spore|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Spore
+|
+|upkeep
+|turn|9
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Idk|Toxic|p2a: Zapdos
+|-fail|p2a: Zapdos
+|
+|upkeep
+|turn|10
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Idk|Skull Bash||[still]
+|-prepare|p1a: Idk|Skull Bash|p2a: Zapdos
+|
+|upkeep
+|turn|11
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Idk|Skull Bash|p2a: Zapdos|[from]Skull Bash
+|-damage|p2a: Zapdos|314/383 slp
+|
+|upkeep
+|turn|12
+|
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p1a: Idk|Spore|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Spore
+|
+|upkeep
+|turn|13
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Idk|Skull Bash||[still]
+|-prepare|p1a: Idk|Skull Bash|p2a: Zapdos
+|
+|upkeep
+|turn|14
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Idk|Skull Bash|p2a: Zapdos|[from]Skull Bash
+|-damage|p2a: Zapdos|243/383 slp
+|
+|upkeep
+|turn|15
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Idk|Skull Bash||[still]
+|-prepare|p1a: Idk|Skull Bash|p2a: Zapdos
+|
+|upkeep
+|turn|16
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Idk|Skull Bash|p2a: Zapdos|[from]Skull Bash
+|-damage|p2a: Zapdos|173/383 slp
+|
+|upkeep
+|turn|17
+|
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p1a: Idk|Spore|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Spore
+|
+|upkeep
+|turn|18
+|
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p1a: Idk|Skull Bash||[still]
+|-prepare|p1a: Idk|Skull Bash|p2a: Zapdos
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Idk
+|-supereffective|p1a: Idk
+|-damage|p1a: Idk|0 fnt
+|faint|p1a: Idk
+|
+|win|doodles1992
+|c|☆doodles1992|gg
+|l|☆Mad_trainer_thanos

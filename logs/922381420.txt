@@ -1,0 +1,254 @@
+|j|☆WelcomeToBopCity
+|j|☆COOLCHEATER
+|player|p1|WelcomeToBopCity|2
+|player|p2|COOLCHEATER|226
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Gengar|Gengar|323/323
+|turn|1
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|449/703
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|317/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|271/313
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|668/703
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Exeggutor
+|-status|p2a: Exeggutor|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|338/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|289/393 slp
+|cant|p2a: Exeggutor|slp
+|
+|upkeep
+|turn|7
+|
+|cant|p2a: Exeggutor|slp
+|move|p1a: Exeggutor|Double-Edge|p2a: Exeggutor
+|-damage|p2a: Exeggutor|203/393 slp
+|-damage|p1a: Exeggutor|372/393|[from] Recoil|[of] p2a: Exeggutor
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Cloyster|Cloyster|303/303
+|switch|p1a: Lapras|Lapras|463/463
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|668/703
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|596/703
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|634/703
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Gengar|Gengar|323/323
+|move|p1a: Chansey|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Exeggutor|Exeggutor|372/393
+|move|p2a: Gengar|Hypnosis|p1a: Exeggutor|[miss]
+|-miss|p2a: Gengar
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Exeggutor|Exeggutor|203/393 slp
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|151/393 slp
+|
+|upkeep
+|turn|14
+|
+|-curestatus|p2a: Exeggutor|slp|[msg]
+|move|p1a: Exeggutor|Double-Edge|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-damage|p1a: Exeggutor|335/393|[from] Recoil|[of] p2a: Exeggutor
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Cloyster|Cloyster|303/303
+|turn|15
+|
+|switch|p1a: Lapras|Lapras|463/463
+|move|p2a: Cloyster|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|431/463
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Gengar|Gengar|323/323 par
+|move|p1a: Lapras|Sing|p2a: Gengar|[miss]
+|-miss|p1a: Lapras
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Alakazam|Alakazam|271/313
+|move|p2a: Gengar|Hypnosis|p1a: Alakazam|[miss]
+|-miss|p2a: Gengar
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Chansey|Chansey|596/703
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|478/703
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|220/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|571/703
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Alakazam|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|320/393
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Chansey|Chansey|571/703
+|move|p1a: Alakazam|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|471/703
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|354/703
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|210/313
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Exeggutor|Exeggutor|335/393
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Slowbro|Slowbro|320/393
+|move|p1a: Exeggutor|Double-Edge|p2a: Slowbro
+|-damage|p2a: Slowbro|247/393
+|-damage|p1a: Exeggutor|317/393|[from] Recoil|[of] p2a: Slowbro
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Gengar|Gengar|323/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|102/323 par
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Cloyster|Cloyster|303/303
+|move|p1a: Exeggutor|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|158/303
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Lapras|Lapras|431/463
+|move|p2a: Cloyster|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|399/463
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Gengar|Gengar|102/323 par
+|move|p1a: Lapras|Thunderbolt|p2a: Gengar
+|-damage|p2a: Gengar|45/323 par
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-message|COOLCHEATER forfeited.
+|
+|win|WelcomeToBopCity
+|j| IceKingofOoo
+|l|☆COOLCHEATER

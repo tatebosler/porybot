@@ -1,0 +1,71 @@
+|j|☆WelcomeToBopCity
+|j|☆doodles1992
+|player|p1|WelcomeToBopCity|2
+|player|p2|doodles1992|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Lovely Kiss
+|cant|p1a: Jynx|slp
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Jynx|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|280/333 slp
+|-curestatus|p1a: Jynx|slp|[msg]
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx|[miss]
+|-miss|p1a: Jynx
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Tauros|Tauros|353/353
+|cant|p1a: Jynx|slp
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Tauros|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|348/393
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|228/393
+|-status|p1a: Exeggutor|frz
+|cant|p1a: Exeggutor|frz
+|
+|upkeep
+|turn|7
+|-message|WelcomeToBopCity forfeited.
+|
+|win|doodles1992
+|l|☆WelcomeToBopCity

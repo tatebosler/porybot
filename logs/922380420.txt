@@ -1,0 +1,290 @@
+|j|☆WizzardTheRaven23
+|j|☆IceKingofOoo
+|player|p1|WizzardTheRaven23|153
+|player|p2|IceKingofOoo|214
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blitzvogel|Zapdos|383/383
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|
+|move|p1a: Blitzvogel|Toxic|p2a: Jynx
+|-status|p2a: Jynx|tox
+|move|p2a: Jynx|Lovely Kiss|p1a: Blitzvogel
+|-status|p1a: Blitzvogel|slp|[from] move: Lovely Kiss
+|-damage|p2a: Jynx|313/333 tox|[from] psn
+|
+|upkeep
+|turn|2
+|
+|cant|p1a: Blitzvogel|slp
+|move|p2a: Jynx|Blizzard|p1a: Blitzvogel
+|-supereffective|p1a: Blitzvogel
+|-damage|p1a: Blitzvogel|144/383 slp
+|-damage|p2a: Jynx|273/333 tox|[from] psn
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Arcanine|Arcanine|383/383
+|move|p2a: Jynx|Blizzard|p1a: Arcanine|[miss]
+|-miss|p2a: Jynx
+|-damage|p2a: Jynx|213/333 tox|[from] psn
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IceKingofOoo)
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Arcanine|Flamethrower|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|275/323
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Starmie|Surf|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|345/393
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Jynx|Jynx|213/333 tox
+|-damage|p2a: Jynx|193/333 psn|[from] psn
+|move|p1a: Exeggutor|Toxic|p2a: Jynx
+|-fail|p2a: Jynx
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Arcanine|Arcanine|383/383
+|move|p2a: Jynx|Blizzard|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|81/383
+|-damage|p2a: Jynx|173/333 psn|[from] psn|[of] p1a: Arcanine
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Starmie|Starmie|275/323
+|move|p1a: Arcanine|Fire Blast|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|213/323
+|-status|p2a: Starmie|brn
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Starmie|Blizzard|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|j| silvers72
+|
+|switch|p1a: Stern|Starmie|323/323
+|turn|10
+|
+|move|p1a: Stern|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|11
+|
+|move|p1a: Stern|Hydro Pump|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|146/523
+|move|p2a: Snorlax|Body Slam|p1a: Stern
+|-damage|p1a: Stern|200/323
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Stern|Hydro Pump|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|13
+|
+|switch|p1a: Steiker|Alakazam|313/313
+|move|p2a: Zapdos|Drill Peck|p1a: Steiker
+|-damage|p1a: Steiker|164/313
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Steiker|Counter|p2a: Chansey
+|-fail|p1a: Steiker
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Giitauros|Tauros|353/353
+|move|p2a: Chansey|Seismic Toss|p1a: Giitauros
+|-damage|p1a: Giitauros|253/353
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Giitauros|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|137/703
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Giitauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|18
+|
+|move|p1a: Giitauros|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|277/383
+|move|p2a: Zapdos|Thunder Wave|p1a: Giitauros
+|-status|p1a: Giitauros|par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Giitauros
+|-damage|p1a: Giitauros|168/353 par
+|move|p1a: Giitauros|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|62/383
+|-status|p2a: Zapdos|par
+|
+|upkeep
+|turn|20
+|
+|cant|p1a: Giitauros|par
+|cant|p2a: Zapdos|par
+|
+|upkeep
+|turn|21
+|
+|cant|p1a: Giitauros|par
+|move|p2a: Zapdos|Thunderbolt|p1a: Giitauros
+|-damage|p1a: Giitauros|10/353 par
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Giitauros|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Jynx|Jynx|173/333 psn
+|turn|23
+|
+|move|p2a: Jynx|Psychic|p1a: Giitauros
+|-damage|p1a: Giitauros|0 fnt
+|faint|p1a: Giitauros
+|
+|switch|p1a: Stern|Starmie|200/323
+|turn|24
+|
+|move|p1a: Stern|Hydro Pump|p2a: Jynx
+|-damage|p2a: Jynx|26/333 psn
+|move|p2a: Jynx|Psychic|p1a: Stern
+|-resisted|p1a: Stern
+|-damage|p1a: Stern|145/323
+|-damage|p2a: Jynx|6/333 psn|[from] psn|[of] p1a: Stern
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Stern|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|26
+|
+|move|p1a: Stern|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|224/353
+|move|p2a: Tauros|Hyper Beam|p1a: Stern
+|-crit|p1a: Stern
+|-damage|p1a: Stern|0 fnt
+|faint|p1a: Stern
+|
+|switch|p1a: Blitzvogel|Zapdos|144/383 slp
+|turn|27
+|
+|move|p2a: Tauros|Blizzard|p1a: Blitzvogel
+|-crit|p1a: Blitzvogel
+|-supereffective|p1a: Blitzvogel
+|-damage|p1a: Blitzvogel|0 fnt
+|faint|p1a: Blitzvogel
+|
+|switch|p1a: Exeggutor|Exeggutor|345/393
+|turn|28
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|106/393
+|move|p1a: Exeggutor|Double-Edge|p2a: Tauros
+|-damage|p2a: Tauros|141/353
+|-damage|p1a: Exeggutor|86/393|[from] Recoil|[of] p2a: Tauros
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Steiker|Alakazam|164/313
+|move|p2a: Tauros|Hyper Beam|p1a: Steiker
+|-damage|p1a: Steiker|0 fnt
+|faint|p1a: Steiker
+|
+|switch|p1a: Exeggutor|Exeggutor|86/393
+|turn|30
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|win|IceKingofOoo
+|l| silvers72
+|c|☆IceKingofOoo|T_T
+|c|☆WizzardTheRaven23|So nice
+|c|☆IceKingofOoo|mans coulda won
+|c|☆WizzardTheRaven23|Was fu.
+|c|☆WizzardTheRaven23|Fun
+|raw|WizzardTheRaven23's rating: 1201 &rarr; <strong>1189</strong><br />(-12 for losing)
+|raw|IceKingofOoo's rating: 1405 &rarr; <strong>1414</strong><br />(+9 for winning)
+|c|☆IceKingofOoo|you shoulda stayed in with exeggutor
+|c|☆WizzardTheRaven23|Maaaaan
+|c|☆WizzardTheRaven23|Yes
+|c|☆IceKingofOoo|then alakzam is faster
+|c|☆IceKingofOoo|than tauros
+|c|☆IceKingofOoo|gg though (:
+|c|☆WizzardTheRaven23|But u didnt thought you would use hyper beam
+|c|☆IceKingofOoo|ahh ok
+|c|☆WizzardTheRaven23|So my mistake
+|c|☆IceKingofOoo|thought i go blizzard i see
+|c|☆WizzardTheRaven23|Was nice
+|c|☆IceKingofOoo|gg
+|l|☆IceKingofOoo
+|c|☆WizzardTheRaven23|I forgot

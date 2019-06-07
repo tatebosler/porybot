@@ -1,0 +1,259 @@
+|j|☆Pheooo
+|j|☆Chrycks
+|player|p1|Pheooo|red-gen1
+|player|p2|Chrycks|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Abra|Abra|253/253
+|switch|p2a: Tangela|Tangela|333/333
+|turn|1
+|j| Butterchoke
+|j| Gatubraz
+|c| Butterchoke|gl hf
+|c|☆Chrycks|GLHF
+|c|☆Chrycks|:D
+|j| Kayles
+|c|☆Pheooo|et bien
+|c|☆Pheooo|hf
+|c| Kayles|Gl
+|c|☆Pheooo|shape of you
+|c| Gatubraz|Niquez vous
+|
+|move|p1a: Abra|Thunder Wave|p2a: Tangela
+|-status|p2a: Tangela|par
+|move|p2a: Tangela|Sleep Powder|p1a: Abra|[miss]
+|-miss|p2a: Tangela
+|
+|upkeep
+|turn|2
+|c|☆Pheooo|ABRA
+|c|☆Pheooo|ABRA
+|c|☆Pheooo|ABRAAAA
+|
+|move|p1a: Abra|Psychic|p2a: Tangela
+|-crit|p2a: Tangela
+|-damage|p2a: Tangela|136/333 par
+|move|p2a: Tangela|Sleep Powder|p1a: Abra
+|-status|p1a: Abra|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|c| Gatubraz|Chrycks se faire haxx?
+|c|☆Pheooo|ABRAAA
+|c| Gatubraz|Impensable
+|
+|switch|p1a: Moltres|Moltres|383/383
+|cant|p2a: Tangela|par
+|
+|upkeep
+|turn|4
+|c| Gatubraz|QUELQUE CHOSE TOURNE PAS ROND AJD
+|
+|switch|p2a: Lapras|Lapras|463/463
+|move|p1a: Moltres|Fire Blast|p2a: Lapras|[miss]
+|-miss|p1a: Moltres
+|
+|upkeep
+|turn|5
+|c| Gatubraz|MOI ET CHRYCKS ON SE FAIT HAXX
+|c|☆Pheooo|oh
+|c| Gatubraz|LE MONDE VA MAL AJD
+|c|☆Chrycks|xDD
+|c|☆Pheooo|bah non
+|c|☆Pheooo|finalement le hax a été sympa **2 tours**
+|c|☆Chrycks|:3
+|
+|switch|p1a: Vaporeon|Vaporeon|463/463
+|move|p2a: Lapras|Blizzard|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|404/463
+|-status|p1a: Vaporeon|frz
+|
+|upkeep
+|turn|6
+|c|☆Pheooo|ah bah
+|c|☆Pheooo|tiens
+|c|☆Chrycks|OH
+|c| Butterchoke|ye
+|c|☆Pheooo|coucouc le haxx
+|c|☆Pheooo|tu m'avais PAS MANQUE
+|c| Gatubraz|Mdr
+|c|☆Pheooo|enculé
+|c|☆Chrycks|MDR
+|
+|cant|p1a: Vaporeon|frz
+|move|p2a: Lapras|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|265/463 frz
+|
+|upkeep
+|turn|7
+|c|☆Chrycks|DSL
+|c| Gatubraz|Pheo
+|c| Butterchoke|haze ca degel askip
+|c|☆Pheooo|cest foutu
+|c|☆Pheooo|mon check a kazam
+|c|☆Chrycks|oui
+|c| Kayles|Bon bah il est mort
+|c|☆Chrycks|:x
+|c|☆Pheooo|abruti de con
+|c|☆Pheooo|vaporeon de merde
+|
+|switch|p1a: Vileplume|Vileplume|353/353
+|move|p2a: Lapras|Thunderbolt|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|317/353
+|
+|upkeep
+|turn|8
+|c|☆Chrycks|MDR
+|j| kilimina
+|
+|move|p2a: Lapras|Blizzard|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|48/353
+|move|p1a: Vileplume|Swords Dance|p1a: Vileplume
+|-boost|p1a: Vileplume|atk|2
+|
+|upkeep
+|turn|9
+|c| Gatubraz|Je me permet de donner une mecanique
+|c|☆Pheooo|rofl
+|c|☆Pheooo|miss connard
+|c| Gatubraz|Mais haze defreeze les pokemons gelés
+|
+|move|p2a: Lapras|Ice Beam|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|c| Gatubraz|Si jamais
+|
+|switch|p1a: Raichu|Raichu|323/323
+|turn|10
+|c|☆Pheooo|ouais bon
+|c| Butterchoke|c ce que j ai dis
+|c|☆Pheooo|nice match
+|c| Butterchoke|:/
+|c|☆Chrycks|=(
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Lapras
+|-status|p2a: Lapras|par
+|cant|p2a: Lapras|par
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Tangela|Tangela|136/333 par
+|move|p1a: Raichu|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|80/333 par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|27/333 par
+|cant|p2a: Tangela|par
+|
+|upkeep
+|turn|13
+|c| Butterchoke|si ton adversaire te fait fire spin ca te degel aussi
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Tangela
+|-crit|p2a: Tangela
+|-resisted|p2a: Tangela
+|-damage|p2a: Tangela|0 fnt
+|faint|p2a: Tangela
+|c|☆Pheooo|il a pas de fire
+|
+|switch|p2a: Persian|Persian|333/333
+|turn|14
+|c|☆Pheooo|pas lui
+|c|☆Pheooo|pas lui !
+|c| Gatubraz|Ça marche avec n'porte quel move feu
+|c| Butterchoke|pas flameche
+|c| Gatubraz|Ah ?
+|c|☆Pheooo|ah maios
+|c|☆Pheooo|ce poké
+|c|☆Pheooo|bon bah gg
+|c|☆Chrycks|xD
+|c| Butterchoke|juste fire spin
+|
+|move|p2a: Persian|Slash|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|133/323
+|move|p1a: Raichu|Thunder Wave|p2a: Persian
+|-status|p2a: Persian|par
+|
+|upkeep
+|turn|15
+|c| Gatubraz|En 2G tout marche
+|c| Gatubraz|Meme pc feu
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Persian
+|-crit|p2a: Persian
+|-damage|p2a: Persian|72/333 par
+|move|p2a: Persian|Slash|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|c|☆Pheooo|VAS Y KAIJUI
+|c| kilimina|oof crit haxx
+|c|☆Pheooo|NAN
+|
+|switch|p1a: Moltres|Moltres|383/383
+|turn|16
+|c| Kayles|Pas en 1g par contre
+|
+|move|p1a: Moltres|Fire Blast|p2a: Persian
+|-damage|p2a: Persian|0 fnt
+|faint|p2a: Persian
+|c| Gatubraz|Ah Jpensais que si
+|
+|switch|p2a: Lapras|Lapras|463/463 par
+|turn|17
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Lapras|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|154/383
+|
+|upkeep
+|turn|18
+|c| Gatubraz|Ah c'est un moltres
+|c|☆Pheooo|ouais bon
+|c|☆Pheooo|nice
+|c| Kayles|En 1g ça marche pas avec n'importe quel moove feu
+|
+|move|p1a: Moltres|Fire Spin|p2a: Lapras|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Lapras|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|c|☆Chrycks|:/
+|-message|Pheooo forfeited.
+|
+|win|Chrycks
+|l|☆Pheooo
+|c| Gatubraz|J'croyais que c'était un rapasdepic dd dos x)
+|c| kilimina|bg
+|c| Butterchoke|ca marche que fire spin
+|c| Butterchoke|grrrr
+|l| Butterchoke
+|c| Gatubraz|Chrycks t'as été meilleur
+|c|☆Chrycks|xD
+|l| Kayles

@@ -1,0 +1,59 @@
+|j|☆smth random
+|j|☆le uwu
+|player|p1|smth random|zinnia
+|player|p2|le uwu|73
+|teamsize|p1|6
+|teamsize|p2|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: yay u win|Chansey|703/703
+|turn|1
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: yay u win
+|-status|p2a: yay u win|slp|[from] move: Lovely Kiss
+|-curestatus|p2a: yay u win|slp|[msg]
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: yay u win
+|-status|p2a: yay u win|slp|[from] move: Lovely Kiss
+|cant|p2a: yay u win|slp
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by smth random)
+|
+|switch|p1a: Exeggutor|Exeggutor, M|393/393
+|cant|p2a: yay u win|slp
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Exeggutor|Explosion|p2a: yay u win
+|-damage|p2a: yay u win|20/703 slp
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Jynx|Jynx|333/333
+|turn|5
+|
+|move|p1a: Jynx|Psychic|p2a: yay u win
+|-crit|p2a: yay u win
+|-damage|p2a: yay u win|0 fnt
+|faint|p2a: yay u win
+|
+|win|smth random
+|l|☆smth random
+|l|☆le uwu
+|j| TheNewBrends11

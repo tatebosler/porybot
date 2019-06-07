@@ -1,0 +1,471 @@
+|j|☆NoobWannabeSucks
+|j|☆IceKingofOoo
+|player|p1|NoobWannabeSucks|167
+|player|p2|IceKingofOoo|214
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|cant|p2a: Jynx|par
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IceKingofOoo)
+|
+|move|p1a: Starmie|Surf|p2a: Jynx
+|-damage|p2a: Jynx|210/333 par
+|move|p2a: Jynx|Lovely Kiss|p1a: Starmie|[miss]
+|-miss|p2a: Jynx
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Surf|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|4
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Exeggutor|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|493/703
+|-damage|p2a: Exeggutor|341/393 par|[from] Recoil|[of] p1a: Chansey
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|132/703
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|7
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|281/393
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Exeggutor|Stun Spore|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|switch|p2a: Lapras|Lapras|463/463
+|turn|11
+|
+|move|p2a: Lapras|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|447/523
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|239/463
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Lapras|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|309/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Lapras|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|179/523
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|119/463
+|-status|p2a: Lapras|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|15
+|
+|switch|p2a: Snorlax|Snorlax|523/523 slp
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Chansey|Chansey|132/703
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|483/703
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|323/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|223/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|323/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|223/523 par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|123/523 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|323/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|223/523 par
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|123/523 par
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|423/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|323/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|551/703
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|223/523 par
+|move|p2a: Snorlax|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|333/703
+|-status|p1a: Chansey|frz
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|394/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|257/523 slp
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|13/523
+|-mustrecharge|p1a: Tauros
+|move|p2a: Snorlax|Ice Beam|p1a: Tauros|[miss]
+|-miss|p2a: Snorlax
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|
+|upkeep
+|turn|42
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Snorlax|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|68/353
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|44
+|
+|switch|p1a: Chansey|Chansey|333/703 frz
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|turn|45
+|
+|move|p2a: Tauros|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|275/413
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|200/353
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|52/413
+|-status|p1a: Rhydon|frz
+|cant|p1a: Rhydon|frz
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Tauros|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Snorlax|Snorlax|523/523 slp
+|turn|48
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|399/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|267/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|c|☆NoobWannabeSucks|lul
+|c|☆IceKingofOoo|lol
+|c|☆NoobWannabeSucks|you are the luckiest player
+|c|☆NoobWannabeSucks|because you layed terribly
+|c|☆IceKingofOoo|it all comes full circle last game i got very unlucky
+|c|☆IceKingofOoo|bro
+|c|☆NoobWannabeSucks|but got 2 frozes
+|
+|switch|p1a: Tauros|Tauros|68/353
+|turn|51
+|c|☆IceKingofOoo|you got so lucky at the start
+|c|☆IceKingofOoo|yes i got two freeze
+|c|☆IceKingofOoo|but you got very lucky at start...
+|c|☆IceKingofOoo|put me in a terrible position
+|c|☆IceKingofOoo|go back and see thats why it was such hard game
+|c|☆IceKingofOoo|not over yet anyway
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|inactive|NoobWannabeSucks has 120 seconds left.
+|c|☆NoobWannabeSucks|you are really comparing the 24% crit chance of a starmie, with 0.01% chance of getting two freezes with only two ice attacks?
+|c|☆IceKingofOoo|jynx full para miss two lovely kiss and you get crit all in first few turns
+|inactive|NoobWannabeSucks has 90 seconds left.
+|c|☆IceKingofOoo|couldnt have gone worse
+|c|☆IceKingofOoo|start is everything in first gen
+|inactive|NoobWannabeSucks has 60 seconds left.
+|c|☆IceKingofOoo|and then the rby gods gifted me those two freeze to turn it around (:
+|c|☆NoobWannabeSucks|you didn't missed two lovely kisses, you missed one. The first you got para, and that's 25% chance
+|c|☆NoobWannabeSucks|you can't even compare
+|c|☆IceKingofOoo|i did fk up tho i needed to use blizzard first time on rhydon misclick to earthquake
+|inactive|NoobWannabeSucks has 30 seconds left.
+|
+|switch|p1a: Starmie|Starmie|323/323 slp
+|turn|52
+|c|☆IceKingofOoo|yes the gods favored me
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|216/323 slp
+|
+|upkeep
+|turn|53
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|104/323 slp
+|
+|upkeep
+|turn|54
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Tauros|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|win|IceKingofOoo
+|l|☆NoobWannabeSucks
+|c|☆IceKingofOoo|gg

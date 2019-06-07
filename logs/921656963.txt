@@ -1,0 +1,405 @@
+|j|☆7 Tools
+|j|☆Big Chungus's Mom
+|player|p1|7 Tools|richboy-gen3
+|player|p2|Big Chungus's Mom|145
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Cloyster|Cloyster|303/303
+|turn|1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|move|p2a: Cloyster|Clamp|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|287/323
+|
+|upkeep
+|turn|2
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Cloyster|Clamp|p1a: Starmie|[from]Clamp
+|-damage|p1a: Starmie|251/323
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|move|p2a: Cloyster|Clamp|p1a: Starmie|[miss]
+|-miss|p2a: Cloyster
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Starmie|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|192/303 par
+|move|p2a: Cloyster|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|270/323
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|cant|p2a: Cloyster|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Starmie|Psychic|p2a: Cloyster
+|-damage|p2a: Cloyster|75/303 par
+|move|p2a: Cloyster|Double-Edge|p1a: Starmie
+|-damage|p1a: Starmie|240/323
+|-damage|p2a: Cloyster|55/303 par|[from] Recoil|[of] p1a: Starmie
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Starmie|Psychic|p2a: Cloyster
+|-crit|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Big Chungus's Mom)
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Slowbro
+|-status|p2a: Slowbro|par
+|move|p2a: Slowbro|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|167/323
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|move|p2a: Slowbro|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|278/323
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Starmie|Psychic|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|283/393 par
+|-unboost|p2a: Slowbro|spd|1
+|-unboost|p2a: Slowbro|spa|1
+|move|p2a: Slowbro|Fire Blast|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|253/323
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Starmie|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|183/393 par
+|cant|p2a: Slowbro|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Starmie|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|95/393 par
+|cant|p2a: Slowbro|par
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Starmie|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|2/393 par
+|move|p2a: Slowbro|Earthquake|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|108/323
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|269/323
+|move|p2a: Slowbro|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|192/323
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|move|p2a: Slowbro|Surf|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|290/323
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Starmie|Psychic|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|17
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Jolteon|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Jolteon|Agility|p2a: Jolteon
+|-boost|p2a: Jolteon|spe|2
+|move|p1a: Rhydon|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|221/333
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Jolteon|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|391/413
+|move|p1a: Rhydon|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Aerodactyl|Aerodactyl|363/363
+|turn|20
+|
+|move|p2a: Aerodactyl|Fire Blast|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|339/413
+|move|p1a: Rhydon|Rock Slide|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|73/363
+|
+|upkeep
+|turn|21
+|j| exploding tangela
+|
+|move|p2a: Aerodactyl|Hyper Beam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|289/413
+|-mustrecharge|p2a: Aerodactyl
+|move|p1a: Rhydon|Rock Slide|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|switch|p2a: Charizard|Charizard|359/359
+|turn|22
+|
+|move|p2a: Charizard|Fire Spin|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|264/413
+|cant|p1a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Charizard|Fire Spin|p1a: Rhydon|[from]Fire Spin
+|-damage|p1a: Rhydon|239/413
+|cant|p1a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Charizard|Fire Spin|p1a: Rhydon|[from]Fire Spin
+|-damage|p1a: Rhydon|214/413
+|cant|p1a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Charizard|Fire Spin|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|201/413
+|cant|p1a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Charizard|Fire Spin|p1a: Rhydon|[from]Fire Spin
+|-damage|p1a: Rhydon|188/413
+|cant|p1a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Charizard|Fire Spin|p1a: Rhydon|[from]Fire Spin
+|-damage|p1a: Rhydon|175/413
+|cant|p1a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Charizard|Fire Spin|p1a: Rhydon|[from]Fire Spin
+|-damage|p1a: Rhydon|162/413
+|cant|p1a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Charizard|Fire Spin|p1a: Chansey|[miss]
+|-miss|p2a: Charizard
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Charizard|Fire Spin|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|673/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Starmie|Starmie|290/323
+|move|p2a: Charizard|Fire Spin|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|282/323
+|
+|upkeep
+|turn|32
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Starmie|[from]Fire Spin
+|-damage|p1a: Starmie|274/323
+|
+|upkeep
+|turn|33
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Starmie|[from]Fire Spin
+|-damage|p1a: Starmie|266/323
+|
+|upkeep
+|turn|34
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Starmie|[from]Fire Spin
+|-damage|p1a: Starmie|258/323
+|
+|upkeep
+|turn|35
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Starmie|[from]Fire Spin
+|-damage|p1a: Starmie|250/323
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Charizard
+|-status|p2a: Charizard|par
+|cant|p2a: Charizard|par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Starmie|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|235/359 par
+|move|p2a: Charizard|Fire Spin|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|233/323
+|
+|upkeep
+|turn|38
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Starmie|[from]Fire Spin
+|-damage|p1a: Starmie|216/323
+|
+|upkeep
+|turn|39
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Starmie|[from]Fire Spin
+|-damage|p1a: Starmie|199/323
+|
+|upkeep
+|turn|40
+|
+|cant|p1a: Starmie|partiallytrapped
+|move|p2a: Charizard|Fire Spin|p1a: Starmie|[from]Fire Spin
+|-damage|p1a: Starmie|182/323
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|cant|p2a: Charizard|par
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Starmie|Psychic|p2a: Charizard
+|-damage|p2a: Charizard|124/359 par
+|move|p2a: Charizard|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|248/323
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Starmie|Psychic|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Magneton|Magneton|303/303
+|turn|44
+|
+|switch|p1a: Rhydon|Rhydon|162/413
+|move|p2a: Magneton|Thunder Wave|p1a: Rhydon
+|-immune|p1a: Rhydon
+|
+|upkeep
+|turn|45
+|
+|move|p2a: Magneton|Double-Edge|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|138/413
+|-damage|p2a: Magneton|297/303|[from] Recoil|[of] p1a: Rhydon
+|move|p1a: Rhydon|Earthquake|p2a: Magneton
+|-supereffective|p2a: Magneton
+|-damage|p2a: Magneton|22/303
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Magneton|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon
+|move|p1a: Rhydon|Body Slam|p2a: Magneton
+|-damage|p2a: Magneton|0 fnt
+|faint|p2a: Magneton
+|
+|win|7 Tools
+|l|☆Big Chungus's Mom
+|l|☆7 Tools
+|j|☆7 Tools
+|inactive|7 Tools reconnected.
+|player|p1|7 Tools|richboy-gen3

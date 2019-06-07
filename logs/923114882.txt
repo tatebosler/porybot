@@ -1,0 +1,194 @@
+|j|☆Hidol
+|j|☆immadeofwaxlarry
+|player|p1|Hidol|266
+|player|p2|immadeofwaxlarry|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Sp00ky|Gengar|323/323
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Sp00ky
+|-status|p2a: Sp00ky|par
+|move|p2a: Sp00ky|Hypnosis|p1a: Alakazam
+|-status|p1a: Alakazam|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|2
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Sp00ky|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|246/313 slp
+|
+|upkeep
+|turn|3
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Sp00ky|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|168/313 slp
+|
+|upkeep
+|turn|4
+|
+|cant|p1a: Alakazam|slp
+|cant|p2a: Sp00ky|par
+|
+|upkeep
+|turn|5
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Sp00ky|Thunderbolt|p1a: Alakazam
+|-damage|p1a: Alakazam|95/313 slp
+|
+|upkeep
+|turn|6
+|
+|-curestatus|p1a: Alakazam|slp|[msg]
+|move|p2a: Sp00ky|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|c|☆immadeofwaxlarry|wow
+|
+|switch|p1a: Gengar|Gengar|323/323
+|turn|7
+|c|☆immadeofwaxlarry|dude im sorry
+|
+|move|p1a: Gengar|Psychic|p2a: Sp00ky
+|-crit|p2a: Sp00ky
+|-supereffective|p2a: Sp00ky
+|-damage|p2a: Sp00ky|40/323 par
+|cant|p2a: Sp00ky|par
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Gengar|Psychic|p2a: Sp00ky
+|-crit|p2a: Sp00ky
+|-supereffective|p2a: Sp00ky
+|-damage|p2a: Sp00ky|0 fnt
+|faint|p2a: Sp00ky
+|
+|switch|p2a: Mrs. Cleo|Alakazam|313/313
+|turn|9
+|
+|move|p2a: Mrs. Cleo|Psychic|p1a: Gengar
+|-crit|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|10
+|
+|move|p2a: Mrs. Cleo|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Mrs. Cleo
+|-damage|p2a: Mrs. Cleo|141/313
+|-status|p2a: Mrs. Cleo|par
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Mrs. Cleo|Recover|p2a: Mrs. Cleo
+|-heal|p2a: Mrs. Cleo|297/313 par
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|upkeep
+|turn|12
+|
+|cant|p1a: Snorlax|par
+|move|p2a: Mrs. Cleo|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|430/523 par
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: By the horns|Tauros|353/353
+|move|p1a: Snorlax|Body Slam|p2a: By the horns
+|-damage|p2a: By the horns|242/353
+|
+|upkeep
+|turn|14
+|
+|move|p2a: By the horns|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|291/523 par
+|move|p1a: Snorlax|Body Slam|p2a: By the horns
+|-damage|p2a: By the horns|140/353
+|
+|upkeep
+|turn|15
+|
+|move|p2a: By the horns|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|187/523 par
+|move|p1a: Snorlax|Body Slam|p2a: By the horns
+|-damage|p2a: By the horns|37/353
+|
+|upkeep
+|turn|16
+|
+|move|p2a: By the horns|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|turn|17
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: By the horns
+|-crit|p2a: By the horns
+|-damage|p2a: By the horns|0 fnt
+|faint|p2a: By the horns
+|
+|switch|p2a: Big Cheese|Snorlax|523/523
+|turn|18
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Big Cheese
+|-status|p2a: Big Cheese|par
+|move|p2a: Big Cheese|Body Slam|p1a: Jolteon
+|-damage|p1a: Jolteon|186/333
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Big Cheese
+|-damage|p2a: Big Cheese|374/523 par
+|cant|p2a: Big Cheese|par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Big Cheese
+|-damage|p2a: Big Cheese|231/523 par
+|move|p2a: Big Cheese|Hyper Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|turn|21
+|
+|move|p1a: Cloyster|Hyper Beam|p2a: Big Cheese
+|-damage|p2a: Big Cheese|80/523 par
+|-mustrecharge|p1a: Cloyster
+|move|p2a: Big Cheese|Self-Destruct|p1a: Cloyster
+|-damage|p1a: Cloyster|76/303
+|faint|p2a: Big Cheese
+|-message|Hidol forfeited.
+|
+|win|immadeofwaxlarry
+|l|☆Hidol
+|raw|Hidol's rating: 1110 &rarr; <strong>1077</strong><br />(-33 for losing)
+|raw|immadeofwaxlarry's rating: 1000 &rarr; <strong>1052</strong><br />(+52 for winning)

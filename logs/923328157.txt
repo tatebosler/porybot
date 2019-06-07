@@ -1,0 +1,631 @@
+|j|☆NoobWannabe
+|j|☆XXa xaxaxaxaxaxa
+|player|p1|NoobWannabe|290
+|player|p2|XXa xaxaxaxaxaxa|191
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: I Boom|Exeggutor|393/393
+|switch|p2a: B-2 Spirit|Gengar|323/323
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NoobWannabe)
+|
+|move|p2a: B-2 Spirit|Hypnosis|p1a: I Boom|[miss]
+|-miss|p2a: B-2 Spirit
+|move|p1a: I Boom|Sleep Powder|p2a: B-2 Spirit
+|-status|p2a: B-2 Spirit|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|cant|p2a: B-2 Spirit|slp
+|move|p1a: I Boom|Psychic|p2a: B-2 Spirit
+|-supereffective|p2a: B-2 Spirit
+|-damage|p2a: B-2 Spirit|128/323 slp
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: F-15 Eagle|Zapdos|383/383
+|move|p1a: I Boom|Psychic|p2a: F-15 Eagle
+|-damage|p2a: F-15 Eagle|275/383
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: DONT LIKE WATER|Rhydon|413/413
+|move|p2a: F-15 Eagle|Thunder Wave|p1a: DONT LIKE WATER
+|-immune|p1a: DONT LIKE WATER
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: AH-64 Apache|Victreebel|363/363
+|move|p1a: DONT LIKE WATER|Body Slam|p2a: AH-64 Apache
+|-damage|p2a: AH-64 Apache|263/363
+|
+|upkeep
+|turn|6
+|c|☆XXa xaxaxaxaxaxa|dont like grass
+|
+|switch|p1a: I Break Ballz|Chansey|703/703
+|move|p2a: AH-64 Apache|Sleep Powder|p1a: I Break Ballz
+|-status|p1a: I Break Ballz|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|7
+|c|☆NoobWannabe|I BREAK BALLZ
+|c|☆XXa xaxaxaxaxaxa|APACHE
+|c|☆NoobWannabe|i know your team
+|c|☆NoobWannabe|it has cloy as well
+|c|☆NoobWannabe|or Slowbro
+|c|☆XXa xaxaxaxaxaxa|LUL
+|inactive|NoobWannabe has 120 seconds left.
+|
+|switch|p1a: I am DA KING|Snorlax|523/523
+|move|p2a: AH-64 Apache|Stun Spore|p1a: I am DA KING
+|-status|p1a: I am DA KING|par
+|
+|upkeep
+|turn|8
+|inactive|NoobWannabe has 120 seconds left.
+|
+|move|p2a: AH-64 Apache|Wrap|p1a: I am DA KING
+|-damage|p1a: I am DA KING|506/523 par
+|cant|p1a: I am DA KING|partiallytrapped
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: F-35 Lightning|Dragonite|385/385
+|switch|p1a: I Break Ballz|Chansey|703/703 slp
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: M1A2 Abrams|Tauros|353/353
+|switch|p1a: I Kill Eggs|Starmie|323/323
+|
+|upkeep
+|turn|11
+|c|☆NoobWannabe|wrapnesia
+|c|☆NoobWannabe|i know it
+|c|☆XXa xaxaxaxaxaxa|?
+|inactive|NoobWannabe has 120 seconds left.
+|
+|move|p1a: I Kill Eggs|Thunder Wave|p2a: M1A2 Abrams
+|-status|p2a: M1A2 Abrams|par
+|move|p2a: M1A2 Abrams|Body Slam|p1a: I Kill Eggs
+|-damage|p1a: I Kill Eggs|207/323
+|
+|upkeep
+|turn|12
+|inactive|NoobWannabe has 120 seconds left.
+|
+|switch|p1a: I am DA KING|Snorlax|506/523 par
+|move|p2a: M1A2 Abrams|Body Slam|p1a: I am DA KING
+|-damage|p1a: I am DA KING|373/523 par
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: B-2 Spirit|Gengar|128/323 slp
+|cant|p1a: I am DA KING|par
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: F-35 Lightning|Dragonite|385/385
+|switch|p1a: I Kill Eggs|Starmie|207/323
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: M1A2 Abrams|Tauros|353/353 par
+|move|p1a: I Kill Eggs|Blizzard|p2a: M1A2 Abrams
+|-damage|p2a: M1A2 Abrams|233/353 par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: I Kill Eggs|Blizzard|p2a: M1A2 Abrams
+|-damage|p2a: M1A2 Abrams|107/353 par
+|move|p2a: M1A2 Abrams|Body Slam|p1a: I Kill Eggs
+|-crit|p1a: I Kill Eggs
+|-damage|p1a: I Kill Eggs|0 fnt
+|faint|p1a: I Kill Eggs
+|
+|switch|p1a: I carry (supposed)|Tauros|353/353
+|turn|17
+|
+|move|p1a: I carry (supposed)|Hyper Beam|p2a: M1A2 Abrams
+|-damage|p2a: M1A2 Abrams|0 fnt
+|faint|p2a: M1A2 Abrams
+|
+|switch|p2a: AH-64 Apache|Victreebel|263/363
+|turn|18
+|inactive|NoobWannabe has 120 seconds left.
+|inactive|NoobWannabe has 90 seconds left.
+|
+|switch|p1a: I am DA KING|Snorlax|373/523 par
+|move|p2a: AH-64 Apache|Stun Spore|p1a: I am DA KING
+|-fail|p1a: I am DA KING|par
+|
+|upkeep
+|turn|19
+|inactive|XXa xaxaxaxaxaxa has 120 seconds left.
+|
+|switch|p1a: I Boom|Exeggutor|393/393
+|move|p2a: AH-64 Apache|Wrap|p1a: I Boom|[miss]
+|-miss|p2a: AH-64 Apache
+|
+|upkeep
+|turn|20
+|
+|move|p2a: AH-64 Apache|Wrap|p1a: I Boom
+|-damage|p1a: I Boom|379/393
+|cant|p1a: I Boom|partiallytrapped
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: USS Zumwalt|Cloyster|303/303
+|switch|p1a: I Break Ballz|Chansey|703/703 slp
+|
+|upkeep
+|turn|22
+|inactive|XXa xaxaxaxaxaxa has 120 seconds left.
+|inactive|NoobWannabe has 90 seconds left.
+|
+|switch|p2a: F-35 Lightning|Dragonite|385/385
+|-curestatus|p1a: I Break Ballz|slp|[msg]
+|
+|upkeep
+|turn|23
+|inactive|NoobWannabe has 90 seconds left.
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I Break Ballz
+|-damage|p1a: I Break Ballz|665/703
+|cant|p1a: I Break Ballz|partiallytrapped
+|
+|upkeep
+|turn|24
+|inactive|NoobWannabe has 90 seconds left.
+|inactive|XXa xaxaxaxaxaxa has 120 seconds left.
+|
+|switch|p2a: AH-64 Apache|Victreebel|263/363
+|switch|p1a: I am DA KING|Snorlax|373/523 par
+|
+|upkeep
+|turn|25
+|inactive|NoobWannabe has 90 seconds left.
+|
+|switch|p1a: I Boom|Exeggutor|379/393
+|move|p2a: AH-64 Apache|Wrap|p1a: I Boom
+|-damage|p1a: I Boom|365/393
+|
+|upkeep
+|turn|26
+|
+|move|p2a: AH-64 Apache|Wrap|p1a: I Boom|[from]Wrap
+|-damage|p1a: I Boom|351/393
+|cant|p1a: I Boom|partiallytrapped
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: I am DA KING|Snorlax|373/523 par
+|move|p2a: AH-64 Apache|Sleep Powder|p1a: I am DA KING
+|-fail|p1a: I am DA KING
+|
+|upkeep
+|turn|28
+|
+|move|p2a: AH-64 Apache|Wrap|p1a: I am DA KING
+|-damage|p1a: I am DA KING|355/523 par
+|cant|p1a: I am DA KING|partiallytrapped
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: I Boom|Exeggutor|351/393
+|move|p2a: AH-64 Apache|Wrap|p1a: I Boom
+|-damage|p1a: I Boom|336/393
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: I am DA KING|Snorlax|355/523 par
+|move|p2a: AH-64 Apache|Wrap|p1a: I am DA KING
+|-damage|p1a: I am DA KING|337/523 par
+|
+|upkeep
+|turn|31
+|inactive|NoobWannabe has 120 seconds left.
+|
+|switch|p1a: DONT LIKE WATER|Rhydon|413/413
+|move|p2a: AH-64 Apache|Wrap|p1a: DONT LIKE WATER|[miss]
+|-miss|p2a: AH-64 Apache
+|
+|upkeep
+|turn|32
+|inactive|NoobWannabe has 120 seconds left.
+|
+|switch|p1a: I am DA KING|Snorlax|337/523 par
+|move|p2a: AH-64 Apache|Razor Leaf|p1a: I am DA KING
+|-crit|p1a: I am DA KING
+|-damage|p1a: I am DA KING|178/523 par
+|
+|upkeep
+|turn|33
+|
+|move|p2a: AH-64 Apache|Wrap|p1a: I am DA KING
+|-crit|p1a: I am DA KING
+|-damage|p1a: I am DA KING|146/523 par
+|cant|p1a: I am DA KING|partiallytrapped
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: DONT LIKE WATER|Rhydon|413/413
+|move|p2a: AH-64 Apache|Wrap|p1a: DONT LIKE WATER|[miss]
+|-miss|p2a: AH-64 Apache
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: I Boom|Exeggutor|336/393
+|move|p2a: AH-64 Apache|Razor Leaf|p1a: I Boom
+|-crit|p1a: I Boom
+|-resisted|p1a: I Boom
+|-damage|p1a: I Boom|280/393
+|
+|upkeep
+|turn|36
+|
+|move|p2a: AH-64 Apache|Sleep Powder|p1a: I Boom
+|-status|p1a: I Boom|slp|[from] move: Sleep Powder
+|cant|p1a: I Boom|slp
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: USS Zumwalt|Cloyster|303/303
+|switch|p1a: I am DA KING|Snorlax|146/523 par
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: I Break Ballz|Chansey|665/703
+|move|p2a: USS Zumwalt|Blizzard|p1a: I Break Ballz
+|-damage|p1a: I Break Ballz|538/703
+|
+|upkeep
+|turn|39
+|
+|move|p2a: USS Zumwalt|Toxic|p1a: I Break Ballz
+|-status|p1a: I Break Ballz|tox
+|move|p1a: I Break Ballz|Thunder Wave|p2a: USS Zumwalt
+|-status|p2a: USS Zumwalt|par
+|-damage|p1a: I Break Ballz|495/703 tox|[from] psn
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: I Boom|Exeggutor|280/393 slp
+|move|p2a: USS Zumwalt|Explosion|p1a: I Boom
+|-damage|p1a: I Boom|0 fnt
+|faint|p1a: I Boom
+|faint|p2a: USS Zumwalt
+|
+|switch|p1a: I Break Ballz|Chansey|495/703 tox
+|switch|p2a: AH-64 Apache|Victreebel|263/363
+|turn|41
+|
+|move|p2a: AH-64 Apache|Wrap|p1a: I Break Ballz|[miss]
+|-miss|p2a: AH-64 Apache
+|move|p1a: I Break Ballz|Thunder Wave|p2a: AH-64 Apache
+|-status|p2a: AH-64 Apache|par
+|-damage|p1a: I Break Ballz|452/703 psn|[from] psn|[of] p2a: AH-64 Apache
+|
+|upkeep
+|turn|42
+|
+|move|p1a: I Break Ballz|Thunder Wave|p2a: AH-64 Apache
+|-fail|p2a: AH-64 Apache|par
+|-damage|p1a: I Break Ballz|409/703 psn|[from] psn|[of] p2a: AH-64 Apache
+|move|p2a: AH-64 Apache|Wrap|p1a: I Break Ballz
+|-crit|p1a: I Break Ballz
+|-damage|p1a: I Break Ballz|343/703 psn
+|
+|upkeep
+|turn|43
+|
+|switch|p1a: I am DA KING|Snorlax|146/523 par
+|move|p2a: AH-64 Apache|Wrap|p1a: I am DA KING|[miss]
+|-miss|p2a: AH-64 Apache
+|
+|upkeep
+|turn|44
+|
+|switch|p1a: I Break Ballz|Chansey|343/703 psn
+|-damage|p1a: I Break Ballz|300/703 psn|[from] psn
+|cant|p2a: AH-64 Apache|par
+|
+|upkeep
+|turn|45
+|
+|move|p1a: I Break Ballz|Soft-Boiled|p1a: I Break Ballz
+|-heal|p1a: I Break Ballz|651/703 psn
+|-damage|p1a: I Break Ballz|608/703 psn|[from] psn
+|move|p2a: AH-64 Apache|Wrap|p1a: I Break Ballz
+|-damage|p1a: I Break Ballz|573/703 psn
+|
+|upkeep
+|turn|46
+|
+|switch|p1a: DONT LIKE WATER|Rhydon|413/413
+|switch|p2a: F-35 Lightning|Dragonite|385/385
+|
+|upkeep
+|turn|47
+|
+|switch|p1a: I Break Ballz|Chansey|573/703 psn
+|-damage|p1a: I Break Ballz|530/703 psn|[from] psn
+|move|p2a: F-35 Lightning|Wrap|p1a: I Break Ballz
+|-damage|p1a: I Break Ballz|487/703 psn
+|
+|upkeep
+|turn|48
+|
+|switch|p1a: I carry (supposed)|Tauros|353/353
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)
+|-damage|p1a: I carry (supposed)|338/353
+|
+|upkeep
+|turn|49
+|
+|switch|p2a: AH-64 Apache|Victreebel|263/363 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|50
+|
+|move|p1a: I carry (supposed)|Blizzard|p2a: AH-64 Apache
+|-supereffective|p2a: AH-64 Apache
+|-damage|p2a: AH-64 Apache|103/363 par
+|move|p2a: AH-64 Apache|Stun Spore|p1a: I carry (supposed)
+|-status|p1a: I carry (supposed)|par
+|
+|upkeep
+|turn|51
+|
+|cant|p1a: I carry (supposed)|par
+|cant|p2a: AH-64 Apache|par
+|
+|upkeep
+|turn|52
+|
+|move|p1a: I carry (supposed)|Body Slam|p2a: AH-64 Apache
+|-damage|p2a: AH-64 Apache|0 fnt
+|faint|p2a: AH-64 Apache
+|
+|switch|p2a: F-35 Lightning|Dragonite|385/385
+|turn|53
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)
+|-damage|p1a: I carry (supposed)|322/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|54
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|306/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|55
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|290/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|56
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)
+|-damage|p1a: I carry (supposed)|275/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|57
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|260/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|58
+|
+|switch|p1a: I Break Ballz|Chansey|487/703 psn
+|-damage|p1a: I Break Ballz|444/703 psn|[from] psn
+|move|p2a: F-35 Lightning|Wrap|p1a: I Break Ballz
+|-damage|p1a: I Break Ballz|403/703 psn
+|
+|upkeep
+|turn|59
+|
+|switch|p1a: I carry (supposed)|Tauros|260/353 par
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)
+|-damage|p1a: I carry (supposed)|244/353 par
+|
+|upkeep
+|turn|60
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|228/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|61
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)
+|-damage|p1a: I carry (supposed)|212/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|62
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|196/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|63
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|180/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|64
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|164/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|65
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|148/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|66
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[miss]
+|-miss|p2a: F-35 Lightning
+|move|p1a: I carry (supposed)|Blizzard|p2a: F-35 Lightning
+|-supereffective|p2a: F-35 Lightning
+|-damage|p2a: F-35 Lightning|97/385
+|
+|upkeep
+|turn|67
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)
+|-damage|p1a: I carry (supposed)|132/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|68
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|116/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|69
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[miss]
+|-miss|p2a: F-35 Lightning
+|cant|p1a: I carry (supposed)|par
+|
+|upkeep
+|turn|70
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)
+|-crit|p1a: I carry (supposed)
+|-damage|p1a: I carry (supposed)|88/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|71
+|c|☆NoobWannabe|so fucking lucky
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|60/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|72
+|c|☆XXa xaxaxaxaxaxa|hey guy relax
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|32/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|73
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|4/353 par
+|cant|p1a: I carry (supposed)|partiallytrapped
+|
+|upkeep
+|turn|74
+|c|☆NoobWannabe|you're playing something cancerous
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: I carry (supposed)|[from]Wrap
+|-damage|p1a: I carry (supposed)|0 fnt
+|faint|p1a: I carry (supposed)
+|
+|switch|p1a: DONT LIKE WATER|Rhydon|413/413
+|turn|75
+|c|☆XXa xaxaxaxaxaxa|only the new gens are
+|
+|move|p2a: F-35 Lightning|Wrap|p1a: DONT LIKE WATER|[miss]
+|-miss|p2a: F-35 Lightning
+|move|p1a: DONT LIKE WATER|Rock Slide|p2a: F-35 Lightning
+|-supereffective|p2a: F-35 Lightning
+|-damage|p2a: F-35 Lightning|0 fnt
+|faint|p2a: F-35 Lightning
+|c|☆NoobWannabe|wrap is also cancerous
+|
+|switch|p2a: F-15 Eagle|Zapdos|275/383
+|turn|76
+|c|☆NoobWannabe|but i've beaten you
+|
+|move|p2a: F-15 Eagle|Drill Peck|p1a: DONT LIKE WATER
+|-crit|p1a: DONT LIKE WATER
+|-resisted|p1a: DONT LIKE WATER
+|-damage|p1a: DONT LIKE WATER|337/413
+|move|p1a: DONT LIKE WATER|Body Slam|p2a: F-15 Eagle
+|-damage|p2a: F-15 Eagle|185/383
+|-status|p2a: F-15 Eagle|par
+|
+|upkeep
+|turn|77
+|
+|move|p1a: DONT LIKE WATER|Rock Slide|p2a: F-15 Eagle
+|-supereffective|p2a: F-15 Eagle
+|-damage|p2a: F-15 Eagle|0 fnt
+|faint|p2a: F-15 Eagle
+|
+|switch|p2a: B-2 Spirit|Gengar|128/323 slp
+|turn|78
+|c|☆XXa xaxaxaxaxaxa|wrap is kewl
+|c|☆NoobWannabe|Bye
+|
+|cant|p2a: B-2 Spirit|slp
+|move|p1a: DONT LIKE WATER|Earthquake|p2a: B-2 Spirit
+|-supereffective|p2a: B-2 Spirit
+|-damage|p2a: B-2 Spirit|0 fnt
+|faint|p2a: B-2 Spirit
+|
+|win|NoobWannabe
+|c|☆XXa xaxaxaxaxaxa|bye
+|c|☆NoobWannabe|i've beaten the cancer
+|c|☆XXa xaxaxaxaxaxa|lol

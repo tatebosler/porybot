@@ -1,0 +1,274 @@
+|j|☆WelcomeToBopCity
+|j|☆doodles1992
+|player|p1|WelcomeToBopCity|2
+|player|p2|doodles1992|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Lovely Kiss
+|cant|p1a: Jynx|slp
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Jynx|Blizzard|p1a: Jynx|[miss]
+|-miss|p2a: Jynx
+|cant|p1a: Jynx|slp
+|
+|upkeep
+|turn|3
+|
+|-curestatus|p1a: Jynx|slp|[msg]
+|move|p2a: Jynx|Blizzard|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|187/333
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp|[from] move: Lovely Kiss
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|-curestatus|p2a: Jynx|slp|[msg]
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Lovely Kiss
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Golem|Golem|363/363
+|switch|p1a: Jynx|Jynx|187/333
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Jynx|Jynx|333/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Jynx
+|-status|p2a: Jynx|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Jynx|Blizzard|p2a: Jynx
+|-crit|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|199/333 slp
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by doodles1992)
+|
+|cant|p2a: Jynx|slp
+|move|p1a: Jynx|Blizzard|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|126/333 slp
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Tauros|Tauros|353/353
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Tauros|Earthquake|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Starmie|Starmie|323/323
+|turn|13
+|
+|switch|p1a: Jynx|Jynx|187/333
+|move|p2a: Starmie|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|104/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Tauros|Tauros|353/353
+|cant|p2a: Starmie|slp
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Tauros|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Tauros|Blizzard|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|258/383
+|move|p2a: Zapdos|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Tauros
+|-damage|p1a: Tauros|269/353 par
+|move|p1a: Tauros|Blizzard|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Golem|Golem|363/363
+|turn|19
+|
+|move|p2a: Golem|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|150/353 par
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Golem|Earthquake|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|323/393
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Tauros|Tauros|353/353
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|194/353
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|71/393
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|25/353
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Jynx|Jynx|104/333 par
+|move|p2a: Tauros|Earthquake|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|switch|p1a: Lapras|Lapras|463/463
+|turn|24
+|
+|move|p2a: Tauros|Earthquake|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|293/463
+|move|p1a: Lapras|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Golem|Golem|363/363
+|turn|25
+|
+|move|p1a: Lapras|Blizzard|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Starmie|Starmie|323/323 slp
+|turn|26
+|
+|-curestatus|p2a: Starmie|slp|[msg]
+|move|p1a: Lapras|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|188/323
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Exeggutor|Exeggutor|71/393
+|move|p2a: Starmie|Thunderbolt|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|7/393
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|turn|29
+|
+|move|p2a: Starmie|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|225/383
+|move|p1a: Zapdos|Thunderbolt|p2a: Starmie
+|-crit|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|30
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|191/393
+|move|p2a: Exeggutor|Psychic|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|9/383
+|-unboost|p1a: Zapdos|spd|1
+|-unboost|p1a: Zapdos|spa|1
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|win|WelcomeToBopCity
+|c|☆doodles1992|gg
+|l|☆WelcomeToBopCity

@@ -1,0 +1,281 @@
+|j|☆WizzardTheRaven23
+|j|☆Sebastocrator
+|player|p1|WizzardTheRaven23|153
+|player|p2|Sebastocrator|153
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Blitzvogel|Zapdos|383/383
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|1
+|
+|switch|p2a: Electrode|Electrode|323/323
+|move|p1a: Blitzvogel|Drill Peck|p2a: Electrode
+|-resisted|p2a: Electrode
+|-damage|p2a: Electrode|261/323
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Electrode|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Chansey|Chansey|703/703
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Giitauros|Tauros|353/353
+|move|p2a: Chansey|Ice Beam|p1a: Giitauros
+|-damage|p1a: Giitauros|255/353
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Giitauros|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|127/703
+|move|p2a: Chansey|Ice Beam|p1a: Giitauros
+|-damage|p1a: Giitauros|152/353
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Giitauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|288/393
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Arcanine|Arcanine|383/383
+|move|p2a: Exeggutor|Sleep Powder|p1a: Arcanine|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Lapras|Lapras|463/463
+|move|p1a: Arcanine|Fire Blast|p2a: Lapras
+|-damage|p2a: Lapras|335/463
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Stern|Starmie|323/323
+|move|p2a: Lapras|Blizzard|p1a: Stern
+|-resisted|p1a: Stern
+|-damage|p1a: Stern|257/323
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Stern|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|189/463
+|-status|p2a: Lapras|par
+|move|p2a: Lapras|Thunder|p1a: Stern|[miss]
+|-miss|p2a: Lapras
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Stern|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|39/463 par
+|cant|p2a: Lapras|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Stern|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Chansey|Chansey|127/703
+|turn|13
+|
+|move|p1a: Stern|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Electrode|Electrode|261/323
+|turn|14
+|
+|move|p2a: Electrode|Toxic|p1a: Stern
+|-status|p1a: Stern|tox
+|move|p1a: Stern|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|139/323
+|-damage|p1a: Stern|237/323 tox|[from] psn
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Stern
+|-supereffective|p1a: Stern
+|-damage|p1a: Stern|46/323 tox
+|move|p1a: Stern|Psychic|p2a: Electrode
+|-damage|p2a: Electrode|9/323
+|-damage|p1a: Stern|6/323 tox|[from] psn
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Stern
+|-supereffective|p1a: Stern
+|-damage|p1a: Stern|0 fnt
+|faint|p1a: Stern
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393 par
+|turn|17
+|
+|move|p2a: Electrode|Explosion|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|27/393 par
+|faint|p2a: Electrode
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|18
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Steiker|Alakazam|313/313
+|turn|19
+|
+|move|p1a: Steiker|Psychic|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|8/353
+|move|p2a: Tauros|Body Slam|p1a: Steiker
+|-damage|p1a: Steiker|145/313
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Exeggutor|Exeggutor|288/393
+|move|p1a: Steiker|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|173/393
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Arcanine|Arcanine|383/383
+|move|p2a: Exeggutor|Sleep Powder|p1a: Arcanine
+|-status|p1a: Arcanine|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|22
+|
+|cant|p1a: Arcanine|slp
+|move|p2a: Exeggutor|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|229/383 slp
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Blitzvogel|Zapdos|383/383
+|move|p2a: Exeggutor|Psychic|p1a: Blitzvogel
+|-damage|p1a: Blitzvogel|281/383
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Nidoking|Nidoking|365/365
+|move|p1a: Blitzvogel|Drill Peck|p2a: Nidoking
+|-crit|p2a: Nidoking
+|-damage|p2a: Nidoking|170/365
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Blitzvogel|Drill Peck|p2a: Nidoking
+|-damage|p2a: Nidoking|63/365
+|move|p2a: Nidoking|Ice Beam|p1a: Blitzvogel
+|-supereffective|p1a: Blitzvogel
+|-damage|p1a: Blitzvogel|170/383
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Blitzvogel|Drill Peck|p2a: Nidoking
+|-damage|p2a: Nidoking|0 fnt
+|faint|p2a: Nidoking
+|
+|switch|p2a: Tauros|Tauros|8/353
+|turn|27
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Blitzvogel
+|-damage|p1a: Blitzvogel|0 fnt
+|faint|p1a: Blitzvogel
+|
+|switch|p1a: Steiker|Alakazam|145/313
+|turn|28
+|
+|switch|p2a: Exeggutor|Exeggutor|173/393
+|move|p1a: Steiker|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|121/393
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Arcanine|Arcanine|229/383 slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|196/383 slp
+|-heal|p2a: Exeggutor|137/393|[from] drain|[of] p1a: Arcanine
+|
+|upkeep
+|turn|30
+|
+|cant|p1a: Arcanine|slp
+|move|p2a: Exeggutor|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|49/383 slp
+|-unboost|p1a: Arcanine|spd|1
+|-unboost|p1a: Arcanine|spa|1
+|
+|upkeep
+|turn|31
+|
+|cant|p1a: Arcanine|slp
+|move|p2a: Exeggutor|Psychic|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Giitauros|Tauros|152/353
+|turn|32
+|
+|move|p1a: Giitauros|Ice Beam|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|8/353
+|turn|33
+|
+|move|p1a: Giitauros|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|WizzardTheRaven23

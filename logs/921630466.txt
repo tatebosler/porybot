@@ -1,0 +1,309 @@
+|j|☆exploding tangela
+|j|☆Ch01w0n5h1n
+|player|p1|exploding tangela|juggler-gen1
+|player|p2|Ch01w0n5h1n|165
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|1
+|c|☆exploding tangela|hf
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|2
+|j| flotuslower
+|j| Abodiplays
+|j| Avtomat
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|427/523
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|394/523
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|245/523
+|move|p2a: Snorlax|Self-Destruct|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|faint|p2a: Snorlax
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|switch|p1a: Starmie|Starmie|323/323
+|turn|5
+|l| Abodiplays
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|625/703
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|260/353
+|
+|upkeep
+|turn|7
+|j|%Akir
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Tauros|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|320/363
+|-status|p2a: Golem|par
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Tauros|Body Slam|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|280/363 par
+|cant|p2a: Golem|par
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|cant|p2a: Golem|par
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Rhydon|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|315/393
+|
+|upkeep
+|turn|11
+|j|@tjdaas
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Exeggutor|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|261/323
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Starmie|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|202/393
+|move|p2a: Exeggutor|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|260/353
+|switch|p2a: Tauros|Tauros|353/353
+|turn|13
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|148/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|253/353
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|259/393
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|588/703 par
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Tauros|Tauros|148/353
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|57/353
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|336/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|turn|18
+|c|☆exploding tangela|this is a really weirdly played game
+|
+|switch|p2a: Jynx|Jynx|333/333
+|move|p1a: Rhydon|Earthquake|p2a: Jynx
+|-damage|p2a: Jynx|92/333
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Chansey|Chansey|625/703
+|move|p2a: Jynx|Lovely Kiss|p1a: Chansey|[miss]
+|-miss|p2a: Jynx
+|
+|upkeep
+|turn|20
+|j| RBY e b 0 l a
+|j| ple_bea
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Lovely Kiss
+|cant|p1a: Chansey|slp
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Tauros|Tauros|253/353
+|cant|p1a: Chansey|slp
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Tauros|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|553/703 slp
+|-curestatus|p1a: Chansey|slp|[msg]
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Chansey|Chansey|336/703 par
+|switch|p1a: Rhydon|Rhydon|413/413
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Rhydon|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Jynx|Jynx|92/333
+|turn|25
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Rhydon
+|-status|p1a: Rhydon|slp|[from] move: Lovely Kiss
+|cant|p1a: Rhydon|slp
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Golem|Golem|280/363 par
+|switch|p1a: Chansey|Chansey|553/703
+|
+|upkeep
+|turn|27
+|j| Santan
+|l| Santan
+|
+|switch|p1a: Rhydon|Rhydon|413/413 slp
+|move|p2a: Golem|Explosion|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|280/413 slp
+|faint|p2a: Golem
+|
+|switch|p2a: Tauros|Tauros|253/353
+|turn|28
+|j| tlenit1
+|
+|switch|p1a: Exeggutor|Exeggutor|259/393
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|138/393
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Chansey|Chansey|553/703
+|turn|30
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|286/703
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|637/703
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|91/703
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|442/703
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|c|☆exploding tangela|sajdkgjasgkd
+|c|☆exploding tangela|gg i guess
+|c|☆exploding tangela|my chansey had counter
+|c| RBY e b 0 l a|oof
+|c| RBY e b 0 l a|:3
+|
+|switch|p1a: Rhydon|Rhydon|280/413 slp
+|turn|33
+|
+|switch|p2a: Jynx|Jynx|92/333
+|cant|p1a: Rhydon|slp
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Jynx|Blizzard|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|win|Ch01w0n5h1n
+|c|☆exploding tangela|gg
+|l|☆exploding tangela
+|l| RBY e b 0 l a
+|l| tlenit1
+|l| flotuslower
+|l| Avtomat
+|j| HML am
+|l|☆Ch01w0n5h1n
+|l| HML am

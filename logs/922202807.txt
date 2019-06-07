@@ -1,0 +1,164 @@
+|j|☆ramzi86
+|j|☆WizzardTheRaven23
+|player|p1|ramzi86|114
+|player|p2|WizzardTheRaven23|153
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sonia|Jynx|333/333
+|switch|p2a: Böser Bruder|Gengar|323/323
+|turn|1
+|
+|move|p2a: Böser Bruder|Explosion|p1a: Sonia
+|-crit|p1a: Sonia
+|-damage|p1a: Sonia|0 fnt
+|faint|p1a: Sonia
+|faint|p2a: Böser Bruder
+|
+|switch|p2a: Striker|Alakazam|313/313
+|switch|p1a: Boum|Exeggutor|393/393
+|turn|2
+|
+|move|p2a: Striker|Thunder Wave|p1a: Boum
+|-status|p1a: Boum|par
+|move|p1a: Boum|Sleep Powder|p2a: Striker
+|-status|p2a: Striker|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: RAMMBOCK|Tauros|353/353
+|move|p1a: Boum|Psychic|p2a: RAMMBOCK
+|-damage|p2a: RAMMBOCK|207/353
+|
+|upkeep
+|turn|4
+|
+|move|p2a: RAMMBOCK|Body Slam|p1a: Boum
+|-damage|p1a: Boum|285/393 par
+|move|p1a: Boum|Psychic|p2a: RAMMBOCK
+|-damage|p2a: RAMMBOCK|58/353
+|
+|upkeep
+|turn|5
+|
+|move|p2a: RAMMBOCK|Body Slam|p1a: Boum
+|-damage|p1a: Boum|172/393 par
+|move|p1a: Boum|Psychic|p2a: RAMMBOCK
+|-crit|p2a: RAMMBOCK
+|-damage|p2a: RAMMBOCK|0 fnt
+|faint|p2a: RAMMBOCK
+|
+|switch|p2a: Stern|Starmie|323/323
+|turn|6
+|
+|switch|p1a: Attila|Snorlax|523/523
+|move|p2a: Stern|Ice Beam|p1a: Attila
+|-damage|p1a: Attila|421/523
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Stern|Hydro Pump|p1a: Attila
+|-damage|p1a: Attila|244/523
+|move|p1a: Attila|Body Slam|p2a: Stern
+|-damage|p2a: Stern|214/323
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Stern|Hydro Pump|p1a: Attila
+|-damage|p1a: Attila|56/523
+|move|p1a: Attila|Self-Destruct|p2a: Stern
+|-damage|p2a: Stern|0 fnt
+|faint|p2a: Stern
+|faint|p1a: Attila
+|
+|switch|p2a: Jigollo|Exeggutor|393/393
+|switch|p1a: Boum|Exeggutor|172/393 par
+|turn|9
+|
+|move|p2a: Jigollo|Double-Edge|p1a: Boum
+|-damage|p1a: Boum|89/393 par
+|-damage|p2a: Jigollo|373/393|[from] Recoil|[of] p1a: Boum
+|move|p1a: Boum|Explosion|p2a: Jigollo
+|-damage|p2a: Jigollo|86/393
+|faint|p1a: Boum
+|
+|switch|p1a: Nasser|Tauros|353/353
+|turn|10
+|
+|move|p1a: Nasser|Body Slam|p2a: Jigollo
+|-crit|p2a: Jigollo
+|-damage|p2a: Jigollo|0 fnt
+|faint|p2a: Jigollo
+|
+|switch|p2a: Fettarsch|Snorlax|523/523
+|turn|11
+|
+|move|p1a: Nasser|Body Slam|p2a: Fettarsch
+|-damage|p2a: Fettarsch|392/523
+|move|p2a: Fettarsch|Counter|p1a: Nasser
+|-damage|p1a: Nasser|91/353
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Nasser|Hyper Beam|p2a: Fettarsch
+|-damage|p2a: Fettarsch|179/523
+|-mustrecharge|p1a: Nasser
+|move|p2a: Fettarsch|Body Slam|p1a: Nasser
+|-damage|p1a: Nasser|0 fnt
+|faint|p1a: Nasser
+|
+|switch|p1a: Ram|Alakazam|313/313
+|turn|13
+|
+|move|p1a: Ram|Psychic|p2a: Fettarsch
+|-damage|p2a: Fettarsch|2/523
+|move|p2a: Fettarsch|Body Slam|p1a: Ram
+|-damage|p1a: Ram|143/313
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Striker|Alakazam|313/313 slp
+|move|p1a: Ram|Psychic|p2a: Striker
+|-resisted|p2a: Striker
+|-damage|p2a: Striker|264/313 slp
+|
+|upkeep
+|turn|15
+|
+|cant|p2a: Striker|slp
+|move|p1a: Ram|Counter|p2a: Striker
+|-damage|p2a: Striker|166/313 slp
+|
+|upkeep
+|turn|16
+|
+|cant|p2a: Striker|slp
+|move|p1a: Ram|Counter|p2a: Striker
+|-damage|p2a: Striker|0 fnt
+|faint|p2a: Striker
+|
+|switch|p2a: Fettarsch|Snorlax|2/523
+|turn|17
+|
+|move|p1a: Ram|Psychic|p2a: Fettarsch
+|-crit|p2a: Fettarsch
+|-damage|p2a: Fettarsch|0 fnt
+|faint|p2a: Fettarsch
+|
+|win|ramzi86

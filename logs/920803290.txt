@@ -1,0 +1,221 @@
+|j|☆Honig
+|j|☆alibaba93
+|player|p1|Honig|107
+|player|p2|alibaba93|82
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: SingStar|Jynx|333/333
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: SingStar
+|-status|p1a: SingStar|par
+|move|p1a: SingStar|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: SuperStar|Starmie|323/323
+|cant|p2a: Alakazam|slp
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|move|p1a: SuperStar|Blizzard|p2a: Jolteon|[miss]
+|-miss|p1a: SuperStar
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Narwhale|Rhydon|413/413
+|move|p2a: Jolteon|Toxic|p1a: Narwhale
+|-status|p1a: Narwhale|tox
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|move|p1a: Narwhale|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|309/385
+|-status|p2a: Dragonite|par
+|-damage|p1a: Narwhale|388/413 tox|[from] psn
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: TheEggWonder|Chansey|703/703
+|move|p2a: Dragonite|Ice Beam|p1a: TheEggWonder
+|-damage|p1a: TheEggWonder|633/703
+|
+|upkeep
+|turn|7
+|
+|move|p1a: TheEggWonder|Seismic Toss|p2a: Dragonite
+|-damage|p2a: Dragonite|209/385 par
+|move|p2a: Dragonite|Hyper Beam|p1a: TheEggWonder
+|-damage|p1a: TheEggWonder|238/703
+|-mustrecharge|p2a: Dragonite
+|
+|upkeep
+|turn|8
+|
+|move|p1a: TheEggWonder|Soft-Boiled|p1a: TheEggWonder
+|-heal|p1a: TheEggWonder|589/703
+|cant|p2a: Dragonite|recharge
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: TheEggWonder|Seismic Toss|p2a: Rhydon
+|-damage|p2a: Rhydon|313/413
+|
+|upkeep
+|turn|10
+|
+|move|p1a: TheEggWonder|Reflect|p1a: TheEggWonder
+|-start|p1a: TheEggWonder|Reflect
+|move|p2a: Rhydon|Seismic Toss|p1a: TheEggWonder
+|-damage|p1a: TheEggWonder|489/703
+|
+|upkeep
+|turn|11
+|
+|move|p1a: TheEggWonder|Seismic Toss|p2a: Rhydon
+|-damage|p2a: Rhydon|213/413
+|move|p2a: Rhydon|Earthquake|p1a: TheEggWonder
+|-damage|p1a: TheEggWonder|283/703
+|
+|upkeep
+|turn|12
+|
+|move|p1a: TheEggWonder|Soft-Boiled|p1a: TheEggWonder
+|-heal|p1a: TheEggWonder|634/703
+|move|p2a: Rhydon|Hyper Beam|p1a: TheEggWonder
+|-damage|p1a: TheEggWonder|454/703
+|-mustrecharge|p2a: Rhydon
+|
+|upkeep
+|turn|13
+|
+|move|p1a: TheEggWonder|Seismic Toss|p2a: Rhydon
+|-damage|p2a: Rhydon|113/413
+|cant|p2a: Rhydon|recharge
+|
+|upkeep
+|turn|14
+|
+|move|p1a: TheEggWonder|Seismic Toss|p2a: Rhydon
+|-damage|p2a: Rhydon|13/413
+|move|p2a: Rhydon|Rest|p2a: Rhydon
+|-status|p2a: Rhydon|slp|[from] move: Rest
+|-heal|p2a: Rhydon|413/413 slp|[silent]
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: SuperStar|Starmie|323/323
+|switch|p2a: Snorlax|Snorlax|523/523
+|
+|upkeep
+|turn|16
+|
+|move|p1a: SuperStar|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|17
+|
+|move|p1a: SuperStar|Blizzard|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|301/523 par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|18
+|
+|move|p1a: SuperStar|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|181/523 par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|19
+|
+|move|p1a: SuperStar|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|54/523 par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: SuperStar|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|21
+|
+|switch|p1a: Narwhale|Rhydon|388/413 tox
+|-damage|p1a: Narwhale|363/413 psn|[from] psn
+|move|p2a: Jolteon|Agility|p2a: Jolteon
+|-boost|p2a: Jolteon|spe|2
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Dragonite|Dragonite|209/385 par
+|move|p1a: Narwhale|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|122/385 par
+|-damage|p1a: Narwhale|338/413 psn|[from] psn|[of] p2a: Dragonite
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Narwhale|Hyper Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Alakazam|Alakazam|313/313 slp
+|turn|24
+|
+|cant|p2a: Alakazam|slp
+|move|p1a: Narwhale|Earthquake|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Rhydon|Rhydon|413/413 slp
+|turn|25
+|
+|move|p1a: Narwhale|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|161/413 slp
+|-damage|p1a: Narwhale|313/413 psn|[from] psn|[of] p2a: Rhydon
+|cant|p2a: Rhydon|slp
+|
+|upkeep
+|turn|26
+|
+|-curestatus|p2a: Rhydon|slp|[msg]
+|move|p1a: Narwhale|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|-message|alibaba93 forfeited.
+|
+|win|Honig

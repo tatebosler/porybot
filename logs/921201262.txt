@@ -1,0 +1,344 @@
+|j|☆blade1418
+|j|☆IceKingofOoo
+|player|p1|blade1418|40
+|player|p2|IceKingofOoo|214
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Flareon|Flareon|333/333
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IceKingofOoo)
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Flareon
+|-status|p1a: Flareon|slp|[from] move: Lovely Kiss
+|cant|p1a: Flareon|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Hypno|Hypno|373/373
+|move|p2a: Jynx|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|249/373
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Hypno|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Hypno|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293/393 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Hypno
+|-status|p1a: Hypno|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Hypno|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|193/393 par
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-crit|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|140/373 par
+|
+|upkeep
+|turn|6
+|
+|cant|p1a: Hypno|par
+|cant|p2a: Exeggutor|par
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Hypno|Rest|p1a: Hypno
+|-status|p1a: Hypno|slp|[from] move: Rest
+|-heal|p1a: Hypno|373/373 slp|[silent]
+|move|p2a: Exeggutor|Psychic|p1a: Hypno
+|-resisted|p1a: Hypno
+|-damage|p1a: Hypno|314/373 slp
+|-unboost|p1a: Hypno|spd|1
+|-unboost|p1a: Hypno|spa|1
+|
+|upkeep
+|turn|8
+|inactive|blade1418 has 120 seconds left.
+|
+|switch|p1a: Flareon|Flareon|333/333 slp
+|switch|p2a: Jynx|Jynx|333/333
+|
+|upkeep
+|turn|9
+|inactive|blade1418 has 120 seconds left.
+|inactive|blade1418 has 90 seconds left.
+|
+|switch|p1a: Hypno|Hypno|314/373 slp
+|move|p2a: Jynx|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|185/373 slp
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Jynx|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|63/373 slp
+|cant|p1a: Hypno|slp
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Jynx|Blizzard|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Clefable|Clefable|393/393
+|turn|12
+|
+|move|p2a: Jynx|Blizzard|p1a: Clefable|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Clefable|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|upkeep
+|turn|13
+|inactive|blade1418 has 90 seconds left.
+|
+|move|p1a: Clefable|Mega Kick|p2a: Jynx
+|-damage|p2a: Jynx|127/333 par
+|cant|p2a: Jynx|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Clefable|Mega Kick|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|15
+|
+|switch|p1a: Flareon|Flareon|333/333 slp
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|16
+|
+|cant|p1a: Flareon|slp
+|move|p2a: Snorlax|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|198/333 slp
+|
+|upkeep
+|turn|17
+|inactive|blade1418 has 120 seconds left.
+|
+|cant|p1a: Flareon|slp
+|move|p2a: Snorlax|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|55/333 slp
+|
+|upkeep
+|turn|18
+|inactive|blade1418 has 120 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur|363/363
+|move|p2a: Snorlax|Amnesia|p2a: Snorlax
+|-boost|p2a: Snorlax|spd|2
+|-boost|p2a: Snorlax|spa|2
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Exeggutor|Exeggutor|193/393 par
+|move|p1a: Venusaur|Sleep Powder|p2a: Exeggutor
+|-fail|p2a: Exeggutor
+|
+|upkeep
+|turn|20
+|inactive|blade1418 has 120 seconds left.
+|
+|switch|p1a: Clefable|Clefable|393/393
+|move|p2a: Exeggutor|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|265/393
+|-unboost|p1a: Clefable|spd|1
+|-unboost|p1a: Clefable|spa|1
+|
+|upkeep
+|turn|21
+|inactive|blade1418 has 120 seconds left.
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|move|p1a: Clefable|Mega Kick|p2a: Exeggutor|[miss]
+|-miss|p1a: Clefable
+|move|p2a: Exeggutor|Explosion|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|faint|p2a: Exeggutor
+|inactive|IceKingofOoo has 120 seconds left.
+|inactive|blade1418 has 90 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur|363/363
+|switch|p2a: Lapras|Lapras|463/463
+|turn|22
+|inactive|blade1418 has 90 seconds left.
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Lapras|[miss]
+|-miss|p1a: Venusaur
+|move|p2a: Lapras|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|141/363
+|
+|upkeep
+|turn|23
+|inactive|IceKingofOoo has 90 seconds left.
+|
+|move|p1a: Venusaur|Sleep Powder|p2a: Lapras
+|-status|p2a: Lapras|slp|[from] move: Sleep Powder
+|cant|p2a: Lapras|slp
+|
+|upkeep
+|turn|24
+|inactive|IceKingofOoo has 90 seconds left.
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Venusaur|Razor Leaf|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|371/523
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Flareon|Flareon|55/333 slp
+|move|p2a: Snorlax|Body Slam|p1a: Flareon
+|-damage|p1a: Flareon|0 fnt
+|faint|p1a: Flareon
+|
+|switch|p1a: Articuno|Articuno|383/383
+|turn|26
+|
+|switch|p2a: Lapras|Lapras|463/463 slp
+|move|p1a: Articuno|Blizzard|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|419/463 slp
+|
+|upkeep
+|turn|27
+|inactive|blade1418 has 120 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur|141/363
+|cant|p2a: Lapras|slp
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Venusaur|Razor Leaf|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|582/703
+|
+|upkeep
+|turn|29
+|inactive|IceKingofOoo has 120 seconds left.
+|inactive|blade1418 has 120 seconds left.
+|
+|move|p1a: Venusaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|423/703
+|move|p2a: Chansey|Thunder Wave|p1a: Venusaur
+|-status|p1a: Venusaur|par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Venusaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|555/703
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|move|p1a: Venusaur|Swords Dance|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Venusaur
+|-damage|p1a: Venusaur|41/363 par
+|move|p1a: Venusaur|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|389/703
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Venusaur|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|400/703
+|
+|upkeep
+|turn|34
+|inactive|blade1418 has 120 seconds left.
+|
+|switch|p1a: Articuno|Articuno|383/383
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Articuno|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|585/703
+|move|p2a: Chansey|Thunder Wave|p1a: Articuno
+|-status|p1a: Articuno|par
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|283/383 par
+|move|p1a: Articuno|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|464/703
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|183/383 par
+|cant|p1a: Articuno|par
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|83/383 par
+|cant|p1a: Articuno|par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|-message|blade1418 forfeited.
+|
+|win|IceKingofOoo
+|l|☆blade1418
+|raw|blade1418's rating: 1284 &rarr; <strong>1262</strong><br />(-22 for losing)
+|raw|IceKingofOoo's rating: 1329 &rarr; <strong>1346</strong><br />(+17 for winning)

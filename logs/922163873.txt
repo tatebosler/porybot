@@ -1,0 +1,573 @@
+|j|☆Fantos13
+|j|☆Emre Mor 9
+|player|p1|Fantos13|98
+|player|p2|Emre Mor 9|blue-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie|[miss]
+|-miss|p1a: Jynx
+|
+|upkeep
+|turn|2
+|c|☆Emre Mor 9|fängt gut an
+|
+|move|p2a: Starmie|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|283/333 par
+|-unboost|p1a: Jynx|spd|1
+|-unboost|p1a: Jynx|spa|1
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Starmie|slp
+|
+|upkeep
+|turn|4
+|j| Resenbeiter
+|c| Resenbeiter|richtiger 31er
+|c| Resenbeiter|emre mor 31
+|c|☆Emre Mor 9|hi
+|c|☆Emre Mor 9|hab nach leuten gefragt
+|
+|-curestatus|p2a: Starmie|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|199/323
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Jynx|Jynx|283/333 par
+|move|p2a: Starmie|Thunder Wave|p1a: Jynx
+|-fail|p1a: Jynx|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|switch|p1a: Snorlax|Snorlax|523/523
+|
+|upkeep
+|turn|8
+|j|‽most_hated_PSuser
+|
+|switch|p1a: Jynx|Jynx|283/333 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jynx|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Exeggutor|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|146/333 par
+|-damage|p2a: Exeggutor|359/393|[from] Recoil|[of] p1a: Jynx
+|move|p1a: Jynx|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|141/393
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Starmie|Starmie|323/323 slp
+|move|p1a: Jynx|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|252/323 slp
+|
+|upkeep
+|turn|11
+|c|☆Fantos13|knallt richtig
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Rest
+|-heal|p1a: Jynx|333/333 slp|[silent]
+|
+|upkeep
+|turn|12
+|
+|cant|p2a: Starmie|slp
+|cant|p1a: Jynx|slp
+|
+|upkeep
+|turn|13
+|
+|cant|p2a: Starmie|slp
+|-curestatus|p1a: Jynx|slp|[msg]
+|
+|upkeep
+|turn|14
+|c|☆Emre Mor 9|schon
+|c| Resenbeiter|scheiße is das langweilig
+|c|☆Fantos13|rby halt
+|c| Resenbeiter|ne
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Jynx|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|180/323 slp
+|
+|upkeep
+|turn|15
+|c| Resenbeiter|das spiel is scheiße langweilig
+|c|☆Emre Mor 9|4 turns
+|c|☆Emre Mor 9|uff
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Jynx|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|396/523
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Snorlax|Body Slam|p1a: Jynx
+|-damage|p1a: Jynx|136/333
+|-status|p1a: Jynx|par
+|cant|p1a: Jynx|par
+|
+|upkeep
+|turn|17
+|c| Resenbeiter|okay jetzt kommen die chokes
+|c| Resenbeiter|wieder spannender
+|c|☆Emre Mor 9|warte mal
+|c|☆Emre Mor 9|wieso bin ich schneller
+|c|☆Emre Mor 9|lol
+|c|☆Fantos13|ja
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|412/703
+|
+|upkeep
+|turn|18
+|c|☆Fantos13|wil du mich geparad hat und das game das schon registriert hat
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|111/703
+|
+|upkeep
+|turn|19
+|c| Resenbeiter|wer mit jynx auch in relaxo bleibt
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|462/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|154/703
+|
+|upkeep
+|turn|20
+|c| Resenbeiter|hat die kontrolle über alles verloren
+|c|☆Fantos13|ist n pro
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|505/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|218/703
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|569/703
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|292/523 par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|183/523 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Snorlax
+|
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Tauros|Tauros|353/353
+|turn|24
+|
+|switch|p2a: Starmie|Starmie|180/323 slp
+|move|p1a: Starmie|Thunder Wave|p2a: Starmie
+|-fail|p2a: Starmie
+|
+|upkeep
+|turn|25
+|
+|cant|p2a: Starmie|slp
+|move|p1a: Starmie|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|20/323 slp
+|
+|upkeep
+|turn|26
+|c|☆Emre Mor 9|warte
+|c|☆Emre Mor 9|der resettet nicht
+|c|☆Emre Mor 9|richtig
+|c|☆Fantos13|ok
+|c|☆Emre Mor 9|fack
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|c|☆Fantos13|das sagt man doch nicht :D
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|27
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Zapdos|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|342/393
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Exeggutor|Exeggutor|141/393
+|switch|p1a: Jynx|Jynx|136/333 par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Exeggutor|Double-Edge|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|-damage|p2a: Exeggutor|107/393|[from] Recoil|[of] p1a: Jynx
+|faint|p1a: Jynx
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|31
+|
+|move|p1a: Tauros|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|32
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|257/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|251/353
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|158/353
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|144/353
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|c|☆Emre Mor 9|puh
+|c|☆Emre Mor 9|den wichtigsten tie gewonnen
+|c|☆Fantos13|na klar
+|c|☆Fantos13|game liebt mich
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|35
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Exeggutor|Exeggutor|342/393 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|switch|p2a: Zapdos|Zapdos|383/383 slp
+|
+|upkeep
+|turn|38
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|260/383 slp
+|
+|upkeep
+|turn|39
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|133/383 slp
+|
+|upkeep
+|turn|40
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|10/383 slp
+|
+|upkeep
+|turn|41
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|turn|42
+|
+|switch|p1a: Exeggutor|Exeggutor|342/393 par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|589/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|242/393 par
+|
+|upkeep
+|turn|44
+|
+|cant|p1a: Exeggutor|par
+|move|p2a: Chansey|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|142/393 par
+|
+|upkeep
+|turn|45
+|
+|cant|p1a: Exeggutor|par
+|move|p2a: Chansey|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|42/393 par
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Exeggutor|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|248/703 par
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|47
+|
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|155/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|506/703 par
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|358/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|219/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|570/703 par
+|
+|upkeep
+|turn|50
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|51
+|
+|cant|p2a: Chansey|par
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|52
+|
+|cant|p2a: Chansey|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|415/703 par
+|
+|upkeep
+|turn|53
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|move|p1a: Snorlax|Earthquake|p2a: Chansey
+|-damage|p2a: Chansey|587/703 par
+|
+|upkeep
+|turn|54
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|432/703 par
+|
+|upkeep
+|turn|55
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|323/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|293/703 par
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|644/703 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|57
+|j| Dec0de_0
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|58
+|c|☆Emre Mor 9|ach du heiliger
+|c|☆Emre Mor 9|ok warte
+|
+|switch|p2a: Tauros|Tauros|158/353
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|59
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|326/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|50/353
+|
+|upkeep
+|turn|60
+|c|☆Fantos13|den play mag ich
+|
+|switch|p2a: Chansey|Chansey|644/703 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|365/703 par
+|
+|upkeep
+|turn|61
+|c|☆Emre Mor 9|ja ist einzige chance
+|c|☆Emre Mor 9|tbf
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|419/703 par
+|
+|upkeep
+|turn|62
+|
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|274/703 par
+|
+|upkeep
+|turn|63
+|c|☆Fantos13|warum bist du schneller
+|c|☆Emre Mor 9|sag dus mir
+|c|☆Fantos13|wtf ist los grade
+|c|☆Emre Mor 9|das geht eig garnicht
+|
+|cant|p2a: Chansey|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|125/703 par
+|
+|upkeep
+|turn|64
+|
+|cant|p2a: Chansey|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Tauros|Tauros|50/353
+|turn|65
+|c|☆Fantos13|immerhin das I guess
+|c|☆Fantos13|gg
+|
+|move|p2a: Tauros|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|222/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|Fantos13
+|c|☆Emre Mor 9|schade
+|c|☆Emre Mor 9|gg
+|c|☆Fantos13|wtf
+|c|☆Fantos13|war mit den speeds
+|c|☆Emre Mor 9|aber
+|c|☆Emre Mor 9|warum
+|c|☆Emre Mor 9|ist mein
+|c|☆Emre Mor 9|49 speed chans
+|c|☆Emre Mor 9|schneller gewesen
+|l|‽most_hated_PSuser
+|c|☆Fantos13|ich hatte immer noch 158
+|c|☆Fantos13|dein lax war auch schneller als mein jynx
+|c|☆Emre Mor 9|yh
+|c|☆Fantos13|weird game
+|c|☆Emre Mor 9|gen 1 beeing broken
