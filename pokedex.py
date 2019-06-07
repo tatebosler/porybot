@@ -4,6 +4,7 @@ import database
 import itertools
 import math
 import numpy
+import random
 
 class Pokedex:
     # For performance, we define the global average HP as 0 for now. It will be populated
@@ -22,12 +23,31 @@ class Pokedex:
     # in later generations).
     fullyEvolved = [3, 6, 9, 12, 15, 18, 20, 22, 24, 26, 28, 31, 34, 36, 38, 40, 42, 45, 47, 49, 51, 53, 55, 57, 59, 62, 65, 68, 71, 73, 76, 78, 80, 82, 83, 85, 87, 89, 91, 94, 95, 97, 99, 101, 103, 105, 106, 107, 108, 110, 112, 113, 114, 115, 117, 119, 121, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 134, 135, 136, 137, 139, 141, 142, 143, 144, 145, 146, 149, 150, 151]
     
-    # Returns basic information about a species.
+    # Returns basic information about a species (searching by name only)
     @classmethod
     def get(cls, species):
         cursor = cls.db.cursor()
         
         cursor.execute("SELECT * FROM `pokemon_species` WHERE identifier = ? COLLATE NOCASE", (species, ))
+        speciesData = cursor.fetchone()
+        speciesId = speciesData[0]
+        speciesName = str(speciesData[1]).title()
+        
+        cursor.execute("SELECT * FROM `pokemon_types` WHERE pokemon_id = ?", (speciesId, ))
+        speciesTypes = [cls.types[record[1]] for record in cursor.fetchall()]
+        
+        return {
+            'id': speciesId,
+            'name': speciesName,
+            'type': tuple(speciesTypes),
+            'averageHp': cls.getAverageHp(speciesId)
+        }
+    
+    @classmethod
+    def search(cls, species):
+        cursor = cls.db.cursor()
+        
+        cursor.execute("SELECT * FROM `pokemon_species` WHERE id = ?", (species, ))
         speciesData = cursor.fetchone()
         speciesId = speciesData[0]
         speciesName = str(speciesData[1]).title()
@@ -82,19 +102,19 @@ class Pokedex:
         if species is None:
             speciesProbability = [cls.getProbabilityWeakToUnknown(types, id) for id in cls.fullyEvolved]
             return numpy.mean(speciesProbability)
-        elif isinstance(species, (int, long)):
-            cursor = cls.db.cursor()
-            cursor.execute("SELECT pokemon_moves.*, moves.* FROM pokemon_moves INNER JOIN moves ON moves.id = pokemon_moves.move_id WHERE pokemon_moves.pokemon_id = ? AND pokemon_moves.version_group_id = 1 GROUP BY pokemon_moves.move_id", (species, ))
-            
+        elif isinstance(species, (int, long)):            
             typeDistrib = list(numpy.zeros(19, dtype=int))
+            damagingTypeDistrib = list(numpy.zeros(19, dtype=int))
             
-            for move in cursor.fetchall():
-                typeDistrib[move[9]] += 1
+            for move in cls.getLegalMoves(species):
+                typeDistrib[move['type_id']] += 1
+                if move['power'] is not None:
+                    damagingTypeDistrib[move['type_id']] += 1
             
             numberStrongMoves = 0
             for typeIndex in range(1, 16):
                 if cls.getTypeEffectiveness(cls.types[typeIndex], types) > 1:
-                    numberStrongMoves += typeDistrib[typeIndex]
+                    numberStrongMoves += damagingTypeDistrib[typeIndex]
             
             numberMoves = max(numpy.sum(typeDistrib), 4)
             
@@ -132,9 +152,42 @@ class Pokedex:
             defenseType = cls.types.index(defense[0]) if isinstance(defense, tuple) else cls.types.index(defense)
             cursor = cls.db.cursor()
             cursor.execute("SELECT * FROM type_efficacy WHERE damage_type_id = ? AND target_type_id = ?", (attackType, defenseType))
-            return cursor.fetchone()[2]
+            return cursor.fetchone()[2] / 100.0
         else:
-            return cls.getTypeEffectiveness(attack, defense[0]) * cls.getTypeEffectiveness(attack, defense[1]) / 10000.0
+            return cls.getTypeEffectiveness(attack, defense[0]) * cls.getTypeEffectiveness(attack, defense[1])
+            
+    @classmethod
+    def getLegalMoves(cls, species):
+        if isinstance(species, (int, long)):
+            cursor = cls.db.cursor()
+            
+            # This database query selects all legal moves that a Pokémon is allowed to learn and returns
+            # them, along with additional metadata, in one combined table (for performance reasons).
+            # 
+            # pokemon_moves stores the list of moves that Pokémon can learn in each game set; we force
+            # the game to use the Red/Blue/Yellow set with "pokemon_moves.version_group_id = 1" in the
+            # WHERE clause.
+            # 
+            # INNER JOIN moves ON moves.id = pokemon_moves.move_id
+            #   This adds additional move data such as power, accuracy, and move type.
+            #   
+            # INNER JOIN move_names ON move_names.move_id = moves.id
+            #   This allows the "display" name of a move to be returned.
+            #   (Filtered to English with "move_names.local_language_id = 9" in the WHERE clause)
+            cursor.execute("SELECT pokemon_moves.*, moves.*, move_names.* FROM pokemon_moves INNER JOIN moves ON moves.id = pokemon_moves.move_id INNER JOIN move_names ON move_names.move_id = moves.id WHERE pokemon_moves.pokemon_id = ? AND pokemon_moves.version_group_id = 1 AND move_names.local_language_id = 9 GROUP BY pokemon_moves.move_id", (species, ))
+            
+            return [{
+                'name': str(move[23]),
+                'id': move[0],
+                'type': cls.types[move[9]],
+                'type_id': move[9],
+                'power': move[10],
+                'pp': move[11],
+                'accuracy': move[12]
+            } for move in cursor.fetchall()]
+        else:
+            speciesData = cls.get(species)
+            return cls.getLegalMoves(speciesData['id'])
 
     @classmethod
     def getMove(cls, name):
@@ -155,3 +208,27 @@ class Pokedex:
             'effect_id': moveData[10],
             'effect_prob': moveData[11]
         }
+        
+    @classmethod
+    def randomTeam(cls):
+        species = []
+        while len(species) < 6:
+            choice = random.choice(cls.fullyEvolved)
+            if choice not in species:
+                species.append(choice)
+        
+        team = []
+        for pokemon in species:
+            moves = cls.getLegalMoves(pokemon)
+            movesetLength = min(len(moves), 4)
+            moveset = []
+            while len(moveset) < movesetLength:
+                choice = random.choice(moves)
+                if choice not in moveset:
+                    moveset.append(choice)
+            speciesData = cls.search(pokemon)
+            speciesData['moves'] = moveset
+            team.append(speciesData)
+        
+        return team
+            
