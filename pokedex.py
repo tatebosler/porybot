@@ -160,6 +160,20 @@ class Pokedex:
     def getLegalMoves(cls, species):
         if isinstance(species, (int, long)):
             cursor = cls.db.cursor()
+            
+            # This database query selects all legal moves that a Pokémon is allowed to learn and returns
+            # them, along with additional metadata, in one combined table (for performance reasons).
+            # 
+            # pokemon_moves stores the list of moves that Pokémon can learn in each game set; we force
+            # the game to use the Red/Blue/Yellow set with "pokemon_moves.version_group_id = 1" in the
+            # WHERE clause.
+            # 
+            # INNER JOIN moves ON moves.id = pokemon_moves.move_id
+            #   This adds additional move data such as power, accuracy, and move type.
+            #   
+            # INNER JOIN move_names ON move_names.move_id = moves.id
+            #   This allows the "display" name of a move to be returned.
+            #   (Filtered to English with "move_names.local_language_id = 9" in the WHERE clause)
             cursor.execute("SELECT pokemon_moves.*, moves.*, move_names.* FROM pokemon_moves INNER JOIN moves ON moves.id = pokemon_moves.move_id INNER JOIN move_names ON move_names.move_id = moves.id WHERE pokemon_moves.pokemon_id = ? AND pokemon_moves.version_group_id = 1 AND move_names.local_language_id = 9 GROUP BY pokemon_moves.move_id", (species, ))
             
             return [{
