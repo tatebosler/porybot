@@ -79,7 +79,8 @@ class QLearningAgent:
 		# V-vals held in dict. Key is [list of weights]
 		self.Vvals = {}
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
-		self.weights = [0,0,0,0,0,0,0,0]
+		self.weights = [0,0,0,0]
+		self.gamma = 1
 
 
 #getTypeofMove turned into getMove --> dictionary of info. has power and type
@@ -171,20 +172,17 @@ class QLearningAgent:
 		p1_index = game_state.getp1_pokemon_names().index(p1)
 		hp1 = game_state.getp1_hp()[p1_index]
 		hp2 = game_state.getp2_hp()[p2_index]
-		hpsum1 = 0
-		hpsum2 = 0
-		for i in game_state.getp1_hp():
-			self.hpsum1 += int(i)
-		for i in game_state.getp2_hp():
-			self.hpsum2 += int(i)
-		return [hp1, hp2, hpsum1, hpsum2]
-
+		return [hp2-hp1]
 
 	def extractFeatures(self, game_state):
 		"""
 		Returns [type_atk1, bad_type_atk1, type_atk2, bad_type_atk2, hp1, hp2, hpsum1, hpsum2]
 		"""
-		return [self.extract_atk(game_state)[0], self.extract_atk(game_state)[1],self.extract_atk(game_state)[2], self.extract_atk2(game_state)[3], self.extract_hps(game_state)[0], self.extract_hps(game_state)[1], self.extract_hps(game_state)[2], self.extract_hps(game_state)[3]]
+		return [self.extract_atk(game_state)[0], self.extract_atk(game_state)[1],self.extract_atk(game_state)[2], self.extract_atk(game_state)[3]]
+
+	def extractReward(self,game_state):
+		return game_state.get_p2_hp_change - game_state.get_p1_hp_change
+
 
 	def getQValue(self, feature_vector, action, next_feature_vector):
 		#TODO: impliment
