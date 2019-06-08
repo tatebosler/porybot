@@ -28,6 +28,26 @@ class GameLog:
 		self.game_states.append(start_state)
 
 	def add_state(self,state):
+		# update HP changes
+		if len(self.game_states) > 0:
+			prev_hp1 = self.game_states[-1].getp1_hp()
+			prev_hp1_sum = 0
+			for i in prev_hp1:
+				prev_hp1_sum += int(i)
+			prev_hp2 = self.game_states[-1].getp2_hp()
+			prev_hp2_sum = 0
+			for i in prev_hp2:
+				prev_hp2_sum += int(i)
+			hp1 = state.getp1_hp()
+			hp1_sum = 0
+			for i in hp1:
+				hp1_sum += int(i)
+			hp2 = state.getp2_hp()
+			hp2_sum = 0
+			for i in hp2:
+				hp2_sum += int(i)
+			state.update_p1_hp_change(prev_hp1_sum - hp1_sum)
+			state.update_p2_hp_change(prev_hp2_sum - hp2_sum)
 		self.game_states.append(state)
 
 	def update_past_hp(self,player,pokemon_name, pokemon_hp):
@@ -104,6 +124,7 @@ class GameState:
 		for pokemon in p2_pokemon_names:
 			print pokemon
 			self.p2_pokemon_types.append(Pokedex.get(pokemon)["type"])
+		self.p2_hp_change = 0
 
 		self.p1_pokemon_names = p1_pokemon_names
 		self.p1_pokemon_hp = []
@@ -116,6 +137,9 @@ class GameState:
 		self.p1_in_play = p1_in_play
 		self.p1_pokemon_moves = p1_moves
 		self.p1_pokemon_types = []
+
+		self.p1_hp_change = 0
+
 
 		for pokemon in p1_pokemon_names:
 			print pokemon
@@ -193,25 +217,41 @@ class GameState:
 	def getp2_hp(self):
 		return self.p2_pokemon_hp
 
+	def update_p1_hp_change(self, p1_hp_change):
+		self.p1_hp_change = p1_hp_change
+
+	def update_p2_hp_change(self, p2_hp_change):
+		self.p2_hp_change = p2_hp_change
+
+	def get_p1_hp_change(self, p1_hp_change):
+		self.p1_hp_change = p1_hp_change
+
+	def get_p2_hp_change(self, p2_hp_change):
+		self.p2_hp_change = p2_hp_change
+
+
 	def printSelf(self):
 
-		print"P1 Names:  ", self.p1_pokemon_names
-		print"P2 Names:  ", self.p2_pokemon_names
-		print"P1 in play:  ", self.p1_in_play
-		print"P2 in play:  ", self.p2_in_play
+		#print"P1 Names:  ", self.p1_pokemon_names
+		#print"P2 Names:  ", self.p2_pokemon_names
+		#print"P1 in play:  ", self.p1_in_play
+		#print"P2 in play:  ", self.p2_in_play
 
-		print"P1 action:  ",self.p1_action
-		print"P2 action:  ",self.p2_action
+		#print"P1 action:  ",self.p1_action
+		#print"P2 action:  ",self.p2_action
 
-		print"P1 moves:  ", self.p1_pokemon_moves
-		print"P2 moves:  ", self.p2_pokemon_moves
-		print"P1 types:  ", self.p1_pokemon_types
-		print"P2 types:  ", self.p2_pokemon_types
+		#print"P1 moves:  ", self.p1_pokemon_moves
+		#print"P2 moves:  ", self.p2_pokemon_moves
+		#print"P1 types:  ", self.p1_pokemon_types
+		#print"P2 types:  ", self.p2_pokemon_types
 		print"P1 hp:  ", self.p1_pokemon_hp
-		print"P2 hp:  ", self.p2_pokemon_hp
+		print"P2 hp:   ", self.p2_pokemon_hp
 
-		print"P1 statuses:  ", self.p1_pokemon_status
-		print"P2 statuses:  ", self.p2_pokemon_status
+		print"P1 hp change:  ", self.p1_hp_change
+		print"P2 hp change:  ", self.p2_hp_change
+
+		#print"P1 statuses:  ", self.p1_pokemon_status
+		#print"P2 statuses:  ", self.p2_pokemon_status
 		
 
 
@@ -288,15 +328,13 @@ def readLog(text_file):
 				#reset p1 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
+				new_health = new_health.split(" ")[0]
 				p1_pokemon_hp[p1_pokemon_names.index(p1_in_play)] = new_health
 			elif line[10] == "2":
 				#reset p2 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
-				print("P2 Names:  ", p2_pokemon_names)
-				print("P1 Names:  ", p1_pokemon_names)
-				print("In play: ", p2_in_play)
-				print("HPs;  ", p2_pokemon_hp)
+				new_health = new_health.split(" ")[0]
 				p2_pokemon_hp[p2_pokemon_names.index(p2_in_play)] = new_health
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
@@ -375,6 +413,8 @@ def readLog(text_file):
 		if "|turn|" in line:
 			game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play, p1_moves, p2_moves)
 			game_log.add_state(game_state)
+	game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play, p1_moves, p2_moves)
+	game_log.add_state(game_state)
 	return game_log
 
 def main():
