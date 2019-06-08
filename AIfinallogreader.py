@@ -1,6 +1,7 @@
 #TODO: Get tate to play a game, figure out how to know what we know originally
 #TODO: Add way to remember types
 from pokedex import Pokedex
+import os
 
 class GameLog:
 	"""A class to hold the info of one game. Should be a series of gamestate objects"""
@@ -29,24 +30,30 @@ class GameLog:
 	def add_state(self,state):
 		self.game_states.append(state)
 
-	def update_past_hp(self,pokemon_name, pokemon_hp):
+	def update_past_hp(self,player,pokemon_name, pokemon_hp):
 		for state in self.game_states:
-			state.update_player_1(pokemon_name, pokemon_hp, [])
-
+			if player == "1":
+				state.update_player_1(pokemon_name, pokemon_hp)
+			else:
+				state.update_player_2(pokemon_name, pokemon_hp)
+	"""
 	def update_past_moves(self,player,pokemon_name, move):
 		for state in self.game_states:
 			state.update_moves(player, pokemon_name, move)
-
-	def update_past_pokemon(self, player, pokemon_name):
-		#TODO: Impliment, backpropogate knowlege about pokemon
-		return True
+	"""
 
 	def getLog(self):
 		return self.game_states
 
 	def printSelf(self):
+		turn = 0
 		for state in self.game_states:
+			print "______"
+			print("Turn: ", turn)
 			state.printSelf()
+			turn += 1
+			print "______"
+
 
 #TODO: types not mentioned in log. need a resource to check against
 #TODO: should hold attacks each pokemon has --> add dictionary of attacks used for each pokemon
@@ -77,41 +84,63 @@ class GameState:
 
 	def __init__(self, p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status,
 	p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status,
-	p1_action, p1_in_play):
+	p1_action, p1_in_play, p1_moves, p2_moves):
 		"""
 		Constructor for one gamestate --> state/action pair
 		"""	
+		#the weird way I'm instantiating list variables is because they keep changing when the inputs change
+		#want names and moves to be same throughout all states
 		self.p2_pokemon_names = p2_pokemon_names
-		self.p2_pokemon_hp = p2_pokemon_hp
-		self.p2_pokemon_status = p2_pokemon_status
+		self.p2_pokemon_hp = []
+		for i in p2_pokemon_hp:
+			self.p2_pokemon_hp.append(i)
+		self.p2_pokemon_status = []
+		for i in p2_pokemon_status:
+			self.p2_pokemon_status.append(i)
 		self.p2_action = p2_action
 		self.p2_in_play = p2_in_play
-		self.p2_pokemon_moves = {}
+		self.p2_pokemon_moves = p2_moves
 		self.p2_pokemon_types = []
-
 		for pokemon in p2_pokemon_names:
+			print pokemon
 			self.p2_pokemon_types.append(Pokedex.get(pokemon)["type"])
 
 		self.p1_pokemon_names = p1_pokemon_names
-		self.p1_pokemon_hp = p1_pokemon_hp
-		self.p1_pokemon_status = p1_pokemon_status
+		self.p1_pokemon_hp = []
+		for i in p1_pokemon_hp:
+			self.p1_pokemon_hp.append(i)
+		self.p1_pokemon_status = []
+		for i in p1_pokemon_status:
+			self.p1_pokemon_status.append(i)
 		self.p1_action = p1_action
 		self.p1_in_play = p1_in_play
-		self.p1_pokemon_moves = {}
+		self.p1_pokemon_moves = p1_moves
 		self.p1_pokemon_types = []
 
 		for pokemon in p1_pokemon_names:
+			print pokemon
 			self.p1_pokemon_types.append(Pokedex.get(pokemon)["type"])
 
-	def update_player_1(self,pokemon_name,pokemon_hp,pokemn_status_effects):
+	def update_player_1(self,pokemon_name,pokemon_hp):
 		"""
 		To be used to backpropogate information
 		"""
-		#TODO: UPDATE TYPES HERE TOO
-		self.p1_pokemon_names.append(pokemon_name)
-		self.p1_pokemon_hp.append(pokemon_hp)
-		self.p1_pokemon_status.append(pokemn_status_effects) 
-	
+		#Use this because p1_pokemon_names updates automatically
+		if len(self.p1_pokemon_names) > len(self.p1_pokemon_hp):
+			self.p1_pokemon_hp.append(pokemon_hp)
+			self.p1_pokemon_status.append("None")
+			self.p1_pokemon_types.append(Pokedex.get(pokemon_name)["type"])
+
+	def update_player_2(self,pokemon_name,pokemon_hp):
+		"""
+		To be used to backpropogate information
+		"""
+		#Use this because p1_pokemon_names updates automatically
+		if len(self.p2_pokemon_names) > len(self.p2_pokemon_hp):
+			self.p2_pokemon_hp.append(pokemon_hp)
+			self.p2_pokemon_status.append("None")
+			self.p2_pokemon_types.append(Pokedex.get(pokemon_name)["type"])
+	"""
 	def update_moves(self,player, pokemon, move):
 		if player == "1":
 			if pokemon not in self.p1_pokemon_moves.keys():
@@ -127,6 +156,7 @@ class GameState:
 			if move not in oldMoves:
 				oldMoves.append(move)
 				self.p2_pokemon_moves[pokemon] = oldMoves
+	"""
 
 	def getp2_in_play(self):
 		return self.p2_in_play
@@ -159,13 +189,28 @@ class GameState:
 		return self.p2_pokemon_hp
 
 	def printSelf(self):
-		print(self.p2_pokemon_names)
-		print(self.p2_pokemon_hp)
-		print(self.p2_pokemon_status)
-		print(self.p2_action)
-		print(self.p2_in_play)
-		print(self.p2_pokemon_moves)
-		print(self.p2_pokemon_types)
+
+		print"P1 Names:  ", self.p1_pokemon_names
+		print"P2 Names:  ", self.p2_pokemon_names
+		print"P1 in play:  ", self.p1_in_play
+		print"P2 in play:  ", self.p2_in_play
+
+		print"P1 action:  ",self.p1_action
+		print"P2 action:  ",self.p2_action
+
+		print"P1 moves:  ", self.p1_pokemon_moves
+		print"P2 moves:  ", self.p2_pokemon_moves
+		print"P1 types:  ", self.p1_pokemon_types
+		print"P2 types:  ", self.p2_pokemon_types
+		print"P1 hp:  ", self.p1_pokemon_hp
+		print"P2 hp:  ", self.p2_pokemon_hp
+
+		print"P1 statuses:  ", self.p1_pokemon_status
+		print"P2 statuses:  ", self.p2_pokemon_status
+		
+
+
+
 
 
 
@@ -180,16 +225,16 @@ def readLog(text_file):
 	p2_pokemon_status = []
 	p2_action = None
 	p2_in_play = None
+	p2_moves = {}
 	p1_pokemon_names = [] 
 	p1_pokemon_hp = [] 
 	p1_pokemon_status = []
 	p1_action = None
 	p1_in_play = None
+	p1_moves = {}
 	game_log = GameLog()
 
 	for line in log:
-		print(line[0:8])
-
 		if line[0:8] in "|switch|":
 			if line[9] == "1":
 				#p1 switched in new pokemon
@@ -197,7 +242,10 @@ def readLog(text_file):
 				line = line[13:]
 				line_split = line.split("|")
 				p1_in_play = line_split[1]
+				p1_in_play = p1_in_play.split(",")[0]
+				#add new pokemon to the lists only if it hasn't been played yet
 				if p1_in_play not in p1_pokemon_names:
+					#print("Pokemon  ", p1_in_play, " not in ", p1_pokemon_names)
 					p1_pokemon_names.append(p1_in_play)
 					#no status effects when first introduced
 					p1_pokemon_status.append("None")
@@ -206,8 +254,8 @@ def readLog(text_file):
 					hp = hp.split("/")[0]
 					#can just append bc we know pokemon is being added for the first time
 					p1_pokemon_hp.append(hp)
-					game_log.update_past_hp(p1_in_play,hp)
-				print("switch 1: ", p1_in_play, p1_pokemon_names)
+					game_log.update_past_hp("1",p1_in_play,hp)
+				#print("switch 1: ", p1_in_play, p1_pokemon_names)
 
 			elif line[9] == "2":
 				#p2 switched in new pokemon
@@ -215,6 +263,7 @@ def readLog(text_file):
 				line = line[13:]
 				line_split = line.split("|")
 				p2_in_play = line_split[1]
+				p2_in_play = p2_in_play.split(",")[0]
 				if p2_in_play not in p2_pokemon_names:
 					p2_pokemon_names.append(p2_in_play)
 					p2_pokemon_status.append("None")
@@ -222,26 +271,27 @@ def readLog(text_file):
 					hp = hp.split("/")[0]
 					#can just append bc we know pokemon is being added for the first time
 					p2_pokemon_hp.append(hp)
-				print("switch 2: ", p2_in_play, p2_pokemon_names)
+					game_log.update_past_hp("2",p2_in_play,hp)
+				#print("switch 2: ", p2_in_play, p2_pokemon_names)
 			else:
 				#there was a weird switch I wasn't prepared for, throw an error
 				print("SOMETHING HAS GONE WORNG: no player number attatched to switch statement")
 				print("Line id",line[9])
 		if "|-damage|" in line:
 			#apply damage to hp values
-			print("damage: ", line)
 			if line[10] == "1":
 				#reset p1 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
-				print("new health: ", new_health)
 				p1_pokemon_hp[p1_pokemon_names.index(p1_in_play)] = new_health
 			elif line[10] == "2":
 				#reset p2 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
-				print("new health: ", new_health)
-				print("Pokemon:  ", p2_in_play)
+				print("P2 Names:  ", p2_pokemon_names)
+				print("P1 Names:  ", p1_pokemon_names)
+				print("In play: ", p2_in_play)
+				print("HPs;  ", p2_pokemon_hp)
 				p2_pokemon_hp[p2_pokemon_names.index(p2_in_play)] = new_health
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
@@ -277,41 +327,78 @@ def readLog(text_file):
 			if line[7] == "1":
 				#save move
 				move = line.split("|")[3]
-				print("Move: ", move)
+				#print("Move: ", move)
 				p1_action = move
-				game_log.update_past_moves("1",p1_in_play, move)
+				if p1_in_play in p1_moves.keys():
+					oldMoves = p1_moves[p1_in_play]
+					if move not in oldMoves:
+						oldMoves.append(move)
+						p1_moves[p1_in_play] = oldMoves
+				else:
+					p1_moves[p1_in_play] = [move]
+				#game_log.update_past_moves("1",p1_in_play, move)
 			elif line[7] == "2":
 				#reset p2 pokemon health
 				move = line.split("|")[3]
+				#print("Move: ", move)
 				p2_action = move
-				print("Move: ", move)
-				game_log.update_past_moves("2",p2_in_play, move)
+				if p2_in_play in p2_moves.keys():
+					oldMoves = p2_moves[p2_in_play]
+					if move not in oldMoves:
+						oldMoves.append(move)
+						p2_moves[p2_in_play] = oldMoves
+				else:
+					p2_moves[p2_in_play] = [move]
+				#print("Move: ", move)
+				#game_log.update_past_moves("2",p2_in_play, move)
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
 		if "|-status|" in line:
 			#apply damage to hp values
-			if line[11] == "1":
+			#TODO: maybe fix so that multiple statuses can exist at same time AND fix the fact that some statuses go away
+			if line[10] == "1":
 				#NOTE: THIS DOESN'T ALLOW MULTIPLE STATUSES --> FIX LATER
 				stat = line.split("|")[3]
-				p1_pokemon_status[p1_in_play] = stat
-			elif line[11] == "2":
+				p1_pokemon_status[p1_pokemon_names.index(p1_in_play)] = stat
+			elif line[10] == "2":
 				#reset p2 pokemon health
 				stat = line.split("|")[3]
-				p2_pokemon_status[p2_in_play] = stat
+				p2_pokemon_status[p2_pokemon_names.index(p2_in_play)] = stat
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to status statement")
+				print("Tag:  ", line[10])
 		if "|turn|" in line:
-			game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play)
+			game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play, p1_moves, p2_moves)
 			game_log.add_state(game_state)
 	return game_log
 
 def main():
-	f = open("logs/920774993.txt")
-	the_log = readLog(f)
-	the_log.printSelf()
+	rootdir = './logs'
+	file_list = [f for f in os.listdir('./logs') if os.path.isfile(os.path.join('./logs', f))]
+	logs = []
+	for file in file_list:
+		# Searching for Mr. Mime throws an error
+		if file == "923289227.txt":
+			continue
+		else:
+			#Print statements for checking log accuracy
+			#print"__________"
+			#print file
+			#print
+			f = open("logs/"+file)
+			the_log = readLog(f)
+			logs.append(the_log)
+			#the_log.printSelf()
+			#print
+			#print "___________"
+	return logs
 
+def test():
+	for file in ["920796671.txt", "920938065.txt", "921676011.txt", "921816226.txt"]:
+		f = open("logs/"+file)
+		the_log = readLog(f)
+		the_log.printSelf()
 
-
-main()
+test()
 
 

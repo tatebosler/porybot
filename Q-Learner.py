@@ -139,6 +139,16 @@ class QLearningAgent:
 
 	def getAction(self, features):
 
+	def runTrainingData(self):
+		logs = AIfinallogreader.main()
+		for log in logs:
+			#Run through each game, learn weights
+			for state in log.getLog():
+				
+
+
+
+
 
 
 '''
