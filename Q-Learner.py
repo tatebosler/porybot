@@ -1,10 +1,14 @@
 #TODO: How to deal with unknown values in Q-learner? --> Treat as probability
+#TODO: Know attack slots for pokemon in play --> how to 
 #Will have pokedex.getTypeEffectiveness function returns 2 if first type strong against second, return 1 if normal against second, 1/2 if weak against second, 0 if second is immune
 #will also have pokedex.proportionAttack([your pokemon types], species)
 import AIfinallogreader
+import pokedex
 class QLearningAgent:
 	"""
-	Q-Learning agent will try try to assign weights to our features for use in MCTS
+	Q-Learning agent will try try to assign weights to our features
+
+
 
 	Features:
 		- type_atk1: 1 or 0. Whether p1 pokemon in play has an attack of strong type against opponent
@@ -26,12 +30,16 @@ class QLearningAgent:
 		- par2 : whether p2 pokemon is paralyzed
 		- psn2: whether p2 pokemon is poisoned
 		- slp2 : whether p2 pokemon is asleep
+
+		for your pokemon in play
+		TODO: Add pokemon moves:
+
+		- p1_moves: dictionary key is pokemon, values is list of tuples [move name, type, powr, stat_effects]
+
 	"""
 
 	def __init__(self):
 		#TODO: INIT FUNCTIONS HERE
-		# Q-vals held in dict. Key is [[list of weights], action ]
-		self.Qvals = {}
 		# V-vals held in dict. Key is [list of weights]
 		self.Vvals = {}
 
@@ -101,12 +109,19 @@ class QLearningAgent:
 		self.extract_atk1()
 		self.extract_atk2()
 
+	def extractFeatures(self):
+		"""
+		Returns [type_atk1, bad_type_atk1, type_atk2, bad_type_atk2, hp1, hp2, hpsum1, hpsum2]
+		"""
+		return [self.type_atk1, self.bad_type_atk1, self.type_atk2, self.bad_type_atk2, self.hp1, self.hp2, self.hpsum1, self.hpsum2]
+
 	def getQValue(self, game_state, action):
 		#TODO: impliment
+		for move in game_state.getp1_pokemon_moves()
 
 
 
-	def updateWeights(self, features):
+	def updateWeights(self, features, nextState):
 		vVal = float('inf')*-1
 		#TODO: how to get legal actions in a state? --> will not be a constant function
         for act in self.getLegalActions(state):
@@ -114,10 +129,10 @@ class QLearningAgent:
             if q > vVal:
                 vVal = q
         self.Vvals[str(nextState)] = vVal
-        qVal = self.getQValue(state, action)
+        qVal = self.Qvals[self., action]
         for feature in features:
             weight = self.weights[feature]
-            difference = self.Vvals[str(nextState)] * self.discount + reward - qVal
+            difference = self.Vvals[nextState] * self.discount + reward - qVal
             self.weights[feature] = self.weights[feature] + self.alpha*difference*features[feature]
 
 
