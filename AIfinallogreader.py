@@ -123,7 +123,6 @@ class GameState:
 		self.p2_pokemon_moves = p2_moves
 		self.p2_pokemon_types = []
 		for pokemon in p2_pokemon_names:
-			print(pokemon)
 			self.p2_pokemon_types.append(Pokedex.get(pokemon)["type"])
 		self.p2_hp_change = 0
 
@@ -405,12 +404,12 @@ def readLog(text_file):
 			if line[10] == "1":
 				#NOTE: THIS DOESN'T ALLOW MULTIPLE STATUSES --> FIX LATER
 				stat = line.split("|")[3]
-				print("Stat: ", stat)
+				stat = stat.split("\n")[0]
 				p1_pokemon_status[p1_pokemon_names.index(p1_in_play)] = stat
 			elif line[10] == "2":
 				#reset p2 pokemon health
 				stat = line.split("|")[3]
-				print("Stat: ", stat)
+				stat = stat.split("\n")[0]
 				p2_pokemon_status[p2_pokemon_names.index(p2_in_play)] = stat
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to status statement")
