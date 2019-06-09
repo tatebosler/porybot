@@ -72,7 +72,7 @@ class QLearningAgent:
 		- p1_moves: dictionary key is pokemon, values is list of tuples [move name, type, powr, stat_effects]
 
 	"""
-		#weights in order [type_atk1,norm_type_atk1, bad_type_atk1,type_atk2, norm_type_atk2, bad_type_atk2,p1_unfainted, p2_unfainted]
+		#weights in order [type_atk1,norm_type_atk1, bad_type_atk1,type_atk2, norm_type_atk2, bad_type_atk2,p1_unfainted, p2_unfainted, par1, slp1, frz1, ]
 	weights = []
 	gamma = 1
 	rounds = 0
@@ -83,7 +83,7 @@ class QLearningAgent:
 		# V-vals held in dict. Key is [list of weights]
 		self.Vvals = {}
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
-		self.weights = [0,0,0,0,0,0,0,0]
+		self.weights = [0,0,0,0,0,0,0,0,0,0]
 		self.gamma = 1
 		self.rounds = 0
 		self.apha = 0
@@ -165,6 +165,15 @@ class QLearningAgent:
 
 	def extract_effects(self, game_state):
 		#TODO: add feature for status effects
+		p1 = game_state.getp1_in_play()
+		p2 = game_state.getp2_in_play()
+		p2_index = game_state.getp2_pokemon_names().index(p2)
+		p1_index = game_state.getp1_pokemon_names().index(p1)
+		p1_effects = game_state.get_p1_stats()
+		p2_effects = game_state.get_p2_stats()
+		p1_effect = p1_effects[p1_index]
+		p2_effect = p2_effects[p2_index]
+		return [p1_effect,p2_effect]
 
 	def extract_hps(self,game_state):
 		p1 = game_state.getp1_in_play()
@@ -194,7 +203,8 @@ class QLearningAgent:
 		"""
 		atk = self.extract_atk(game_state)
 		remaining = self.extract_remaining_pokemon(game_state)
-		return [atk[0], atk[1],atk[2], atk[3], atk[4], atk[5], remaining[0], remaining[1]]
+		stats = self.extract_effects(game_state)
+		return [atk[0], atk[1],atk[2], atk[3], atk[4], atk[5], remaining[0], remaining[1], stats[0], stats[1]]
 
 	def extractReward(self,game_state):
 		return game_state.get_p2_hp_change() - game_state.get_p1_hp_change()
