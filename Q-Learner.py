@@ -73,6 +73,12 @@ class QLearningAgent:
 		- p1_moves: dictionary key is pokemon, values is list of tuples [move name, type, powr, stat_effects]
 
 	"""
+	Vvals = {}
+		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
+	weights = []
+	gamma = 0
+	rounds = 0
+	apha = 0
 
 	def __init__(self):
 		#TODO: INIT FUNCTIONS HERE
@@ -83,9 +89,8 @@ class QLearningAgent:
 		self.gamma = 1
 		self.rounds = 0
 		self.apha = 0
+		print("initted")
 
-
-#getTypeofMove turned into getMove --> dictionary of info. has power and type
 	def extract_atk(self, game_state):
 		move1 = pokedex.getMove(game_state.getp1_action())
 		move2 = pokedex.getMove(game_state.getp2_action())
@@ -153,24 +158,25 @@ class QLearningAgent:
 
 	def updateWeightsTraining(self, game_state, next_game_state):
 		Q_val = self.getQValue(game_state)
-        Q_val_next = self.getQValue(next_game_state)
-        r = self.extractReward(game_state)
-        difference = (r+self.gamma * Q_val_next) - Q_val
-        features = self.extractFeatures(game_state)
-        for i in range(len(self.weights)):
-        	self.weights[i] = self.weights[i]+difference*features[i]
+		Q_val_next = self.getQValue(next_game_state)
+		r = self.extractReward(game_state)
+		difference = (r+self.gamma * Q_val_next) - Q_val
+		features = self.extractFeatures(game_state)
+		for i in range(len(self.weights)):
+			self.weights[i] = self.weights[i]+difference*features[i]
 
 	def runTrainingData(self):
+		print "Stuff is happening"
 		logs = AIfinallogreader.main()
 		for log in logs:
 			#Run through each game, learn weights
 			self.rounds += 1
 			self.alpha = 1/self.rounds
-			for i in len(log.getLog()):
+			for i in range(len(log.getLog())-1):
 				#update the feature values for the state we're looking at
 				game_state = log.getLog[i]
 				next_state = log.getLog[i+1]
-				self.updateWeightsTraining(game_state, )
+				self.updateWeightsTraining(game_state, next_state)
 				self.updateFeatures(state)
 				#
 			print self.weights

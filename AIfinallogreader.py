@@ -48,6 +48,7 @@ class GameLog:
 				hp2_sum += int(i)
 			state.update_p1_hp_change(prev_hp1_sum - hp1_sum)
 			state.update_p2_hp_change(prev_hp2_sum - hp2_sum)
+		#add new state
 		self.game_states.append(state)
 
 	def update_past_hp(self,player,pokemon_name, pokemon_hp):
@@ -444,6 +445,5 @@ def test():
 		the_log = readLog(f)
 		the_log.printSelf()
 
-test()
 
 
