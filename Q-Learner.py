@@ -292,12 +292,35 @@ class QLearningAgent:
 		#TODO: IMPLIMENT
 		return
 
+	def calculateExpectedNextStateFromP1Attack(self, move_name, current_game_state):
+		#true_effect = anticipated reward, anticipated
+		#TODO: FINISH IMPLIMENTATION --> expected damage from attack, expected change in status features, expected effect on own hp. 
+		move = Pokedex.getMove[move_name]
+		effect_id = move['effect_id']
+		effect_prob = Pokedex.effects['effect_prob']
+		effect = Pokedex.effects[effect_id]
+		if effect == "heal":
+			if move == "rest"
+
+
+
 	def getLegalActionsRealTime(self, game_State):
 		"""
 		Give back list of legal actions in the form [[list of move names], [list of unfainted pokemon]]
 		"""
 		#TODO: IMPLIMENT
 		return
+
+	def getFeatureValuesRealTime(self, game_State, action):
+		p2 = game_State.getp2_in_play()
+		p2_all = game_State.getp2_pokemon_names()
+		#Type effectiveness for current pokemon --> if opponent 
+		if game_State.getp2_hp(p2_all.index)
+		#calculate probability that current opponent has move strong against you --> this x 
+
+
+	def getQValueRealTime(self, game_state):
+		#TODO: impliment
 
 
 def main():
@@ -308,7 +331,7 @@ main()
 
 
 
-
+# if 
 
 
 

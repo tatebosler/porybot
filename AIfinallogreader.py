@@ -1,5 +1,4 @@
-#TODO: Get tate to play a game, figure out how to know what we know originally
-#TODO: Add way to remember types
+#TODO: MAKE VARIABLE TO REMEMBER MAX HP OF POKEMON
 from pokedex import Pokedex
 import os
 
