@@ -1,10 +1,11 @@
 #TODO: How to deal with unknown values in Q-learner? --> Treat as probability
 #TODO: Know attack slots for pokemon in play --> how to 
 #TODO: HOW DO EXPRESS ACTION IN STATE SPACE??
-#Will have pokedex.getTypeEffectiveness function returns 2 if first type strong against second, return 1 if normal against second, 1/2 if weak against second, 0 if second is immune
-#will also have pokedex.proportionAttack([your pokemon types], species)
+#Will have Pokedex.getTypeEffectiveness function returns 2 if first type strong against second, return 1 if normal against second, 1/2 if weak against second, 0 if second is immune
+#will also have Pokedex.proportionAttack([your pokemon types], species)
 import AIfinallogreader
-import pokedex
+from pokedex import Pokedex
+
 class QLearningAgent:
 	"""
 	Q-Learning agent will try try to assign weights to our features
@@ -92,16 +93,16 @@ class QLearningAgent:
 		print("initted")
 
 	def extract_atk(self, game_state):
-		move1 = pokedex.getMove(game_state.getp1_action())
-		move2 = pokedex.getMove(game_state.getp2_action())
+		move1 = Pokedex.getMove(game_state.getp1_action())
+		move2 = Pokedex.getMove(game_state.getp2_action())
 		p2 = game_state.getp2_in_play()
 		p1 = game_state.getp1_in_play()
 		p2_index = game_state.getp2_pokemon_names().index(p2)
 		p1_index = game_state.getp1_pokemon_names().index(p1)
 		p1_type = game_state.getp1_pokemon_types()[p1_index]
 		p2_type = game_state.getp2_pokemon_types()[p2_index]
-		type_atk1 = pokedex.getTypeEffectiveness(move1[type],p2_type)
-		type_atk2 = pokedex.getTypeEffectiveness(move2[type],p1_type)
+		type_atk1 = Pokedex.getTypeEffectiveness(move1[type],p2_type)
+		type_atk2 = Pokedex.getTypeEffectiveness(move2[type],p1_type)
 		#Change to 1 or 0 feature values
 		if type_atk1 == 2:
 			type_atk1 = 1
@@ -197,8 +198,8 @@ main()
 
 '''
 		for i in game_state.getp2_in_play:
-			#Will have pokedex.getTypeEffectiveness function returns 2 if first type strong against second, return 1 if normal against second, 1/2 if weak against second, 0 if second is immune
-			#will also have pokedex.proportionAttack([your pokemon types], species)
+			#Will have Pokedex.getTypeEffectiveness function returns 2 if first type strong against second, return 1 if normal against second, 1/2 if weak against second, 0 if second is immune
+			#will also have Pokedex.proportionAttack([your pokemon types], species)
 			
 			#if p2 playing pokemon has attack strong against p1 pokemon, type_atk2 = true
 			if 
