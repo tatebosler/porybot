@@ -183,10 +183,10 @@ class GameState:
 				self.p2_pokemon_moves[pokemon] = oldMoves
 	"""
 	def getp1_action(self):
-		return self.getp1_action
+		return self.p1_action
 
 	def getp2_action(self):
-		return self.getp2_action
+		return self.p2_action
 
 	def getp2_in_play(self):
 		return self.p2_in_play

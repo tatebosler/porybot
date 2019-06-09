@@ -18,6 +18,7 @@ class QLearningAgent:
 
 	Features:
 		- type_atk1: 1 or 0. Whether p1 pokemon in play has an attack of strong type against opponent
+		- norm_type_atk1: 1 or 0. Whether p1 pokemon in play has a normal strength attack against opponent
 		- bad_type_atk1: 1 or 0. Whether p1 pokemon in play has only weak attacks against p2
 		- type_atk2: Whether p2 pokemon has attack strong against current p1 pokemon
 		- bad_type_atk2 : same as before
@@ -92,16 +93,29 @@ class QLearningAgent:
 		self.apha = 0
 		print("initted")
 
+	#TODO: ADD IN NEW FEATURE FOR NORMAL STRENGTH ATTACKS --> omitted feature is switch
 	def extract_atk(self, game_state):
-		move1 = Pokedex.getMove(game_state.getp1_action())
-		move2 = Pokedex.getMove(game_state.getp2_action())
+		if game_state.getp1_action() != "switch":
+			move1 = Pokedex.getMove(game_state.getp1_action())
+		else:
+			move1 = None
+		if game_state.getp2_action() != "switch":
+			move2 = Pokedex.getMove(game_state.getp2_action())
+		else:
+			move2 = None
 		p2 = game_state.getp2_in_play()
 		p1 = game_state.getp1_in_play()
 		p2_index = game_state.getp2_pokemon_names().index(p2)
 		p1_index = game_state.getp1_pokemon_names().index(p1)
 		p1_type = game_state.getp1_pokemon_types()[p1_index]
 		p2_type = game_state.getp2_pokemon_types()[p2_index]
-		type_atk1 = Pokedex.getTypeEffectiveness(move1[type],p2_type)
+		if move1 != None:
+			type_atk1 = Pokedex.getTypeEffectiveness(move1[type],p2_type)
+		else:
+			type_atk1 = 0
+			norm_type_atk1 = 0
+			bad_type_atk1 = 0
+		if move2 != 
 		type_atk2 = Pokedex.getTypeEffectiveness(move2[type],p1_type)
 		#Change to 1 or 0 feature values
 		if type_atk1 == 2:
@@ -168,15 +182,15 @@ class QLearningAgent:
 
 	def runTrainingData(self):
 		print "Stuff is happening"
-		logs = AIfinallogreader.main()
+		logs = AIfinallogreader.test()
 		for log in logs:
 			#Run through each game, learn weights
 			self.rounds += 1
 			self.alpha = 1/self.rounds
 			for i in range(len(log.getLog())-1):
 				#update the feature values for the state we're looking at
-				game_state = log.getLog[i]
-				next_state = log.getLog[i+1]
+				game_state = log.getLog()[i]
+				next_state = log.getLog()[i+1]
 				self.updateWeightsTraining(game_state, next_state)
 				self.updateFeatures(state)
 				#
