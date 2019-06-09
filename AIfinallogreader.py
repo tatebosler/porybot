@@ -440,10 +440,11 @@ def main():
 	return logs
 
 def test():
+	logs = []
 	for file in ["920796671.txt", "920938065.txt", "921676011.txt", "921816226.txt"]:
 		f = open("logs/"+file)
 		the_log = readLog(f)
-		the_log.printSelf()
+		logs.append(the_log)
 
 
 
