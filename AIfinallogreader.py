@@ -430,9 +430,12 @@ def main():
 		#print"__________"
 		#print file
 		#print
-		f = open("logs/"+file)
-		the_log = readLog(f)
-		logs.append(the_log)
+		if file == "923289227.txt":
+			continue
+		else:
+			f = open("logs/"+file)
+			the_log = readLog(f)
+			logs.append(the_log)
 		#the_log.printSelf()
 		#print
 		#print "___________"

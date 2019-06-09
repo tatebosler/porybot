@@ -75,8 +75,8 @@ class QLearningAgent:
 		#weights in order [type_atk1,norm_type_atk1, bad_type_atk1,type_atk2, norm_type_atk2, bad_type_atk2,p1_unfainted, p2_unfainted, par1, slp1, tox1, frz1, brn1, par2, slp2, tox2, frz2, brn2]
 	weights = []
 	gamma = 1
-	rounds = 0
-	apha = 0
+	seen = 0
+	alpha = 0
 
 	def __init__(self):
 		#TODO: INIT FUNCTIONS HERE
@@ -87,8 +87,8 @@ class QLearningAgent:
 		for i in range(18):
 			self.weights.append(0)
 		self.gamma = 1
-		self.rounds = 0
-		self.apha = 0
+		self.seen = 0
+		self.alpha = 1
 		print("initted")
 
 	#TODO: ADD IN NEW FEATURE FOR NORMAL STRENGTH ATTACKS --> omitted feature is switch
@@ -114,20 +114,15 @@ class QLearningAgent:
 		if move1 != None:
 			if move1['power']>0:
 				type_atk1 = Pokedex.getTypeEffectiveness(move1['type'],p2_type)
-				print("P1 action:  ", game_state.getp1_action())
-				print("P1 effectiveness:  ", type_atk1)
-				if type_atk1 == 2.0:
-					print("effective")
+				if type_atk1 > 1.0:
 					type_atk1 = 1
 					norm_type_atk1 = 0
 					bad_type_atk1 = 0
 				elif type_atk1 == 1.0:
-					print("normal")
 					type_atk1 = 0
 					norm_type_atk1 = 1
 					bad_type_atk1 = 0
 				elif type_atk1 < 1.0:
-					print("ineffective")
 					type_atk1 = 0
 					norm_type_atk1 = 0
 					bad_type_atk1 = 1
@@ -142,7 +137,7 @@ class QLearningAgent:
 		if move2 != None:
 			if move2['power']>0:
 				type_atk2 = Pokedex.getTypeEffectiveness(move2['type'],p1_type)
-				if type_atk2 == 2.0:
+				if type_atk2 > 1.0:
 					type_atk2 = 1
 					norm_type_atk2 = 0
 					bad_type_atk2 = 0
@@ -162,7 +157,6 @@ class QLearningAgent:
 			type_atk2 = 0
 			norm_type_atk2 = 0
 			bad_type_atk2 = 0
-		print("P1 atk features:", type_atk1, norm_type_atk1, bad_type_atk1)
 		return [type_atk1, norm_type_atk1, bad_type_atk1, type_atk2, norm_type_atk2, bad_type_atk2]
 
 	def extract_effects(self, game_state):
@@ -264,6 +258,8 @@ class QLearningAgent:
 		return state.getp1_pokemon_moves()[state.getp1_in_play()]
 
 	def updateWeightsTraining(self, game_state, next_game_state):
+		self.seen += 1
+		self.alpha = 1/(self.seen**(1.0/100.0))
 		if next_game_state == None:
 			#deal with last state edge case here
 			Q_val = self.getQValue(game_state)
@@ -286,12 +282,9 @@ class QLearningAgent:
 				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
 
 	def runTrainingData(self):
-		logs = AIfinallogreader.test()
+		logs = AIfinallogreader.main()
 		for log in logs:
 			#Run through each game, learn weights
-			self.rounds += 1
-			self.alpha = .8/math.sqrt(self.rounds)
-			print("alpha: ", self.alpha)
 			for i in range(len(log.getLog())):
 				#update the feature values for the state we're looking at
 				#edge case for last state
@@ -302,7 +295,10 @@ class QLearningAgent:
 					game_state = log.getLog()[i]
 					next_state = log.getLog()[i+1]
 					self.updateWeightsTraining(game_state, next_state)
-			print self.weights
+			feature_labels = ["strong atk 1: ", "norm atk 1:  ", "weak atk 1:  " , "strong atk 2: ", "norm atk 2:  ", "weak atk 2:  ", "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "slp1:  ", "tox1:  ", "frz1:  ", "brn1:  ", "par2:  ", "slp2:  ", "tox2:  ", "frz2:  ", "brn2:  "]
+			for i in range(len(self.weights)):
+				print feature_labels[i], self.weights[i]
+			print("alpha:  ", self.alpha)
 
 
 def main():
