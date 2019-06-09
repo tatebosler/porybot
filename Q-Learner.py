@@ -203,12 +203,3 @@ main()
 			#if p2 playing pokemon has attack strong against p1 pokemon, type_atk2 = true
 			if 
 '''
-
-
-
-
-
-
-
-
-
