@@ -423,20 +423,16 @@ def main():
 	file_list = [f for f in os.listdir('./logs') if os.path.isfile(os.path.join('./logs', f))]
 	logs = []
 	for file in file_list:
-		# Searching for Mr. Mime throws an error
-		if file == "923289227.txt":
-			continue
-		else:
-			#Print statements for checking log accuracy
-			#print"__________"
-			#print file
-			#print
-			f = open("logs/"+file)
-			the_log = readLog(f)
-			logs.append(the_log)
-			#the_log.printSelf()
-			#print
-			#print "___________"
+		#Print statements for checking log accuracy
+		#print"__________"
+		#print file
+		#print
+		f = open("logs/"+file)
+		the_log = readLog(f)
+		logs.append(the_log)
+		#the_log.printSelf()
+		#print
+		#print "___________"
 	return logs
 
 def test():
@@ -445,6 +441,4 @@ def test():
 		f = open("logs/"+file)
 		the_log = readLog(f)
 		logs.append(the_log)
-
-
-
+	return logs
