@@ -72,7 +72,7 @@ class QLearningAgent:
 		- p1_moves: dictionary key is pokemon, values is list of tuples [move name, type, powr, stat_effects]
 
 	"""
-		#weights in order [type_atk1,norm_type_atk1, bad_type_atk1,type_atk2, norm_type_atk2, bad_type_atk2,p1_unfainted, p2_unfainted, par1, slp1, tox1, frz1, brn1, par2, slp2, tox2, frz2, brn2]
+		#weights in order [type_atk1*power_atk1*STAB1, type_atk2*power_atk2*STAB2, p1_unfainted, p2_unfainted, par1, slp1, tox1, frz1, brn1, par2, slp2, tox2, frz2, brn2]
 	weights = []
 	gamma = 1
 	seen = 0
@@ -84,80 +84,63 @@ class QLearningAgent:
 		self.Vvals = {}
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
 		self.weights = []
-		for i in range(18):
+		for i in range(14):
 			self.weights.append(0)
 		self.gamma = 1
 		self.seen = 0
 		self.alpha = 1
 		print("initted")
 
-	#TODO: ADD IN NEW FEATURE FOR NORMAL STRENGTH ATTACKS --> omitted feature is switch
+	#TODO: Change attack effectiveness to just be 1 var for each pokemon
+	#TODO: 
 	def extract_atk(self, game_state):
 		'''
 		Returns booleans for all attack type effectiveness features
 		'''
-		if game_state.getp1_action() != "switch" and game_state.getp1_action() != "None":
-			move1 = Pokedex.getMove(game_state.getp1_action())
-		else:
-			move1 = None
-		if game_state.getp2_action() != "switch" and game_state.getp2_action() != "None":
-			move2 = Pokedex.getMove(game_state.getp2_action())
-		else:
-			move2 = None
 		p2 = game_state.getp2_in_play()
 		p1 = game_state.getp1_in_play()
 		p2_index = game_state.getp2_pokemon_names().index(p2)
 		p1_index = game_state.getp1_pokemon_names().index(p1)
 		p1_type = game_state.getp1_pokemon_types()[p1_index]
 		p2_type = game_state.getp2_pokemon_types()[p2_index]
+		STAB1 = 1
+		STAB2 = 1
+		type_atk1 = 0
+		power_atk1 = 0
+		type_atk2 = 0
+		power_atk2 = 0
+		if game_state.getp1_action() != "switch" and game_state.getp1_action() != "None":
+			move1 = Pokedex.getMove(game_state.getp1_action())
+			if move1['type'] in p1_type:
+				STAB1 = 1.5
+		else:
+			move1 = None
+		if game_state.getp2_action() != "switch" and game_state.getp2_action() != "None":
+			move2 = Pokedex.getMove(game_state.getp2_action())
+			if move2['type'] in p2_type:
+				STAB2 = 1.5
+		else:
+			move2 = None
 		#TODO: REMOVE TYPE EFFECTIVENESS ON STATUS MOVES
 		if move1 != None:
-			if move1['power']>0:
-				type_atk1 = Pokedex.getTypeEffectiveness(move1['type'],p2_type)
-				if type_atk1 > 1.0:
-					type_atk1 = 1
-					norm_type_atk1 = 0
-					bad_type_atk1 = 0
-				elif type_atk1 == 1.0:
-					type_atk1 = 0
-					norm_type_atk1 = 1
-					bad_type_atk1 = 0
-				elif type_atk1 < 1.0:
-					type_atk1 = 0
-					norm_type_atk1 = 0
-					bad_type_atk1 = 1
-			else:
-				type_atk1 = 0
-				norm_type_atk1 = 0
-				bad_type_atk1 = 0
-		else:
-			type_atk1 = 0
-			norm_type_atk1 = 0
-			bad_type_atk1 = 0
+			type_atk1 = Pokedex.getTypeEffectiveness(move1['type'],p2_type)
+			power_atk1 = move1['power']
+			if power_atk1 == None:
+				power_atk1 = 0
 		if move2 != None:
-			if move2['power']>0:
-				type_atk2 = Pokedex.getTypeEffectiveness(move2['type'],p1_type)
-				if type_atk2 > 1.0:
-					type_atk2 = 1
-					norm_type_atk2 = 0
-					bad_type_atk2 = 0
-				elif type_atk2 == 1.0:
-					type_atk2 = 0
-					norm_type_atk2 = 1
-					bad_type_atk2 = 0
-				elif type_atk2 < 1.0:
-					type_atk2 = 0
-					norm_type_atk2 = 0
-					bad_type_atk2 = 1
-			else:
-				type_atk2 = 0
-				norm_type_atk2 = 0
-				bad_type_atk2 = 0
-		else:
-			type_atk2 = 0
-			norm_type_atk2 = 0
-			bad_type_atk2 = 0
-		return [type_atk1, norm_type_atk1, bad_type_atk1, type_atk2, norm_type_atk2, bad_type_atk2]
+			type_atk2 = Pokedex.getTypeEffectiveness(move2['type'],p1_type)
+			power_atk2 = move2['power']
+			if power_atk2 == None:
+				power_atk2 = 0
+		if move1 != None:
+			print(move1['name'])
+			print("move id:   ", move1['id'])
+			print("Effect id:  ",move1['effect_id'])
+		return [type_atk1*power_atk1*STAB1, type_atk2*power_atk2*STAB2]
+
+	def extract_atk_effects(self, game_state):
+		#TODO: IMPLIMENT THIS AND GET TATE TO DO BACK END
+		return
 
 	def extract_effects(self, game_state):
 		#TODO: add feature for status effects
@@ -241,8 +224,6 @@ class QLearningAgent:
 
 	def extractReward(self,game_state):
 		return game_state.get_p2_hp_change() - game_state.get_p1_hp_change()
-
-
 	def getQValue(self, state):
 		#TODO: impliment f
 		Q_value = 0
@@ -252,14 +233,11 @@ class QLearningAgent:
 			weight = self.weights[i]
 			Q_value += feature*weight
 		return Q_value
-
-
 	def getLegalActions(self,state):
 		return state.getp1_pokemon_moves()[state.getp1_in_play()]
-
 	def updateWeightsTraining(self, game_state, next_game_state):
 		self.seen += 1
-		self.alpha = 1/(self.seen**(1.0/100.0))
+		self.alpha = .0000000000001/(self.seen**(1.0/10.0))
 		if next_game_state == None:
 			#deal with last state edge case here
 			Q_val = self.getQValue(game_state)
@@ -280,7 +258,6 @@ class QLearningAgent:
 			features = self.extractFeatures(game_state)
 			for i in range(len(self.weights)):
 				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
-
 	def runTrainingData(self):
 		logs = AIfinallogreader.main()
 		for log in logs:
@@ -295,10 +272,32 @@ class QLearningAgent:
 					game_state = log.getLog()[i]
 					next_state = log.getLog()[i+1]
 					self.updateWeightsTraining(game_state, next_state)
-			feature_labels = ["strong atk 1: ", "norm atk 1:  ", "weak atk 1:  " , "strong atk 2: ", "norm atk 2:  ", "weak atk 2:  ", "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "slp1:  ", "tox1:  ", "frz1:  ", "brn1:  ", "par2:  ", "slp2:  ", "tox2:  ", "frz2:  ", "brn2:  "]
+			feature_labels = ["type atk 1*power_atk1: ", ":  ", "Type atk 2*power_atk2:  " , "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "slp1:  ", "tox1:  ", "frz1:  ", "brn1:  ", "par2:  ", "slp2:  ", "tox2:  ", "frz2:  ", "brn2:  "]
 			for i in range(len(self.weights)):
 				print feature_labels[i], self.weights[i]
 			print("alpha:  ", self.alpha)
+
+
+
+
+
+
+
+	#Below this point is learning and acting in real life games:
+	#Impliment ALL OF THESE
+	def getGameState(self, OTHER_INPUTS_HERE):
+		"""
+		Needs to interact with plugin and return 
+		"""
+		#TODO: IMPLIMENT
+		return
+
+	def getLegalActionsRealTime(self, game_State):
+		"""
+		Give back list of legal actions in the form [[list of move names], [list of unfainted pokemon]]
+		"""
+		#TODO: IMPLIMENT
+		return
 
 
 def main():
