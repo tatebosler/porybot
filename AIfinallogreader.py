@@ -446,4 +446,3 @@ def test():
 		logs.append(the_log)
 	return logs
 
-main()

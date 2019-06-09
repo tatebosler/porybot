@@ -72,7 +72,7 @@ class QLearningAgent:
 		- p1_moves: dictionary key is pokemon, values is list of tuples [move name, type, powr, stat_effects]
 
 	"""
-		#weights in order [type_atk1,norm_type_atk1, bad_type_atk1,type_atk2, norm_type_atk2, bad_type_atk2,p1_unfainted, p2_unfainted, par1, slp1, frz1, ]
+		#weights in order [type_atk1,norm_type_atk1, bad_type_atk1,type_atk2, norm_type_atk2, bad_type_atk2,p1_unfainted, p2_unfainted, par1, slp1, tox1, frz1, brn1, par2, slp2, tox2, frz2, brn2]
 	weights = []
 	gamma = 1
 	rounds = 0
@@ -83,7 +83,9 @@ class QLearningAgent:
 		# V-vals held in dict. Key is [list of weights]
 		self.Vvals = {}
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
-		self.weights = [0,0,0,0,0,0,0,0,0,0]
+		self.weights = []
+		for i in range(18):
+			self.weights.append(0)
 		self.gamma = 1
 		self.rounds = 0
 		self.apha = 0
@@ -165,6 +167,7 @@ class QLearningAgent:
 
 	def extract_effects(self, game_state):
 		#TODO: add feature for status effects
+		#TODO: Fix for multiple simultaneous effects
 		p1 = game_state.getp1_in_play()
 		p2 = game_state.getp2_in_play()
 		p2_index = game_state.getp2_pokemon_names().index(p2)
@@ -173,7 +176,39 @@ class QLearningAgent:
 		p2_effects = game_state.get_p2_stats()
 		p1_effect = p1_effects[p1_index]
 		p2_effect = p2_effects[p2_index]
-		return [p1_effect,p2_effect]
+		#par1, slp1, tox1, frz1, brn1,
+		p1_par = 0
+		p1_slp = 0
+		p1_tox = 0
+		p1_frz = 0
+		p1_brn = 0
+		if p1_effect == "par":
+			p1_par = 1
+		if p1_effect == "slp":
+			p1_slp = 1
+		if p1_effect == "tox":
+			p1_tox = 1
+		if p1_effect == "frz":
+			p1_frz = 1
+		if p1_effect == "brn":
+			p1_brn = 1
+		p2_par = 0
+		p2_slp = 0
+		p2_tox = 0
+		p2_frz = 0
+		p2_brn = 0
+		if p2_effect == "par":
+			p2_par = 1
+		if p2_effect == "slp":
+			p2_slp = 1
+		if p2_effect == "tox":
+			p2_tox = 1
+		if p2_effect == "frz":
+			p2_frz = 1
+		if p2_effect == "brn":
+			p2_brn = 1
+
+		return [p1_par, p1_slp, p1_tox, p1_frz, p1_brn, p2_par, p2_slp, p2_tox, p2_frz, p2_brn]
 
 	def extract_hps(self,game_state):
 		p1 = game_state.getp1_in_play()
@@ -199,12 +234,16 @@ class QLearningAgent:
 
 	def extractFeatures(self, game_state):
 		"""
-		Returns [type_atk1, norm_type_atk1, bad_type_atk1, type_atk2, norm_type_atk2, bad_type_atk2, remaining1, remaining2]
+		Returns [type_atk1, norm_type_atk1, bad_type_atk1, type_atk2, norm_type_atk2, bad_type_atk2, remaining1, remaining2, p1_par, p1_slp, p1_tox, p1_frz, p1_brn, p2_par, p2_slp, p2_tox, p2_frz, p2_brn]
 		"""
 		atk = self.extract_atk(game_state)
 		remaining = self.extract_remaining_pokemon(game_state)
 		stats = self.extract_effects(game_state)
-		return [atk[0], atk[1],atk[2], atk[3], atk[4], atk[5], remaining[0], remaining[1], stats[0], stats[1]]
+		to_return = []
+		for group in [atk,remaining,stats]:
+			for i in range(len(group)):
+				to_return.append(group[i])
+		return to_return
 
 	def extractReward(self,game_state):
 		return game_state.get_p2_hp_change() - game_state.get_p1_hp_change()
