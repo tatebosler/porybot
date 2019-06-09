@@ -22,7 +22,51 @@ class Pokedex:
 	# Plus some Pokémon that aren't on that list (because they evolve into Pokémon which were introduced
 	# in later generations).
 	fullyEvolved = [3, 6, 9, 12, 15, 18, 20, 22, 24, 26, 28, 31, 34, 36, 38, 40, 42, 45, 47, 49, 51, 53, 55, 57, 59, 62, 65, 68, 71, 73, 76, 78, 80, 82, 83, 85, 87, 89, 91, 94, 95, 97, 99, 101, 103, 105, 106, 107, 108, 110, 112, 113, 114, 115, 117, 119, 121, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 134, 135, 136, 137, 139, 141, 142, 143, 144, 145, 146, 149, 150, 151]
-	
+    
+    effects = {
+        2: ['opponent_status:slp'],
+        3: ['opponent_status:psn'],
+        4: ['heal'],
+        5: ['opponent_status:brn'],
+        6: ['opponent_status:frz'],
+        7: ['opponent_status:par'],
+        11: ['stat_self_increase'],
+        12: ['stat_self_increase'],
+        17: ['stat_self_increase'],
+        19: ['stat_opponent_decrease'],
+        20: ['stat_opponent_decrease'],
+        21: ['stat_opponent_decrease'],
+        24: ['stat_opponent_decrease'],
+        26: ['stat_all_reset'],
+        32: ['opponent_status:flinch'],
+        33: ['heal'],
+        34: ['opponent_status:psn:bad'],
+        36: ['stat_self_increase'],
+        37: ['opponent_status:brn', 'opponent_status:frz', 'opponent_status:par'],
+        38: ['self_status:slp', 'heal'],
+        46: ['damage_self'],
+        51: ['stat_self_increase'],
+        52: ['stat_self_increase'],
+        53: ['stat_self_increase'],
+        55: ['stat_self_increase'],
+        60: ['stat_opponent_decrease'],
+        66: ['stat_self_increase'],
+        67: ['opponent_status:psn'],
+        68: ['opponent_status:par'],
+        69: ['stat_opponent_decrease'],
+        71: ['stat_opponent_decrease'],
+        73: ['stat_opponent_decrease'],
+        77: ['opponent_status:confused'],
+        85: ['heal'],
+        109: ['stat_self_increase'],
+        146: ['stat_self_increase'],
+        151: ['opponent_status:flinch'],
+        153: ['opponent_status:par'],
+        157: ['stat_self_increase'],
+        261: ['opponent_status:frz'],
+        317: ['stat_self_increase']
+    }
+    
 	# Returns basic information about a species (searching by name only)
 	@classmethod
 	def get(cls, species):
