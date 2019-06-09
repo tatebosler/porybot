@@ -152,8 +152,8 @@ class QLearningAgent:
 		return state.getp1_pokemon_moves()[state.getp1_in_play()]
 
 	def updateWeightsTraining(self, game_state, next_game_state):
-		Q_val = self.getQValue(game_state, action)
-        Q_val_next = self.getQValue(next_game_state, next_action)
+		Q_val = self.getQValue(game_state)
+        Q_val_next = self.getQValue(next_game_state)
         r = self.extractReward(game_state)
         difference = (r+self.gamma * Q_val_next) - Q_val
         features = self.extractFeatures(game_state)
