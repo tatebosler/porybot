@@ -123,7 +123,6 @@ class GameState:
 		self.p2_pokemon_moves = p2_moves
 		self.p2_pokemon_types = []
 		for pokemon in p2_pokemon_names:
-			print pokemon
 			self.p2_pokemon_types.append(Pokedex.get(pokemon)["type"])
 		self.p2_hp_change = 0
 
@@ -143,7 +142,6 @@ class GameState:
 
 
 		for pokemon in p1_pokemon_names:
-			print pokemon
 			self.p1_pokemon_types.append(Pokedex.get(pokemon)["type"])
 
 	def update_player_1(self,pokemon_name,pokemon_hp):
@@ -224,11 +222,18 @@ class GameState:
 	def update_p2_hp_change(self, p2_hp_change):
 		self.p2_hp_change = p2_hp_change
 
-	def get_p1_hp_change(self, p1_hp_change):
-		self.p1_hp_change = p1_hp_change
+	def get_p1_hp_change(self):
+		return self.p1_hp_change
 
-	def get_p2_hp_change(self, p2_hp_change):
-		self.p2_hp_change = p2_hp_change
+	def get_p2_hp_change(self):
+		return self.p2_hp_change
+
+	def get_p1_stats(self):
+		return self.p1_pokemon_status
+
+	def get_p2_stats(self):
+		return self.p2_pokemon_status
+
 
 
 	def printSelf(self):
@@ -371,7 +376,6 @@ def readLog(text_file):
 			if line[7] == "1":
 				#save move
 				move = line.split("|")[3]
-				#print("Move: ", move)
 				p1_action = move
 				if p1_in_play in p1_moves.keys():
 					oldMoves = p1_moves[p1_in_play]
@@ -384,7 +388,6 @@ def readLog(text_file):
 			elif line[7] == "2":
 				#reset p2 pokemon health
 				move = line.split("|")[3]
-				#print("Move: ", move)
 				p2_action = move
 				if p2_in_play in p2_moves.keys():
 					oldMoves = p2_moves[p2_in_play]
@@ -393,8 +396,6 @@ def readLog(text_file):
 						p2_moves[p2_in_play] = oldMoves
 				else:
 					p2_moves[p2_in_play] = [move]
-				#print("Move: ", move)
-				#game_log.update_past_moves("2",p2_in_play, move)
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to damage statement")
 		if "|-status|" in line:

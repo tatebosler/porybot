@@ -1,18 +1,15 @@
-#TODO: How to deal with unknown values in Q-learner? --> Treat as probability
-#TODO: Know attack slots for pokemon in play --> how to 
-#TODO: HOW DO EXPRESS ACTION IN STATE SPACE??
 #Will have Pokedex.getTypeEffectiveness function returns 2 if first type strong against second, return 1 if normal against second, 1/2 if weak against second, 0 if second is immune
 #will also have Pokedex.proportionAttack([your pokemon types], species)
+
+#TODO: deal with edge case of reading last state in a game
+#TODO: Add features: remaining unfainted pokemon p1, unfainted pkm p2, add win or loss reward of 3,000
 import AIfinallogreader
 from pokedex import Pokedex
+import math
 
 class QLearningAgent:
 	"""
 	Q-Learning agent will try try to assign weights to our features
-
-	reward must be (hp2 - hp1)??
-
-	reward for winning should be super high --> 1000000?
 
 
 
@@ -75,10 +72,9 @@ class QLearningAgent:
 		- p1_moves: dictionary key is pokemon, values is list of tuples [move name, type, powr, stat_effects]
 
 	"""
-	Vvals = {}
-		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
+		#weights in order [type_atk1,norm_type_atk1, bad_type_atk1,type_atk2, norm_type_atk2, bad_type_atk2,p1_unfainted, p2_unfainted]
 	weights = []
-	gamma = 0
+	gamma = 1
 	rounds = 0
 	apha = 0
 
@@ -87,7 +83,7 @@ class QLearningAgent:
 		# V-vals held in dict. Key is [list of weights]
 		self.Vvals = {}
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
-		self.weights = [0,0,0,0]
+		self.weights = [0,0,0,0,0,0,0,0]
 		self.gamma = 1
 		self.rounds = 0
 		self.apha = 0
@@ -95,11 +91,14 @@ class QLearningAgent:
 
 	#TODO: ADD IN NEW FEATURE FOR NORMAL STRENGTH ATTACKS --> omitted feature is switch
 	def extract_atk(self, game_state):
-		if game_state.getp1_action() != "switch":
+		'''
+		Returns booleans for all attack type effectiveness features
+		'''
+		if game_state.getp1_action() != "switch" and game_state.getp1_action() != "None":
 			move1 = Pokedex.getMove(game_state.getp1_action())
 		else:
 			move1 = None
-		if game_state.getp2_action() != "switch":
+		if game_state.getp2_action() != "switch" and game_state.getp2_action() != "None":
 			move2 = Pokedex.getMove(game_state.getp2_action())
 		else:
 			move2 = None
@@ -109,34 +108,63 @@ class QLearningAgent:
 		p1_index = game_state.getp1_pokemon_names().index(p1)
 		p1_type = game_state.getp1_pokemon_types()[p1_index]
 		p2_type = game_state.getp2_pokemon_types()[p2_index]
+		#TODO: REMOVE TYPE EFFECTIVENESS ON STATUS MOVES
 		if move1 != None:
-			type_atk1 = Pokedex.getTypeEffectiveness(move1[type],p2_type)
+			if move1['power']>0:
+				type_atk1 = Pokedex.getTypeEffectiveness(move1['type'],p2_type)
+				print("P1 action:  ", game_state.getp1_action())
+				print("P1 effectiveness:  ", type_atk1)
+				if type_atk1 == 2.0:
+					print("effective")
+					type_atk1 = 1
+					norm_type_atk1 = 0
+					bad_type_atk1 = 0
+				elif type_atk1 == 1.0:
+					print("normal")
+					type_atk1 = 0
+					norm_type_atk1 = 1
+					bad_type_atk1 = 0
+				elif type_atk1 < 1.0:
+					print("ineffective")
+					type_atk1 = 0
+					norm_type_atk1 = 0
+					bad_type_atk1 = 1
+			else:
+				type_atk1 = 0
+				norm_type_atk1 = 0
+				bad_type_atk1 = 0
 		else:
 			type_atk1 = 0
 			norm_type_atk1 = 0
 			bad_type_atk1 = 0
-		if move2 != 
-		type_atk2 = Pokedex.getTypeEffectiveness(move2[type],p1_type)
-		#Change to 1 or 0 feature values
-		if type_atk1 == 2:
-			type_atk1 = 1
-			bad_type_atk1 = 0
-		if type_atk1 == 1:
-			type_atk1 = 0
-			bad_type_atk1 = 0
-		if type_atk1 < 1:
-			type_atk1 = 0
-			bad_type_atk1 = 1
-		if type_atk2 == 2:
-			type_atk2 = 1
-			bad_type_atk2 = 0
-		if type_atk2 == 1:
+		if move2 != None:
+			if move2['power']>0:
+				type_atk2 = Pokedex.getTypeEffectiveness(move2['type'],p1_type)
+				if type_atk2 == 2.0:
+					type_atk2 = 1
+					norm_type_atk2 = 0
+					bad_type_atk2 = 0
+				elif type_atk2 == 1.0:
+					type_atk2 = 0
+					norm_type_atk2 = 1
+					bad_type_atk2 = 0
+				elif type_atk2 < 1.0:
+					type_atk2 = 0
+					norm_type_atk2 = 0
+					bad_type_atk2 = 1
+			else:
+				type_atk2 = 0
+				norm_type_atk2 = 0
+				bad_type_atk2 = 0
+		else:
 			type_atk2 = 0
+			norm_type_atk2 = 0
 			bad_type_atk2 = 0
-		if type_atk2 < 1:
-			type_atk2 = 0
-			bad_type_atk2 = 1
-		return [type_atk1,bad_type_atk1, type_atk2, bad_type_atk2]
+		print("P1 atk features:", type_atk1, norm_type_atk1, bad_type_atk1)
+		return [type_atk1, norm_type_atk1, bad_type_atk1, type_atk2, norm_type_atk2, bad_type_atk2]
+
+	def extract_effects(self, game_state):
+		#TODO: add feature for status effects
 
 	def extract_hps(self,game_state):
 		p1 = game_state.getp1_in_play()
@@ -147,14 +175,29 @@ class QLearningAgent:
 		hp2 = game_state.getp2_hp()[p2_index]
 		return [hp2-hp1]
 
+	def extract_remaining_pokemon(self, game_state):
+		p1_hps = game_state.getp1_hp()
+		remaining1 = 0
+		for i in p1_hps:
+			if int(i) > 0:
+				remaining1 += 1
+		p2_hps = game_state.getp2_hp()
+		remaining2 = 0
+		for i in p2_hps:
+			if int(i) > 0:
+				remaining2 += 1
+		return [remaining1, remaining2]
+
 	def extractFeatures(self, game_state):
 		"""
-		Returns [type_atk1, bad_type_atk1, type_atk2, bad_type_atk2, hp1, hp2, hpsum1, hpsum2]
+		Returns [type_atk1, norm_type_atk1, bad_type_atk1, type_atk2, norm_type_atk2, bad_type_atk2, remaining1, remaining2]
 		"""
-		return [self.extract_atk(game_state)[0], self.extract_atk(game_state)[1],self.extract_atk(game_state)[2], self.extract_atk(game_state)[3]]
+		atk = self.extract_atk(game_state)
+		remaining = self.extract_remaining_pokemon(game_state)
+		return [atk[0], atk[1],atk[2], atk[3], atk[4], atk[5], remaining[0], remaining[1]]
 
 	def extractReward(self,game_state):
-		return game_state.get_p2_hp_change - game_state.get_p1_hp_change
+		return game_state.get_p2_hp_change() - game_state.get_p1_hp_change()
 
 
 	def getQValue(self, state):
@@ -172,28 +215,44 @@ class QLearningAgent:
 		return state.getp1_pokemon_moves()[state.getp1_in_play()]
 
 	def updateWeightsTraining(self, game_state, next_game_state):
-		Q_val = self.getQValue(game_state)
-		Q_val_next = self.getQValue(next_game_state)
-		r = self.extractReward(game_state)
-		difference = (r+self.gamma * Q_val_next) - Q_val
-		features = self.extractFeatures(game_state)
-		for i in range(len(self.weights)):
-			self.weights[i] = self.weights[i]+difference*features[i]
+		if next_game_state == None:
+			#deal with last state edge case here
+			Q_val = self.getQValue(game_state)
+			hpsum1 = 0
+			for i in game_state.getp1_hp():
+				hpsum1 += int(i)
+			if hpsum1 > 0:
+				r = 3000
+				difference = r - Q_val
+				features = self.extractFeatures(game_state)
+				for i in range(len(self.weights)):
+					self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
+		else:
+			Q_val = self.getQValue(game_state)
+			Q_val_next = self.getQValue(next_game_state)
+			r = self.extractReward(game_state)
+			difference = (r+self.gamma * Q_val_next) - Q_val
+			features = self.extractFeatures(game_state)
+			for i in range(len(self.weights)):
+				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
 
 	def runTrainingData(self):
-		print "Stuff is happening"
 		logs = AIfinallogreader.test()
 		for log in logs:
 			#Run through each game, learn weights
 			self.rounds += 1
-			self.alpha = 1/self.rounds
-			for i in range(len(log.getLog())-1):
+			self.alpha = .8/math.sqrt(self.rounds)
+			print("alpha: ", self.alpha)
+			for i in range(len(log.getLog())):
 				#update the feature values for the state we're looking at
-				game_state = log.getLog()[i]
-				next_state = log.getLog()[i+1]
-				self.updateWeightsTraining(game_state, next_state)
-				self.updateFeatures(state)
-				#
+				#edge case for last state
+				if i == len(log.getLog())-1:
+					game_state = log.getLog()[i]
+					self.updateWeightsTraining(game_state, None)
+				else:
+					game_state = log.getLog()[i]
+					next_state = log.getLog()[i+1]
+					self.updateWeightsTraining(game_state, next_state)
 			print self.weights
 
 
