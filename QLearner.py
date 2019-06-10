@@ -366,7 +366,7 @@ class QlearningAgentOnline:
 		next_state_features = current_features
 		if move_name == 'None':
 			move_name = 'Growl'
-		move = Pokedex.getMove[move_name]
+		move = Pokedex.getMove(move_name)
 		effect_id = move['effect_id']
 		effect_prob = Pokedex.effects['effect_prob']
 		effect = Pokedex.effects[effect_id]
