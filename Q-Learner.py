@@ -7,6 +7,7 @@ import AIfinallogreader
 from pokedex import Pokedex
 import math
 from numpy.random import choice
+import numpy.random
 
 class QLearningAgent:
 	"""
@@ -113,12 +114,30 @@ class QLearningAgent:
 			move1 = Pokedex.getMove(game_state.getp1_action())
 			if move1['type'] in p1_type:
 				STAB1 = 1.5
+		elif game_state.getp1_action() == "None":
+			if p1 in game_state.getp1_pokemon_moves().keys():
+				moves = game_state.getp1_pokemon_moves()[p1]
+				move1 = moves[numpy.random.choice(range(len(moves)))]
+				move1 = Pokedex.getMove(move1)
+			else:
+				moves = Pokedex.getLegalMoves(p1)
+				move1 = moves[numpy.random.choice(range(len(moves)))]['name']
+				move1 = Pokedex.getMove(move1)
 		else:
 			move1 = None
 		if game_state.getp2_action() != "switch" and game_state.getp2_action() != "None":
 			move2 = Pokedex.getMove(game_state.getp2_action())
 			if move2['type'] in p2_type:
 				STAB2 = 1.5
+		elif game_state.getp2_action() == "None":
+			if p2 in game_state.getp2_pokemon_moves().keys():
+				moves = game_state.getp2_pokemon_moves()[p2]
+				move2 = moves[numpy.random.choice(range(len(moves)))]
+				move2 = Pokedex.getMove(move2)
+			else:
+				moves = Pokedex.getLegalMoves(p2)
+				move2 = moves[numpy.random.choice(range(len(moves)))]['name']
+				move2 = Pokedex.getMove(move2)
 		else:
 			move2 = None
 		#TODO: REMOVE TYPE EFFECTIVENESS ON STATUS MOVES
@@ -245,9 +264,6 @@ class QLearningAgent:
 
 	def extractReward(self,game_state):
 		sum_max1 = 0
-		print "P1 hp change:  ",game_state.get_p1_hp_change()
-		print "P2 hp change:  ",game_state.get_p2_hp_change()
-		print(game_state.get_p1_max_hps())
 		for i in game_state.get_p1_max_hps():
 			sum_max1 += int(i)
 		sum_max2 = 0
@@ -326,6 +342,13 @@ class QLearningAgent:
 
 	#Below this point is learning and acting in real life games:
 	#Impliment ALL OF THESE
+	#TODO: MAKE NEW CLASS TO HOLD REAL TIME INFO
+	"""
+	Random player :
+	if opponent type strong against your type, switch
+	maximize immediate reward --> hp1_change-hp2_change
+
+	"""
 
 
 	def getGameState(self, OTHER_INPUTS_HERE):
@@ -336,7 +359,8 @@ class QLearningAgent:
 		return
 
 	def getCurrentFeatures(self, game_state):
-		#IMPLIMENT
+		#IMPLIMENT TATE
+
 		return
 
 
@@ -357,7 +381,8 @@ class QLearningAgent:
 
 	def getFirstPlayer(self, current_game_state, move_name):
 		#SHould return "1" if p1 expected to go first, "2" otherwise
-		return
+		#For now, assume p1 goes first
+		return "1"
 
 	def calculateExpectedNextState(self, move_name, current_game_state):
 		#true_effect = anticipated reward, anticipated
@@ -375,29 +400,33 @@ class QLearningAgent:
 		p2_index = current_game_state.getp2_pokemon_names.index(p2)
 		p1_hp = current_game_state.getp1_hp()
 		p2_hp = current_game_state.getp2_hp()
-		#TODO: Deal with switching
+		#NOTE: IGNORING POSSIBILITY OF OPPONENT SWITCHING
 		if self.getFirstPlayer(current_game_state, move_name) == "1":
 			damage2 = self.calculateDamage(move_name, p1, p2, p2_hp)
 			expected_damage2 = damage2*Pokedex.getMove(move)['accuracy']
 			if 'par' in current_game_state.get_p1_stats()[p1_index]:
 				expected_damage2 = expected_damage2 *.75
+			'''
 			if 'frz' in current_game_state.get_p1_stats()[p1_index]:
 				#appears as though freeze is permanent, cant move
 				expected_damage2 = 0
 			if 'slp' in current_game_state.get_p1_stats()[p1_index]:
 				#cannot move on turn you wake up
 				expected_damage2 = 0
+			'''
+			next_state_features['atk1'] = damage2
 			if effect == "heal":
 				max_hp = current_game_state.get_p1_max_hps()[p1_index]
 				if move == "rest":
 					if .5*max_hp+current_game_state.getp1_hp()[p1_index] < max_hp:
-						p1_expected_hp = .5*max_hp+current_game_state.getp1_hp()[p1_index] * effect_prob + current_game_state.getp1_hp()[p1_index]*(1-effect_prob)
+						heal1 = .5*max_hp+current_game_state.getp1_hp()[p1_index] * effect_prob
 					else:
-						p1_expected_hp = max_hp*effect_prob
+						heal1 = max_hp*effect_prob - current_game_state.getp1_hp()[p1_index]
 				elif move == "rest":
-					p1_expected_hp = max_hp * effect_prob
+					heal1 = max_hp*effect_prob - current_game_state.getp1_hp()[p1_index]
 				else:
-					p1_expected_hp = .5*damage + p1_hp
+					heal1 = .5*damage
+				next_state_features['heal1']=heal1
 			if effect == "opponent_status:psn":
 				#IMPLIMENT HERE TO SHOW THAT THEY GET POISONED
 				#how to deal with dif ppl getting poisoned
@@ -408,6 +437,9 @@ class QLearningAgent:
 				#how to deal with dif ppl getting poisoned
 				if current_features['psn2'] < 1:
 					next_state_features['psn2']= move['effect_prob']
+			if effect == "opponent_status:brn":
+				pass
+
 
 	def getLegalActionsRealTime(self, game_State):
 		"""
@@ -443,7 +475,7 @@ class QLearningAgent:
 			sum_act_Q += math.exp(Q)
 		for i in len(acts):
 			acts_Q[i] = acts_Q[i]/sum_act_Q
-		chosen_action = random.choice(acts, 1, acts_Q)
+		chosen_action = choice(acts, 1, acts_Q)
 		return chosen_action
 
 	def commitActionRealTime(self, action):
