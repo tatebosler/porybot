@@ -128,7 +128,7 @@ def damage(power, moveType, defType, atkType, attack, defense):
 
 def calculateAndSampleAction(action, status):
 	actionModifier = 0.75 if status in ["PAR", "CONFUSED"] else 1.0
-	power = 0 if action['power'] is None else action['power']
+	power = 0 if ("power" not in action.keys() or action['power'] is None) else action['power']
 	if "Switch to" in action:
 		return True
 	elif status in ["FRZ", "SLP"]:
