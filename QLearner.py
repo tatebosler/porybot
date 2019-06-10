@@ -8,6 +8,7 @@ from pokedex import Pokedex
 import math
 from numpy.random import choice
 import numpy.random
+import random
 
 class QLearningAgent:
 	"""
@@ -288,7 +289,7 @@ class QLearningAgent:
 			for i in range(len(self.weights)):
 				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
 	def runTrainingData(self):
-		logs = AIfinallogreader.main()
+		logs = AIfinallogreader.test()
 		for log in logs:
 			#Run through each game, learn weights
 			for i in range(len(log.getLog())):
@@ -382,7 +383,7 @@ class QlearningAgentOnline:
 		atk1 = self.calculateDamage(move_name, p1['name'], p2['name'], p1['current_hp'])*move['accuracy']
 		if 'par' in p1['status']:
 			atk1 = atk1 *.75
-		next_state_features['atk1'] = damage2
+		next_state_features['atk1'] = atk1
 		if self.calculateDamage(move_name, p1['name'], p2['name'], p2['current_hp']) > p2['current_hp']:
 			#doesn't include possibility of opponent switch
 			next_state_features['remaining2']=current_features['remaining1']-move['accuracy']
@@ -413,14 +414,16 @@ class QlearningAgentOnline:
 		for i in opponent_pokemon['known_moves']:
 			atk2 += Pokedex.getMove(i)*self.calculateDamage(i,my_team[active_index]['name'],opponent_pokemon['name'],opponent_pokemon['current_hp'])/4
 			avg_accuracy += Pokedex.getMove(i)['accuracy']/4
-		for num in 4-current_game_state.getp2_pokemon_moves().keys():
+		for num in range(4-len(opponent_pokemon['known_moves'])):
 			poss_moves2 = Pokedex.getLegalMoves(opponent_pokemon['name'])
 			move_added = False
 			while not move_added:
-				i = numpy.random(range(len(poss_moves2)))
+				i = random.choice(range(len(poss_moves2)))
 				if i not in opponent_pokemon['known_moves']:
-					atk2 += Pokedex.getMove(i)*self.calculateDamage(i,my_team[active_index]['name'],opponent_pokemon['name'],opponent_pokemon['current_hp'])/4
-					avg_accuracy += Pokedex.getMove(i)['accuracy']/4
+					print i
+					print poss_moves2[i]
+					atk2 += poss_moves2[i]['accuracy']*self.calculateDamage(poss_moves2['name'],my_team[active_index]['name'],opponent_pokemon['name'],opponent_pokemon['current_hp'])/4
+					avg_accuracy += poss_moves2[i]['accuracy']/4
 					move_added = True
 		next_state_features['atk2'] = atk2*avg_accuracy
 		if order[0] == 1:
