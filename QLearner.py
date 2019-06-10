@@ -306,6 +306,8 @@ class QLearningAgent:
 			for i in range(len(self.weights)):
 				print feature_labels[i], self.weights[i]
 			print("alpha:  ", self.alpha)
+	def returnWeights(self):
+		return self.weights
 
 
 
@@ -533,14 +535,6 @@ class QlearningAgentOnline:
 
 
 
-
-
-
-def main():
-	Qlearner = QLearningAgent()
-	Qlearner.runTrainingData()
-
-main()
 
 
 
