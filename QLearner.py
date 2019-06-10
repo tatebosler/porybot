@@ -545,7 +545,7 @@ class QlearningAgentOnline:
 
 	def chooseAction(self,possible_actions, Qvalues):
 		for i in range(len(Qvalues)):
-			Qvalues[i]= math.exp(Qvalues[i])
+			Qvalues[i]= Qvalues[i]
 		Qsum = numpy.sum(Qvalues)
 		for i in range(len(Qvalues)):
 			Qvalues[i]= Qvalues[i]/Qsum
