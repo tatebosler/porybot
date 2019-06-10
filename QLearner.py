@@ -447,7 +447,6 @@ class QlearningAgentOnline:
 		return next_state_features
 		
 
-
 # if switch, dictionary 'name':switch_to + pokemon name, 'index':index, 
 
 	def getFeatureValuesRealTime(self, my_team, active_index, opponent_team, opponent_active_index):
@@ -474,51 +473,73 @@ class QlearningAgentOnline:
 
 		#calculate probability that current opponent has move strong against you --> this x 
 
+	def updateWeightsRealTime(self, features, reward)
+		self.seen += 1
+		self.alpha = .00001
+		#self.alpha = .0000000000001/(self.seen**(1.0/10.0))
+		#deal with last state edge case here
+		Q = 0
+		for i in range(len(self.weights)):
+			Q += self.weights[i]*features[labels[i]]
+
+		hpsum1 = 0
+		for i in game_state.getp1_hp():
+			hpsum1 += int(i)
+		if hpsum1 > 0:
+			r = 3000
+			difference = r - Q_val
+			features = self.extractFeatures(game_state)
+			for i in range(len(self.weights)):
+				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
+		else:
+			r = -3000
+			difference = r - Q_val
+			features = self.extractFeatures(game_state)
+			for i in range(len(self.weights)):
+				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
+		else:
+			Q_val = self.getQValue(game_state)
+			Q_val_next = self.getQValue(next_game_state)
+			r = self.extractReward(game_state)
+			difference = (r+self.gamma * Q_val_next) - Q_val
+			features = self.extractFeatures(game_state)
+			for i in range(len(self.weights)):
+				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
 
 	def getQValueRealTime(self, game_state, action):
 		#TODO: impliment
 		return
 
-	def selectActionRealTime(self,possible_actions, my_team, active_index, opponent_team, opponent_active_index):
+	def returnQValues(self,possible_actions, my_team, active_index, opponent_team, opponent_active_index):
 		'''
 		Uses softmax to choose action
 		'''
 		current_features = self.getFeatureValuesRealTime()
 		labels = ['atk1', "atk2", "unfainted 1", "unfainted 2", "par1", "tox1", "brn1", "par2", "tox2", "brn2", "heal1", "heal2"]
 		best_feature = None
-		max_Q = -1*float('inf')
+		Qvals = []
 		for action in possible_actions:
 			if action['name'] == 'switch_to':
 				features = current_features
 				#CONTINUE HERE, CHANGE STATUS FEATURES FOR P1
+				p1 = my_team[action['index']]
+				features['par1']=0
+				features['tox1']=0
+				features['brn1']=0
+				if p1['status'] = 'par':
+					features['par1']=1
+				if p1['status'] = 'tox':
+					features['tox1']=1
+				if p1['status'] = 'brn':
+					features['brn1']=1
 			else:
 				Q = 0
 				features = self.calculateExpectedNextFeatures(active_index, current_features, action['name'], my_team, opponent_team[opponent_active_index])
-				for i in range(len(self.weights)):
-					Q += self.weights[i]*features[labels[i]]
-				if Q > max_Q:
-					best_feature = action
-					max_Q = Q
+			for i in range(len(self.weights)):
+				Q += self.weights[i]*features[labels[i]]
+			Qvals.append(Q)
+		return Qvals
 
-
-
-
-		acts = []
-		acts_Q = []
-		sum_act_Q = 0
-		for act in self.getLegalActionsRealTime(game_state):
-			acts.append(act)
-			Q = self.getQValueRealTime(game_state, act)
-			act_Q.append[math.exp(Q)]
-			sum_act_Q += math.exp(Q)
-		for i in len(acts):
-			acts_Q[i] = acts_Q[i]/sum_act_Q
-		chosen_action = choice(acts, 1, acts_Q)
-		return chosen_action
-
-	def commitActionRealTime(self, action):
-		#TODO: Impliment
-		return
 
 
 def main():
