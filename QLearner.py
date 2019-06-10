@@ -368,7 +368,7 @@ class QlearningAgentOnline:
 			move_name = 'Growl'
 		move = Pokedex.getMove(move_name)
 		effect_id = move['effect_id']
-		effect_prob = Pokedex.effects['effect_prob']
+		effect_prob = move['effect_prob']
 		effect = Pokedex.effects[effect_id]
 		p1 = my_team[active_index]
 		p2 = opponent_pokemon
