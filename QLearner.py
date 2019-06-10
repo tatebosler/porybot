@@ -420,9 +420,8 @@ class QlearningAgentOnline:
 			while not move_added:
 				i = random.choice(range(len(poss_moves2)))
 				if i not in opponent_pokemon['known_moves']:
-					print i
 					print poss_moves2[i]
-					atk2 += poss_moves2[i]['accuracy']*self.calculateDamage(poss_moves2['name'],my_team[active_index]['name'],opponent_pokemon['name'],opponent_pokemon['current_hp'])/4
+					atk2 += poss_moves2[i]['accuracy'] * self.calculateDamage(poss_moves2[i]['name'], my_team[active_index]['name'], opponent_pokemon['name'], opponent_pokemon['current_hp']) / 4
 					avg_accuracy += poss_moves2[i]['accuracy']/4
 					move_added = True
 		next_state_features['atk2'] = atk2*avg_accuracy
