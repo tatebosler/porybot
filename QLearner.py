@@ -498,7 +498,7 @@ class QlearningAgentOnline:
 		'''
 		Uses softmax to choose action
 		'''
-		current_features = self.getFeatureValuesRealTime()
+		current_features = self.getFeatureValuesRealTime(my_team, active_index, opponent_team, opponent_active_index)
 		labels = ['atk1', "atk2", "unfainted 1", "unfainted 2", "par1", "tox1", "brn1", "par2", "tox2", "brn2", "heal1", "heal2"]
 		best_feature = None
 		Qvals = []
