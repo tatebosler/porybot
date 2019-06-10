@@ -75,7 +75,7 @@ class Pokedex:
 	def get(cls, species):
 		cursor = cls.db.cursor()
 		
-		if species.lower() == 'mr. mine':
+		if species.lower() == 'mr. mime':
 			species = 'mr-mime'
 		
 		cursor.execute("SELECT * FROM `pokemon_species` WHERE identifier = ? COLLATE NOCASE", (species, ))
