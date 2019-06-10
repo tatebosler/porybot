@@ -427,7 +427,7 @@ class QlearningAgentOnline:
 		next_state_features['atk2'] = atk2*avg_accuracy
 		if order[0] == 1:
 			next_state_features['atk2'] = atk2*(1-move['accuracy'])
-		if atk2 > p1_hp:
+		if atk2 > p1['current_hp']:
 			next_state_features['remaining1']=current_features['remaining1']-avg_accuracy
 			p1_faint = avg_accuracy
 		if order[0] == 2:
