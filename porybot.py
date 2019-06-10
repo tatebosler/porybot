@@ -35,12 +35,12 @@ def main():
 		pokemon['current_hp'] = pokemon['hp']
 		pokemon['known_moves'] = []
 		pokemon['seen'] = False
-		pokemon['status'] = None
+		pokemon['status'] = 'None'
 	for pokemon in opponent_team:
 		pokemon['current_hp'] = pokemon['hp']
 		pokemon['known_moves'] = []
 		pokemon['seen'] = False
-		pokemon['status'] = None
+		pokemon['status'] = 'None'
 	print "A random team has been generated for you. Please choose your first Pokémon:"
 	switchIn()
 	opponentRandomSwitch()
