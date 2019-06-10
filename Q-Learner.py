@@ -84,12 +84,11 @@ class QLearningAgent:
 		self.Vvals = {}
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
 		self.weights = []
-		for i in range(14):
+		for i in range(14): #change back to 14
 			self.weights.append(0)
 		self.gamma = 1
 		self.seen = 0
 		self.alpha = 1
-		print("initted")
 
 	#TODO: Change attack effectiveness to just be 1 var for each pokemon
 	#TODO: 
@@ -132,10 +131,6 @@ class QLearningAgent:
 			power_atk2 = move2['power']
 			if power_atk2 == None:
 				power_atk2 = 0
-		if move1 != None:
-			print(move1['name'])
-			print("move id:   ", move1['id'])
-			print("Effect id:  ",move1['effect_id'])
 		return [type_atk1*power_atk1*STAB1, type_atk2*power_atk2*STAB2]
 
 	def extract_atk_effects(self, game_state):
@@ -143,7 +138,6 @@ class QLearningAgent:
 		return
 
 	def extract_effects(self, game_state):
-		#TODO: add feature for status effects
 		#TODO: Fix for multiple simultaneous effects
 		p1 = game_state.getp1_in_play()
 		p2 = game_state.getp2_in_play()
@@ -159,6 +153,18 @@ class QLearningAgent:
 		p1_tox = 0
 		p1_frz = 0
 		p1_brn = 0
+		for i in p1_effects:
+			if i == "par":
+				p1_par += 1
+			if i == "slp":
+				p1_slp += 1
+			if i == "tox":
+				p1_tox += 1
+			if i == "frz":
+				p1_frz += 1
+			if i == "brn":
+				p1_brn += 1
+		"""
 		if p1_effect == "par":
 			p1_par = 1
 		if p1_effect == "slp":
@@ -169,11 +175,24 @@ class QLearningAgent:
 			p1_frz = 1
 		if p1_effect == "brn":
 			p1_brn = 1
+			"""
 		p2_par = 0
 		p2_slp = 0
 		p2_tox = 0
 		p2_frz = 0
 		p2_brn = 0
+		for i in p2_effects:
+			if i == "par":
+				p2_par += 1
+			if i == "slp":
+				p2_slp += 1
+			if i == "tox":
+				p2_tox += 1
+			if i == "frz":
+				p2_frz += 1
+			if i == "brn":
+				p2_brn += 1
+		"""
 		if p2_effect == "par":
 			p2_par = 1
 		if p2_effect == "slp":
@@ -184,6 +203,7 @@ class QLearningAgent:
 			p2_frz = 1
 		if p2_effect == "brn":
 			p2_brn = 1
+		"""
 
 		return [p1_par, p1_slp, p1_tox, p1_frz, p1_brn, p2_par, p2_slp, p2_tox, p2_frz, p2_brn]
 
@@ -217,13 +237,24 @@ class QLearningAgent:
 		remaining = self.extract_remaining_pokemon(game_state)
 		stats = self.extract_effects(game_state)
 		to_return = []
-		for group in [atk,remaining,stats]:
+		#for group in [atk,remaining,stats]:
+		for group in [remaining,stats]:
 			for i in range(len(group)):
 				to_return.append(group[i])
+		to_return.append(game_state.get_p1_heal())
+		to_return.append(game_state.get_p2_heal())
 		return to_return
 
 	def extractReward(self,game_state):
-		return game_state.get_p2_hp_change() - game_state.get_p1_hp_change()
+		sum_max1 = 0
+		for i in game_state.get_p1_max_hps():
+			sum_max1 += int(i)
+		sum_max2 = 0
+		for i in game_state.get_p2_max_hps():
+			sum_max2 += int(i)
+		reward = (game_state.get_p2_hp_change()/sum_max2) - (game_state.get_p1_hp_change()/sum_max1)
+		return reward
+
 	def getQValue(self, state):
 		#TODO: impliment f
 		Q_value = 0
@@ -237,7 +268,7 @@ class QLearningAgent:
 		return state.getp1_pokemon_moves()[state.getp1_in_play()]
 	def updateWeightsTraining(self, game_state, next_game_state):
 		self.seen += 1
-		self.alpha = .0000000000001/(self.seen**(1.0/10.0))
+		self.alpha = 1/(self.seen**(1.0/10.0))
 		if next_game_state == None:
 			#deal with last state edge case here
 			Q_val = self.getQValue(game_state)
@@ -246,6 +277,12 @@ class QLearningAgent:
 				hpsum1 += int(i)
 			if hpsum1 > 0:
 				r = 3000
+				difference = r - Q_val
+				features = self.extractFeatures(game_state)
+				for i in range(len(self.weights)):
+					self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
+			else:
+				r = -3000
 				difference = r - Q_val
 				features = self.extractFeatures(game_state)
 				for i in range(len(self.weights)):
@@ -259,7 +296,7 @@ class QLearningAgent:
 			for i in range(len(self.weights)):
 				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
 	def runTrainingData(self):
-		logs = AIfinallogreader.main()
+		logs = AIfinallogreader.test()
 		for log in logs:
 			#Run through each game, learn weights
 			for i in range(len(log.getLog())):
@@ -272,7 +309,7 @@ class QLearningAgent:
 					game_state = log.getLog()[i]
 					next_state = log.getLog()[i+1]
 					self.updateWeightsTraining(game_state, next_state)
-			feature_labels = ["type atk 1*power_atk1: ", ":  ", "Type atk 2*power_atk2:  " , "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "slp1:  ", "tox1:  ", "frz1:  ", "brn1:  ", "par2:  ", "slp2:  ", "tox2:  ", "frz2:  ", "brn2:  "]
+			feature_labels = ["unfainted 1:   ", "unfainted 2:   ", "par1:  ", "slp1:  ", "tox1:  ", "frz1:  ", "brn1:  ", "par2:  ", "slp2:  ", "tox2:  ", "frz2:  ", "brn2:  ", "heal 1: ", "heal 2:  "]
 			for i in range(len(self.weights)):
 				print feature_labels[i], self.weights[i]
 			print("alpha:  ", self.alpha)
@@ -292,15 +329,56 @@ class QLearningAgent:
 		#TODO: IMPLIMENT
 		return
 
-	def calculateExpectedNextStateFromP1Attack(self, move_name, current_game_state):
+
+	def calculateDamage(self, move_name, user_pokemon, reciever_pokemon, reciever_hp):
+		'''
+		Does not include probability of hitting
+		'''
+		move = Pokedex.getMove[move_name]
+		user_type = Pokedex.get(user_pokemon)['type']
+		reciever_type = Pokedex.get(reciever_pokemon)['type']
+		STAB = 1
+		if move['type'] in user_type:
+			STAB = 1.5
+		type_multiplier = Pokedex.getTypeEffectiveness(move['type'], reciever_type)
+		damage = STAB * type_multiplier * move['power']
+		return damage
+
+
+
+	def calculateExpectedNextState(self, move_name, current_game_state):
 		#true_effect = anticipated reward, anticipated
 		#TODO: FINISH IMPLIMENTATION --> expected damage from attack, expected change in status features, expected effect on own hp. 
+		#TODO: FIGURE OUT ORDER OF TURNS
 		move = Pokedex.getMove[move_name]
 		effect_id = move['effect_id']
 		effect_prob = Pokedex.effects['effect_prob']
 		effect = Pokedex.effects[effect_id]
+		p1 = current_game_state.getp1_in_play()
+		p2 = current_game_state.getp2_in_play()
+		p1_index = current_game_state.getp1_pokemon_names.index(p1)
+		p2_index = current_game_state.getp2_pokemon_names.index(p2)
+		p1_hp = current_game_state.getp1_hp()
+		p2_hp = current_game_state.getp2_hp()
+		damage = self.calculateDamage(move_name, p1, p2, p2_hp)
 		if effect == "heal":
-			if move == "rest"
+			max_hp = current_game_state.get_p1_max_hps()[p1_index]
+			if move == "rest":
+				if .5*max_hp+current_game_state.getp1_hp()[p1_index] < max_hp:
+					p1_expected_hp = .5*max_hp+current_game_state.getp1_hp()[p1_index] * effect_prob + current_game_state.getp1_hp()[p1_index]*(1-effect_prob)
+				else:
+					p1_expected_hp = max_hp*effect_prob
+			elif move == "rest":
+				p1_expected_hp = max_hp * effect_prob
+			else:
+				p1_expected_hp = .5*damage + p1_hp
+		if effect == "opponent_status:psn":
+			#IMPLIMENT HERE TO SHOW THAT THEY GET POISONED
+			pass
+
+
+
+
 
 
 
@@ -315,12 +393,14 @@ class QLearningAgent:
 		p2 = game_State.getp2_in_play()
 		p2_all = game_State.getp2_pokemon_names()
 		#Type effectiveness for current pokemon --> if opponent 
-		if game_State.getp2_hp(p2_all.index)
+		if game_State.getp2_hp(p2_all.index):
+			pass
 		#calculate probability that current opponent has move strong against you --> this x 
 
 
 	def getQValueRealTime(self, game_state):
 		#TODO: impliment
+		return
 
 
 def main():

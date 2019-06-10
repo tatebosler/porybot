@@ -28,12 +28,13 @@ class GameLog:
 
 	def add_state(self,state):
 		# update HP changes
-		if len(self.game_states) > 0:
-			prev_hp1 = self.game_states[-1].getp1_hp()
+		self.game_states.append(state)
+		if len(self.game_states) > 1:
+			prev_hp1 = self.game_states[-2].getp1_hp()
 			prev_hp1_sum = 0
 			for i in prev_hp1:
 				prev_hp1_sum += int(i)
-			prev_hp2 = self.game_states[-1].getp2_hp()
+			prev_hp2 = self.game_states[-2].getp2_hp()
 			prev_hp2_sum = 0
 			for i in prev_hp2:
 				prev_hp2_sum += int(i)
@@ -47,8 +48,6 @@ class GameLog:
 				hp2_sum += int(i)
 			state.update_p1_hp_change(prev_hp1_sum - hp1_sum)
 			state.update_p2_hp_change(prev_hp2_sum - hp2_sum)
-		#add new state
-		self.game_states.append(state)
 
 	def update_past_hp(self,player,pokemon_name, pokemon_hp):
 		for state in self.game_states:
@@ -86,12 +85,14 @@ class GameState:
 
 	p2_pokemon_names = []
 	p2_pokemon_hp = []
+	p2_max_hps = []
 	p2_pokemon_status = []
 	p2_pokemon_moves = {}
 	p2_pokemon_types = []
 	p2_action = None
 	#hold index of pokemon currently in play
 	p2_in_play = None
+	p2_heal = None
 
 	p1_pokemon_names = []
 	p1_pokemon_hp = []
@@ -99,12 +100,14 @@ class GameState:
 	p1_pokemon_moves = {}
 	p1_action = None
 	p1_pokemon_types = []
+	p1_max_hps = []
+	p1_heal = None
 	#hold index of pokemon currently in play
 	p1_in_play = None
 
 	def __init__(self, p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status,
-	p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status,
-	p1_action, p1_in_play, p1_moves, p2_moves):
+	p2_action, p2_in_play, p2_max_hps, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status,
+	p1_action, p1_in_play, p1_moves, p2_moves, p1_max_hps, p2_heal, p1_heal):
 		"""
 		Constructor for one gamestate --> state/action pair
 		"""	
@@ -124,6 +127,8 @@ class GameState:
 		for pokemon in p2_pokemon_names:
 			self.p2_pokemon_types.append(Pokedex.get(pokemon)["type"])
 		self.p2_hp_change = 0
+		self.p2_max_hps = p2_max_hps
+		self.p2_heal = p2_heal
 
 		self.p1_pokemon_names = p1_pokemon_names
 		self.p1_pokemon_hp = []
@@ -136,6 +141,8 @@ class GameState:
 		self.p1_in_play = p1_in_play
 		self.p1_pokemon_moves = p1_moves
 		self.p1_pokemon_types = []
+		self.p1_max_hps = p1_max_hps
+		self.p1_heal = p1_heal
 
 		self.p1_hp_change = 0
 
@@ -232,6 +239,14 @@ class GameState:
 
 	def get_p2_stats(self):
 		return self.p2_pokemon_status
+	def get_p1_max_hps(self):
+		return self.p1_max_hps
+	def get_p2_max_hps(self):
+		return self.p2_max_hps
+	def get_p1_heal(self):
+		return self.p1_heal
+	def get_p2_heal(self):
+		return self.p2_heal
 
 
 
@@ -251,9 +266,11 @@ class GameState:
 		#print"P2 types:  ", self.p2_pokemon_types
 		print"P1 hp:  ", self.p1_pokemon_hp
 		print"P2 hp:   ", self.p2_pokemon_hp
+		print"P1 max hps:  ", self.p1_max_hps
+		print"p2 max hps:   ", self.p2_max_hps
 
-		print"P1 hp change:  ", self.p1_hp_change
-		print"P2 hp change:  ", self.p2_hp_change
+		#print"P1 hp change:  ", self.p1_hp_change
+		#print"P2 hp change:  ", self.p2_hp_change
 
 		#print"P1 statuses:  ", self.p1_pokemon_status
 		#print"P2 statuses:  ", self.p2_pokemon_status
@@ -276,13 +293,17 @@ def readLog(text_file):
 	p2_action = None
 	p2_in_play = None
 	p2_moves = {}
+	p2_max_hps = []
 	p1_pokemon_names = [] 
 	p1_pokemon_hp = [] 
 	p1_pokemon_status = []
 	p1_action = None
 	p1_in_play = None
 	p1_moves = {}
+	p1_max_hps = []
 	game_log = GameLog()
+	p1_heal = 0
+	p2_heal = 0
 
 	for line in log:
 		if line[0:8] in "|switch|":
@@ -304,6 +325,7 @@ def readLog(text_file):
 					hp = hp.split("/")[0]
 					#can just append bc we know pokemon is being added for the first time
 					p1_pokemon_hp.append(hp)
+					p1_max_hps.append(hp)
 					game_log.update_past_hp("1",p1_in_play,hp)
 				#print("switch 1: ", p1_in_play, p1_pokemon_names)
 
@@ -321,6 +343,7 @@ def readLog(text_file):
 					hp = hp.split("/")[0]
 					#can just append bc we know pokemon is being added for the first time
 					p2_pokemon_hp.append(hp)
+					p2_max_hps.append(hp)
 					game_log.update_past_hp("2",p2_in_play,hp)
 				#print("switch 2: ", p2_in_play, p2_pokemon_names)
 			else:
@@ -350,11 +373,13 @@ def readLog(text_file):
 				#reset p1 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
+				p1_heal = int(new_health) - int(p1_pokemon_hp[p1_pokemon_names.index(p1_in_play)])
 				p1_pokemon_hp[p1_pokemon_names.index(p1_in_play)] = new_health
 			elif line[8] == "2":
 				#reset p2 pokemon health
 				new_health = line.split("|")
 				new_health = new_health[3].split("/")[0]
+				p2_heal = int(new_health) - int(p2_pokemon_hp[p2_pokemon_names.index(p2_in_play)])
 				p2_pokemon_hp[p2_pokemon_names.index(p2_in_play)] = new_health
 			else:
 				print("SOMETHING HAS GONE WORNG: no player number attatched to heal statement")
@@ -414,9 +439,11 @@ def readLog(text_file):
 				print("SOMETHING HAS GONE WORNG: no player number attatched to status statement")
 				print("Tag:  ", line[10])
 		if "|turn|" in line:
-			game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play, p1_moves, p2_moves)
+			game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p2_max_hps, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play, p1_moves, p2_moves, p1_max_hps, p2_heal, p1_heal)
 			game_log.add_state(game_state)
-	game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play, p1_moves, p2_moves)
+			p1_heal = 0
+			p2_heal = 0
+	game_state = GameState(p2_pokemon_names, p2_pokemon_hp, p2_pokemon_status, p2_action, p2_in_play, p2_max_hps, p1_pokemon_names, p1_pokemon_hp, p1_pokemon_status, p1_action, p1_in_play, p1_moves, p2_moves, p1_max_hps, p2_heal, p1_heal)
 	game_log.add_state(game_state)
 	return game_log
 
@@ -442,8 +469,9 @@ def main():
 
 def test():
 	logs = []
-	for file in ["920796671.txt", "920938065.txt", "921676011.txt", "921816226.txt"]:
+	for file in ["920796671.txt", "920938065.txt", "921676011.txt", "921816226.txt", "920956932.txt", "923643124.txt","923509786.txt","923924037.txt", "923294934.txt"]:
 		f = open("logs/"+file)
+		print(file)
 		the_log = readLog(f)
 		logs.append(the_log)
 	return logs
