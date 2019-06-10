@@ -41,7 +41,8 @@ def main():
 		pokemon['known_moves'] = []
 		pokemon['seen'] = False
 		pokemon['status'] = 'None'
-	print "A random team has been generated for you. Please choose your first Pokémon:"
+	if interactive:
+		print "A random team has been generated for you. Please choose your first Pokémon:"
 	switchIn()
 	opponentRandomSwitch()
 	while continue_battle:
@@ -224,12 +225,11 @@ def switchIn(index = None):
 			while not legalSwitch:
 				index = random.randint(0, 5)
 				legalSwitch = my_team[index]['current_hp'] > 0
-		else:
-			if active_index is not -1:
-				print "You withdrew {}.".format(my_team[active_index]['name'])
-			active_index = index
-			my_pokemon = my_team[active_index]
-			print "You sent out {}. HP remaining: {}/{}".format(my_pokemon['name'], my_pokemon['current_hp'], my_pokemon['hp'])
+		if active_index is not -1:
+			print "You withdrew {}.".format(my_team[active_index]['name'])
+		active_index = index
+		my_pokemon = my_team[active_index]
+		print "You sent out {}. HP remaining: {}/{}".format(my_pokemon['name'], my_pokemon['current_hp'], my_pokemon['hp'])
 
 def makeSelection(actions, excludeKeys = []):
 	for i, action in enumerate(actions):
