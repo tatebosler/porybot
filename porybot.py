@@ -31,6 +31,7 @@ def main():
 		action_order = calculateSpeed(my_choice, opponent_choice)
 		will_act_self = calculateAndSampleAction(my_choice, my_team[active_index]['status'])
 		will_act_opponent = calculateAndSampleAction(opponent_choice, opponent_team[opponent_active_index]['status'])
+		# act(action_order, will_act_self, will_act_opponent)
 		break
 
 def calculateAndSampleAction(choice, status):
@@ -66,7 +67,7 @@ def calculateSpeed(my_choice, opponent_choice):
 	elif my_speed > opponent_speed:
 		return [1, 2]
 	elif my_speed < opponent_speed:
-		return [1, 2]
+		return [2, 1]
 	else:
 		return random.shuffle([1, 2])
 
