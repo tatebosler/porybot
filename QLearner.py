@@ -332,7 +332,7 @@ class QlearningAgentOnline:
 
 	def calculateDamage(self, move_name, user_pokemon, reciever_pokemon, reciever_hp):
 		#accuracy removed
-		move = Pokedex.getMove[move_name]
+		move = Pokedex.getMove(move_name)
 		user_type = Pokedex.get(user_pokemon)['type']
 		reciever_type = Pokedex.get(reciever_pokemon)['type']
 		STAB = 1
@@ -469,8 +469,7 @@ class QlearningAgentOnline:
 		#deal with last state edge case here
 		Q = 0
 		for i in range(len(self.weights)):
-			Q += self.weights[i]*features[labels[i]]
-		for 
+			Q += self.weights[i]*features[labels[i]] 
 
 		'''
 		hpsum1 = 0
