@@ -301,11 +301,13 @@ class QLearningAgent:
 					game_state = log.getLog()[i]
 					next_state = log.getLog()[i+1]
 					self.updateWeightsTraining(game_state, next_state)
-			feature_labels = ['atk1: ', "atk2:  ", "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "slp1:  ", "tox1:  ", "frz1:  ", "brn1:  ", "par2:  ", "slp2:  ", "tox2:  ", "frz2:  ", "brn2:  ", "heal 1: ", "heal 2:  "]
+			#feature_labels = ['atk1: ', "atk2:  ", "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "slp1:  ", "tox1:  ", "frz1:  ", "brn1:  ", "par2:  ", "slp2:  ", "tox2:  ", "frz2:  ", "brn2:  ", "heal 1: ", "heal 2:  "]
 			feature_labels = ['atk1: ', "atk2:  ", "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "tox1:  ", "brn1:  ", "par2:  ", "tox2:  ", "brn2:  ", "heal 1: ", "heal 2:  "]
 			for i in range(len(self.weights)):
 				print feature_labels[i], self.weights[i]
 			print("alpha:  ", self.alpha)
+	def returnWeights(self):
+		return self.weights
 
 
 
@@ -325,26 +327,11 @@ class QlearningAgentOnline:
 	"""
 	def __init__(self, weights):
 		#TODO: INIT FUNCTIONS HERE
-		# V-vals held in dict. Key is [list of weights]
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
 		self.weights = weights
 
-
-	def getGameState(self, porybot):
-		"""
-		Needs to interact with plugin and return 
-		"""
-		p1_team = my_team
-		#p2_team = MUST FIGURE OUT TEAM 2
-		return
-
-	def getCurrentFeatures(self, game_state):
-		#IMPLIMENT TATE
-
-		return
-
-
 	def calculateDamage(self, move_name, user_pokemon, reciever_pokemon, reciever_hp):
+		#accuracy removed
 		move = Pokedex.getMove[move_name]
 		user_type = Pokedex.get(user_pokemon)['type']
 		reciever_type = Pokedex.get(reciever_pokemon)['type']
@@ -352,214 +339,202 @@ class QlearningAgentOnline:
 		if move['type'] in user_type:
 			STAB = 1.5
 		type_multiplier = Pokedex.getTypeEffectiveness(move['type'], reciever_type)
-		if move['accuracy'] != 'None' and move['accuracy'] != None:
-			accuracy = move['accuracy']
-		else:
-			accuracy = 1
-		damage = STAB * type_multiplier * move['power'] * accuracy
+		damage = STAB * type_multiplier * move['power']
 		return damage
 
 
-	def getFirstPlayer(self, current_game_state, move_name):
-		#SHould return "1" if p1 expected to go first, "2" otherwise
+	def getFirstPlayer(self, my_team, opponent_pokemon, move_name):
+		#SHould return "[1,2]" if p1 expected to go first, "[2,1]" otherwise
 		#For now, assume p1 goes first
-		return "1"
+		my_speed = my_team[active_index]['speed']
+		opponent_speed = Pokedex.getAverageSpeed(opponent_pokemon)
+		if my_team[active_index]['status'] == 'PAR':
+			my_speed /= 4
+		if opponent_pokemon['status'] == 'PAR':
+			opponent_speed /= 4
+		if my_speed > opponent_speed:
+			return [1, 2]
+		elif my_speed < opponent_speed:
+			return [2, 1]
+		else:
+			return random.shuffle([1, 2])
 
-	def calculateExpectedNextState(self, move_name, current_game_state):
+	def calculateExpectedNextFeatures(self,active_index, current_features, move_name, my_team, opponent_pokemon):
 		#true_effect = anticipated reward, anticipated
 		#TODO: FINISH IMPLIMENTATION --> expected damage from attack, expected change in status features, expected effect on own hp. 
 		#TODO: FIGURE OUT ORDER OF TURNS
-		current_features = self.getCurrentFeatures(current_game_state)
-		next_state_features = {}
+		next_state_features = current_features
+		if move_name == 'None':
+			move_name = 'Growl'
 		move = Pokedex.getMove[move_name]
 		effect_id = move['effect_id']
 		effect_prob = Pokedex.effects['effect_prob']
 		effect = Pokedex.effects[effect_id]
-		p1 = current_game_state.getp1_in_play()
-		p2 = current_game_state.getp2_in_play()
-		p1_index = current_game_state.getp1_pokemon_names.index(p1)
-		p2_index = current_game_state.getp2_pokemon_names.index(p2)
-		p1_hp = current_game_state.getp1_hp()
-		p2_hp = current_game_state.getp2_hp()
-		p1_type = Pokedex.get(p1)['type']
-		p2_type = Pokedex.get(p2)['type']
-		#NOTE: IGNORING POSSIBILITY OF OPPONENT SWITCHING
-		damage2 = self.calculateDamage(move_name, p1, p2, p2_hp)
-		if 'par' in current_game_state.get_p1_stats()[p1_index]:
-			expected_damage2 = expected_damage2 *.75
-		'''
-		if 'frz' in current_game_state.get_p1_stats()[p1_index]:
-			#appears as though freeze is permanent, cant move
-			expected_damage2 = 0
-		if 'slp' in current_game_state.get_p1_stats()[p1_index]:
-			#cannot move on turn you wake up
-			expected_damage2 = 0
-		'''
+		p1 = my_team[active_index]
+		p2 = opponent_pokemon
+		p1_faint = 0
+		p2_faint = 0
+		order = self.getFirstPlayer(my_team,opponent_pokemon,move_name)
+		atk1 = self.calculateDamage(move_name, p1['name'], p2['name'], p1['current_hp'])*move['accuracy']
+		if 'par' in p1['status']:
+			atk1 = atk1 *.75
 		next_state_features['atk1'] = damage2
-		if damage2 > hp2:
-			next_state_features['remaining2']=current_features['remaining1']-1
+		if self.calculateDamage(move_name, p1['name'], p2['name'], p2['current_hp']) > p2['current_hp']:
+			#doesn't include possibility of opponent switch
+			next_state_features['remaining2']=current_features['remaining1']-move['accuracy']
+			p2_faint = move['accuracy']
 		if effect == "heal":
-			max_hp = current_game_state.get_p1_max_hps()[p1_index]
+			max_hp = p1['hp']
 			if move == "rest":
-				if .5*max_hp+current_game_state.getp1_hp()[p1_index] < max_hp:
-					heal1 = .5*max_hp+current_game_state.getp1_hp()[p1_index] * effect_prob
+				if .5*max_hp+p1['current_hp'] < max_hp:
+					heal1 = .5*max_hp+p1['current_hp']* effect_prob
 				else:
-					heal1 = max_hp*effect_prob - current_game_state.getp1_hp()[p1_index]
+					heal1 = max_hp*effect_prob - p1['current_hp']
 			elif move == "rest":
-				heal1 = max_hp*effect_prob - current_game_state.getp1_hp()[p1_index]
+				heal1 = max_hp*effect_prob - p1['current_hp']
 			else:
-				heal1 = .5*damage
+				heal1 = .5*atk1
 			next_state_features['heal1']=heal1
 		if effect == "opponent_status:psn":
 			if current_features['tox2'] < 1:
 				next_state_features['tox2']= move['effect_prob']
 		elif effect == "opponent_status:par":
-			#IMPLIMENT HERE TO SHOW THAT THEY GET POISONED
-			#how to deal with dif ppl getting poisoned
 			if current_features['par2'] < 1:
 				next_state_features['par2']= move['effect_prob']
 		elif effect == "opponent_status:brn":
 			if current_features['brn2'] < 1:
 				next_state_features['brn2']= move['effect_prob']
-		#Now look at p2's turn
-		#if opponent will die after or not
-		damage1 = 0
-		for i in current_game_state.getp2_pokemon_moves().keys():
-			damage1 += self.calculateDamage(i,p1,p2,current_game_state.getp1_hp())/4
+		atk2 = 0
+		avg_accuracy = 0
+		for i in opponent_pokemon['known_moves']:
+			atk2 += Pokedex.getMove(i)*self.calculateDamage(i,my_team[active_index]['name'],opponent_pokemon['name'],opponent_pokemon['current_hp'])/4
+			avg_accuracy += Pokedex.getMove(i)['accuracy']/4
 		for num in 4-current_game_state.getp2_pokemon_moves().keys():
-			poss_moves2 = Pokedex.getLegalMoves(p2)
+			poss_moves2 = Pokedex.getLegalMoves(opponent_pokemon['name'])
 			move_added = False
 			while not move_added:
 				i = numpy.random(range(len(poss_moves2)))
-				if i not in current_game_state.getp2_pokemon_moves().keys():
-					damage1 += self.calculateDamage(i,p1,p2,current_game_state.getp1_hp())/4
+				if i not in opponent_pokemon['known_moves']:
+					atk2 += Pokedex.getMove(i)*self.calculateDamage(i,my_team[active_index]['name'],opponent_pokemon['name'],opponent_pokemon['current_hp'])/4
+					avg_accuracy += Pokedex.getMove(i)['accuracy']/4
 					move_added = True
-		next_state_features('atk2') = damage1
-		if damage1 > p1_hp:
-			next_state_features['remaining1']=current_features['remaining1']-1
+		next_state_features['atk2'] = atk2*avg_accuracy
+		if order[0] = 1:
+			next_state_features['atk2'] = atk2*(1-move['accuracy'])
+		if atk2 > p1_hp:
+			next_state_features['remaining1']=current_features['remaining1']-avg_accuracy
+			p1_faint = avg_accuracy
+		if order[0] = 2:
+			next_state_features['atk1'] = next_state_features['atk1']*(1-avg_accuracy)
 		#Not dealing with effects on p1, too difficult to account for
-		next_state_features('par1') = current_features('par1')
-		next_state_features('tox1') = current_features('tox1')
-		next_state_features('brn1') = current_features('brn1')
+		next_state_features['par1'] = current_features['par1']
+		next_state_features['tox1'] = current_features['tox1']
+		next_state_features['brn1'] = current_features['brn1']
 		print(next_state_features)
 		return next_state_features
-	else:
-		#Player 2 going first
-		damage2 = self.calculateDamage(move_name, p1, p2, p2_hp)
-		if 'par' in current_game_state.get_p1_stats()[p1_index]:
-			expected_damage2 = expected_damage2 *.75
-		'''
-		if 'frz' in current_game_state.get_p1_stats()[p1_index]:
-			#appears as though freeze is permanent, cant move
-			expected_damage2 = 0
-		if 'slp' in current_game_state.get_p1_stats()[p1_index]:
-			#cannot move on turn you wake up
-			expected_damage2 = 0
-		'''
-		next_state_features['atk1'] = damage2
-		if damage2 > hp2:
-			next_state_features['remaining2']=current_features['remaining1']-1
-		if effect == "heal":
-			max_hp = current_game_state.get_p1_max_hps()[p1_index]
-			if move == "rest":
-				if .5*max_hp+current_game_state.getp1_hp()[p1_index] < max_hp:
-					heal1 = .5*max_hp+current_game_state.getp1_hp()[p1_index] * effect_prob
-				else:
-					heal1 = max_hp*effect_prob - current_game_state.getp1_hp()[p1_index]
-			elif move == "rest":
-				heal1 = max_hp*effect_prob - current_game_state.getp1_hp()[p1_index]
+		
+
+# if switch, dictionary 'name':switch_to + pokemon name, 'index':index, 
+
+	def getFeatureValuesRealTime(self, my_team, active_index, opponent_team, opponent_active_index):
+		#feature_labels = ['atk1: ', "atk2:  ", "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "tox1:  ", "brn1:  ", "par2:  ", "tox2:  ", "brn2:  ", "heal 1: ", "heal 2:  "]
+		features = {}
+		for i in ["par1", "tox1", "brn1"]:
+			if my_team[active_index]['status'] in i:
+				features[i]=1
 			else:
-				heal1 = .5*damage
-			next_state_features['heal1']=heal1
-		if effect == "opponent_status:psn":
-			if current_features['tox2'] < 1:
-				next_state_features['tox2']= move['effect_prob']
-		elif effect == "opponent_status:par":
-			#IMPLIMENT HERE TO SHOW THAT THEY GET POISONED
-			#how to deal with dif ppl getting poisoned
-			if current_features['par2'] < 1:
-				next_state_features['par2']= move['effect_prob']
-		elif effect == "opponent_status:brn":
-			if current_features['brn2'] < 1:
-				next_state_features['brn2']= move['effect_prob']
-		#Now look at p2's turn
-		#if opponent will die after or not
-		if current_game_state.getp2_hp() < damage2:
-			prob_p2fnt = move['effect_prob']
-		else:
-			prob_p2fnt = 0
-		damage1 = 0
-		for i in current_game_state.getp2_pokemon_moves().keys():
-			damage1 += self.calculateDamage(i,p1,p2,current_game_state.getp1_hp())/4
-		for num in 4-current_game_state.getp2_pokemon_moves().keys():
-			poss_moves2 = Pokedex.getLegalMoves(p2)
-			move_added = False
-			while not move_added:
-				i = numpy.random(range(len(poss_moves2)))
-				if i not in current_game_state.getp2_pokemon_moves().keys():
-					damage1 += self.calculateDamage(i,p1,p2,current_game_state.getp1_hp())/4
-					move_added = True
-		next_state_features('atk2') = damage1
-		if damage1 > p1_hp:
-			next_state_features['remaining1']=current_features['remaining1']-1
-		#Not dealing with effects on p1, too difficult to account for
-		next_state_features('par1') = current_features('par1')
-		next_state_features('tox1') = current_features('tox1')
-		next_state_features('brn1') = current_features('brn1')
-		print(next_state_features)
-		return next_state_features
-
-			#if opponent will live after
+				features[i]=0
+		for i in ["par2", "tox2", "brn2"]:
+			if opponent_team[opponent_active_index]['status'] in i:
+				features[i]=1
+			else:
+				features[i]=0
+		features{'heal1'} = 0
+		features{'heal2'} = 0
+		features{'atk1'} = 0
+		features{'atk2'} = 0
+		return features
 
 
 
-	def getLegalActionsRealTime(self, game_State):
-		"""
-		Give back list of legal actions in the form [[list of move names], [list of unfainted pokemon]]
-		"""
-		#TODO: IMPLIMENT
-		return
 
-	def getFeatureValuesRealTime(self, game_State, action):
-		p2 = game_State.getp2_in_play()
-		p2_all = game_State.getp2_pokemon_names()
-		#Type effectiveness for current pokemon --> if opponent 
-		if game_State.getp2_hp(p2_all.index):
-			pass
 		#calculate probability that current opponent has move strong against you --> this x 
 
+	def updateWeightsRealTime(self, features, reward)
+		self.seen += 1
+		self.alpha = .00001
+		#self.alpha = .0000000000001/(self.seen**(1.0/10.0))
+		#deal with last state edge case here
+		Q = 0
+		for i in range(len(self.weights)):
+			Q += self.weights[i]*features[labels[i]]
 
-	def getQValueRealTime(self, game_state, action):
-		#TODO: impliment
-		return
+		hpsum1 = 0
+		for i in game_state.getp1_hp():
+			hpsum1 += int(i)
+		if hpsum1 > 0:
+			r = 3000
+			difference = r - Q_val
+			features = self.extractFeatures(game_state)
+			for i in range(len(self.weights)):
+				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
+		else:
+			r = -3000
+			difference = r - Q_val
+			features = self.extractFeatures(game_state)
+			for i in range(len(self.weights)):
+				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
+		else:
+			Q_val = self.getQValue(game_state)
+			Q_val_next = self.getQValue(next_game_state)
+			r = self.extractReward(game_state)
+			difference = (r+self.gamma * Q_val_next) - Q_val
+			features = self.extractFeatures(game_state)
+			for i in range(len(self.weights)):
+				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
 
-	def selectActionRealTime(self, game_state):
+
+	def returnQValues(self,possible_actions, my_team, active_index, opponent_team, opponent_active_index):
 		'''
 		Uses softmax to choose action
 		'''
-		acts = []
-		acts_Q = []
-		sum_act_Q = 0
-		for act in self.getLegalActionsRealTime(game_state):
-			acts.append(act)
-			Q = self.getQValueRealTime(game_state, act)
-			act_Q.append[math.exp(Q)]
-			sum_act_Q += math.exp(Q)
-		for i in len(acts):
-			acts_Q[i] = acts_Q[i]/sum_act_Q
-		chosen_action = choice(acts, 1, acts_Q)
-		return chosen_action
+		current_features = self.getFeatureValuesRealTime()
+		labels = ['atk1', "atk2", "unfainted 1", "unfainted 2", "par1", "tox1", "brn1", "par2", "tox2", "brn2", "heal1", "heal2"]
+		best_feature = None
+		Qvals = []
+		for action in possible_actions:
+			if action['name'] == 'switch_to':
+				features = current_features
+				#CONTINUE HERE, CHANGE STATUS FEATURES FOR P1
+				p1 = my_team[action['index']]
+				features['par1']=0
+				features['tox1']=0
+				features['brn1']=0
+				if p1['status'] = 'par':
+					features['par1']=1
+				if p1['status'] = 'tox':
+					features['tox1']=1
+				if p1['status'] = 'brn':
+					features['brn1']=1
+			else:
+				Q = 0
+				features = self.calculateExpectedNextFeatures(active_index, current_features, action['name'], my_team, opponent_team[opponent_active_index])
+			for i in range(len(self.weights)):
+				Q += self.weights[i]*features[labels[i]]
+			Qvals.append(Q)
+		return Qvals
 
-	def commitActionRealTime(self, action):
-		#TODO: Impliment
-		return
+	def chooseAction(self,possible_actions, Qvalues):
+		for i in range(len(Qvalues)):
+			Qvalues[i]= math.exp(Qvalues[i])
+		Qsum = numpy.sum(Qvalues)
+		for i in range(len(Qvalues)):
+			Qvalues[i]= Qvalues[i]/Qsum
+		return choice(possible_actions,1,Qvalues)
 
 
-def main():
-	Qlearner = QLearningAgent()
-	Qlearner.runTrainingData()
 
-main()
+
 
 
 
