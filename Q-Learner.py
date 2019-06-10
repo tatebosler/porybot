@@ -6,6 +6,7 @@
 import AIfinallogreader
 from pokedex import Pokedex
 import math
+from numpy.random import choice
 
 class QLearningAgent:
 	"""
@@ -84,7 +85,7 @@ class QLearningAgent:
 		self.Vvals = {}
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
 		self.weights = []
-		for i in range(16): #change back to 14
+		for i in range(12): #change back to 14
 			self.weights.append(0)
 		self.gamma = 1.0
 		self.seen = 0
@@ -201,7 +202,8 @@ class QLearningAgent:
 		if p2_effect == "brn":
 			p2_brn = 1
 
-		return [p1_par, p1_slp, p1_tox, p1_frz, p1_brn, p2_par, p2_slp, p2_tox, p2_frz, p2_brn]
+		#return [p1_par, p1_slp, p1_tox, p1_frz, p1_brn, p2_par, p2_slp, p2_tox, p2_frz, p2_brn]
+		return [p1_par, p1_tox, p1_brn, p2_par, p2_tox, p2_brn]
 
 	def extract_hps(self,game_state):
 		p1 = game_state.getp1_in_play()
@@ -311,6 +313,7 @@ class QLearningAgent:
 					next_state = log.getLog()[i+1]
 					self.updateWeightsTraining(game_state, next_state)
 			feature_labels = ['atk1: ', "atk2:  ", "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "slp1:  ", "tox1:  ", "frz1:  ", "brn1:  ", "par2:  ", "slp2:  ", "tox2:  ", "frz2:  ", "brn2:  ", "heal 1: ", "heal 2:  "]
+			feature_labels = ['atk1: ', "atk2:  ", "unfainted 1:   ", "unfainted 2:   ", "par1:  ", "tox1:  ", "brn1:  ", "par2:  ", "tox2:  ", "brn2:  ", "heal 1: ", "heal 2:  "]
 			for i in range(len(self.weights)):
 				print feature_labels[i], self.weights[i]
 			print("alpha:  ", self.alpha)
@@ -372,6 +375,7 @@ class QLearningAgent:
 		p2_index = current_game_state.getp2_pokemon_names.index(p2)
 		p1_hp = current_game_state.getp1_hp()
 		p2_hp = current_game_state.getp2_hp()
+		#TODO: Deal with switching
 		if self.getFirstPlayer(current_game_state, move_name) == "1":
 			damage2 = self.calculateDamage(move_name, p1, p2, p2_hp)
 			expected_damage2 = damage2*Pokedex.getMove(move)['accuracy']
@@ -405,12 +409,6 @@ class QLearningAgent:
 				if current_features['psn2'] < 1:
 					next_state_features['psn2']= move['effect_prob']
 
-
-
-
-
-
-
 	def getLegalActionsRealTime(self, game_State):
 		"""
 		Give back list of legal actions in the form [[list of move names], [list of unfainted pokemon]]
@@ -427,8 +425,29 @@ class QLearningAgent:
 		#calculate probability that current opponent has move strong against you --> this x 
 
 
-	def getQValueRealTime(self, game_state):
+	def getQValueRealTime(self, game_state, action):
 		#TODO: impliment
+		return
+
+	def selectActionRealTime(self, game_state):
+		'''
+		Uses softmax to choose action
+		'''
+		acts = []
+		acts_Q = []
+		sum_act_Q = 0
+		for act in self.getLegalActionsRealTime(game_state):
+			acts.append(act)
+			Q = self.getQValueRealTime(game_state, act)
+			act_Q.append[math.exp(Q)]
+			sum_act_Q += math.exp(Q)
+		for i in len(acts):
+			acts_Q[i] = acts_Q[i]/sum_act_Q
+		chosen_action = random.choice(acts, 1, acts_Q)
+		return chosen_action
+
+	def commitActionRealTime(self, action):
+		#TODO: Impliment
 		return
 
 
