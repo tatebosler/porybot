@@ -230,7 +230,7 @@ class Pokedex:
 				'type_id': move[9],
 				'power': move[10],
 				'pp': move[11],
-				'accuracy': move[12]
+				'accuracy': move[12] / 100.0
 			} for move in cursor.fetchall()]
 		else:
 			speciesData = cls.get(species)
@@ -250,7 +250,7 @@ class Pokedex:
 			'type': cls.types[moveData[3]],
 			'power': moveData[4],
 			'pp': moveData[5],
-			'accuracy': moveData[6],
+			'accuracy': (moveData[6] / 100.0 if moveData[6] is not None else 1.0),
 			'priority': moveData[7],
 			'effect_id': moveData[10],
 			'effect_prob': moveData[11]
