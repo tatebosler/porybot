@@ -10,7 +10,6 @@ import sys
 
 my_team = Pokedex.randomTeam()
 opponent_team = Pokedex.randomTeam()
-continue_battle = True
 second_player_can_move = True
 interactive = False
 active_index = -1
@@ -21,6 +20,8 @@ Q_agent = None
 def main():
 	global interactive
 	global Q_agent
+	global my_team
+	global opponent_team
 	
 	print "Importing log data and weights..."
 	print "This might take a moment. Thanks for your patience."
@@ -30,38 +31,63 @@ def main():
 	Q_agent = QLearner.QlearningAgentOnline(weights)
 	print "All finished!"
 	
+	p1wins = 0
+	p2wins = 0
+	games = 1
+	for arg in sys.argv:
+		if "--num-games=" in arg:
+			gameSplit = arg.split("=")
+			games = int(gameSplit[1])
+	
 	if "--interactive" in sys.argv:
 		interactive = True
-	for pokemon in my_team:
-		pokemon['current_hp'] = pokemon['hp']
-		pokemon['known_moves'] = []
-		pokemon['seen'] = False
-		pokemon['status'] = 'None'
-	for pokemon in opponent_team:
-		pokemon['current_hp'] = pokemon['hp']
-		pokemon['known_moves'] = []
-		pokemon['seen'] = False
-		pokemon['status'] = 'None'
-	if interactive:
-		print "A random team has been generated for you. Please choose your first Pokémon:"
-	switchIn()
-	opponentRandomSwitch()
-	while continue_battle:
-		my_choice = startTurn()
-		opponent_choice = makeOpponentChoice()
-		action_order = calculateSpeed(my_choice, opponent_choice)
-		will_act_self = calculateAndSampleAction(my_choice, my_team[active_index]['status'])
-		will_act_opponent = calculateAndSampleAction(opponent_choice, opponent_team[opponent_active_index]['status'])
-		
-		second_player_can_move = True
-		act(action_order, will_act_self, my_choice, will_act_opponent, opponent_choice)
-		
-		your_team_hp = [pokemon['current_hp'] for pokemon in my_team]
-		opponent_team_hp = [pokemon['current_hp'] for pokemon in opponent_team]
-		if numpy.sum(your_team_hp) == 0 or numpy.sum(opponent_team_hp) == 0:
-			break
+	
+	for i in range(games):
+		for pokemon in my_team:
+			pokemon['current_hp'] = pokemon['hp']
+			pokemon['known_moves'] = []
+			pokemon['seen'] = False
+			pokemon['status'] = 'None'
+		for pokemon in opponent_team:
+			pokemon['current_hp'] = pokemon['hp']
+			pokemon['known_moves'] = []
+			pokemon['seen'] = False
+			pokemon['status'] = 'None'
+		if interactive:
+			print "A random team has been generated for you. Please choose your first Pokémon:"
+		switchIn()
+		opponentRandomSwitch()
+		while True:
+			my_choice = startTurn()
+			opponent_choice = makeOpponentChoice()
+			action_order = calculateSpeed(my_choice, opponent_choice)
+			will_act_self = calculateAndSampleAction(my_choice, my_team[active_index]['status'])
+			will_act_opponent = calculateAndSampleAction(opponent_choice, opponent_team[opponent_active_index]['status'])
+			
+			second_player_can_move = True
+			act(action_order, will_act_self, my_choice, will_act_opponent, opponent_choice)
+			
+			your_team_hp = [pokemon['current_hp'] for pokemon in my_team]
+			opponent_team_hp = [pokemon['current_hp'] for pokemon in opponent_team]
+			
+			print ""
+			if numpy.sum(your_team_hp) <= 0 or numpy.sum(opponent_team_hp) <= 0:
+				if numpy.sum(your_team_hp) <= 0:
+					print "PLAYER 2 WINS"
+					p2wins += 1
+				if numpy.sum(opponent_team_hp) <= 0:
+					print "PLAYER 1 WINS"
+					p1wins += 1
+				break
+	
+	print "Player 1 wins: {}/{}".format(p1wins, games)
 		
 def act(action_order, will_act_self, my_choice, will_act_opponent, opponent_choice):
+	global second_player_can_move
+	
+	if action_order is None:
+		action_order = random.shuffle([1, 2])
+	
 	if action_order[0] == 1:
 		act_self(will_act_self, my_choice)
 		if second_player_can_move:
@@ -76,7 +102,7 @@ def act_self(will_act_self, my_choice):
 	global active_index
 	
 	if will_act_self:
-		if "Switch to" in my_choice:
+		if "Switch to" in my_choice['name']:
 			switchIn(my_choice['index'])
 		else:
 			print "You used", my_choice['name']
@@ -86,6 +112,7 @@ def act_self(will_act_self, my_choice):
 				opponent_team[opponent_active_index]['current_hp'] -= move_damage
 				print "New opponent HP: {}/{}".format(opponent_team[opponent_active_index]['current_hp'], opponent_team[opponent_active_index]['hp'])
 				if opponent_team[opponent_active_index]['current_hp'] <= 0:
+					opponent_team[opponent_active_index]['current_hp'] = 0
 					second_player_can_move = False
 					opponent_active_index = -1
 					opponentRandomSwitch()
@@ -99,7 +126,7 @@ def act_opponent(will_act_opponent, opponent_choice):
 	global active_index
 	
 	if will_act_opponent:
-		if "Switch to" in opponent_choice:
+		if "Switch to" in opponent_choice['name']:
 			switchIn(opponent_choice['index'])
 		else:
 			print "Your opponent used", opponent_choice['name']
@@ -109,6 +136,7 @@ def act_opponent(will_act_opponent, opponent_choice):
 				my_team[active_index]['current_hp'] -= move_damage
 				print "Your new HP: {}/{}".format(my_team[active_index]['current_hp'], my_team[active_index]['hp'])
 				if my_team[active_index]['current_hp'] <= 0:
+					my_team[active_index]['current_hp'] = 0
 					second_player_can_move = False
 					active_index = -1
 					switchIn()
@@ -127,8 +155,6 @@ def damage(power, moveType, defType, atkType, attack, defense):
 	return math.floor(((42 * power * ratio) / 50.0 + 2) * stab * effectiveness)
 
 def calculateAndSampleAction(action, status):
-	if isinstance(action, list):
-		action = action[0]
 	actionModifier = 0.75 if status in ["PAR", "CONFUSED"] else 1.0
 	power = 0 if ("power" not in action.keys() or action['power'] is None) else action['power']
 	if "Switch to" in action['name']:
@@ -137,10 +163,11 @@ def calculateAndSampleAction(action, status):
 		return False
 	elif power == 0 and action['effect_id'] in Pokedex.effects.keys():
 		effects = Pokedex.effects[action['effect_id']]
+		effProb = 0 if action['effect_prob'] is None else action['effect_prob']
 		if "stat_self_increase" in effects or "heal" in effects:
 			return sampleActionWithProbability(1.0 * actionModifier)
 		else:
-			return sampleActionWithProbability(action['effect_prob'] * actionModifier)
+			return sampleActionWithProbability(effProb * actionModifier)
 	else:
 		return sampleActionWithProbability(action['accuracy'] * actionModifier)
 
@@ -172,15 +199,21 @@ def makeOpponentChoice():
 	global active_index
 	global opponent_team
 	global opponent_active_index
-		
-	active_pokemon = opponent_team[opponent_active_index]
-	actions = active_pokemon['moves'][:]
-	for i, pokemon in enumerate(opponent_team):
-		if pokemon['current_hp'] > 0 and i != opponent_active_index:
-			actions.append({'name': 'Switch to '+pokemon['name'], 'index': i})
 	
-	Qvals = Q_agent.returnQValues(actions, opponent_team, opponent_active_index, my_team, active_index)
-	return Q_agent.chooseAction(actions, Qvals)
+	if "--random" in sys.argv:
+		return random.choice(opponent_team[opponent_active_index]['moves'])
+	else:
+		active_pokemon = opponent_team[opponent_active_index]
+		actions = active_pokemon['moves'][:]
+		for i, pokemon in enumerate(opponent_team):
+			if pokemon['current_hp'] > 0 and i != opponent_active_index:
+				actions.append({'name': 'Switch to '+pokemon['name'], 'index': i})
+		
+		Qvals = Q_agent.returnQValues(actions, opponent_team, opponent_active_index, my_team, active_index)
+		action = Q_agent.chooseAction(actions, Qvals)
+		if isinstance(action, numpy.ndarray):
+			action = list(action)[0]
+		return action
 
 def startTurn():
 	global Q_agent
@@ -199,7 +232,10 @@ def startTurn():
 		return actions[makeSelection([action['name'] for action in actions])]
 	else:
 		Qvals = Q_agent.returnQValues(actions, my_team, active_index, opponent_team, opponent_active_index)
-		return Q_agent.chooseAction(actions, Qvals)
+		action = Q_agent.chooseAction(actions, Qvals)
+		if isinstance(action, numpy.ndarray):
+			action = list(action)[0]
+		return action
 
 def opponentRandomSwitch():
 	global opponent_active_index
@@ -208,6 +244,10 @@ def opponentRandomSwitch():
 		print "Your opponent withdrew {}.".format(opponent_team[opponent_active_index]['name'])
 	
 	legalSwitch = False
+	myTeamHP = [pokemon['current_hp'] for pokemon in opponent_team]
+	if numpy.sum(myTeamHP) <= 0:
+		opponent_active_index = -1
+		return
 	while not legalSwitch:
 		opponent_active_index = random.randint(0, 5)
 		legalSwitch = opponent_team[opponent_active_index]['current_hp'] > 0
@@ -229,6 +269,10 @@ def switchIn(index = None):
 	else:
 		if index is None:
 			legalSwitch = False
+			myTeamHP = [pokemon['current_hp'] for pokemon in my_team]
+			if numpy.sum(myTeamHP) <= 0:
+				active_index = -1
+				return
 			while not legalSwitch:
 				index = random.randint(0, 5)
 				legalSwitch = my_team[index]['current_hp'] > 0

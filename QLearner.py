@@ -289,7 +289,7 @@ class QLearningAgent:
 			for i in range(len(self.weights)):
 				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
 	def runTrainingData(self):
-		logs = AIfinallogreader.test()
+		logs = AIfinallogreader.main()
 		for log in logs:
 			#Run through each game, learn weights
 			for i in range(len(log.getLog())):
@@ -420,7 +420,6 @@ class QlearningAgentOnline:
 			while not move_added:
 				i = random.choice(range(len(poss_moves2)))
 				if i not in opponent_pokemon['known_moves']:
-					print poss_moves2[i]
 					atk2 += poss_moves2[i]['accuracy'] * self.calculateDamage(poss_moves2[i]['name'], my_team[active_index]['name'], opponent_pokemon['name'], opponent_pokemon['current_hp']) / 4
 					avg_accuracy += poss_moves2[i]['accuracy']/4
 					move_added = True
@@ -436,7 +435,6 @@ class QlearningAgentOnline:
 		next_state_features['par1'] = current_features['par1']
 		next_state_features['tox1'] = current_features['tox1']
 		next_state_features['brn1'] = current_features['brn1']
-		print(next_state_features)
 		return next_state_features
 		
 

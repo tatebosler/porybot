@@ -7,8 +7,12 @@ Dependencies: sqlite3, itertools, numpy, math, random, sys, os
 To execute the program and simulate a battle against itself:
 - python porybot.py
 
-To execute the program in interactive mode (allows you to play against it):
-- python porybot.py --interactive
+OPTIONS:
+- --interactive: Allows human control of the first player.
+                 (Otherwise, the first player will play using the Q-learned weights.)
+- --num-games=N: How many games should be played.
+- --random:      Causes the second player to randomly choose moves each turn and never switch.
+                 (Otherwise, the second player will play using the Q-learned weights.)
 
 Files worth reading:
 - porybot.py
