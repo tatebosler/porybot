@@ -15,16 +15,26 @@ interactive = False
 active_index = -1
 opponent_active_index = -1
 separator = ', '
+Q_agent = None
 
 def main():
+	global interactive
+	global Q_agent
+	
+	print "Importing log data and weights..."
+	print "This might take a moment. Thanks for your patience."
+	Q_learning_agent = QLearner.QLearningAgent()
 	Q_learning_agent.runTrainingData()
 	weights = Q_learning_agent.returnWeights()
-	self.Q_agent = QLearner.QlearningAgentOnline(weights)
-	global interactive
+	Q_agent = QLearner.QlearningAgentOnline(weights)
+	print "All finished!"
+	
 	if "--interactive" in sys.argv:
 		interactive = True
 	for pokemon in my_team:
 		pokemon['current_hp'] = pokemon['hp']
+		pokemon['known_moves'] = []
+		pokemon['seen'] = False
 		pokemon['status'] = None
 	for pokemon in opponent_team:
 		pokemon['current_hp'] = pokemon['hp']
@@ -149,12 +159,28 @@ def calculateSpeed(my_choice, opponent_choice):
 		return random.shuffle([1, 2])
 
 def makeOpponentChoice():
-	# For now - randomly chooses an attack move, even if it's inefficient.
-	return random.choice(opponent_team[opponent_active_index]['moves'])
-	Qvals = self.Q_agent.returnQValues()
-	return self.Q_agent.chooseAction()
+	global Q_agent
+	global my_team
+	global active_index
+	global opponent_team
+	global opponent_active_index
+		
+	active_pokemon = opponent_team[opponent_active_index]
+	actions = active_pokemon['moves'][:]
+	for i, pokemon in enumerate(opponent_team):
+		if pokemon['current_hp'] > 0 and i != opponent_active_index:
+			actions.append({'name': 'Switch to '+pokemon['name'], 'index': i})
+	
+	Qvals = Q_agent.returnQValues(actions, opponent_team, opponent_active_index, my_team, active_index)
+	return Q_agent.chooseAction(actions, Qvals)
 
 def startTurn():
+	global Q_agent
+	global my_team
+	global active_index
+	global opponent_team
+	global opponent_active_index
+	
 	active_pokemon = my_team[active_index]
 	print "What will {} do?".format(active_pokemon['name'])
 	actions = active_pokemon['moves'][:]
@@ -164,7 +190,8 @@ def startTurn():
 	if interactive:
 		return actions[makeSelection([action['name'] for action in actions])]
 	else:
-		pass
+		Qvals = Q_agent.returnQValues(actions, my_team, active_index, opponent_team, opponent_active_index)
+		return Q_agent.chooseAction(actions, Qvals)
 
 def opponentRandomSwitch():
 	global opponent_active_index
