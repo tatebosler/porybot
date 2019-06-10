@@ -128,11 +128,12 @@ def damage(power, moveType, defType, atkType, attack, defense):
 
 def calculateAndSampleAction(action, status):
 	actionModifier = 0.75 if status in ["PAR", "CONFUSED"] else 1.0
+	power = 0 if action['power'] is None else action['power']
 	if "Switch to" in action:
 		return True
 	elif status in ["FRZ", "SLP"]:
 		return False
-	elif action['power'] == 0 and action['effect_id'] in Pokedex.effects.keys():
+	elif power == 0 and action['effect_id'] in Pokedex.effects.keys():
 		effects = Pokedex.effects[action['effect_id']]
 		if "stat_self_increase" in effects or "heal" in effects:
 			return sampleActionWithProbability(1.0 * actionModifier)
