@@ -1,0 +1,224 @@
+|j|☆B-Rubbit
+|j|☆Marfex
+|player|p1|B-Rubbit|190
+|player|p2|Marfex|104
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Golem|Golem|363/363
+|switch|p2a: Hitmonlee|Hitmonlee|303/303
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by B-Rubbit)
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283/283
+|move|p2a: Hitmonlee|Jump Kick|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|219/283
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|move|p1a: Mr. Mime|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|-damage|p2a: Slowbro|369/393 tox|[from] psn
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Slowbro
+|-crit|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|switch|p2a: Golem|Golem|363/363
+|turn|5
+|
+|move|p1a: Zapdos|Toxic|p2a: Golem
+|-status|p2a: Golem|tox
+|move|p2a: Golem|Substitute|p2a: Golem
+|-start|p2a: Golem|Substitute
+|-damage|p2a: Golem|273/363 tox
+|-damage|p2a: Golem|251/363 tox|[from] psn
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Mr. Mime|Mr. Mime|219/283
+|move|p2a: Golem|Rock Slide|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|105/283
+|-damage|p2a: Golem|207/363 tox|[from] psn
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Golem|Earthquake|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Lapras|Lapras|463/463
+|turn|8
+|
+|move|p1a: Lapras|Surf|p2a: Golem
+|-supereffective|p2a: Golem
+|-end|p2a: Golem|Substitute
+|move|p2a: Golem|Rock Slide|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|246/463
+|-damage|p2a: Golem|141/363 tox|[from] psn
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Lapras|Surf|p2a: Golem
+|-crit|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Lapras|Lapras|463/463
+|turn|10
+|
+|move|p1a: Lapras|Toxic|p2a: Lapras
+|-status|p2a: Lapras|tox
+|move|p2a: Lapras|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|94/463
+|-damage|p2a: Lapras|435/463 tox|[from] psn
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Lapras|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|323/383
+|-damage|p2a: Lapras|379/463 tox|[from] psn
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|104/463 tox
+|move|p2a: Lapras|Blizzard|p1a: Zapdos|[miss]
+|-miss|p2a: Lapras
+|-damage|p2a: Lapras|20/463 tox|[from] psn
+|
+|upkeep
+|turn|13
+|j| Krzysztolf
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Chansey|Chansey|703/703
+|turn|14
+|
+|move|p1a: Zapdos|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|move|p2a: Chansey|Substitute|p2a: Chansey
+|-start|p2a: Chansey|Substitute
+|-damage|p2a: Chansey|528/703 tox
+|-damage|p2a: Chansey|485/703 tox|[from] psn
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Chansey
+|-activate|p2a: Chansey|Substitute|[damage]
+|move|p2a: Chansey|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|223/383
+|-damage|p2a: Chansey|399/703 tox|[from] psn
+|
+|upkeep
+|turn|16
+|c|☆Marfex|gg
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Chansey
+|-crit|p2a: Chansey
+|-end|p2a: Chansey|Substitute
+|move|p2a: Chansey|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|123/383
+|-damage|p2a: Chansey|270/703 tox|[from] psn
+|
+|upkeep
+|turn|17
+|c|☆Marfex|ale mnie wkurwia ten toxic xD
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|150/703 tox
+|move|p2a: Chansey|Seismic Toss|p1a: Zapdos
+|-damage|p1a: Zapdos|23/383
+|-damage|p2a: Chansey|0 fnt|[from] psn
+|faint|p2a: Chansey
+|c|☆B-Rubbit|xd
+|
+|switch|p2a: Scyther|Scyther|343/343
+|turn|18
+|
+|move|p2a: Scyther|Quick Attack|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Golem|Golem|363/363
+|turn|19
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|308/363
+|-mustrecharge|p2a: Scyther
+|move|p1a: Golem|Rock Slide|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|switch|p2a: Hitmonlee|Hitmonlee|303/303
+|turn|20
+|
+|move|p2a: Hitmonlee|Jump Kick|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|156/363
+|move|p1a: Golem|Earthquake|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|122/303
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Hitmonlee|Jump Kick|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|22
+|c|☆B-Rubbit|gg
+|
+|move|p1a: Alakazam|Psychic|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|win|B-Rubbit
+|l|☆Marfex

@@ -1,0 +1,516 @@
+|j|☆NoobWannabe
+|j|☆bellavez1
+|player|p1|NoobWannabe|290
+|player|p2|bellavez1|oak-gen1rb
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NoobWannabe)
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Starmie|Surf|p2a: Chansey
+|-damage|p2a: Chansey|603/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Surf|p2a: Chansey
+|-damage|p2a: Chansey|492/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Starmie|Surf|p2a: Chansey
+|-damage|p2a: Chansey|392/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Snorlax|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|270/393
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Chansey|Chansey|392/703 par
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Exeggutor|Exeggutor|270/393
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-fail|p1a: Snorlax
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|370/523 par
+|move|p1a: Snorlax|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|168/393
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Exeggutor|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|221/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|move|p1a: Snorlax|Ice Beam|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|101/393
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Starmie|Starmie|323/323
+|switch|p1a: Starmie|Starmie|323/323 slp
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Chansey|Chansey|703/703
+|switch|p2a: Chansey|Chansey|703/703 par
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Snorlax|Snorlax|221/523 par
+|move|p2a: Chansey|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|119/523 par
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|19/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|423/523 slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|323/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|20
+|
+|cant|p2a: Chansey|par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|412/703 par
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|398/703 par
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|600/703
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|switch|p1a: Snorlax|Snorlax|523/523 slp
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Starmie|Starmie|323/323
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Chansey|Chansey|600/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|506/703
+|-status|p1a: Chansey|frz
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Starmie|Starmie|323/323 slp
+|move|p2a: Starmie|Psychic|p1a: Starmie
+|-crit|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|223/323 slp
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Chansey|Chansey|506/703 frz
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|395/703 frz
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Starmie|Starmie|223/323 slp
+|move|p2a: Starmie|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|171/323 slp
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|32
+|
+|switch|p1a: Chansey|Chansey|395/703 frz
+|move|p2a: Starmie|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|293/703 frz
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Starmie|Starmie|171/323 slp
+|move|p2a: Starmie|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|116/323 slp
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|34
+|c|☆NoobWannabe|Jesus
+|c|☆NoobWannabe|those special falls
+|
+|switch|p1a: Snorlax|Snorlax|523/523 slp
+|move|p2a: Starmie|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|375/523 slp
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Starmie|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|245/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Starmie|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|99/523
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|206/323
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|move|p2a: Starmie|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|319/523 slp
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Starmie|Starmie|116/323 slp
+|move|p2a: Starmie|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|66/323 slp
+|
+|upkeep
+|turn|39
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Starmie|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|15/323 slp
+|-unboost|p1a: Starmie|spd|1
+|-unboost|p1a: Starmie|spa|1
+|
+|upkeep
+|turn|40
+|
+|-curestatus|p1a: Starmie|slp|[msg]
+|move|p2a: Starmie|Psychic|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|41
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|42
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|388/523
+|move|p2a: Snorlax|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|234/353
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|249/523
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Tauros|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|150/523
+|-status|p2a: Snorlax|frz
+|cant|p2a: Snorlax|frz
+|
+|upkeep
+|turn|45
+|c|☆bellavez1|fair
+|
+|switch|p2a: Gengar|Gengar|323/323
+|move|p1a: Tauros|Body Slam|p2a: Gengar
+|-immune|p2a: Gengar
+|
+|upkeep
+|turn|46
+|
+|switch|p1a: Snorlax|Snorlax|319/523 slp
+|move|p2a: Gengar|Hypnosis|p1a: Snorlax|[miss]
+|-miss|p2a: Gengar
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|202/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|49
+|inactive|NoobWannabe has 120 seconds left.
+|
+|switch|p1a: Victreebel|Victreebel|363/363
+|move|p2a: Gengar|Thunderbolt|p1a: Victreebel
+|-resisted|p1a: Victreebel
+|-damage|p1a: Victreebel|319/363
+|
+|upkeep
+|turn|50
+|inactive|NoobWannabe has 120 seconds left.
+|
+|move|p2a: Gengar|Hypnosis|p1a: Victreebel|[miss]
+|-miss|p2a: Gengar
+|move|p1a: Victreebel|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|51
+|inactive|NoobWannabe has 120 seconds left.
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|cant|p2a: Gengar|slp
+|
+|upkeep
+|turn|52
+|
+|switch|p2a: Exeggutor|Exeggutor|101/393
+|move|p1a: Rhydon|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|26/393
+|
+|upkeep
+|turn|53
+|
+|switch|p1a: Chansey|Chansey|293/703 frz
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|54
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|55
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|181/703 frz
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|57/703 frz
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|57
+|inactive|NoobWannabe has 120 seconds left.
+|
+|switch|p2a: Tauros|Tauros|353/353
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|58
+|inactive|bellavez1 has 120 seconds left.
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|59
+|c|☆NoobWannabe|mistake
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|60
+|
+|cant|p1a: Chansey|frz
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|61
+|
+|cant|p1a: Chansey|frz
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Victreebel|Victreebel|319/363
+|turn|62
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey|[miss]
+|-miss|p1a: Victreebel
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|63
+|
+|move|p1a: Victreebel|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|669/703 par
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|64
+|c|☆bellavez1|don't have all the afternoon sry
+|c|☆bellavez1|gg
+|-message|bellavez1 forfeited.
+|
+|win|NoobWannabe
+|l|☆bellavez1
+|raw|NoobWannabe's rating: 1443 &rarr; <strong>1463</strong><br />(+20 for winning)
+|raw|bellavez1's rating: 1450 &rarr; <strong>1429</strong><br />(-21 for losing)

@@ -1,0 +1,397 @@
+|j|☆Pheooo
+|j|☆jeanne uwu
+|player|p1|Pheooo|144
+|player|p2|jeanne uwu|133
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Moon River|Starmie|323/323
+|turn|1
+|c|☆jeanne uwu|hf
+|c|☆Pheooo|hf
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Moon River
+|-status|p2a: Moon River|par
+|cant|p2a: Moon River|par
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jeanne uwu)
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Moon River|Thunder Wave|p1a: Starmie
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|3
+|j| JjC52701
+|l| JjC52701
+|
+|cant|p2a: Moon River|par
+|move|p1a: Starmie|Thunderbolt|p2a: Moon River
+|-crit|p2a: Moon River
+|-supereffective|p2a: Moon River
+|-damage|p2a: Moon River|27/323 par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Riders of the Ligh|Chansey|703/703
+|move|p1a: Starmie|Thunderbolt|p2a: Riders of the Ligh
+|-damage|p2a: Riders of the Ligh|634/703
+|-status|p2a: Riders of the Ligh|par
+|
+|upkeep
+|turn|5
+|j| Kaylesse
+|c|☆jeanne uwu|rire
+|c| Kaylesse|Go mon bro
+|c|☆Pheooo|gros tier
+|c|☆Pheooo|thx
+|
+|switch|p1a: Chansey|Chansey|703/703
+|cant|p2a: Riders of the Ligh|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Riders of the Ligh
+|-damage|p2a: Riders of the Ligh|534/703 par
+|move|p2a: Riders of the Ligh|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Riders of the Ligh|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Tomorrow is Mine|Snorlax|523/523
+|move|p1a: Snorlax|Body Slam|p2a: Tomorrow is Mine
+|-damage|p2a: Tomorrow is Mine|396/523
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Tomorrow is Mine|Reflect|p2a: Tomorrow is Mine
+|-start|p2a: Tomorrow is Mine|Reflect
+|move|p1a: Snorlax|Body Slam|p2a: Tomorrow is Mine
+|-damage|p2a: Tomorrow is Mine|326/523
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Tomorrow is Mine|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|389/523 par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|move|p2a: Tomorrow is Mine|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|110/703 par
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Snorlax|Snorlax|389/523 par
+|move|p2a: Tomorrow is Mine|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|246/523 par
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Tomorrow is Mine|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|109/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Tomorrow is Mine
+|-damage|p2a: Tomorrow is Mine|97/523
+|faint|p1a: Snorlax
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|14
+|
+|switch|p2a: Riders of the Ligh|Chansey|534/703 par
+|move|p1a: Alakazam|Psychic|p2a: Riders of the Ligh
+|-damage|p2a: Riders of the Ligh|405/703 par
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Chansey|Chansey|110/703 par
+|move|p2a: Riders of the Ligh|Soft-Boiled|p2a: Riders of the Ligh
+|-heal|p2a: Riders of the Ligh|703/703 par
+|
+|upkeep
+|turn|16
+|j| koalacance
+|
+|switch|p2a: Tomorrow is Mine|Snorlax|97/523
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|461/703 par
+|
+|upkeep
+|turn|17
+|c| koalacance|get lucky
+|
+|move|p2a: Tomorrow is Mine|Rest|p2a: Tomorrow is Mine
+|-status|p2a: Tomorrow is Mine|slp|[from] move: Rest
+|-heal|p2a: Tomorrow is Mine|523/523 slp|[silent]
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Tauros|Tauros|353/353
+|cant|p2a: Tomorrow is Mine|slp
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Tauros|Body Slam|p2a: Tomorrow is Mine
+|-crit|p2a: Tomorrow is Mine
+|-damage|p2a: Tomorrow is Mine|267/523 slp
+|-curestatus|p2a: Tomorrow is Mine|slp|[msg]
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tomorrow is Mine
+|-damage|p2a: Tomorrow is Mine|51/523
+|-mustrecharge|p1a: Tauros
+|move|p2a: Tomorrow is Mine|Reflect|p2a: Tomorrow is Mine
+|-start|p2a: Tomorrow is Mine|Reflect
+|
+|upkeep
+|turn|21
+|c|☆Pheooo|rofl
+|c|☆Pheooo|je fais n'imp
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Tomorrow is Mine|Rest|p2a: Tomorrow is Mine
+|-status|p2a: Tomorrow is Mine|slp|[from] move: Rest
+|-heal|p2a: Tomorrow is Mine|523/523 slp|[silent]
+|
+|upkeep
+|turn|22
+|inactive|Pheooo has 270 seconds left.
+|
+|move|p1a: Tauros|Body Slam|p2a: Tomorrow is Mine
+|-damage|p2a: Tomorrow is Mine|455/523 slp
+|cant|p2a: Tomorrow is Mine|slp
+|
+|upkeep
+|turn|23
+|c| koalacance|gros , pourquoi tu joues bien que vs moi
+|c|☆Pheooo|nan mais la je peux ff
+|c|☆Pheooo|je passe pas
+|c| koalacance|:messi:
+|
+|move|p1a: Tauros|Body Slam|p2a: Tomorrow is Mine
+|-crit|p2a: Tomorrow is Mine
+|-damage|p2a: Tomorrow is Mine|203/523 slp
+|-curestatus|p2a: Tomorrow is Mine|slp|[msg]
+|
+|upkeep
+|turn|24
+|c|☆jeanne uwu|comme ça oui tu passe
+|c| koalacance|OH
+|c|☆jeanne uwu|^^'
+|c| koalacance|double crit
+|
+|move|p1a: Tauros|Body Slam|p2a: Tomorrow is Mine
+|-crit|p2a: Tomorrow is Mine
+|-damage|p2a: Tomorrow is Mine|0 fnt
+|faint|p2a: Tomorrow is Mine
+|c| koalacance|GGOOGOGOGOGOG
+|c| koalacance|ouiiiiiii
+|c|☆jeanne uwu|mdr
+|c| koalacance|AHAHAHAHA
+|c|☆jeanne uwu|gros tier
+|c|☆Pheooo|pire tier
+|
+|switch|p2a: Mysterious Destiny|Exeggutor|393/393
+|turn|25
+|c|☆Pheooo|pourquoi vous vouliez pas reroll
+|c| koalacance|on voulait reroll putain
+|c|☆jeanne uwu|jvoulais tho
+|c|☆jeanne uwu|xd
+|c|☆jeanne uwu|c les TD qui voulaient pas
+|
+|switch|p1a: Chansey|Chansey|461/703 par
+|move|p2a: Mysterious Destiny|Sleep Powder|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|26
+|c| koalacance|fallais que jarrive pour que pheo est de la luck
+|c|☆jeanne uwu|il en a eu avant que tu arrive tkt
+|inactive|Pheooo has 240 seconds left.
+|inactive|jeanne uwu has 270 seconds left.
+|c|☆Pheooo|max voulait pas
+|
+|switch|p2a: Moon River|Starmie|27/323 par
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|
+|upkeep
+|turn|27
+|inactive|jeanne uwu has 270 seconds left.
+|
+|switch|p2a: Riders of the Ligh|Chansey|703/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Riders of the Ligh
+|-damage|p2a: Riders of the Ligh|592/703 par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Exeggutor|Psychic|p2a: Riders of the Ligh
+|-damage|p2a: Riders of the Ligh|477/703 par
+|move|p2a: Riders of the Ligh|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|262/393
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Exeggutor|Explosion|p2a: Riders of the Ligh
+|-damage|p2a: Riders of the Ligh|0 fnt
+|faint|p2a: Riders of the Ligh
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353
+|switch|p2a: Mysterious Destiny|Exeggutor|393/393
+|turn|30
+|
+|switch|p1a: Chansey|Chansey|461/703 par
+|move|p2a: Mysterious Destiny|Stun Spore|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Mysterious Destiny|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|345/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|696/703 par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Mysterious Destiny|Psychic|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|476/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Mysterious Destiny
+|-damage|p2a: Mysterious Destiny|293/393
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Moon River|Starmie|27/323 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Moon River|Recover|p2a: Moon River
+|-heal|p2a: Moon River|188/323 par
+|
+|upkeep
+|turn|35
+|inactive|Pheooo has 270 seconds left.
+|
+|switch|p2a: Let's Dance Boys!|Rhydon|413/413
+|move|p1a: Tauros|Body Slam|p2a: Let's Dance Boys!
+|-resisted|p2a: Let's Dance Boys!
+|-damage|p2a: Let's Dance Boys!|371/413
+|-status|p2a: Let's Dance Boys!|par
+|
+|upkeep
+|turn|36
+|c|☆jeanne uwu|ofc
+|inactive|Pheooo has 270 seconds left.
+|
+|move|p1a: Tauros|Blizzard|p2a: Let's Dance Boys!|[miss]
+|-miss|p1a: Tauros
+|cant|p2a: Let's Dance Boys!|par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Tauros|Blizzard|p2a: Let's Dance Boys!
+|-supereffective|p2a: Let's Dance Boys!
+|-damage|p2a: Let's Dance Boys!|151/413 par
+|move|p2a: Let's Dance Boys!|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|208/353
+|
+|upkeep
+|turn|38
+|c|☆Pheooo|gros tour
+|
+|move|p1a: Tauros|Blizzard|p2a: Let's Dance Boys!
+|-crit|p2a: Let's Dance Boys!
+|-supereffective|p2a: Let's Dance Boys!
+|-damage|p2a: Let's Dance Boys!|0 fnt
+|faint|p2a: Let's Dance Boys!
+|
+|switch|p2a: Mysterious Destiny|Exeggutor|293/393
+|turn|39
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|move|p2a: Mysterious Destiny|Sleep Powder|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Mysterious Destiny|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|578/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Mysterious Destiny
+|-damage|p2a: Mysterious Destiny|193/393
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Mysterious Destiny|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Mysterious Destiny
+|
+|switch|p2a: Time for the Clima|Tauros|353/353
+|switch|p1a: Tauros|Tauros|208/353
+|turn|42
+|
+|move|p2a: Time for the Clima|Body Slam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|14/353
+|move|p1a: Tauros|Body Slam|p2a: Time for the Clima
+|-crit|p2a: Time for the Clima
+|-damage|p2a: Time for the Clima|162/353
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Time for the Clima
+|-damage|p2a: Time for the Clima|0 fnt
+|faint|p2a: Time for the Clima
+|c|☆jeanne uwu|ouais allé
+|-message|jeanne uwu forfeited.
+|
+|win|Pheooo

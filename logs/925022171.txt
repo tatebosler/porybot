@@ -1,0 +1,298 @@
+|j|☆NoobWannabe
+|j|☆IceKingofOoo
+|player|p1|NoobWannabe|290
+|player|p2|IceKingofOoo|214
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Gengar|Gengar|323/323
+|turn|1
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|move|p2a: Gengar|Hypnosis|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Hypnosis
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Chansey|Chansey|703/703
+|switch|p2a: Cloyster|Cloyster|303/303
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IceKingofOoo)
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|667/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Starmie|Starmie|323/323 slp
+|move|p2a: Cloyster|Clamp|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|305/323 slp
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Chansey|Chansey|667/703
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Starmie|Starmie|305/323 slp
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|288/323 slp
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|271/323 slp
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|254/323 slp
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[miss]
+|-miss|p2a: Dragonite
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[miss]
+|-miss|p2a: Dragonite
+|cant|p1a: Starmie|slp
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|237/323 slp
+|-curestatus|p1a: Starmie|slp|[msg]
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|220/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|203/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|186/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|169/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[from]Wrap
+|-damage|p1a: Starmie|152/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Starmie|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|313/323
+|cant|p2a: Dragonite|par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|233/385 par
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-damage|p1a: Starmie|295/323
+|
+|upkeep
+|turn|21
+|
+|cant|p1a: Starmie|partiallytrapped
+|cant|p2a: Dragonite|par
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|99/385 par
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Dragonite|Wrap|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|264/323
+|cant|p1a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|24
+|
+|cant|p2a: Dragonite|par
+|cant|p1a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Starmie|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|362/393
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|cant|p2a: Exeggutor|par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Starmie|Surf|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|314/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Exeggutor|Sleep Powder|p1a: Rhydon
+|-status|p1a: Rhydon|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Chansey|Chansey|667/703
+|switch|p2a: Cloyster|Cloyster|303/303
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[miss]
+|-miss|p2a: Cloyster
+|move|p1a: Chansey|Thunder Wave|p2a: Cloyster
+|-status|p2a: Cloyster|par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[miss]
+|-miss|p2a: Cloyster
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Cloyster
+|-damage|p2a: Cloyster|203/303 par
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|633/703
+|
+|upkeep
+|turn|33
+|
+|cant|p1a: Chansey|partiallytrapped
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[from]Clamp
+|-damage|p1a: Chansey|599/703
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Cloyster
+|-damage|p2a: Cloyster|103/303 par
+|move|p2a: Cloyster|Clamp|p1a: Chansey
+|-damage|p1a: Chansey|562/703
+|
+|upkeep
+|turn|35
+|
+|cant|p1a: Chansey|partiallytrapped
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[from]Clamp
+|-damage|p1a: Chansey|525/703
+|
+|upkeep
+|turn|36
+|
+|cant|p1a: Chansey|partiallytrapped
+|move|p2a: Cloyster|Clamp|p1a: Chansey|[from]Clamp
+|-damage|p1a: Chansey|488/703
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: Cloyster|par
+|
+|upkeep
+|turn|38
+|c|☆IceKingofOoo|gg wp
+|-message|IceKingofOoo forfeited.
+|
+|win|NoobWannabe
+|l|☆IceKingofOoo
+|raw|NoobWannabe's rating: 1415 &rarr; <strong>1434</strong><br />(+19 for winning)
+|raw|IceKingofOoo's rating: 1405 &rarr; <strong>1386</strong><br />(-19 for losing)

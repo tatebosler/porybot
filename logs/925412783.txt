@@ -1,0 +1,251 @@
+|j|☆amg
+|j|☆regirock
+|player|p1|amg|zinnia
+|player|p2|regirock|teamaquagruntf-gen3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Haunter|
+|poke|p1|Graveler|
+|poke|p1|Kadabra|
+|poke|p1|Abra|
+|poke|p1|Exeggcute|
+|poke|p1|Dragonair|
+|poke|p2|Charmeleon|
+|poke|p2|Kadabra|
+|poke|p2|Dragonair|
+|poke|p2|Graveler|
+|poke|p2|Machoke|
+|poke|p2|Haunter|
+|teampreview
+|c|☆regirock|hf
+|c|☆amg|u2
+|
+|start
+|switch|p1a: Kadabra|Kadabra|283/283
+|switch|p2a: Graveler|Graveler|313/313
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by amg)
+|
+|move|p1a: Kadabra|Psychic|p2a: Graveler
+|-damage|p2a: Graveler|110/313
+|move|p2a: Graveler|Earthquake|p1a: Kadabra
+|-damage|p1a: Kadabra|60/283
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Kadabra|Kadabra|283/283
+|move|p1a: Kadabra|Psychic|p2a: Kadabra
+|-resisted|p2a: Kadabra
+|-damage|p2a: Kadabra|227/283
+|-unboost|p2a: Kadabra|spd|1
+|-unboost|p2a: Kadabra|spa|1
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Exeggcute|Exeggcute|323/323
+|move|p2a: Kadabra|Seismic Toss|p1a: Exeggcute
+|-damage|p1a: Exeggcute|223/323
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Charmeleon|Charmeleon|319/319
+|move|p1a: Exeggcute|Sleep Powder|p2a: Charmeleon
+|-status|p2a: Charmeleon|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Haunter|Haunter|293/293
+|move|p1a: Exeggcute|Psychic|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|155/293
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Kadabra|Kadabra|60/283
+|move|p2a: Haunter|Hypnosis|p1a: Kadabra|[miss]
+|-miss|p2a: Haunter
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Kadabra|Kadabra|227/283
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|201/283
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Kadabra|Thunder Wave|p1a: Kadabra
+|-status|p1a: Kadabra|par
+|move|p1a: Kadabra|Thunder Wave|p2a: Kadabra
+|-status|p2a: Kadabra|par
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Kadabra|Recover|p1a: Kadabra
+|-heal|p1a: Kadabra|283/283 par
+|move|p2a: Kadabra|Seismic Toss|p1a: Kadabra
+|-damage|p1a: Kadabra|183/283 par
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Dragonair|Dragonair|325/325
+|move|p2a: Kadabra|Seismic Toss|p1a: Dragonair
+|-damage|p1a: Dragonair|225/325
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Dragonair|Wrap|p2a: Kadabra|[miss]
+|-miss|p1a: Dragonair
+|move|p2a: Kadabra|Seismic Toss|p1a: Dragonair
+|-damage|p1a: Dragonair|125/325
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Haunter|Haunter|155/293
+|move|p1a: Dragonair|Wrap|p2a: Haunter
+|-damage|p2a: Haunter|155/293
+|
+|upkeep
+|turn|13
+|j| alpha male psyduck
+|
+|switch|p1a: Kadabra|Kadabra|183/283 par
+|cant|p2a: Haunter|partiallytrapped
+|
+|upkeep
+|turn|14
+|l| alpha male psyduck
+|
+|move|p2a: Haunter|Night Shade|p1a: Kadabra
+|-damage|p1a: Kadabra|83/283 par
+|move|p1a: Kadabra|Thunder Wave|p2a: Haunter
+|-status|p2a: Haunter|par
+|
+|upkeep
+|turn|15
+|
+|cant|p1a: Kadabra|par
+|move|p2a: Haunter|Night Shade|p1a: Kadabra
+|-damage|p1a: Kadabra|0 fnt
+|faint|p1a: Kadabra
+|
+|switch|p1a: Abra|Abra|253/253
+|turn|16
+|
+|move|p1a: Abra|Psychic|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|switch|p2a: Dragonair|Dragonair|325/325
+|turn|17
+|
+|move|p1a: Abra|Thunder Wave|p2a: Dragonair
+|-status|p2a: Dragonair|par
+|cant|p2a: Dragonair|par
+|
+|upkeep
+|turn|18
+|inactive|amg has 120 seconds left.
+|
+|move|p1a: Abra|Psychic|p2a: Dragonair
+|-damage|p2a: Dragonair|179/325 par
+|-unboost|p2a: Dragonair|spd|1
+|-unboost|p2a: Dragonair|spa|1
+|move|p2a: Dragonair|Agility|p2a: Dragonair
+|-boost|p2a: Dragonair|spe|2
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Dragonair|Ice Beam|p1a: Abra
+|-damage|p1a: Abra|216/253
+|move|p1a: Abra|Psychic|p2a: Dragonair
+|-crit|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Machoke|Machoke|363/363
+|turn|20
+|
+|move|p1a: Abra|Psychic|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|5/363
+|move|p2a: Machoke|Earthquake|p1a: Abra
+|-damage|p1a: Abra|33/253
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Abra|Psychic|p2a: Machoke
+|-supereffective|p2a: Machoke
+|-damage|p2a: Machoke|0 fnt
+|faint|p2a: Machoke
+|
+|switch|p2a: Kadabra|Kadabra|227/283 par
+|turn|22
+|
+|move|p1a: Abra|Seismic Toss|p2a: Kadabra
+|-damage|p2a: Kadabra|127/283 par
+|move|p2a: Kadabra|Seismic Toss|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|faint|p1a: Abra
+|
+|switch|p1a: Graveler|Graveler|313/313
+|turn|23
+|
+|move|p1a: Graveler|Earthquake|p2a: Kadabra
+|-damage|p2a: Kadabra|0 fnt
+|faint|p2a: Kadabra
+|
+|switch|p2a: Graveler|Graveler|110/313
+|turn|24
+|
+|move|p1a: Graveler|Earthquake|p2a: Graveler
+|-supereffective|p2a: Graveler
+|-damage|p2a: Graveler|0 fnt
+|faint|p2a: Graveler
+|
+|switch|p2a: Charmeleon|Charmeleon|319/319 slp
+|turn|25
+|c|☆amg|gg
+|
+|-curestatus|p2a: Charmeleon|slp|[msg]
+|move|p1a: Graveler|Earthquake|p2a: Charmeleon
+|-supereffective|p2a: Charmeleon
+|-damage|p2a: Charmeleon|7/319
+|
+|upkeep
+|turn|26
+|c|☆regirock|gg
+|
+|move|p2a: Charmeleon|Fire Blast|p1a: Graveler
+|-resisted|p1a: Graveler
+|-damage|p1a: Graveler|226/313
+|move|p1a: Graveler|Earthquake|p2a: Charmeleon
+|-supereffective|p2a: Charmeleon
+|-damage|p2a: Charmeleon|0 fnt
+|faint|p2a: Charmeleon
+|
+|win|amg

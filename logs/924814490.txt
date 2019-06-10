@@ -1,0 +1,478 @@
+|j|☆K1tty7
+|j|☆HU60LINK
+|player|p1|K1tty7|170
+|player|p2|HU60LINK|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HU60LINK)
+|
+|move|p1a: Starmie|Blizzard|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|82/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Starmie|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Chansey|Chansey|703/703
+|turn|3
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Tauros|Hyper Beam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|338/413
+|-mustrecharge|p1a: Tauros
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|200/353 par
+|cant|p1a: Tauros|recharge
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Rhydon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|159/323
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|617/703
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Starmie|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|521/703
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Chansey|Chansey|703/703
+|turn|9
+|
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|629/703
+|move|p1a: Chansey|Counter|p2a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|560/703
+|-status|p1a: Chansey|frz
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: Chansey|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Rhydon|Rhydon|338/413
+|move|p1a: Golem|Substitute|p1a: Golem
+|-start|p1a: Golem|Substitute
+|-damage|p1a: Golem|273/363
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Golem|Body Slam|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|309/413
+|-status|p2a: Rhydon|par
+|cant|p2a: Rhydon|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Golem|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|82/413 par
+|move|p2a: Rhydon|Earthquake|p1a: Golem
+|-crit|p1a: Golem
+|-supereffective|p1a: Golem
+|-end|p1a: Golem|Substitute
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Golem|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|16
+|
+|move|p1a: Golem|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|347/523
+|move|p2a: Snorlax|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|135/363
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Lapras|Lapras|463/463
+|move|p2a: Snorlax|Earthquake|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|274/463
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Chansey|Chansey|521/703 par
+|move|p1a: Lapras|Confuse Ray|p2a: Chansey
+|-start|p2a: Chansey|confusion
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Lapras|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|383/703 par
+|-activate|p2a: Chansey|confusion
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Lapras|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|246/703 par
+|-activate|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|597/703 par
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Lapras|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|472/703 par
+|-activate|p2a: Chansey|confusion
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|-end|p2a: Chansey|confusion
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Exeggutor|Egg Bomb|p2a: Chansey
+|-damage|p2a: Chansey|503/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Exeggutor|Sleep Powder|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Golem|Golem|135/363
+|cant|p2a: Zapdos|slp
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Snorlax|Snorlax|347/523
+|move|p1a: Golem|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|179/523
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Golem|Earthquake|p2a: Snorlax
+|-damage|p2a: Snorlax|16/523
+|move|p2a: Snorlax|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Lapras|Lapras|274/463
+|turn|28
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Chansey|Chansey|503/703 par
+|turn|29
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|430/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|252/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|84/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|435/703 par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|272/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|112/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|38/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|389/703 par
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|227/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|578/703 par
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|271/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|622/703 par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|448/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-hint|In Gen 1, recovery moves fail if (user's maximum HP - user's current HP + 1) is divisible by 256.
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|295/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|646/703 par
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Lapras|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|478/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|106/463 par
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Lapras|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|408/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|
+|upkeep
+|turn|41
+|
+|switch|p1a: Chansey|Chansey|560/703 frz
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|489/703 frz
+|
+|upkeep
+|turn|42
+|
+|switch|p2a: Zapdos|Zapdos|383/383 slp
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|43
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393 par
+|cant|p2a: Zapdos|slp
+|
+|upkeep
+|turn|44
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|593/703 par
+|
+|upkeep
+|turn|45
+|
+|cant|p1a: Exeggutor|par
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|253/393 par
+|
+|upkeep
+|turn|46
+|
+|switch|p1a: Tauros|Tauros|200/353 par
+|move|p2a: Chansey|Ice Beam|p1a: Tauros
+|-damage|p1a: Tauros|101/353 par
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: Zapdos|Zapdos|383/383 slp
+|move|p1a: Tauros|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|48
+|
+|-curestatus|p2a: Zapdos|slp|[msg]
+|move|p1a: Tauros|Body Slam|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|185/383
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Lapras|Lapras|106/463 par
+|turn|50
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Exeggutor|Exeggutor|253/393 par
+|turn|51
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|42/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Zapdos
+|-status|p2a: Zapdos|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|52
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Exeggutor|Egg Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|97/383 slp
+|
+|upkeep
+|turn|53
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Exeggutor|Egg Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|16/383 slp
+|
+|upkeep
+|turn|54
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Exeggutor|Egg Bomb|p2a: Zapdos|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|55
+|
+|cant|p2a: Zapdos|slp
+|move|p1a: Exeggutor|Egg Bomb|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|56
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Chansey|Chansey|489/703 frz
+|turn|57
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|198/703 frz
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|58
+|c|☆HU60LINK|gg
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|win|HU60LINK
+|raw|K1tty7's rating: 1040 &rarr; <strong>1033</strong><br />(-7 for losing)
+|raw|HU60LINK's rating: 1251 &rarr; <strong>1262</strong><br />(+11 for winning)
+|l|☆K1tty7

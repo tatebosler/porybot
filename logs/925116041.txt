@@ -1,0 +1,291 @@
+|j|☆Pheooo
+|j|☆Butterchoke
+|player|p1|Pheooo|red-gen1
+|player|p2|Butterchoke|202
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rhydon|Rhydon|413/413
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|1
+|c|☆Butterchoke|hf
+|c|☆Pheooo|hf
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|310/413
+|
+|upkeep
+|turn|2
+|c|☆Butterchoke|dsl j etais au chiottes
+|
+|move|p2a: Dragonite|Surf|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|move|p1a: Rhydon|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|180/385
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Vaporeon|Vaporeon|463/463
+|move|p2a: Dragonite|Surf|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|426/463
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Hypno|Hypno|373/373
+|move|p1a: Vaporeon|Ice Beam|p2a: Hypno
+|-damage|p2a: Hypno|306/373
+|-status|p2a: Hypno|frz
+|
+|upkeep
+|turn|5
+|
+|cant|p2a: Hypno|frz
+|move|p1a: Vaporeon|Surf|p2a: Hypno
+|-damage|p2a: Hypno|204/373 frz
+|
+|upkeep
+|turn|6
+|
+|cant|p2a: Hypno|frz
+|move|p1a: Vaporeon|Surf|p2a: Hypno
+|-damage|p2a: Hypno|89/373 frz
+|
+|upkeep
+|turn|7
+|
+|cant|p2a: Hypno|frz
+|move|p1a: Vaporeon|Surf|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|8
+|
+|switch|p2a: Dragonite|Dragonite|180/385
+|switch|p1a: Rhydon|Rhydon|310/413
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Vaporeon|Vaporeon|426/463
+|move|p2a: Dragonite|Surf|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|353/463
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Dragonite|Wrap|p1a: Vaporeon|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Vaporeon|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|c|☆Butterchoke|la tristesse
+|c|☆Pheooo|**bon tier**
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|11
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|switch|p1a: Rhydon|Rhydon|310/413
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Kangaskhan|Surf|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|41/413
+|move|p1a: Rhydon|Earthquake|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|243/413
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Vaporeon|Vaporeon|353/463
+|move|p2a: Kangaskhan|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|251/463
+|
+|upkeep
+|turn|14
+|j| Kaylesse
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|106/463
+|move|p1a: Vaporeon|Surf|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|35/413
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Rhydon|Rhydon|41/413
+|move|p2a: Kangaskhan|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Raichu|Raichu|323/323
+|turn|16
+|c|☆Butterchoke|ca fait deux match ou je me fais voler de suite XD
+|c|☆Pheooo|cherche pas cest le RBY
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|move|p1a: Raichu|Surf|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|211/333
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Raichu
+|-status|p1a: Raichu|par
+|move|p1a: Raichu|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Weezing|Weezing|333/333
+|cant|p1a: Raichu|par
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Vileplume|Vileplume|353/353
+|move|p2a: Weezing|Thunderbolt|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|317/353
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Weezing|Explosion|p1a: Vileplume
+|-damage|p1a: Vileplume|42/353
+|faint|p2a: Weezing
+|
+|switch|p2a: Kangaskhan|Kangaskhan|35/413
+|turn|21
+|c|☆Pheooo|ca tu vois
+|c|☆Pheooo|cest pas sympa
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Moltres|Moltres|383/383
+|turn|22
+|c|☆Butterchoke|me freeze c etait pas sympa non plus
+|
+|switch|p1a: Vaporeon|Vaporeon|106/463
+|move|p2a: Kangaskhan|Rock Slide|p1a: Vaporeon
+|-damage|p1a: Vaporeon|29/463
+|
+|upkeep
+|turn|23
+|c|☆Pheooo|cest une boutade
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Abra|Abra|253/253
+|turn|24
+|c|☆Pheooo|broken kang
+|c|☆Butterchoke|bah c un tauros en moins fort
+|
+|move|p1a: Abra|Psychic|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|switch|p2a: Jolteon|Jolteon|211/333 par
+|turn|25
+|
+|switch|p1a: Raichu|Raichu|323/323 par
+|move|p2a: Jolteon|Thunder Wave|p1a: Raichu
+|-fail|p1a: Raichu|par
+|
+|upkeep
+|turn|26
+|
+|switch|p2a: Marowak|Marowak|323/323
+|move|p1a: Raichu|Surf|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|99/323
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Marowak|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|9/323 par
+|move|p1a: Raichu|Surf|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Jolteon|Jolteon|211/333 par
+|turn|28
+|
+|move|p2a: Jolteon|Substitute|p2a: Jolteon
+|-start|p2a: Jolteon|Substitute
+|-damage|p2a: Jolteon|128/333 par
+|move|p1a: Raichu|Surf|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-end|p2a: Jolteon|Substitute
+|
+|upkeep
+|turn|29
+|c|☆Pheooo|oh le fourbe !
+|
+|move|p2a: Jolteon|Substitute|p2a: Jolteon
+|-start|p2a: Jolteon|Substitute
+|-damage|p2a: Jolteon|45/333 par
+|move|p1a: Raichu|Surf|p2a: Jolteon
+|-activate|p2a: Jolteon|Substitute|[damage]
+|
+|upkeep
+|turn|30
+|c|☆Butterchoke|lol
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Raichu
+|-crit|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Abra|Abra|253/253
+|turn|31
+|c|☆Butterchoke|je perd quand meme
+|
+|move|p1a: Abra|Psychic|p2a: Jolteon
+|-end|p2a: Jolteon|Substitute
+|cant|p2a: Jolteon|par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Abra|Psychic|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|win|Pheooo

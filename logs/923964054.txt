@@ -1,0 +1,357 @@
+|j|☆Aurada
+|j|☆EMIL_OLBERG
+|player|p1|Aurada|266
+|player|p2|EMIL_OLBERG|29
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EMIL_OLBERG)
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|cant|p1a: Alakazam|slp
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310/413
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Cloyster|Clamp|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|cant|p2a: Rhydon|partiallytrapped
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|286/323
+|
+|upkeep
+|turn|6
+|
+|cant|p2a: Starmie|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[from]Clamp
+|-damage|p2a: Starmie|249/323
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Chansey|Chansey|703/703
+|switch|p1a: Alakazam|Alakazam|313/313 slp
+|
+|upkeep
+|turn|8
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 slp
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|624/703
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Rhydon|Rhydon|310/413
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Rhydon|Rock Slide|p1a: Chansey
+|-damage|p1a: Chansey|309/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|66/413
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Rhydon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|164/323
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Chansey|Chansey|624/703
+|move|p1a: Starmie|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|541/703
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Chansey|Chansey|309/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Rhydon|Rhydon|66/413
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|207/353
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393 par
+|move|p1a: Tauros|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|271/393 par
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Exeggutor|Explosion|p1a: Cloyster|[miss]
+|-miss|p2a: Exeggutor
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Starmie|Starmie|249/323
+|turn|20
+|
+|switch|p2a: Rhydon|Rhydon|66/413
+|switch|p1a: Chansey|Chansey|309/703 par
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Tauros|Tauros|207/353
+|move|p2a: Rhydon|Earthquake|p1a: Tauros
+|-damage|p1a: Tauros|57/353
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Starmie|Starmie|249/323
+|move|p1a: Tauros|Blizzard|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|212/323
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Rhydon|Rhydon|66/413
+|switch|p1a: Alakazam|Alakazam|213/313 slp
+|
+|upkeep
+|turn|24
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Rhydon|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|3/313 slp
+|
+|upkeep
+|turn|25
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Rhydon|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Tauros|Tauros|57/353
+|turn|26
+|
+|move|p1a: Tauros|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|27
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|238/303
+|-status|p1a: Cloyster|par
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Starmie|Starmie|212/323
+|cant|p1a: Cloyster|par
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|74/303 par
+|move|p1a: Cloyster|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: Cloyster
+|
+|switch|p2a: Chansey|Chansey|541/703
+|switch|p1a: Starmie|Starmie|164/323
+|turn|30
+|
+|switch|p1a: Chansey|Chansey|309/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Tauros|Tauros|353/353
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|660/703 par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|379/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Tauros|Hyper Beam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|333/413
+|-mustrecharge|p2a: Tauros
+|
+|upkeep
+|turn|34
+|
+|cant|p2a: Tauros|recharge
+|move|p1a: Rhydon|Earthquake|p2a: Tauros
+|-damage|p2a: Tauros|205/353
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Tauros|Blizzard|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Starmie|Starmie|164/323
+|turn|36
+|
+|switch|p2a: Chansey|Chansey|541/703
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|323/323
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Chansey|Chansey|379/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|424/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|124/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Snorlax|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Starmie|Starmie|323/323
+|turn|42
+|
+|move|p1a: Starmie|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|381/523 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|faint|p2a: Snorlax
+|
+|switch|p1a: Tauros|Tauros|57/353
+|switch|p2a: Tauros|Tauros|205/353
+|turn|43
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Chansey|Chansey|541/703
+|turn|44
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|62/703
+|-mustrecharge|p1a: Tauros
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|EMIL_OLBERG
+|c|☆EMIL_OLBERG|gg

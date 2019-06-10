@@ -1,0 +1,213 @@
+|j|☆IamDexy
+|j|☆Gen1Cancer1
+|player|p1|IamDexy|2
+|player|p2|Gen1Cancer1|lance-gen1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Raticate|Raticate|313/313
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Raticate
+|-status|p1a: Raticate|par
+|move|p1a: Raticate|Super Fang|p2a: Alakazam
+|-damage|p2a: Alakazam|157/313
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|313/313
+|cant|p1a: Raticate|par
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Moltres|Moltres|383/383
+|cant|p1a: Raticate|par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Moltres|Reflect|p2a: Moltres
+|-start|p2a: Moltres|Reflect
+|move|p1a: Raticate|Super Fang|p2a: Moltres
+|-damage|p2a: Moltres|192/383
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Moltres|Fire Spin|p1a: Raticate
+|-damage|p1a: Raticate|282/313 par
+|cant|p1a: Raticate|partiallytrapped
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Moltres|Fire Spin|p1a: Raticate|[from]Fire Spin
+|-damage|p1a: Raticate|251/313 par
+|cant|p1a: Raticate|partiallytrapped
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Moltres|Fire Spin|p1a: Raticate|[from]Fire Spin
+|-damage|p1a: Raticate|220/313 par
+|cant|p1a: Raticate|partiallytrapped
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Moltres|Fire Spin|p1a: Raticate|[miss]
+|-miss|p2a: Moltres
+|move|p1a: Raticate|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Moltres|Fire Blast|p1a: Raticate
+|-crit|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Electrode|Electrode|323/323
+|turn|10
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Electrode|Thunderbolt|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|355/393
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Dodrio|Dodrio|323/323
+|move|p2a: Exeggutor|Psychic|p1a: Dodrio
+|-damage|p1a: Dodrio|142/323
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Dodrio|Drill Peck|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|132/393
+|move|p2a: Exeggutor|Psychic|p1a: Dodrio
+|-damage|p1a: Dodrio|0 fnt
+|faint|p1a: Dodrio
+|
+|switch|p1a: Jynx|Jynx|333/333
+|turn|13
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Jynx|Ice Beam|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|266/323
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Jynx|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie|[miss]
+|-miss|p1a: Jynx
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Starmie|Hydro Pump|p1a: Jynx
+|-damage|p1a: Jynx|189/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Moltres|Moltres|192/383 tox
+|-damage|p2a: Moltres|169/383 psn|[from] psn
+|switch|p1a: Electrode|Electrode|323/323
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Exeggutor|Exeggutor|132/393
+|move|p1a: Electrode|Thunder|p2a: Exeggutor|[miss]
+|-miss|p1a: Electrode
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Exeggutor|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|switch|p1a: Electrode|Electrode|323/323
+|turn|19
+|
+|move|p1a: Electrode|Explosion|p2a: Alakazam
+|-damage|p2a: Alakazam|22/313
+|faint|p1a: Electrode
+|
+|switch|p1a: Hitmonlee|Hitmonlee|303/303
+|turn|20
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|178/313
+|move|p1a: Hitmonlee|High Jump Kick|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|88/313
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|244/313
+|move|p1a: Hitmonlee|Mega Kick|p2a: Alakazam
+|-damage|p2a: Alakazam|87/313
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Alakazam|Psychic|p1a: Hitmonlee
+|-supereffective|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Jynx|Jynx|189/333
+|turn|23
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Blizzard|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|switch|p2a: Moltres|Moltres|169/383 psn
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gen1Cancer1)
+|inactive|IamDexy has 120 seconds left.
+|
+|move|p2a: Moltres|Fire Blast|p1a: Jynx
+|-supereffective|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|
+|win|Gen1Cancer1
+|l|☆IamDexy
+|raw|IamDexy's rating: 1066 &rarr; <strong>1055</strong><br />(-11 for losing)
+|raw|Gen1Cancer1's rating: 1238 &rarr; <strong>1252</strong><br />(+14 for winning)

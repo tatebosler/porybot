@@ -1,0 +1,477 @@
+|j|☆Gatubraz
+|j|☆Chrycks
+|player|p1|Gatubraz|170
+|player|p2|Chrycks|23
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Slash Me PLS|Persian|333/333
+|turn|1
+|c|☆Chrycks|hihi cc
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chrycks)
+|inactiveoff|Battle timer is now OFF.
+|j| OsaiY
+|c|☆Chrycks|cc
+|
+|move|p2a: Slash Me PLS|Slash|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|124/333
+|move|p1a: Jynx|Lovely Kiss|p2a: Slash Me PLS
+|-status|p2a: Slash Me PLS|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|2
+|
+|cant|p2a: Slash Me PLS|slp
+|move|p1a: Jynx|Psychic|p2a: Slash Me PLS
+|-damage|p2a: Slash Me PLS|191/333 slp
+|
+|upkeep
+|turn|3
+|c|☆Gatubraz|Ah gl hf au fait x)
+|
+|cant|p2a: Slash Me PLS|slp
+|move|p1a: Jynx|Blizzard|p2a: Slash Me PLS
+|-damage|p2a: Slash Me PLS|23/333 slp
+|
+|upkeep
+|turn|4
+|c|☆Chrycks|MDR oui
+|c|☆Chrycks|gl hf :*
+|
+|cant|p2a: Slash Me PLS|slp
+|move|p1a: Jynx|Psychic|p2a: Slash Me PLS
+|-damage|p2a: Slash Me PLS|0 fnt
+|faint|p2a: Slash Me PLS
+|
+|switch|p2a: Whip God|Tentacruel|363/363
+|turn|5
+|
+|move|p2a: Whip God|Wrap|p1a: Jynx
+|-damage|p1a: Jynx|106/333
+|cant|p1a: Jynx|partiallytrapped
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Electabuzz|Electabuzz|333/333
+|move|p2a: Whip God|Wrap|p1a: Electabuzz
+|-damage|p1a: Electabuzz|318/333
+|
+|upkeep
+|turn|7
+|
+|cant|p1a: Electabuzz|partiallytrapped
+|move|p2a: Whip God|Wrap|p1a: Electabuzz|[from]Wrap
+|-damage|p1a: Electabuzz|303/333
+|
+|upkeep
+|turn|8
+|
+|cant|p1a: Electabuzz|partiallytrapped
+|move|p2a: Whip God|Wrap|p1a: Electabuzz|[from]Wrap
+|-damage|p1a: Electabuzz|288/333
+|
+|upkeep
+|turn|9
+|
+|cant|p1a: Electabuzz|partiallytrapped
+|move|p2a: Whip God|Wrap|p1a: Electabuzz|[from]Wrap
+|-damage|p1a: Electabuzz|273/333
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Breaking Bones|Pinsir|333/333
+|move|p1a: Electabuzz|Thunder Wave|p2a: Breaking Bones
+|-status|p2a: Breaking Bones|par
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Parasect|Parasect|323/323
+|cant|p2a: Breaking Bones|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Parasect|Swords Dance|p1a: Parasect
+|-boost|p1a: Parasect|atk|2
+|move|p2a: Breaking Bones|Swords Dance|p2a: Breaking Bones
+|-boost|p2a: Breaking Bones|atk|2
+|
+|upkeep
+|turn|13
+|c|☆Gatubraz|Oof
+|
+|move|p1a: Parasect|Body Slam|p2a: Breaking Bones|[miss]
+|-miss|p1a: Parasect
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|move|p2a: Breaking Bones|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|151/323
+|
+|upkeep
+|turn|14
+|c|☆Chrycks|XD
+|c|☆Gatubraz|Je l'aurais eu une fois xD
+|
+|move|p1a: Parasect|Body Slam|p2a: Breaking Bones
+|-damage|p2a: Breaking Bones|198/333 par
+|move|p2a: Breaking Bones|Body Slam|p1a: Parasect
+|-damage|p1a: Parasect|0 fnt
+|faint|p1a: Parasect
+|
+|switch|p1a: Dragonair|Dragonair|325/325
+|turn|15
+|
+|move|p1a: Dragonair|Wrap|p2a: Breaking Bones
+|-damage|p2a: Breaking Bones|187/333 par
+|cant|p2a: Breaking Bones|partiallytrapped
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dragonair|Wrap|p2a: Breaking Bones|[from]Wrap
+|-damage|p2a: Breaking Bones|176/333 par
+|cant|p2a: Breaking Bones|partiallytrapped
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Je vais te haunter|Haunter|293/293
+|move|p1a: Dragonair|Wrap|p2a: Je vais te haunter
+|-damage|p2a: Je vais te haunter|293/293
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Jynx|Jynx|106/333
+|cant|p2a: Je vais te haunter|partiallytrapped
+|
+|upkeep
+|turn|19
+|c|☆Gatubraz|Ah bon?
+|
+|switch|p2a: Breaking Bones|Pinsir|176/333 par
+|move|p1a: Jynx|Psychic|p2a: Breaking Bones
+|-damage|p2a: Breaking Bones|29/333 par
+|-unboost|p2a: Breaking Bones|spd|1
+|-unboost|p2a: Breaking Bones|spa|1
+|
+|upkeep
+|turn|20
+|c|☆Chrycks|Oui
+|c|☆Chrycks|ça se poursuit
+|c|☆Chrycks|x)
+|
+|move|p1a: Jynx|Psychic|p2a: Breaking Bones
+|-damage|p2a: Breaking Bones|0 fnt
+|faint|p2a: Breaking Bones
+|
+|switch|p2a: Whip God|Tentacruel|363/363
+|turn|21
+|
+|move|p2a: Whip God|Swords Dance|p2a: Whip God
+|-boost|p2a: Whip God|atk|2
+|move|p1a: Jynx|Psychic|p2a: Whip God
+|-supereffective|p2a: Whip God
+|-damage|p2a: Whip God|195/363
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Dragonair|Dragonair|325/325
+|move|p2a: Whip God|Wrap|p1a: Dragonair
+|-damage|p1a: Dragonair|300/325
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Whip God|Wrap|p1a: Dragonair|[from]Wrap
+|-damage|p1a: Dragonair|275/325
+|cant|p1a: Dragonair|partiallytrapped
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Whip God|Wrap|p1a: Dragonair
+|-damage|p1a: Dragonair|250/325
+|cant|p1a: Dragonair|partiallytrapped
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Whip God|Wrap|p1a: Dragonair|[from]Wrap
+|-damage|p1a: Dragonair|225/325
+|cant|p1a: Dragonair|partiallytrapped
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Whip God|Hyper Beam|p1a: Dragonair
+|-damage|p1a: Dragonair|0 fnt
+|faint|p1a: Dragonair
+|c|☆Gatubraz|Wrap
+|c|☆Gatubraz|Pire move
+|
+|switch|p1a: Electabuzz|Electabuzz|273/333
+|turn|27
+|c|☆Chrycks|Mdr oui
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Whip God
+|-supereffective|p2a: Whip God
+|-damage|p2a: Whip God|28/363
+|move|p2a: Whip God|Hyper Beam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|15/333
+|-mustrecharge|p2a: Whip God
+|
+|upkeep
+|turn|28
+|c|☆Gatubraz|Hehe
+|
+|move|p1a: Electabuzz|Thunderbolt|p2a: Whip God
+|-supereffective|p2a: Whip God
+|-damage|p2a: Whip God|0 fnt
+|faint|p2a: Whip God
+|
+|switch|p2a: Broken Spoon|Alakazam|313/313
+|turn|29
+|c|☆Chrycks|The King
+|c|☆Chrycks|Has Arrived
+|
+|move|p2a: Broken Spoon|Psychic|p1a: Electabuzz
+|-crit|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|switch|p1a: Raticate|Raticate|313/313
+|turn|30
+|
+|move|p2a: Broken Spoon|Reflect|p2a: Broken Spoon
+|-start|p2a: Broken Spoon|Reflect
+|move|p1a: Raticate|Body Slam|p2a: Broken Spoon
+|-damage|p2a: Broken Spoon|249/313
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Broken Spoon|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|131/313
+|-unboost|p1a: Raticate|spd|1
+|-unboost|p1a: Raticate|spa|1
+|move|p1a: Raticate|Body Slam|p2a: Broken Spoon
+|-damage|p2a: Broken Spoon|182/313
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Broken Spoon|Psychic|p1a: Raticate
+|-damage|p1a: Raticate|0 fnt
+|faint|p1a: Raticate
+|
+|switch|p1a: Jynx|Jynx|106/333
+|turn|33
+|
+|move|p2a: Broken Spoon|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Broken Spoon
+|-status|p2a: Broken Spoon|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|34
+|
+|switch|p1a: Golduck|Golduck|363/363
+|cant|p2a: Broken Spoon|slp
+|
+|upkeep
+|turn|35
+|
+|cant|p2a: Broken Spoon|slp
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|upkeep
+|turn|36
+|
+|cant|p2a: Broken Spoon|slp
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|
+|upkeep
+|turn|37
+|
+|cant|p2a: Broken Spoon|slp
+|move|p1a: Golduck|Surf|p2a: Broken Spoon
+|-damage|p2a: Broken Spoon|0 fnt
+|faint|p2a: Broken Spoon
+|
+|switch|p2a: Sac à merde ok|Lapras|463/463
+|turn|38
+|c|☆Chrycks|Quelle puterie ces sleeps
+|c|☆Chrycks|:(
+|c|☆Chrycks|2 x 4 tours
+|
+|move|p1a: Golduck|Amnesia|p1a: Golduck
+|-boost|p1a: Golduck|spd|2
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Sac à merde ok|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|315/363
+|-status|p1a: Golduck|par
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Sac à merde ok|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|268/363 par
+|cant|p1a: Golduck|par
+|
+|upkeep
+|turn|40
+|c|☆Gatubraz|Peut in le faire?
+|c|☆Gatubraz|Jsens jvais me faire full para x)
+|c|☆Chrycks|Mdr on verra :p
+|
+|move|p2a: Sac à merde ok|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|225/363 par
+|move|p1a: Golduck|Surf|p2a: Sac à merde ok|[miss]
+|-miss|p1a: Golduck
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|
+|upkeep
+|turn|41
+|c|☆Chrycks|????
+|c|☆Gatubraz|Mais mde
+|c|☆Gatubraz|Mdr
+|c|☆Chrycks|MDR
+|c|☆Gatubraz|2 fois en un match x)
+|c|☆Chrycks|L'abus
+|c|☆Gatubraz|J'affronte bel et bien chrycks
+|c|☆Chrycks|Des fois sur une partie entière de RB ça arrive pas
+|c|☆Chrycks|xD
+|c|☆Gatubraz|L'un des rares joueurs à me faire subir la rng
+|c|☆Gatubraz|Ça m'est jamais arrivé 2 fois en rby
+|c|☆Gatubraz|Et j'en ai pas mal fais x)
+|c|☆Chrycks|MDR
+|
+|move|p2a: Sac à merde ok|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|176/363 par
+|move|p1a: Golduck|Surf|p2a: Sac à merde ok
+|-resisted|p2a: Sac à merde ok
+|-damage|p2a: Sac à merde ok|257/463
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Sac à merde ok|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|127/363 par
+|move|p1a: Golduck|Confusion|p2a: Sac à merde ok
+|-damage|p2a: Sac à merde ok|125/463
+|
+|upkeep
+|turn|43
+|c|☆Gatubraz|Il manque plus que le crit
+|
+|move|p2a: Sac à merde ok|Rest|p2a: Sac à merde ok
+|-status|p2a: Sac à merde ok|slp|[from] move: Rest
+|-heal|p2a: Sac à merde ok|463/463 slp|[silent]
+|move|p1a: Golduck|Surf|p2a: Sac à merde ok
+|-resisted|p2a: Sac à merde ok
+|-damage|p2a: Sac à merde ok|285/463 slp
+|
+|upkeep
+|turn|44
+|
+|cant|p2a: Sac à merde ok|slp
+|cant|p1a: Golduck|par
+|
+|upkeep
+|turn|45
+|
+|-curestatus|p2a: Sac à merde ok|slp|[msg]
+|cant|p1a: Golduck|par
+|
+|upkeep
+|turn|46
+|c|☆Chrycks|Yikes
+|c|☆Gatubraz|Non mais eh
+|
+|move|p2a: Sac à merde ok|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|79/363 par
+|move|p1a: Golduck|Surf|p2a: Sac à merde ok
+|-resisted|p2a: Sac à merde ok
+|-damage|p2a: Sac à merde ok|96/463
+|
+|upkeep
+|turn|47
+|c|☆Chrycks|Vive la RNG
+|c|☆Chrycks|o/
+|c|☆Gatubraz|Bon bah gg
+|
+|move|p2a: Sac à merde ok|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|36/363 par
+|move|p1a: Golduck|Surf|p2a: Sac à merde ok
+|-resisted|p2a: Sac à merde ok
+|-damage|p2a: Sac à merde ok|0 fnt
+|faint|p2a: Sac à merde ok
+|
+|switch|p2a: Je vais te haunter|Haunter|293/293
+|turn|48
+|
+|move|p2a: Je vais te haunter|Thunderbolt|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|c|☆Gatubraz|Mdr x)
+|
+|switch|p1a: Jynx|Jynx|106/333 par
+|turn|49
+|c|☆Gatubraz|AH jlavais oublié
+|c| OsaiY|Finalemnt mon dodrio est pas si goat que ca
+|c|☆Gatubraz|Non dodrio c'etait insane
+|c|☆Chrycks|Est-ce que je tente
+|c|☆Chrycks|Explode
+|c|☆Chrycks|ça me tue
+|c|☆Chrycks|Et je win
+|c|☆Chrycks|Ou jeperds?
+|c|☆Chrycks|Jsais jamais
+|c|☆Chrycks|x)
+|c|☆Gatubraz|Honnetement j'en sais rien
+|c|☆Gatubraz|En rby
+|
+|move|p2a: Je vais te haunter|Explosion|p1a: Jynx
+|-crit|p1a: Jynx
+|-damage|p1a: Jynx|0 fnt
+|faint|p1a: Jynx
+|faint|p2a: Je vais te haunter
+|
+|win|Chrycks
+|c|☆Gatubraz|En 7g tu win
+|c| OsaiY|bah 2 x le miss
+|c|☆Chrycks|Ok
+|c|☆Gatubraz|Gg
+|c|☆Chrycks|GG
+|c|☆Chrycks|j'ai crit explo
+|c|☆Chrycks|mdr
+|c|☆Gatubraz|Enfin "gg"
+|c|☆Gatubraz|On se comprend :p
+|c|☆Chrycks|Oui gg pour rby

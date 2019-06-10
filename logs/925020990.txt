@@ -1,0 +1,292 @@
+|j|☆Kaylesse
+|j|☆Butterchoke
+|player|p1|Kaylesse|250
+|player|p2|Butterchoke|202
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Nidoqueen|Nidoqueen|383/383
+|switch|p2a: Hypno|Hypno|373/373
+|turn|1
+|c|☆Butterchoke|hf
+|c|☆Kaylesse|U2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kaylesse)
+|
+|switch|p1a: Clefable|Clefable|393/393
+|move|p2a: Hypno|Psychic|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|139/393
+|
+|upkeep
+|turn|2
+|c|☆Kaylesse|Oof
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Hypno|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|346/393
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Clefable|Clefable|139/393
+|move|p2a: Hypno|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Hypno|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|11/393 par
+|move|p1a: Clefable|Rest|p1a: Clefable
+|-status|p1a: Clefable|slp|[from] move: Rest
+|-heal|p1a: Clefable|393/393 slp|[silent]
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Hypno|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|253/393 slp
+|cant|p1a: Clefable|slp
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Hypno|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|126/393 slp
+|-curestatus|p1a: Clefable|slp|[msg]
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Hypno|Psychic|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|switch|p1a: Charizard|Charizard|359/359
+|turn|8
+|
+|move|p1a: Charizard|Substitute|p1a: Charizard
+|-start|p1a: Charizard|Substitute
+|-damage|p1a: Charizard|270/359
+|move|p2a: Hypno|Thunder Wave|p1a: Charizard
+|-status|p1a: Charizard|par
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Hypno|Psychic|p1a: Charizard
+|-crit|p1a: Charizard
+|-end|p1a: Charizard|Substitute
+|move|p1a: Charizard|Fire Blast|p2a: Hypno
+|-damage|p2a: Hypno|249/373
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Hypno|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|147/359 par
+|move|p1a: Charizard|Fire Blast|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|27/373
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Nidoqueen|Nidoqueen|383/383
+|move|p2a: Hypno|Psychic|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|93/383
+|-unboost|p1a: Nidoqueen|spd|1
+|-unboost|p1a: Nidoqueen|spa|1
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|move|p1a: Nidoqueen|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Dragonite|Blizzard|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|256/303
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|92/303
+|move|p1a: Cloyster|Ice Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|8/385
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Charizard|Charizard|147/359 par
+|move|p2a: Dragonite|Thunderbolt|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Gyarados|Gyarados|393/393
+|turn|16
+|
+|move|p1a: Gyarados|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|17
+|
+|switch|p1a: Nidoqueen|Nidoqueen|93/383
+|move|p2a: Jolteon|Substitute|p2a: Jolteon
+|-start|p2a: Jolteon|Substitute
+|-damage|p2a: Jolteon|250/333
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Nidoqueen|[miss]
+|-miss|p2a: Jolteon
+|move|p1a: Nidoqueen|Rest|p1a: Nidoqueen
+|-status|p1a: Nidoqueen|slp|[from] move: Rest
+|-heal|p1a: Nidoqueen|383/383 slp|[silent]
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|362/383 slp
+|-damage|p1a: Nidoqueen|341/383 slp
+|-damage|p1a: Nidoqueen|320/383 slp
+|-hitcount|p1a: Nidoqueen|3
+|cant|p1a: Nidoqueen|slp
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Nidoqueen|[miss]
+|-miss|p2a: Jolteon
+|-curestatus|p1a: Nidoqueen|slp|[msg]
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Nidoqueen
+|-crit|p1a: Nidoqueen
+|-supereffective|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|280/383
+|-damage|p1a: Nidoqueen|240/383
+|-hitcount|p1a: Nidoqueen|2
+|move|p1a: Nidoqueen|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-end|p2a: Jolteon|Substitute
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Marowak|Marowak|323/323
+|move|p1a: Nidoqueen|Earthquake|p2a: Marowak
+|-damage|p2a: Marowak|225/323
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Nidoqueen|Blizzard|p2a: Marowak
+|-supereffective|p2a: Marowak
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Hypno|Hypno|27/373
+|turn|24
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Weezing|Weezing|333/333
+|turn|25
+|
+|move|p1a: Nidoqueen|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|148/333
+|move|p2a: Weezing|Explosion|p1a: Nidoqueen
+|-damage|p1a: Nidoqueen|0 fnt
+|faint|p1a: Nidoqueen
+|faint|p2a: Weezing
+|
+|switch|p1a: Exeggutor|Exeggutor|346/393
+|switch|p2a: Jolteon|Jolteon|250/333
+|turn|26
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Explosion|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|switch|p1a: Cloyster|Cloyster|92/303
+|turn|27
+|
+|move|p2a: Kangaskhan|Thunder|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Gyarados|Gyarados|393/393
+|turn|28
+|
+|move|p2a: Kangaskhan|Thunder|p1a: Gyarados|[miss]
+|-miss|p2a: Kangaskhan
+|move|p1a: Gyarados|Blizzard|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|253/413
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Kangaskhan|Thunder|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|172/393
+|move|p1a: Gyarados|Blizzard|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|94/413
+|
+|upkeep
+|turn|30
+|c|☆Butterchoke|ok
+|c|☆Kaylesse|Miss now
+|c|☆Butterchoke|stp
+|c|☆Butterchoke|rate pas
+|
+|move|p2a: Kangaskhan|Thunder|p1a: Gyarados|[miss]
+|-miss|p2a: Kangaskhan
+|move|p1a: Gyarados|Hydro Pump|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|win|Kaylesse
+|c|☆Kaylesse|YES
+|c|☆Butterchoke|..
+|c|☆Butterchoke|sad
+|c|☆Butterchoke|gg
+|c|☆Kaylesse|gg

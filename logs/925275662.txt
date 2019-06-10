@@ -1,0 +1,72 @@
+|j|☆Night Patrol Guard
+|j|☆kaskahuebos69
+|player|p1|Night Patrol Guard|39
+|player|p2|kaskahuebos69|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gengar|Gengar|323/323
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Alakazam|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|341/393
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Night Patrol Guard)
+|
+|move|p2a: Alakazam|Reflect|p2a: Alakazam
+|-start|p2a: Alakazam|Reflect
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Alakazam|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Venusaur|Venusaur|363/363
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Venusaur|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|227/393 par
+|-mustrecharge|p2a: Venusaur
+|move|p1a: Exeggutor|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|126/363
+|
+|upkeep
+|turn|6
+|
+|cant|p2a: Venusaur|recharge
+|move|p1a: Exeggutor|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|-message|kaskahuebos69 forfeited.
+|
+|win|Night Patrol Guard
+|l|☆kaskahuebos69

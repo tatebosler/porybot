@@ -1,0 +1,366 @@
+|j|☆sadisticnarwhal
+|j|☆rylon
+|player|p1|sadisticnarwhal|jasmine-gen2
+|player|p2|rylon|3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sadisticnarwhal)
+|c|☆sadisticnarwhal|hf
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie|[miss]
+|-miss|p1a: Jynx
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Starmie|Surf|p1a: Jynx
+|-damage|p1a: Jynx|222/333 par
+|move|p1a: Jynx|Lovely Kiss|p2a: Starmie
+|-status|p2a: Starmie|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|3
+|c|☆sadisticnarwhal|phew
+|j| haru
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|switch|p1a: Snorlax|Snorlax|523/523
+|
+|upkeep
+|turn|4
+|j| Raichy
+|j| Z+V2
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Snorlax|Reflect|p2a: Snorlax
+|-start|p2a: Snorlax|Reflect
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|423/523 par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|317/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|429/703
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|421/703
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|426/703
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|433/703
+|move|p1a: Chansey|Counter|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|12
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Tauros|Earthquake|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|143/323
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|304/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|200/323
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Starmie|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|98/323
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|259/323
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|143/323
+|-status|p1a: Starmie|par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|304/323 par
+|move|p2a: Tauros|Body Slam|p1a: Starmie
+|-damage|p1a: Starmie|198/323 par
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Starmie|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|221/353 par
+|-unboost|p2a: Tauros|spd|1
+|-unboost|p2a: Tauros|spa|1
+|cant|p2a: Tauros|par
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Starmie|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|14/353 par
+|move|p2a: Tauros|Hyper Beam|p1a: Starmie
+|-damage|p1a: Starmie|14/323 par
+|-mustrecharge|p2a: Tauros
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|175/323 par
+|cant|p2a: Tauros|recharge
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Chansey|Chansey|703/703
+|cant|p1a: Starmie|par
+|
+|upkeep
+|turn|21
+|j| OXT jc
+|inactive|sadisticnarwhal has 270 seconds left.
+|
+|switch|p1a: Chansey|Chansey|433/703
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|293/703
+|
+|upkeep
+|turn|22
+|j| laspleispk
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|644/703
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Starmie|Starmie|175/323 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Starmie
+|-fail|p1a: Starmie
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Exeggutor|Double-Edge|p1a: Starmie
+|-damage|p1a: Starmie|91/323 par
+|-damage|p2a: Exeggutor|372/393|[from] Recoil|[of] p1a: Starmie
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|252/323 par
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Starmie|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Starmie|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|603/703 par
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|86/323 par
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|247/323 par
+|move|p2a: Chansey|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|86/323 par
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Chansey|Chansey|644/703
+|move|p2a: Chansey|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|571/703
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Chansey|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Exeggutor|Exeggutor|372/393
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Starmie|Starmie|86/323 par
+|move|p2a: Exeggutor|Explosion|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|faint|p2a: Exeggutor
+|l| laspleispk
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|switch|p1a: Jolteon|Jolteon|333/333
+|turn|32
+|inactive|rylon has 270 seconds left.
+|l|☆rylon
+|inactive|rylon disconnected and has 300 seconds to reconnect!
+|player|p2|
+|c| OXT jc|lol
+|inactive|rylon has 270 seconds to reconnect!
+|inactive|rylon has 240 seconds to reconnect!
+|l| OXT jc
+|inactive|rylon has 210 seconds to reconnect!
+|inactive|rylon has 180 seconds to reconnect!
+|j| OXT jc
+|inactive|rylon has 150 seconds to reconnect!
+|c| OXT jc|should we stop the timer?
+|c|☆sadisticnarwhal|i will if it gets too low
+|inactive|rylon has 120 seconds to reconnect!
+|c| OXT jc|oki
+|j|☆rylon
+|inactive|rylon reconnected and has 270 seconds left.
+|player|p2|rylon|3
+|c|☆rylon|sry dude
+|c|☆rylon|my net is bad af
+|
+|move|p1a: Jolteon|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|move|p2a: Zapdos|Thunder Wave|p1a: Jolteon
+|-status|p1a: Jolteon|par
+|
+|upkeep
+|turn|33
+|c|☆sadisticnarwhal|dw my net is super bad sometimes too
+|
+|switch|p2a: Chansey|Chansey|603/703 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|489/703 par
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Jolteon|Double Kick|p2a: Chansey
+|-supereffective|p2a: Chansey
+|-damage|p2a: Chansey|383/703 par
+|-damage|p2a: Chansey|277/703 par
+|-hitcount|p2a: Chansey|2
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|628/703 par
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Zapdos|Zapdos|383/383 par
+|cant|p1a: Jolteon|par
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Jolteon|Thunderbolt|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|172/383 par
+|move|p2a: Zapdos|Agility|p2a: Zapdos
+|-boost|p2a: Zapdos|spe|2
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|268/333 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|62/383 par
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|202/333 par
+|move|p1a: Jolteon|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Tauros|Tauros|14/353 par
+|turn|39
+|j| laspleispk
+|
+|cant|p2a: Tauros|par
+|move|p1a: Jolteon|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|☆rylon|gg
+|c|☆sadisticnarwhal|gg
+|-message|rylon forfeited.
+|
+|win|sadisticnarwhal

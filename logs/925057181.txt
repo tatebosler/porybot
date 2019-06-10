@@ -1,0 +1,692 @@
+|j|☆DemICE
+|j|☆red_0001
+|player|p1|DemICE|265
+|player|p2|red_0001|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Chansey|Chansey|703/703
+|turn|1
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Dragonite|Dragonite|385/385
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Dragonite|Agility|p1a: Dragonite
+|-boost|p1a: Dragonite|spe|2
+|cant|p2a: Chansey|slp
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|666/703 slp
+|-curestatus|p2a: Chansey|slp|[msg]
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[from]Wrap
+|-damage|p2a: Chansey|629/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[from]Wrap
+|-damage|p2a: Chansey|592/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|551/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[from]Wrap
+|-damage|p2a: Chansey|510/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Jynx|Jynx|333/333
+|move|p1a: Dragonite|Wrap|p2a: Jynx
+|-damage|p2a: Jynx|306/333
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Dragonite|Wrap|p2a: Jynx|[from]Wrap
+|-damage|p2a: Jynx|279/333
+|cant|p2a: Jynx|partiallytrapped
+|
+|upkeep
+|turn|11
+|j| IceKingofOoo
+|
+|move|p1a: Dragonite|Wrap|p2a: Jynx|[from]Wrap
+|-damage|p2a: Jynx|252/333
+|cant|p2a: Jynx|partiallytrapped
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Dragonite|Wrap|p2a: Zapdos|[miss]
+|-miss|p1a: Dragonite
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Chansey|Chansey|510/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|472/703
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[from]Wrap
+|-damage|p2a: Chansey|434/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[from]Wrap
+|-damage|p2a: Chansey|396/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[from]Wrap
+|-damage|p2a: Chansey|358/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Jynx|Jynx|252/333
+|move|p1a: Dragonite|Hyper Beam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|18
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Tauros|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|94/385
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Dragonite|Wrap|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|322/353
+|cant|p2a: Tauros|partiallytrapped
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Chansey|Chansey|358/703
+|move|p1a: Dragonite|Wrap|p2a: Chansey
+|-damage|p2a: Chansey|316/703
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Dragonite|Wrap|p2a: Chansey|[from]Wrap
+|-damage|p2a: Chansey|274/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Dragonite|Hyper Beam|p2a: Zapdos|[miss]
+|-miss|p1a: Dragonite
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Dragonite|Wrap|p2a: Zapdos|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: Zapdos|Thunderbolt|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|c| IceKingofOoo|lol
+|l| IceKingofOoo
+|j| IceKingofOoo
+|
+|switch|p1a: Chansey|Chansey|703/703
+|turn|24
+|l| IceKingofOoo
+|
+|move|p2a: Zapdos|Light Screen|p2a: Zapdos
+|-start|p2a: Zapdos|Light Screen
+|move|p1a: Chansey|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Chansey|Chansey|274/703
+|move|p1a: Chansey|Blizzard|p2a: Chansey
+|-damage|p2a: Chansey|179/703
+|-status|p2a: Chansey|frz
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Moltres|Moltres|383/383
+|switch|p2a: Tauros|Tauros|322/353
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Tauros|Body Slam|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|167/383
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Zapdos|Zapdos|383/383 par
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|365/383 par
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos|[from]Fire Spin
+|-damage|p2a: Zapdos|347/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|329/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[miss]
+|-miss|p1a: Moltres
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|364/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[from]Fire Spin
+|-damage|p2a: Dragonite|343/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[from]Fire Spin
+|-damage|p2a: Dragonite|322/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[from]Fire Spin
+|-damage|p2a: Dragonite|301/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|36
+|
+|switch|p2a: Zapdos|Zapdos|329/383 par
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|311/383 par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos|[from]Fire Spin
+|-damage|p2a: Zapdos|293/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|38
+|
+|switch|p2a: Chansey|Chansey|179/703 frz
+|move|p1a: Moltres|Fire Spin|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|141/703 frz
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Moltres|Fire Spin|p2a: Chansey|[from]Fire Spin
+|-damage|p2a: Chansey|103/703 frz
+|cant|p2a: Chansey|frz
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Moltres|Fire Blast|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Zapdos|Zapdos|293/383 par
+|turn|41
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|274/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos|[from]Fire Spin
+|-damage|p2a: Zapdos|255/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos|[from]Fire Spin
+|-damage|p2a: Zapdos|236/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos|[from]Fire Spin
+|-damage|p2a: Zapdos|217/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos|[from]Fire Spin
+|-damage|p2a: Zapdos|198/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|160/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos|[from]Fire Spin
+|-damage|p2a: Zapdos|122/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Moltres|Fire Spin|p2a: Zapdos|[from]Fire Spin
+|-damage|p2a: Zapdos|84/383 par
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Moltres|Fire Blast|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Dragonite|Dragonite|301/385
+|turn|50
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|upkeep
+|turn|51
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|290/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|52
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[from]Fire Spin
+|-damage|p2a: Dragonite|279/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Dragonite|Surf|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|49/383
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|268/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[from]Fire Spin
+|-damage|p2a: Dragonite|257/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|56
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[from]Fire Spin
+|-damage|p2a: Dragonite|246/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|57
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[from]Fire Spin
+|-damage|p2a: Dragonite|235/385
+|cant|p2a: Dragonite|partiallytrapped
+|
+|upkeep
+|turn|58
+|
+|move|p1a: Moltres|Fire Spin|p2a: Dragonite|[miss]
+|-miss|p1a: Moltres
+|move|p2a: Dragonite|Surf|p1a: Moltres
+|-crit|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|turn|59
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Cloyster|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|364/523
+|
+|upkeep
+|turn|60
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|269/393
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Sleep Powder
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|62
+|j| IceKingofOoo
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|63
+|
+|switch|p2a: Dragonite|Dragonite|235/385
+|move|p1a: Exeggutor|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|104/385
+|
+|upkeep
+|turn|64
+|c| IceKingofOoo|everyone using dragonit today lol
+|c| IceKingofOoo|i think he belong in ou tier
+|c| IceKingofOoo|even with his weaknesses
+|l| IceKingofOoo
+|
+|move|p2a: Dragonite|Wrap|p1a: Exeggutor
+|-damage|p1a: Exeggutor|251/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|upkeep
+|turn|65
+|
+|move|p2a: Dragonite|Wrap|p1a: Exeggutor|[from]Wrap
+|-damage|p1a: Exeggutor|233/393
+|cant|p1a: Exeggutor|partiallytrapped
+|
+|upkeep
+|turn|66
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|662/703
+|
+|upkeep
+|turn|67
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|621/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|68
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|580/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|69
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|539/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|70
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|498/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|71
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|456/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|72
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|414/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|73
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey|[from]Wrap
+|-damage|p1a: Chansey|372/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|74
+|
+|move|p2a: Dragonite|Wrap|p1a: Chansey
+|-damage|p1a: Chansey|335/703
+|cant|p1a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|75
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Dragonite|Wrap|p1a: Cloyster
+|-damage|p1a: Cloyster|293/303
+|
+|upkeep
+|turn|76
+|
+|move|p2a: Dragonite|Wrap|p1a: Cloyster|[from]Wrap
+|-damage|p1a: Cloyster|283/303
+|cant|p1a: Cloyster|partiallytrapped
+|
+|upkeep
+|turn|77
+|
+|switch|p2a: Snorlax|Snorlax|364/523 slp
+|move|p1a: Cloyster|Blizzard|p2a: Snorlax
+|-damage|p2a: Snorlax|209/523 slp
+|
+|upkeep
+|turn|78
+|
+|switch|p1a: Chansey|Chansey|335/703
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|79
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|686/703
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|80
+|
+|switch|p1a: Exeggutor|Exeggutor|233/393
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|81
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Sleep Powder
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|82
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|44/523 slp
+|-unboost|p2a: Snorlax|spd|1
+|-unboost|p2a: Snorlax|spa|1
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|83
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Tauros|Tauros|322/353
+|turn|84
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|106/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|upkeep
+|turn|85
+|
+|move|p1a: Exeggutor|Psychic|p2a: Tauros
+|-damage|p2a: Tauros|177/353 par
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Cloyster|Cloyster|283/303
+|turn|86
+|
+|move|p1a: Cloyster|Clamp|p2a: Tauros|[miss]
+|-miss|p1a: Cloyster
+|move|p2a: Tauros|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|213/303
+|
+|upkeep
+|turn|87
+|
+|move|p1a: Cloyster|Clamp|p2a: Tauros
+|-damage|p2a: Tauros|128/353 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|upkeep
+|turn|88
+|
+|move|p1a: Cloyster|Clamp|p2a: Tauros|[from]Clamp
+|-damage|p2a: Tauros|79/353 par
+|cant|p2a: Tauros|partiallytrapped
+|
+|upkeep
+|turn|89
+|
+|switch|p2a: Dragonite|Dragonite|104/385
+|move|p1a: Cloyster|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Tauros|Tauros|79/353 par
+|turn|90
+|
+|move|p1a: Cloyster|Explosion|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Cloyster
+|
+|win|DemICE
+|l|☆red_0001
+|c|☆DemICE|gg

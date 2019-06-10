@@ -1,0 +1,347 @@
+|j|☆HU60LINK
+|j|☆luisrico
+|player|p1|HU60LINK|169
+|player|p2|luisrico|7
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Rhydon|Rhydon|413/413
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HU60LINK)
+|
+|switch|p2a: Pidgeot|Pidgeot|369/369
+|move|p1a: Exeggutor|Sleep Powder|p2a: Pidgeot
+|-status|p2a: Pidgeot|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|-curestatus|p2a: Pidgeot|slp|[msg]
+|move|p1a: Exeggutor|Psychic|p2a: Pidgeot
+|-damage|p2a: Pidgeot|224/369
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Pidgeot|Double-Edge|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|365/413
+|-damage|p2a: Pidgeot|212/369|[from] Recoil|[of] p1a: Rhydon
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Rhydon|Substitute|p1a: Rhydon
+|-start|p1a: Rhydon|Substitute
+|-damage|p1a: Rhydon|262/413
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Rhydon|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|173/413
+|move|p2a: Rhydon|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-end|p1a: Rhydon|Substitute
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Lapras|Lapras|463/463
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|569/703
+|-status|p1a: Chansey|frz
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Lapras|Blizzard|p1a: Snorlax|[miss]
+|-miss|p2a: Lapras
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Lapras|Sing|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Sing
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Lapras|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|344/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Lapras|Sing|p1a: Snorlax|[miss]
+|-miss|p2a: Lapras
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|331/463
+|-status|p2a: Lapras|par
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|200/463 par
+|move|p2a: Lapras|Sing|p1a: Snorlax|[miss]
+|-miss|p2a: Lapras
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|389/523
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Rhydon|Rhydon|262/413
+|move|p2a: Snorlax|Counter|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|turn|15
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Snorlax|[miss]
+|-miss|p1a: Exeggutor
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|174/393
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Lapras|Lapras|200/463 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Lapras|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Snorlax|Snorlax|344/523
+|move|p2a: Lapras|Blizzard|p1a: Snorlax|[miss]
+|-miss|p2a: Lapras
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Snorlax|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|83/463 par
+|cant|p2a: Lapras|par
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Pidgeot|Pidgeot|212/369
+|move|p1a: Snorlax|Body Slam|p2a: Pidgeot
+|-crit|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|20
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|23/523
+|move|p1a: Snorlax|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|102/333
+|
+|upkeep
+|turn|21
+|
+|switch|p1a: Chansey|Chansey|569/703 frz
+|move|p2a: Jolteon|Double-Edge|p1a: Chansey
+|-damage|p1a: Chansey|410/703 frz
+|-damage|p2a: Jolteon|63/333|[from] Recoil|[of] p1a: Chansey
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|309/703 frz
+|-damage|p1a: Chansey|208/703 frz
+|-hitcount|p1a: Chansey|2
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|105/703 frz
+|-damage|p1a: Chansey|2/703 frz
+|-hitcount|p1a: Chansey|2
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Electrode|Electrode|323/323
+|cant|p1a: Chansey|frz
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Electrode|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Exeggutor|Exeggutor|174/393
+|turn|26
+|
+|move|p2a: Electrode|Screech|p1a: Exeggutor
+|-unboost|p1a: Exeggutor|def|2
+|move|p1a: Exeggutor|Sleep Powder|p2a: Electrode
+|-status|p2a: Electrode|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Jolteon|Jolteon|63/333
+|move|p1a: Exeggutor|Mega Drain|p2a: Jolteon
+|-damage|p2a: Jolteon|9/333
+|-heal|p1a: Exeggutor|201/393|[from] drain|[of] p2a: Jolteon
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Snorlax|Snorlax|23/523
+|move|p2a: Jolteon|Pin Missile|p1a: Snorlax|[miss]
+|-miss|p2a: Jolteon
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|turn|30
+|
+|switch|p2a: Rhydon|Rhydon|173/413
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|102/413
+|
+|upkeep
+|turn|31
+|inactive|luisrico has 120 seconds left.
+|
+|switch|p1a: Exeggutor|Exeggutor|201/393
+|move|p2a: Rhydon|Fire Blast|p1a: Exeggutor|[miss]
+|-miss|p2a: Rhydon
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Snorlax|Snorlax|389/523
+|move|p1a: Exeggutor|Mega Drain|p2a: Snorlax
+|-damage|p2a: Snorlax|311/523
+|-heal|p1a: Exeggutor|240/393|[from] drain|[of] p2a: Snorlax
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|154/523
+|move|p2a: Snorlax|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|129/393
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Exeggutor|Psychic|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Jolteon|Jolteon|9/333
+|turn|35
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Jolteon|Pin Missile|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|378/383
+|-damage|p1a: Zapdos|373/383
+|-hitcount|p1a: Zapdos|2
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Jolteon|Double-Edge|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|244/383
+|-damage|p2a: Jolteon|0 fnt|[from] Recoil|[of] p1a: Zapdos
+|faint|p2a: Jolteon
+|
+|switch|p2a: Rhydon|Rhydon|102/413
+|turn|37
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|61/413
+|move|p2a: Rhydon|Fire Blast|p1a: Zapdos
+|-damage|p1a: Zapdos|193/383
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Rhydon
+|-resisted|p2a: Rhydon
+|-damage|p2a: Rhydon|24/413
+|move|p2a: Rhydon|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Exeggutor|Exeggutor|129/393
+|turn|39
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|-heal|p1a: Exeggutor|141/393|[from] drain|[of] p2a: Rhydon
+|faint|p2a: Rhydon
+|
+|switch|p2a: Lapras|Lapras|83/463 par
+|turn|40
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|-heal|p1a: Exeggutor|182/393|[from] drain|[of] p2a: Lapras
+|faint|p2a: Lapras
+|-message|luisrico forfeited.
+|
+|win|HU60LINK

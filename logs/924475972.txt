@@ -1,0 +1,748 @@
+|j|☆Ejthewolf
+|j|☆Golden Bells
+|player|p1|Ejthewolf|iris
+|player|p2|Golden Bells|286
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Chansey|Chansey|703/703
+|turn|1
+|c|☆Ejthewolf|o
+|c|☆Golden Bells|hey there
+|c|☆Ejthewolf|first match of the day kek
+|c|☆Golden Bells|haha
+|c|☆Ejthewolf|thats weird i dont remember doing another match last night but i must have because u cant fight the same person 2x in a row iirc
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|581/703
+|move|p2a: Chansey|Sing|p1a: Alakazam
+|-status|p1a: Alakazam|slp|[from] move: Sing
+|
+|upkeep
+|turn|2
+|c|☆Golden Bells|I think that resets after some time
+|c|☆Ejthewolf|unless it resets after a certain point idk
+|
+|switch|p1a: Chansey|Chansey|703/703
+|switch|p2a: Tauros|Tauros|353/353
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Chansey|Chansey|581/703
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|627/703
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|switch|p2a: Snorlax|Snorlax|523/523
+|
+|upkeep
+|turn|7
+|j| FrocFroc29
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|389/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|389/523
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|243/523
+|move|p1a: Snorlax|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|242/523
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|109/523
+|move|p1a: Snorlax|Self-Destruct|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Snorlax
+|c|☆Ejthewolf|i could have beamed but
+|c|☆Ejthewolf|Snorlax Hyper Beam vs. Snorlax: 224-264 (42.8 - 50.4%) -- 46.2% chance to OHKO
+|c|☆Ejthewolf|so that was interesting
+|c|☆Golden Bells|I considered it too
+|c|☆Ejthewolf|i dont mind the trade off tho
+|
+|switch|p2a: Chansey|Chansey|581/703 par
+|switch|p1a: Chansey|Chansey|627/703
+|turn|10
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|556/703
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Chansey|Ice Beam|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|264/393
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Articuno|Articuno|383/383
+|move|p1a: Exeggutor|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|278/383
+|-unboost|p2a: Articuno|spd|1
+|-unboost|p2a: Articuno|spa|1
+|
+|upkeep
+|turn|13
+|c|☆Ejthewolf|ouch that drop hurt a lot
+|c|☆Ejthewolf|-1 Articuno Blizzard vs. Exeggutor: 175-206 (44.5 - 52.4%) -- 18.9% chance to 2HKO
+|j| Le Austin
+|c|☆Golden Bells|yeah its a like 95% range in my favour without the drop
+|c|☆Ejthewolf|Articuno Blizzard vs. Exeggutor: 260-306 (66.1 - 77.8%) -- 92.3% chance to OHKO
+|c|☆Ejthewolf|yeah my exact value of 264
+|
+|move|p2a: Articuno|Blizzard|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|c|☆Ejthewolf|o
+|c|☆Ejthewolf|well
+|c|☆Ejthewolf|that works
+|c|☆Ejthewolf|lmao
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|turn|14
+|c|☆Ejthewolf|cuno be like screw the calcs
+|c|☆Ejthewolf|just gonna crit
+|c|☆Golden Bells|haha
+|c|☆Golden Bells|I just wanted to put it low for the revenge kill
+|c|☆Golden Bells|but yeah, that works I guess
+|c|☆Ejthewolf|i clicked boom tho lulz
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|272/383
+|
+|upkeep
+|turn|15
+|c|☆Ejthewolf|if i had balls i would click thunder there
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|272/383
+|move|p1a: Zapdos|Thunder Wave|p2a: Zapdos
+|-status|p2a: Zapdos|par
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|160/383 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|159/383
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|51/383 par
+|cant|p2a: Zapdos|par
+|
+|upkeep
+|turn|18
+|c|☆Ejthewolf|rip
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|19
+|j| bvdas
+|l| FrocFroc29
+|c|☆Ejthewolf|oh this predict game
+|
+|switch|p1a: Chansey|Chansey|556/703
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey|[miss]
+|-miss|p2a: Tauros
+|
+|upkeep
+|turn|20
+|
+|switch|p2a: Chansey|Chansey|581/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Alakazam|Alakazam|313/313 slp
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|255/313 slp
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Tauros|Tauros|353/353
+|cant|p1a: Alakazam|slp
+|
+|upkeep
+|turn|24
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: Tauros|Body Slam|p1a: Alakazam
+|-damage|p1a: Alakazam|87/313 slp
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|452/703
+|
+|upkeep
+|turn|26
+|c|☆Ejthewolf|oh
+|c|☆Ejthewolf|yeah rip me
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Chansey|[miss]
+|-miss|p2a: Tauros
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|upkeep
+|turn|27
+|c|☆Ejthewolf|oof
+|
+|switch|p2a: Chansey|Chansey|581/703 par
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|624/703
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|632/703
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|552/703
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|482/703
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|411/703
+|
+|upkeep
+|turn|33
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|627/703
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|553/703
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Alakazam|Alakazam|87/313 slp
+|move|p2a: Chansey|Ice Beam|p1a: Alakazam
+|-damage|p1a: Alakazam|21/313 slp
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Chansey|Chansey|553/703
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|477/703
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|632/703
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|562/703
+|
+|upkeep
+|turn|41
+|c|☆Ejthewolf|ree
+|
+|switch|p1a: Zapdos|Zapdos|159/383
+|move|p2a: Chansey|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|34/383
+|
+|upkeep
+|turn|42
+|
+|switch|p1a: Chansey|Chansey|562/703
+|switch|p2a: Starmie|Starmie|323/323
+|
+|upkeep
+|turn|43
+|c|☆Ejthewolf|interesting team
+|c|☆Ejthewolf|kinda makese sense ig to carry zap when u have starmie and articuno
+|c|☆Golden Bells|Thanks, this one wasnt actually built by me
+|c|☆Golden Bells|Troller built it
+|c|☆Ejthewolf|o
+|
+|switch|p2a: Chansey|Chansey|581/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|
+|upkeep
+|turn|45
+|
+|switch|p2a: Articuno|Articuno|278/383
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|
+|upkeep
+|turn|46
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|432/703
+|move|p1a: Chansey|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|178/383
+|
+|upkeep
+|turn|47
+|c|☆Golden Bells|round 2
+|c|☆Ejthewolf|ayy
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|167/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|518/703
+|
+|upkeep
+|turn|48
+|c|☆Ejthewolf|this chansey tho
+|
+|move|p2a: Articuno|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|395/703
+|move|p1a: Chansey|Thunder Wave|p2a: Articuno
+|-status|p2a: Articuno|par
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|78/383 par
+|move|p2a: Articuno|Agility|p2a: Articuno
+|-boost|p2a: Articuno|spe|2
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Articuno|Hyper Beam|p1a: Chansey|[miss]
+|-miss|p2a: Articuno
+|move|p1a: Chansey|Seismic Toss|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|c|☆Ejthewolf|rip
+|c|☆Ejthewolf|bliz actually ended up doing more
+|
+|switch|p2a: Starmie|Starmie|323/323
+|turn|51
+|c|☆Ejthewolf|unless crit
+|c|☆Ejthewolf|but yeah
+|c|☆Golden Bells|I went for the crit ko
+|
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|311/703
+|move|p1a: Chansey|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|52
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|662/703
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|566/703
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|123/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|284/323 par
+|
+|upkeep
+|turn|55
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|184/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|56
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|84/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|245/323 par
+|
+|upkeep
+|turn|57
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|145/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|306/323 par
+|
+|upkeep
+|turn|58
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|206/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|387/703
+|
+|upkeep
+|turn|59
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|106/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|267/323 par
+|
+|upkeep
+|turn|60
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|167/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223/323 par
+|move|p2a: Starmie|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Starmie
+|
+|upkeep
+|turn|62
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|123/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|63
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|23/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|184/323 par
+|
+|upkeep
+|turn|64
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|84/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|245/323 par
+|
+|upkeep
+|turn|65
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|145/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|306/323 par
+|
+|upkeep
+|turn|66
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|206/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|67
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|106/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|267/323 par
+|
+|upkeep
+|turn|68
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|167/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|69
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|67/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|70
+|c|☆Ejthewolf|was waiting on that
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703 par
+|
+|upkeep
+|turn|71
+|c|☆Ejthewolf|rip
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|72
+|c|☆Ejthewolf|this chansey is like a god
+|c|☆Ejthewolf|it wont freeze
+|c|☆Ejthewolf|how many ice moves did u use lmao
+|c|☆Golden Bells|a lot
+|l| bvdas
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|73
+|c|☆Golden Bells|20+, pretty sure
+|
+|move|p1a: Chansey|Defense Curl|p1a: Chansey
+|-boost|p1a: Chansey|def|1
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|74
+|
+|switch|p2a: Starmie|Starmie|67/323 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|75
+|
+|cant|p2a: Starmie|par
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Tauros|Tauros|353/353 par
+|turn|76
+|c|☆Ejthewolf|huh i thought
+|c|☆Ejthewolf|def curl
+|c|☆Ejthewolf|made me go first anyway
+|c|☆Ejthewolf|oh well rip
+|c|☆Golden Bells|def curl makes the opponent slower
+|c|☆Golden Bells|not you faster
+|c|☆Ejthewolf|ah
+|c|☆Golden Bells|so when I switch it resets
+|c|☆Ejthewolf|oh that makes sense now
+|c|☆Ejthewolf|i think someone said the same happens with agility
+|c|☆Golden Bells|agility does both things
+|c|☆Golden Bells|drop your opponent's speed
+|c|☆Ejthewolf|so i got lower with agility and u get 2x + ignore para drop
+|c|☆Golden Bells|and raise your own
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|589/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Tauros
+|-damage|p2a: Tauros|253/353 par
+|
+|upkeep
+|turn|77
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|469/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|78
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|352/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|79
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|238/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|589/703 par
+|
+|upkeep
+|turn|80
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|485/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Tauros
+|-damage|p2a: Tauros|153/353 par
+|
+|upkeep
+|turn|81
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|375/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Tauros
+|-damage|p2a: Tauros|53/353 par
+|
+|upkeep
+|turn|82
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|258/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|☆Golden Bells|I tried
+|-message|Golden Bells forfeited.
+|
+|win|Ejthewolf
+|c|☆Golden Bells|gg
+|c|☆Ejthewolf|oh damn no crit either
+|c|☆Ejthewolf|gg
+|c|☆Ejthewolf|that was
+|c|☆Ejthewolf|feelz like i haxed
+|c|☆Ejthewolf|but yet
+|raw|Ejthewolf's rating: 1479 &rarr; <strong>1501</strong><br />(+22 for winning)
+|raw|Golden Bells's rating: 1518 &rarr; <strong>1496</strong><br />(-22 for losing)
+|c|☆Ejthewolf|you needed a crit/freeze to win
+|c|☆Golden Bells|dw about it
+|c|☆Ejthewolf|so
+|c|☆Ejthewolf|:thinking:
+|c|☆Golden Bells|haha
+|c|☆Golden Bells|well with so many tries
+|c|☆Golden Bells|let me actually calc that
+|c|☆Ejthewolf|yeah thats pretty ass chance tho
+|c|☆Golden Bells|the odds of 20 ice moves getting it
+|c|☆Golden Bells|88%
+|c|☆Ejthewolf|oof
+|c|☆Golden Bells|ok I'm gonna go back to studying
+|c|☆Golden Bells|see you ^^
+|c|☆Ejthewolf|cya
+|l|☆Golden Bells
+|l|☆Ejthewolf
+|l| Le Austin
+|j|☆Ejthewolf
+|player|p1|Ejthewolf|iris

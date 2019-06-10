@@ -1,0 +1,430 @@
+|j|☆Omastar & Khaetis
+|j|☆Noobwannabe
+|player|p1|Omastar & Khaetis|47
+|player|p2|Noobwannabe|290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: I Beat Egg|Starmie|323/323
+|turn|1
+|
+|switch|p2a: I Break Ballz|Chansey|703/703
+|move|p1a: Starmie|Blizzard|p2a: I Break Ballz
+|-damage|p2a: I Break Ballz|608/703
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Starmie|Blizzard|p2a: I Break Ballz
+|-damage|p2a: I Break Ballz|515/703
+|move|p2a: I Break Ballz|Sing|p1a: Starmie|[miss]
+|-miss|p2a: I Break Ballz
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Blizzard|p2a: I Break Ballz
+|-damage|p2a: I Break Ballz|431/703
+|move|p2a: I Break Ballz|Sing|p1a: Starmie
+|-status|p1a: Starmie|slp|[from] move: Sing
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: I Break Ballz|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Noobwannabe)
+|
+|switch|p2a: Da KING|Snorlax|523/523
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Da KING|Reflect|p2a: Da KING
+|-start|p2a: Da KING|Reflect
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Da KING|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|453/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Da KING
+|-damage|p2a: Da KING|455/523
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Da KING|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|389/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Da KING
+|-damage|p2a: Da KING|391/523
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Da KING|Rest|p2a: Da KING
+|-status|p2a: Da KING|slp|[from] move: Rest
+|-heal|p2a: Da KING|523/523 slp|[silent]
+|move|p1a: Snorlax|Body Slam|p2a: Da KING
+|-damage|p2a: Da KING|448/523 slp
+|
+|upkeep
+|turn|10
+|
+|cant|p2a: Da KING|slp
+|move|p1a: Snorlax|Body Slam|p2a: Da KING
+|-damage|p2a: Da KING|381/523 slp
+|
+|upkeep
+|turn|11
+|
+|-curestatus|p2a: Da KING|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Da KING
+|-damage|p2a: Da KING|315/523
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Da KING|Rest|p2a: Da KING
+|-status|p2a: Da KING|slp|[from] move: Rest
+|-heal|p2a: Da KING|523/523 slp|[silent]
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|13
+|
+|cant|p2a: Da KING|slp
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|14
+|
+|-curestatus|p2a: Da KING|slp|[msg]
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Da KING|Ice Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|452/523
+|move|p1a: Snorlax|Body Slam|p2a: Da KING
+|-damage|p2a: Da KING|448/523
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Da KING|Ice Beam|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|287/303
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: I Beat Egg|Starmie|323/323
+|move|p1a: Cloyster|Ice Beam|p2a: I Beat Egg
+|-resisted|p2a: I Beat Egg
+|-damage|p2a: I Beat Egg|276/323
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|switch|p1a: Chansey|Chansey|703/703
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|254/383
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Zapdos|Drill Peck|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|372/413
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: I Beat Star|Exeggutor|393/393
+|move|p1a: Rhydon|Rock Slide|p2a: I Beat Star
+|-damage|p2a: I Beat Star|281/393
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|move|p2a: I Beat Star|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|584/703 par
+|
+|upkeep
+|turn|23
+|
+|move|p2a: I Beat Star|Explosion|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: I Beat Star
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|switch|p2a: I Beat Egg|Starmie|276/323
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|turn|24
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|move|p2a: I Beat Egg|Thunder Wave|p1a: Exeggutor
+|-status|p1a: Exeggutor|par
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|25
+|
+|move|p2a: I Beat Egg|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|224/393 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: I Beat Egg
+|-status|p2a: I Beat Egg|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|26
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|switch|p2a: Da KING|Snorlax|448/523
+|move|p1a: Exeggutor|Explosion|p2a: Da KING
+|-damage|p2a: Da KING|103/523
+|faint|p1a: Exeggutor
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|switch|p1a: Rhydon|Rhydon|372/413
+|turn|27
+|
+|move|p1a: Rhydon|Earthquake|p2a: Da KING
+|-damage|p2a: Da KING|0 fnt
+|faint|p2a: Da KING
+|
+|switch|p2a: He wants to Carry|Tauros|353/353
+|turn|28
+|
+|switch|p1a: Cloyster|Cloyster|287/303
+|move|p2a: He wants to Carry|Body Slam|p1a: Cloyster
+|-damage|p1a: Cloyster|226/303
+|-status|p1a: Cloyster|par
+|
+|upkeep
+|turn|29
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|switch|p2a: I Break Ballz|Chansey|431/703
+|move|p1a: Cloyster|Ice Beam|p2a: I Break Ballz
+|-damage|p2a: I Break Ballz|327/703
+|
+|upkeep
+|turn|30
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|switch|p1a: Snorlax|Snorlax|452/523
+|move|p2a: I Break Ballz|Soft-Boiled|p2a: I Break Ballz
+|-heal|p2a: I Break Ballz|678/703
+|
+|upkeep
+|turn|31
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|move|p2a: I Break Ballz|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: I Break Ballz|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|352/523 par
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|33
+|
+|move|p2a: I Break Ballz|Seismic Toss|p1a: Snorlax
+|-damage|p1a: Snorlax|252/523 par
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|34
+|
+|switch|p2a: Zapdos|Zapdos|254/383
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|355/523 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Rhydon|Rhydon|372/413
+|move|p2a: Zapdos|Thunderbolt|p1a: Rhydon
+|-immune|p1a: Rhydon
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: He wants to Carry|Tauros|353/353
+|move|p1a: Rhydon|Earthquake|p2a: He wants to Carry
+|-damage|p2a: He wants to Carry|202/353
+|
+|upkeep
+|turn|38
+|
+|move|p2a: He wants to Carry|Body Slam|p1a: Rhydon
+|-resisted|p1a: Rhydon
+|-damage|p1a: Rhydon|327/413
+|move|p1a: Rhydon|Earthquake|p2a: He wants to Carry
+|-damage|p2a: He wants to Carry|48/353
+|
+|upkeep
+|turn|39
+|
+|switch|p1a: Cloyster|Cloyster|226/303 par
+|move|p2a: He wants to Carry|Blizzard|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|184/303 par
+|
+|upkeep
+|turn|40
+|
+|switch|p2a: I Beat Egg|Starmie|276/323 slp
+|cant|p1a: Cloyster|par
+|
+|upkeep
+|turn|41
+|
+|switch|p1a: Snorlax|Snorlax|355/523
+|cant|p2a: I Beat Egg|slp
+|
+|upkeep
+|turn|42
+|
+|cant|p2a: I Beat Egg|slp
+|move|p1a: Snorlax|Body Slam|p2a: I Beat Egg
+|-damage|p2a: I Beat Egg|158/323 slp
+|
+|upkeep
+|turn|43
+|
+|cant|p2a: I Beat Egg|slp
+|move|p1a: Snorlax|Hyper Beam|p2a: I Beat Egg
+|-damage|p2a: I Beat Egg|0 fnt
+|faint|p2a: I Beat Egg
+|
+|switch|p2a: Zapdos|Zapdos|254/383
+|turn|44
+|
+|switch|p2a: He wants to Carry|Tauros|48/353
+|switch|p1a: Rhydon|Rhydon|327/413
+|
+|upkeep
+|turn|45
+|
+|switch|p1a: Cloyster|Cloyster|184/303 par
+|move|p2a: He wants to Carry|Blizzard|p1a: Cloyster
+|-resisted|p1a: Cloyster
+|-damage|p1a: Cloyster|163/303 par
+|
+|upkeep
+|turn|46
+|inactive|Omastar & Khaetis has 120 seconds left.
+|inactive|Noobwannabe has 120 seconds left.
+|
+|switch|p2a: Zapdos|Zapdos|254/383
+|cant|p1a: Cloyster|par
+|
+|upkeep
+|turn|47
+|inactive|Omastar & Khaetis has 120 seconds left.
+|
+|switch|p2a: He wants to Carry|Tauros|48/353
+|switch|p1a: Rhydon|Rhydon|327/413
+|
+|upkeep
+|turn|48
+|
+|move|p2a: He wants to Carry|Blizzard|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Snorlax|Snorlax|355/523
+|turn|49
+|
+|move|p2a: He wants to Carry|Hyper Beam|p1a: Snorlax
+|-damage|p1a: Snorlax|114/523
+|-mustrecharge|p2a: He wants to Carry
+|move|p1a: Snorlax|Body Slam|p2a: He wants to Carry
+|-damage|p2a: He wants to Carry|0 fnt
+|faint|p2a: He wants to Carry
+|
+|switch|p2a: Zapdos|Zapdos|254/383
+|turn|50
+|
+|switch|p1a: Cloyster|Cloyster|163/303 par
+|move|p2a: Zapdos|Thunderbolt|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|c|☆Noobwannabe|gg i won
+|
+|switch|p1a: Starmie|Starmie|323/323 slp
+|turn|51
+|
+|cant|p1a: Starmie|slp
+|move|p2a: Zapdos|Thunderbolt|p1a: Starmie
+|-crit|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Snorlax|Snorlax|114/523
+|turn|52
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|win|Noobwannabe
+|c|☆Noobwannabe|gg
+|c|☆Noobwannabe|I read you

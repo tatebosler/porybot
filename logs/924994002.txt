@@ -1,0 +1,312 @@
+|j|☆Chrycks
+|j|☆Butterchoke
+|player|p1|Chrycks|23
+|player|p2|Butterchoke|202
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: El Moustachio|Alakazam|313/313
+|switch|p2a: Hypno|Hypno|373/373
+|turn|1
+|c|☆Butterchoke|gl hf
+|c|☆Chrycks|same :D
+|
+|move|p1a: El Moustachio|Psychic|p2a: Hypno
+|-crit|p2a: Hypno
+|-resisted|p2a: Hypno
+|-damage|p2a: Hypno|258/373
+|-unboost|p2a: Hypno|spd|1
+|-unboost|p2a: Hypno|spa|1
+|move|p2a: Hypno|Thunder Wave|p1a: El Moustachio
+|-status|p1a: El Moustachio|par
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|cant|p1a: El Moustachio|par
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Hentaï|Tangela|333/333
+|move|p2a: Jolteon|Pin Missile|p1a: Hentaï|[miss]
+|-miss|p2a: Jolteon
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Hentaï
+|-status|p1a: Hentaï|par
+|move|p1a: Hentaï|Sleep Powder|p2a: Jolteon
+|-status|p2a: Jolteon|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|5
+|
+|cant|p2a: Jolteon|slp
+|move|p1a: Hentaï|Growth|p1a: Hentaï
+|-boost|p1a: Hentaï|spa|1
+|-boost|p1a: Hentaï|spd|1
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|move|p1a: Hentaï|Growth|p1a: Hentaï
+|-boost|p1a: Hentaï|spa|1
+|-boost|p1a: Hentaï|spd|1
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Dragonite|Wrap|p1a: Hentaï
+|-damage|p1a: Hentaï|319/333 par
+|cant|p1a: Hentaï|partiallytrapped
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Dragonite|Wrap|p1a: Hentaï|[from]Wrap
+|-damage|p1a: Hentaï|305/333 par
+|cant|p1a: Hentaï|partiallytrapped
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Dragonite|Wrap|p1a: Hentaï|[from]Wrap
+|-damage|p1a: Hentaï|291/333 par
+|cant|p1a: Hentaï|partiallytrapped
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Dragonite|Wrap|p1a: Hentaï|[from]Wrap
+|-damage|p1a: Hentaï|277/333 par
+|cant|p1a: Hentaï|partiallytrapped
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Dragonite|Wrap|p1a: Hentaï|[from]Wrap
+|-damage|p1a: Hentaï|263/333 par
+|cant|p1a: Hentaï|partiallytrapped
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Dragonite|Wrap|p1a: Hentaï
+|-damage|p1a: Hentaï|249/333 par
+|cant|p1a: Hentaï|partiallytrapped
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Furry not fluffy|Persian|333/333
+|move|p2a: Dragonite|Wrap|p1a: Furry not fluffy
+|-damage|p1a: Furry not fluffy|313/333
+|
+|upkeep
+|turn|14
+|
+|cant|p1a: Furry not fluffy|partiallytrapped
+|move|p2a: Dragonite|Wrap|p1a: Furry not fluffy|[from]Wrap
+|-damage|p1a: Furry not fluffy|293/333
+|
+|upkeep
+|turn|15
+|
+|cant|p1a: Furry not fluffy|partiallytrapped
+|move|p2a: Dragonite|Wrap|p1a: Furry not fluffy|[from]Wrap
+|-damage|p1a: Furry not fluffy|273/333
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Furry not fluffy|Slash|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|243/385
+|move|p2a: Dragonite|Thunder Wave|p1a: Furry not fluffy
+|-status|p1a: Furry not fluffy|par
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|cant|p1a: Furry not fluffy|par
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Hentaï|Tangela|249/333 par
+|move|p2a: Kangaskhan|Body Slam|p1a: Hentaï
+|-damage|p1a: Hentaï|164/333 par
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Hentaï
+|-damage|p1a: Hentaï|74/333 par
+|move|p1a: Hentaï|Stun Spore|p2a: Kangaskhan
+|-status|p2a: Kangaskhan|par
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: El Moustachio|Alakazam|313/313 par
+|move|p2a: Kangaskhan|Body Slam|p1a: El Moustachio
+|-damage|p1a: El Moustachio|151/313 par
+|
+|upkeep
+|turn|21
+|
+|move|p1a: El Moustachio|Reflect|p1a: El Moustachio
+|-start|p1a: El Moustachio|Reflect
+|move|p2a: Kangaskhan|Body Slam|p1a: El Moustachio
+|-crit|p1a: El Moustachio
+|-damage|p1a: El Moustachio|0 fnt
+|faint|p1a: El Moustachio
+|c|☆Chrycks|ew
+|
+|switch|p1a: Break Me PLS|Pinsir|333/333
+|turn|22
+|c|☆Butterchoke|pardon
+|c|☆Chrycks|tqt mdrrr
+|
+|switch|p2a: Weezing|Weezing|333/333
+|move|p1a: Break Me PLS|Submission|p2a: Weezing
+|-crit|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|268/333
+|-damage|p1a: Break Me PLS|317/333|[from] Recoil|[of] p2a: Weezing
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Hentaï|Tangela|74/333 par
+|move|p2a: Weezing|Fire Blast|p1a: Hentaï
+|-supereffective|p1a: Hentaï
+|-damage|p1a: Hentaï|0 fnt
+|faint|p1a: Hentaï
+|
+|switch|p1a: Slap That Ass|Mr. Mime|283/283
+|turn|24
+|
+|move|p1a: Slap That Ass|Light Screen|p1a: Slap That Ass
+|-start|p1a: Slap That Ass|Light Screen
+|move|p2a: Weezing|Explosion|p1a: Slap That Ass
+|-damage|p1a: Slap That Ass|0 fnt
+|faint|p1a: Slap That Ass
+|faint|p2a: Weezing
+|
+|switch|p1a: Furry not fluffy|Persian|273/333 par
+|switch|p2a: Hypno|Hypno|258/373
+|turn|25
+|
+|move|p2a: Hypno|Psychic|p1a: Furry not fluffy
+|-damage|p1a: Furry not fluffy|114/333 par
+|move|p1a: Furry not fluffy|Slash|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|110/373
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Hypno|Psychic|p1a: Furry not fluffy
+|-damage|p1a: Furry not fluffy|0 fnt
+|faint|p1a: Furry not fluffy
+|
+|switch|p1a: SAC A MERDE|Lapras|463/463
+|turn|27
+|
+|move|p2a: Hypno|Thunder Wave|p1a: SAC A MERDE
+|-status|p1a: SAC A MERDE|par
+|cant|p1a: SAC A MERDE|par
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Hypno|Psychic|p1a: SAC A MERDE
+|-crit|p1a: SAC A MERDE
+|-damage|p1a: SAC A MERDE|239/463 par
+|move|p1a: SAC A MERDE|Blizzard|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413 par
+|turn|29
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: SAC A MERDE
+|-damage|p1a: SAC A MERDE|129/463 par
+|move|p1a: SAC A MERDE|Rest|p1a: SAC A MERDE
+|-status|p1a: SAC A MERDE|slp|[from] move: Rest
+|-heal|p1a: SAC A MERDE|463/463 slp|[silent]
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Jolteon|Jolteon|333/333 slp
+|cant|p1a: SAC A MERDE|slp
+|
+|upkeep
+|turn|31
+|
+|-curestatus|p2a: Jolteon|slp|[msg]
+|-curestatus|p1a: SAC A MERDE|slp|[msg]
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: SAC A MERDE
+|-supereffective|p1a: SAC A MERDE
+|-damage|p1a: SAC A MERDE|205/463
+|move|p1a: SAC A MERDE|Blizzard|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|93/333
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: SAC A MERDE
+|-supereffective|p1a: SAC A MERDE
+|-damage|p1a: SAC A MERDE|0 fnt
+|faint|p1a: SAC A MERDE
+|
+|switch|p1a: Break Me PLS|Pinsir|317/333
+|turn|34
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Break Me PLS
+|-status|p1a: Break Me PLS|par
+|cant|p1a: Break Me PLS|par
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Break Me PLS
+|-damage|p1a: Break Me PLS|157/333 par
+|move|p1a: Break Me PLS|Body Slam|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|c|☆Chrycks|twave décidément
+|
+|switch|p2a: Dewgong|Dewgong|383/383
+|turn|36
+|
+|move|p2a: Dewgong|Surf|p1a: Break Me PLS
+|-crit|p1a: Break Me PLS
+|-damage|p1a: Break Me PLS|0 fnt
+|faint|p1a: Break Me PLS
+|
+|win|Butterchoke
+|c|☆Chrycks|GG
+|c|☆Butterchoke|gg

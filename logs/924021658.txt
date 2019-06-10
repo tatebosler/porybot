@@ -1,0 +1,588 @@
+|j|☆sadisticnarwhal
+|j|☆rylon
+|player|p1|sadisticnarwhal|jasmine-gen2
+|player|p2|rylon|3
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Starmie|Starmie|323/323
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|c|☆sadisticnarwhal|hf
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sadisticnarwhal)
+|c|☆rylon|u2
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|switch|p1a: Chansey|Chansey|703/703
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Chansey|Sing|p2a: Snorlax|[miss]
+|-miss|p1a: Chansey
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|433/703
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Chansey|Sing|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Sing
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|4
+|j| OXT jc
+|
+|cant|p2a: Snorlax|slp
+|move|p1a: Chansey|Counter|p2a: Snorlax
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|5
+|c|☆sadisticnarwhal|oh i thought that worked lol
+|j| Z+V2
+|
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|425/523 slp
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|7
+|j| Hurtadoo
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Cloyster|Blizzard|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|188/323
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323
+|
+|upkeep
+|turn|9
+|j| NUVALere Germain
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|10
+|j| haru
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|258/323 par
+|move|p2a: Starmie|Surf|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|146/313 par
+|
+|upkeep
+|turn|11
+|j| Raichy
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|302/313 par
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Starmie|Starmie|323/323
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310/413
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Starmie|Psychic|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Earthquake|p1a: Starmie
+|-damage|p1a: Starmie|157/323
+|
+|upkeep
+|turn|14
+|j| Ethanoide
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|switch|p2a: Chansey|Chansey|703/703
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Chansey|Chansey|433/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|333/703
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|684/703
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Snorlax|Snorlax|425/523 slp
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|322/523 slp
+|
+|upkeep
+|turn|18
+|j| LTO3S akuma
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Starmie|Starmie|258/323 par
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[miss]
+|-miss|p1a: Cloyster
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|239/323 par
+|cant|p2a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[from]Clamp
+|-damage|p2a: Starmie|220/323 par
+|cant|p2a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[from]Clamp
+|-damage|p2a: Starmie|201/323 par
+|cant|p2a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|23
+|
+|switch|p1a: Alakazam|Alakazam|302/313 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|24
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323 par
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Alakazam|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|257/323 par
+|move|p2a: Starmie|Surf|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|121/313 par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|277/313 par
+|move|p2a: Starmie|Surf|p1a: Alakazam
+|-damage|p1a: Alakazam|181/313 par
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Rhydon|Rhydon|310/413
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Rhydon|Earthquake|p1a: Cloyster
+|-damage|p1a: Cloyster|213/303
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Starmie|Starmie|257/323 par
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[miss]
+|-miss|p1a: Cloyster
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Alakazam|Alakazam|181/313 par
+|switch|p2a: Rhydon|Rhydon|310/413
+|
+|upkeep
+|turn|31
+|
+|switch|p1a: Cloyster|Cloyster|213/303
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|207/413
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Cloyster|Blizzard|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Rock Slide|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|62/303
+|
+|upkeep
+|turn|33
+|l| Ethanoide
+|
+|switch|p2a: Starmie|Starmie|257/323 par
+|move|p1a: Cloyster|Clamp|p2a: Starmie|[miss]
+|-miss|p1a: Cloyster
+|
+|upkeep
+|turn|34
+|
+|move|p1a: Cloyster|Clamp|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|238/323 par
+|cant|p2a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|35
+|
+|switch|p1a: Alakazam|Alakazam|181/313 par
+|cant|p2a: Starmie|partiallytrapped
+|
+|upkeep
+|turn|36
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Starmie|Surf|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|10/313 par
+|
+|upkeep
+|turn|37
+|
+|switch|p1a: Starmie|Starmie|157/323
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Starmie|Thunderbolt|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|99/323 par
+|move|p2a: Starmie|Thunderbolt|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|39
+|
+|move|p1a: Tauros|Body Slam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|
+|switch|p2a: Chansey|Chansey|703/703
+|turn|40
+|
+|switch|p1a: Chansey|Chansey|684/703 par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|584/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|630/703
+|
+|upkeep
+|turn|42
+|
+|switch|p2a: Snorlax|Snorlax|322/523 slp
+|move|p1a: Chansey|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|229/523 slp
+|
+|upkeep
+|turn|43
+|l| OXT jc
+|
+|switch|p2a: Chansey|Chansey|630/703
+|switch|p1a: Cloyster|Cloyster|62/303
+|
+|upkeep
+|turn|44
+|
+|switch|p1a: Chansey|Chansey|584/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|484/703 par
+|
+|upkeep
+|turn|45
+|
+|switch|p2a: Tauros|Tauros|353/353
+|move|p1a: Chansey|Ice Beam|p2a: Tauros
+|-damage|p2a: Tauros|259/353
+|
+|upkeep
+|turn|46
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|393/523
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|266/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|203/523
+|move|p1a: Snorlax|Body Slam|p2a: Tauros|[miss]
+|-miss|p1a: Snorlax
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|133/523
+|move|p1a: Snorlax|Self-Destruct|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Snorlax
+|
+|switch|p2a: Chansey|Chansey|630/703
+|switch|p1a: Tauros|Tauros|353/353
+|turn|50
+|j| OXT jc
+|
+|switch|p1a: Chansey|Chansey|484/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|51
+|
+|switch|p2a: Victreebel|Victreebel|363/363
+|move|p1a: Chansey|Ice Beam|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|201/363
+|
+|upkeep
+|turn|52
+|
+|switch|p1a: Alakazam|Alakazam|10/313 par
+|move|p2a: Victreebel|Wrap|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|53
+|j| Amphareixon
+|
+|switch|p2a: Snorlax|Snorlax|229/523 slp
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|99/523 slp
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|c| NUVALere Germain|feel the magic in the air Hurtadoo
+|
+|switch|p2a: Chansey|Chansey|630/703
+|turn|55
+|
+|switch|p1a: Chansey|Chansey|484/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|56
+|
+|switch|p2a: Victreebel|Victreebel|201/363
+|move|p1a: Chansey|Ice Beam|p2a: Victreebel
+|-supereffective|p2a: Victreebel
+|-damage|p2a: Victreebel|49/363
+|
+|upkeep
+|turn|57
+|c| LTO3S akuma|raconte pas ta vie batard
+|inactive|sadisticnarwhal has 270 seconds left.
+|l| OXT jc
+|
+|switch|p1a: Cloyster|Cloyster|62/303
+|move|p2a: Victreebel|Wrap|p1a: Cloyster
+|-damage|p1a: Cloyster|53/303
+|
+|upkeep
+|turn|58
+|j| OXT jc
+|
+|move|p2a: Victreebel|Wrap|p1a: Cloyster|[from]Wrap
+|-damage|p1a: Cloyster|44/303
+|cant|p1a: Cloyster|partiallytrapped
+|
+|upkeep
+|turn|59
+|
+|cant|p1a: Cloyster|partiallytrapped
+|move|p2a: Victreebel|Wrap|p1a: Cloyster|[from]Wrap
+|-damage|p1a: Cloyster|35/303
+|
+|upkeep
+|turn|60
+|
+|move|p2a: Victreebel|Razor Leaf|p1a: Cloyster
+|-crit|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|61
+|
+|move|p1a: Tauros|Earthquake|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|faint|p2a: Victreebel
+|
+|switch|p2a: Chansey|Chansey|630/703
+|turn|62
+|
+|move|p1a: Tauros|Earthquake|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|231/703
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|63
+|
+|switch|p1a: Chansey|Chansey|484/703 par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|582/703
+|
+|upkeep
+|turn|64
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|384/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|510/703
+|
+|upkeep
+|turn|65
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|284/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|368/703
+|-status|p2a: Chansey|frz
+|
+|upkeep
+|turn|66
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|292/703 frz
+|
+|upkeep
+|turn|67
+|
+|switch|p2a: Rhydon|Rhydon|207/413
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|635/703 par
+|
+|upkeep
+|turn|68
+|c| OXT jc|we get those
+|
+|move|p2a: Rhydon|Earthquake|p1a: Chansey
+|-damage|p1a: Chansey|241/703 par
+|move|p1a: Chansey|Ice Beam|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|c|☆rylon|nigga
+|c|☆rylon|that freeze
+|c|☆rylon|lmao
+|
+|switch|p2a: Chansey|Chansey|292/703 frz
+|turn|69
+|j| Quartosa
+|j| Ethanoide
+|c| haru|nigga
+|c|☆sadisticnarwhal|thats why chansey uses ice beam
+|c| haru|the whole game
+|c|☆sadisticnarwhal|gg
+|c|☆rylon|ig its the game
+|
+|switch|p1a: Tauros|Tauros|353/353 par
+|cant|p2a: Chansey|frz
+|
+|upkeep
+|turn|70
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey|[miss]
+|-miss|p1a: Tauros
+|
+|upkeep
+|turn|71
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|sadisticnarwhal

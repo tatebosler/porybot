@@ -1,0 +1,41 @@
+|j|☆OinkySondre
+|j|‽derpko
+|player|p1|OinkySondre|101
+|player|p2|derpko|36
+|teamsize|p1|6
+|teamsize|p2|1
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Dragonite|Dragonite|385/385
+|switch|p2a: Bulbasaur|Bulbasaur|293/293
+|turn|1
+|
+|move|p1a: Dragonite|Blizzard|p2a: Bulbasaur
+|-supereffective|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|50/293
+|move|p2a: Bulbasaur|Razor Leaf|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|374/385
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Dragonite|Blizzard|p2a: Bulbasaur
+|-supereffective|p2a: Bulbasaur
+|-damage|p2a: Bulbasaur|0 fnt
+|faint|p2a: Bulbasaur
+|
+|win|OinkySondre
+|l|☆OinkySondre
+|raw|OinkySondre's rating: 1040 &rarr; <strong>1070</strong><br />(+30 for winning)
+|raw|derpko's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

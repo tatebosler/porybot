@@ -1,0 +1,388 @@
+|j|☆Pheooo
+|j|☆Kaylesse
+|player|p1|Pheooo|red-gen1
+|player|p2|Kaylesse|250
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Rhydon|Rhydon|413/413
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|1
+|c|☆Pheooo|faut pas croire j'ai build btw
+|c|☆Kaylesse|Hf ×2
+|c|☆Pheooo|je prend juste la meme team
+|c|☆Kaylesse|Ah mdr
+|c|☆Pheooo|hf$
+|c|☆Pheooo|putain ce poké me 6-0
+|c|☆Pheooo|gg !
+|
+|switch|p1a: Moltres|Moltres|383/383
+|move|p2a: Exeggutor|Psychic|p1a: Moltres
+|-damage|p1a: Moltres|283/383
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gyarados|Gyarados|393/393
+|move|p1a: Moltres|Fire Blast|p2a: Gyarados
+|-crit|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|228/393
+|
+|upkeep
+|turn|3
+|c|☆Pheooo|il est ou
+|c|☆Pheooo|LE FREEZE
+|
+|switch|p1a: Vaporeon|Vaporeon|463/463
+|move|p2a: Gyarados|Blizzard|p1a: Vaporeon
+|-crit|p1a: Vaporeon
+|-resisted|p1a: Vaporeon
+|-damage|p1a: Vaporeon|380/463
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Gyarados|Thunder|p1a: Vaporeon|[miss]
+|-miss|p2a: Gyarados
+|move|p1a: Vaporeon|Body Slam|p2a: Gyarados
+|-damage|p2a: Gyarados|164/393
+|
+|upkeep
+|turn|5
+|c|☆Pheooo|too
+|
+|switch|p2a: Pikachu|Pikachu|273/273
+|move|p1a: Vaporeon|Body Slam|p2a: Pikachu
+|-damage|p2a: Pikachu|170/273
+|-status|p2a: Pikachu|par
+|
+|upkeep
+|turn|6
+|c|☆Kaylesse|TRICHEUR
+|
+|switch|p1a: Raichu|Raichu|323/323
+|move|p2a: Pikachu|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|280/323
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Raichu|Surf|p2a: Pikachu
+|-damage|p2a: Pikachu|70/273 par
+|move|p2a: Pikachu|Thunder Wave|p1a: Raichu|[miss]
+|-miss|p2a: Pikachu
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Raichu|Surf|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|faint|p2a: Pikachu
+|c|☆Pheooo|MDRR
+|
+|switch|p2a: Nidoqueen|Nidoqueen|383/383
+|turn|9
+|c|☆Kaylesse|Happens
+|c|☆Pheooo|ah mais ce truc
+|c|☆Pheooo|me defonce aussi
+|c|☆Pheooo|wtf wtf
+|c|☆Pheooo|look this tech
+|
+|move|p1a: Raichu|Thunder Wave|p2a: Nidoqueen
+|-immune|p2a: Nidoqueen
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Raichu
+|-resisted|p1a: Raichu
+|-damage|p1a: Raichu|250/323
+|
+|upkeep
+|turn|10
+|c|☆Pheooo|ah..
+|c|☆Kaylesse|Meilleur move
+|
+|move|p1a: Raichu|Surf|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|213/383
+|move|p2a: Nidoqueen|Blizzard|p1a: Raichu
+|-damage|p1a: Raichu|168/323
+|-status|p1a: Raichu|frz
+|
+|upkeep
+|turn|11
+|c|☆Pheooo|lui aussi
+|c|☆Kaylesse|Hop
+|
+|switch|p1a: Vaporeon|Vaporeon|380/463
+|move|p2a: Nidoqueen|Earthquake|p1a: Vaporeon
+|-damage|p1a: Vaporeon|234/463
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Nidoqueen|Thunderbolt|p1a: Vaporeon
+|-supereffective|p1a: Vaporeon
+|-damage|p1a: Vaporeon|123/463
+|move|p1a: Vaporeon|Surf|p2a: Nidoqueen
+|-crit|p2a: Nidoqueen
+|-supereffective|p2a: Nidoqueen
+|-damage|p2a: Nidoqueen|0 fnt
+|faint|p2a: Nidoqueen
+|
+|switch|p2a: Charizard|Charizard|359/359
+|turn|13
+|c|☆Kaylesse|REVEAL TPUNCH
+|
+|move|p2a: Charizard|Hyper Beam|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|faint|p1a: Vaporeon
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|turn|14
+|c|☆Pheooo|en vrai
+|c|☆Kaylesse|G menti
+|c|☆Pheooo|t'as des balls
+|c|☆Pheooo|pck jvoulais aller rhydon
+|c|☆Pheooo|j'ai pas eu le temps
+|
+|switch|p2a: Gyarados|Gyarados|164/393
+|move|p1a: Rhydon|Rock Slide|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|c|☆Pheooo|salopw
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|15
+|
+|switch|p1a: Raichu|Raichu|168/323 frz
+|move|p2a: Exeggutor|Sleep Powder|p1a: Raichu
+|-fail|p1a: Raichu
+|
+|upkeep
+|turn|16
+|
+|cant|p1a: Raichu|frz
+|move|p2a: Exeggutor|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|38/323 frz
+|
+|upkeep
+|turn|17
+|
+|cant|p1a: Raichu|frz
+|move|p2a: Exeggutor|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Moltres|Moltres|283/383
+|turn|18
+|
+|switch|p2a: Charizard|Charizard|359/359
+|move|p1a: Moltres|Fire Blast|p2a: Charizard|[miss]
+|-miss|p1a: Moltres
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Charizard|Swords Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|2
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Charizard|Earthquake|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|182/413
+|move|p1a: Rhydon|Rock Slide|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|21
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Moltres|Moltres|283/383
+|turn|22
+|
+|switch|p2a: Machamp|Machamp|383/383
+|move|p1a: Moltres|Fire Blast|p2a: Machamp
+|-damage|p2a: Machamp|154/383
+|
+|upkeep
+|turn|23
+|c|☆Kaylesse|MISS NOW
+|c|☆Pheooo|mais non mais non
+|
+|switch|p1a: Vileplume|Vileplume|353/353
+|move|p2a: Machamp|Rock Slide|p1a: Vileplume
+|-damage|p1a: Vileplume|274/353
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Machamp|Fire Blast|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|133/353
+|move|p1a: Vileplume|Sleep Powder|p2a: Machamp
+|-status|p2a: Machamp|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|25
+|
+|cant|p2a: Machamp|slp
+|move|p1a: Vileplume|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|85/383 slp
+|
+|upkeep
+|turn|26
+|
+|cant|p2a: Machamp|slp
+|move|p1a: Vileplume|Body Slam|p2a: Machamp
+|-damage|p2a: Machamp|23/383 slp
+|
+|upkeep
+|turn|27
+|
+|-curestatus|p2a: Machamp|slp|[msg]
+|move|p1a: Vileplume|Body Slam|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|c|☆Pheooo|bravo gami
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|28
+|
+|move|p2a: Exeggutor|Psychic|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|switch|p1a: Abra|Abra|253/253
+|turn|29
+|
+|move|p1a: Abra|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Abra
+|-status|p1a: Abra|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|30
+|
+|-curestatus|p1a: Abra|slp|[msg]
+|move|p2a: Exeggutor|Mega Drain|p1a: Abra
+|-damage|p1a: Abra|201/253
+|
+|upkeep
+|turn|31
+|c|☆Kaylesse|MAIS TU TRICHES AUSSI
+|c|☆Pheooo|ce tier ?
+|c|☆Pheooo|pff
+|
+|move|p1a: Abra|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Abra
+|-status|p1a: Abra|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|32
+|
+|cant|p1a: Abra|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Abra
+|-damage|p1a: Abra|144/253 slp
+|-heal|p2a: Exeggutor|321/393 par|[from] drain|[of] p1a: Abra
+|
+|upkeep
+|turn|33
+|
+|-curestatus|p1a: Abra|slp|[msg]
+|move|p2a: Exeggutor|Mega Drain|p1a: Abra
+|-damage|p1a: Abra|88/253
+|-heal|p2a: Exeggutor|349/393 par|[from] drain|[of] p1a: Abra
+|
+|upkeep
+|turn|34
+|c|☆Pheooo|MAIS AUSSI
+|c|☆Pheooo|TU MISS PAS
+|c|☆Pheooo|TRICHEUR
+|c|☆Pheooo|MISS NAN
+|
+|move|p1a: Abra|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|249/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Abra|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|35
+|c|☆Pheooo|BAH VOILA
+|
+|move|p1a: Abra|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|149/393 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Abra
+|-status|p1a: Abra|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|36
+|c|☆Pheooo|PAS CA
+|
+|cant|p1a: Abra|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Abra
+|-damage|p1a: Abra|34/253 slp
+|-heal|p2a: Exeggutor|176/393 par|[from] drain|[of] p1a: Abra
+|
+|upkeep
+|turn|37
+|
+|cant|p1a: Abra|slp
+|cant|p2a: Exeggutor|par
+|
+|upkeep
+|turn|38
+|
+|cant|p1a: Abra|slp
+|move|p2a: Exeggutor|Mega Drain|p1a: Abra
+|-crit|p1a: Abra
+|-damage|p1a: Abra|0 fnt
+|-heal|p2a: Exeggutor|193/393 par|[from] drain|[of] p1a: Abra
+|faint|p1a: Abra
+|
+|switch|p1a: Moltres|Moltres|283/383
+|turn|39
+|c|☆Kaylesse|Ok
+|c|☆Pheooo|mais aussi
+|c|☆Kaylesse|Moltres
+|c|☆Pheooo|ce tier
+|c|☆Pheooo|pue la merde
+|c|☆Kaylesse|Ok
+|c|☆Kaylesse|Moltres
+|c|☆Kaylesse|Ok
+|c|☆Kaylesse|Moltres
+|
+|move|p1a: Moltres|Fire Blast|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|win|Pheooo
+|c|☆Pheooo|lance flammes existe meme pas
+|c|☆Kaylesse|Pd de moltres
+|c|☆Kaylesse|Gg
+|c|☆Pheooo|/log Pheooo made this room hidden.

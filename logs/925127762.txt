@@ -1,0 +1,232 @@
+|j|☆OsaiY
+|j|☆Butterchoke
+|player|p1|OsaiY|157
+|player|p2|Butterchoke|202
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Sandslash|Sandslash|353/353
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|1
+|c|☆Butterchoke|gl hf
+|c|☆OsaiY|hf
+|
+|switch|p2a: Dragonite|Dragonite|385/385
+|move|p1a: Sandslash|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|267/385
+|
+|upkeep
+|turn|2
+|l|☆OsaiY
+|player|p1|
+|c|☆Butterchoke|wtf?
+|j|☆OsaiY
+|player|p1|OsaiY|157
+|
+|switch|p2a: Kabutops|Kabutops|323/323
+|switch|p1a: Starmie|Starmie|323/323
+|
+|upkeep
+|turn|3
+|c|☆OsaiY|dsl pbl de co ^^
+|c|☆Butterchoke|tkt
+|
+|switch|p2a: Hypno|Hypno|373/373
+|move|p1a: Starmie|Thunder Wave|p2a: Hypno
+|-status|p2a: Hypno|par
+|
+|upkeep
+|turn|4
+|j| Scout Cavalry
+|l| Scout Cavalry
+|
+|switch|p1a: Omastar|Omastar|343/343
+|cant|p2a: Hypno|par
+|
+|upkeep
+|turn|5
+|j| Scout Cavalry
+|
+|move|p1a: Omastar|Mimic|p2a: Hypno
+|-start|p1a: Omastar|Mimic|Psychic
+|cant|p2a: Hypno|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Omastar|Surf|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|140/373 par
+|move|p2a: Hypno|Thunder Wave|p1a: Omastar
+|-status|p1a: Omastar|par
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Hypno|Psychic|p1a: Omastar
+|-crit|p1a: Omastar
+|-damage|p1a: Omastar|145/343 par
+|cant|p1a: Omastar|par
+|
+|upkeep
+|turn|8
+|
+|cant|p2a: Hypno|par
+|move|p1a: Omastar|Surf|p2a: Hypno
+|-crit|p2a: Hypno
+|-damage|p2a: Hypno|0 fnt
+|faint|p2a: Hypno
+|l| Scout Cavalry
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|turn|9
+|
+|switch|p1a: Rapidash|Rapidash|333/333
+|move|p2a: Kangaskhan|Earthquake|p1a: Rapidash
+|-crit|p1a: Rapidash
+|-supereffective|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Victreebel|Victreebel|363/363
+|turn|10
+|
+|move|p2a: Kangaskhan|Blizzard|p1a: Victreebel|[miss]
+|-miss|p2a: Kangaskhan
+|move|p1a: Victreebel|Sleep Powder|p2a: Kangaskhan|[miss]
+|-miss|p1a: Victreebel
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Kangaskhan|Blizzard|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|258/363
+|move|p1a: Victreebel|Razor Leaf|p2a: Kangaskhan|[miss]
+|-miss|p1a: Victreebel
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Kabutops|Kabutops|323/323
+|move|p1a: Victreebel|Razor Leaf|p2a: Kabutops
+|-crit|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|switch|p2a: Kangaskhan|Kangaskhan|413/413
+|turn|13
+|
+|move|p2a: Kangaskhan|Blizzard|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|147/363
+|move|p1a: Victreebel|Razor Leaf|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|196/413
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Kangaskhan|Body Slam|p1a: Victreebel|[miss]
+|-miss|p2a: Kangaskhan
+|-hint|In Gen 1, moves with 100% accurracy can still miss 1/256 of the time.
+|move|p1a: Victreebel|Razor Leaf|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|c|☆Butterchoke|ma chance m a abandonne
+|
+|switch|p2a: Weezing|Weezing|333/333
+|turn|15
+|
+|move|p1a: Victreebel|Sleep Powder|p2a: Weezing
+|-status|p2a: Weezing|slp|[from] move: Sleep Powder
+|cant|p2a: Weezing|slp
+|
+|upkeep
+|turn|16
+|c|☆OsaiY|je suis pas mal chanceux aussi ^^
+|c|☆Butterchoke|jsutement
+|
+|switch|p1a: Sandslash|Sandslash|353/353
+|cant|p2a: Weezing|slp
+|
+|upkeep
+|turn|17
+|c|☆Butterchoke|j ai perd 3 match a cause de la rng XD
+|
+|switch|p2a: Dragonite|Dragonite|267/385
+|move|p1a: Sandslash|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Omastar|Omastar|145/343 par
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Dragonite|Thunderbolt|p1a: Omastar
+|-supereffective|p1a: Omastar
+|-damage|p1a: Omastar|14/343 par
+|move|p1a: Omastar|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|20
+|
+|move|p2a: Jolteon|Focus Energy|p2a: Jolteon
+|-start|p2a: Jolteon|move: Focus Energy
+|move|p1a: Omastar|Surf|p2a: Jolteon
+|-damage|p2a: Jolteon|210/333
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Omastar
+|-damage|p1a: Omastar|6/343 par
+|-damage|p1a: Omastar|0 fnt
+|-hitcount|p1a: Omastar|2
+|faint|p1a: Omastar
+|
+|switch|p1a: Sandslash|Sandslash|353/353
+|turn|22
+|
+|move|p2a: Jolteon|Pin Missile|p1a: Sandslash
+|-damage|p1a: Sandslash|344/353
+|-damage|p1a: Sandslash|335/353
+|-hitcount|p1a: Sandslash|2
+|move|p1a: Sandslash|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Weezing|Weezing|333/333 slp
+|turn|23
+|c|☆Butterchoke|ptain mon ga :,(
+|
+|move|p1a: Sandslash|Earthquake|p2a: Weezing
+|-crit|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|win|OsaiY
+|c|☆OsaiY|gg j'aime vraiment bien le rby finalement

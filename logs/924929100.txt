@@ -1,0 +1,258 @@
+|j|☆Butterchoke
+|j|☆Gatubraz
+|player|p1|Butterchoke|202
+|player|p2|Gatubraz|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Kabutops|Kabutops|323/323
+|switch|p2a: Dragonair|Dragonair|325/325
+|turn|1
+|c|☆Butterchoke|hf
+|c|☆Gatubraz|Gl hf
+|c|☆Gatubraz|Enfin gl x)
+|
+|move|p1a: Kabutops|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|136/325
+|-status|p2a: Dragonair|frz
+|cant|p2a: Dragonair|frz
+|
+|upkeep
+|turn|2
+|c|☆Butterchoke|lol
+|c|☆Butterchoke|ca commence bien
+|c|☆Gatubraz|Bah voila xD
+|c|☆Gatubraz|Un bon match de rby
+|c|☆Butterchoke|ca commence comme notre match de p4g
+|
+|switch|p2a: Golduck|Golduck|363/363
+|move|p1a: Kabutops|Swords Dance|p1a: Kabutops
+|-boost|p1a: Kabutops|atk|2
+|
+|upkeep
+|turn|3
+|c|☆Gatubraz|Grave xD
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Kabutops|Slash|p2a: Golduck
+|-crit|p2a: Golduck
+|-damage|p2a: Golduck|220/363
+|
+|upkeep
+|turn|4
+|c|☆Gatubraz|Merci
+|c|☆Gatubraz|Tu gère
+|c|☆Gatubraz|Tu sais que
+|c|☆Gatubraz|Petite mecanique de 1g
+|c|☆Gatubraz|Le crits ne prennent pas en compte lez changements de stats
+|c|☆Butterchoke|ah
+|c|☆Butterchoke|merde
+|c|☆Gatubraz|Meme ton augmentation d'atk
+|
+|move|p2a: Golduck|Surf|p1a: Kabutops
+|-damage|p1a: Kabutops|83/323
+|move|p1a: Kabutops|Hyper Beam|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|
+|switch|p2a: Electabuzz|Electabuzz|333/333
+|turn|5
+|c|☆Butterchoke|c etait prevu
+|
+|switch|p1a: Jolteon|Jolteon|333/333
+|move|p2a: Electabuzz|Thunderbolt|p1a: Jolteon
+|-resisted|p1a: Jolteon
+|-damage|p1a: Jolteon|286/333
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Jolteon|Thunder Wave|p2a: Golem
+|-immune|p2a: Golem
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Dragonite|Dragonite|385/385
+|move|p2a: Golem|Earthquake|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Dragonair|Dragonair|136/325 frz
+|move|p1a: Dragonite|Blizzard|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|switch|p2a: Jynx|Jynx|333/333
+|turn|9
+|
+|switch|p1a: Kabutops|Kabutops|83/323
+|move|p2a: Jynx|Ice Beam|p1a: Kabutops
+|-resisted|p1a: Kabutops
+|-damage|p1a: Kabutops|17/323
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Jolteon|Jolteon|286/333
+|move|p2a: Jynx|Ice Beam|p1a: Jolteon
+|-damage|p1a: Jolteon|188/333
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Kangaskhan|Kangaskhan|413/413
+|move|p2a: Jynx|Lovely Kiss|p1a: Kangaskhan|[miss]
+|-miss|p2a: Jynx
+|
+|upkeep
+|turn|12
+|c|☆Gatubraz|Mais ma belle anticipation :'(
+|c|☆Butterchoke|javoue
+|
+|switch|p1a: Kabutops|Kabutops|17/323
+|move|p2a: Jynx|Lovely Kiss|p1a: Kabutops
+|-status|p1a: Kabutops|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Hypno|Hypno|373/373
+|move|p2a: Jynx|Metronome|p2a: Jynx
+|move|p2a: Jynx|Petal Dance|p1a: Hypno|[from]Metronome
+|-damage|p1a: Hypno|328/373
+|
+|upkeep
+|turn|14
+|c|☆Gatubraz|Fuck....
+|c|☆Butterchoke|t es lock?
+|
+|move|p2a: Jynx|Petal Dance|p1a: Hypno|[from]Petal Dance
+|-damage|p1a: Hypno|281/373
+|move|p1a: Hypno|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|upkeep
+|turn|15
+|c|☆Gatubraz|:'(
+|
+|move|p1a: Hypno|Psychic|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|271/333 par
+|move|p2a: Jynx|Petal Dance|p1a: Hypno|[from]Petal Dance
+|-damage|p1a: Hypno|228/373
+|-start|p2a: Jynx|confusion|[silent]
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Raticate|Raticate|313/313
+|move|p1a: Hypno|Psychic|p2a: Raticate
+|-damage|p2a: Raticate|136/313
+|-unboost|p2a: Raticate|spd|1
+|-unboost|p2a: Raticate|spa|1
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Raticate|Hyper Beam|p1a: Hypno
+|-damage|p1a: Hypno|29/373
+|-mustrecharge|p2a: Raticate
+|move|p1a: Hypno|Psychic|p2a: Raticate
+|-damage|p2a: Raticate|0 fnt
+|faint|p2a: Raticate
+|
+|switch|p2a: Electabuzz|Electabuzz|333/333
+|turn|18
+|
+|move|p2a: Electabuzz|Thunderbolt|p1a: Hypno
+|-crit|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|switch|p1a: Kangaskhan|Kangaskhan|413/413
+|turn|19
+|
+|move|p1a: Kangaskhan|Earthquake|p2a: Electabuzz
+|-supereffective|p2a: Electabuzz
+|-damage|p2a: Electabuzz|128/333
+|move|p2a: Electabuzz|Counter|p1a: Kangaskhan
+|-fail|p2a: Electabuzz
+|
+|upkeep
+|turn|20
+|c|☆Gatubraz|Hein?
+|c|☆Butterchoke|ca marche quavec les attaque combat et normal
+|c|☆Gatubraz|!dt counter
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://pokemonshowdown.com/dex/moves/counter">Counter</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Fighting.png" alt="Fighting" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Physical.png" alt="Physical" width="32" height="14"></span> <span class="col widelabelcol"><em>Accuracy</em><br>100%</span> <span class="col pplabelcol"><em>PP</em><br>32</span> <span class="col movedesccol">If hit by physical attack, returns double damage.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> -1&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 1&nbsp;|&ThickSpace;&#10003; Contact&nbsp;|&ThickSpace;<font color="#686868">Target:</font> Unknown</font>
+
+|c|☆Gatubraz|Ah bon
+|c|☆Butterchoke|petite mecanique de 1g
+|c|☆Butterchoke|:P
+|
+|switch|p2a: Jynx|Jynx|271/333 par
+|move|p1a: Kangaskhan|Earthquake|p2a: Jynx
+|-damage|p2a: Jynx|132/333 par
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Kangaskhan|Body Slam|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|c|☆Gatubraz|x)
+|
+|switch|p2a: Golem|Golem|363/363
+|turn|22
+|
+|move|p1a: Kangaskhan|Blizzard|p2a: Golem|[miss]
+|-miss|p1a: Kangaskhan
+|move|p2a: Golem|Earthquake|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|269/413
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Kangaskhan|Blizzard|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|192/363
+|move|p2a: Golem|Explosion|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|faint|p2a: Golem
+|
+|switch|p1a: Weezing|Weezing|333/333
+|switch|p2a: Electabuzz|Electabuzz|128/333
+|turn|24
+|c|☆Butterchoke|gg
+|
+|move|p2a: Electabuzz|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|189/333
+|-unboost|p1a: Weezing|spd|1
+|-unboost|p1a: Weezing|spa|1
+|move|p1a: Weezing|Explosion|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|faint|p1a: Weezing
+|
+|win|Butterchoke
+|c|☆Gatubraz|Bon bah gg i guess x)

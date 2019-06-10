@@ -1,0 +1,544 @@
+|j|☆Marfex
+|j|☆Krzysztolf
+|player|p1|Marfex|104
+|player|p2|Krzysztolf|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Scyther|Scyther|343/343
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|1
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: Zapdos|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Golem|Substitute|p1a: Golem
+|-start|p1a: Golem|Substitute
+|-damage|p1a: Golem|273/363
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Golem
+|-supereffective|p1a: Golem
+|-end|p1a: Golem|Substitute
+|move|p1a: Golem|Rock Slide|p2a: Exeggutor
+|-damage|p2a: Exeggutor|294/393
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Scyther|Scyther|343/343
+|move|p2a: Exeggutor|Leech Seed|p1a: Scyther
+|-start|p1a: Scyther|move: Leech Seed
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Arcanine|Arcanine|383/383
+|move|p1a: Scyther|Wing Attack|p2a: Arcanine
+|-damage|p2a: Arcanine|334/383
+|-damage|p1a: Scyther|322/343|[from] Leech Seed|[of] p2a: Arcanine
+|-heal|p2a: Arcanine|355/383|[silent]
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Golem|Golem|273/363
+|move|p2a: Arcanine|Flamethrower|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|209/363
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Exeggutor|Exeggutor|294/393
+|move|p1a: Golem|Earthquake|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|226/393
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Scyther|Scyther|322/343
+|move|p2a: Exeggutor|Mega Drain|p1a: Scyther
+|-resisted|p1a: Scyther
+|-damage|p1a: Scyther|303/343
+|-heal|p2a: Exeggutor|235/393|[from] drain|[of] p1a: Scyther
+|
+|upkeep
+|turn|9
+|j| B-Rubbit
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Golem|Golem|209/363
+|move|p2a: Zapdos|Thunderbolt|p1a: Golem
+|-immune|p1a: Golem
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Machamp|Machamp|383/383
+|move|p1a: Golem|Rock Slide|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|324/383
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Scyther|Scyther|303/343
+|move|p2a: Machamp|Earthquake|p1a: Scyther
+|-immune|p1a: Scyther
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Golem|Golem|209/363
+|move|p2a: Zapdos|Thunder Wave|p1a: Golem
+|-immune|p1a: Golem
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Machamp|Machamp|324/383
+|move|p1a: Golem|Rock Slide|p2a: Machamp
+|-resisted|p2a: Machamp
+|-damage|p2a: Machamp|266/383
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Scyther|Scyther|303/343
+|move|p2a: Machamp|Toxic|p1a: Scyther
+|-status|p1a: Scyther|tox
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Scyther|Wing Attack|p2a: Machamp
+|-supereffective|p2a: Machamp
+|-damage|p2a: Machamp|158/383
+|-damage|p1a: Scyther|282/343 tox|[from] psn
+|move|p2a: Machamp|Body Slam|p1a: Scyther
+|-damage|p1a: Scyther|197/343 tox
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Scyther|Swords Dance|p1a: Scyther
+|-boost|p1a: Scyther|atk|2
+|-damage|p1a: Scyther|155/343 tox|[from] psn
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Scyther|Hyper Beam|p2a: Zapdos
+|-damage|p2a: Zapdos|111/383
+|-damage|p1a: Scyther|92/343 tox|[from] psn
+|-mustrecharge|p1a: Scyther
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|16/383
+|
+|upkeep
+|turn|20
+|
+|cant|p1a: Scyther|recharge
+|-damage|p1a: Scyther|8/343 tox|[from] psn
+|move|p2a: Zapdos|Thunderbolt|p1a: Scyther
+|-crit|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|0 fnt
+|faint|p1a: Scyther
+|
+|switch|p1a: Golem|Golem|209/363
+|turn|21
+|
+|move|p2a: Zapdos|Sky Attack||[still]
+|-prepare|p2a: Zapdos|Sky Attack|p1a: Golem
+|move|p1a: Golem|Substitute|p1a: Golem
+|-start|p1a: Golem|Substitute
+|-damage|p1a: Golem|119/363
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Zapdos|Sky Attack|p1a: Golem|[from]Sky Attack
+|-resisted|p1a: Golem
+|-activate|p1a: Golem|Substitute|[damage]
+|move|p1a: Golem|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Zapdos|Sky Attack||[still]
+|-prepare|p2a: Zapdos|Sky Attack|p1a: Golem
+|move|p1a: Golem|Rock Slide|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|switch|p2a: Exeggutor|Exeggutor|235/393
+|turn|24
+|
+|switch|p2a: Gengar|Gengar|323/323
+|move|p1a: Golem|Explosion|p2a: Gengar
+|-immune|p2a: Gengar
+|faint|p1a: Golem
+|
+|switch|p1a: Slowbro|Slowbro|393/393
+|turn|25
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|190/393
+|move|p1a: Slowbro|Amnesia|p1a: Slowbro
+|-boost|p1a: Slowbro|spd|2
+|-boost|p1a: Slowbro|spa|2
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|87/393
+|move|p1a: Slowbro|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|24/323
+|-unboost|p2a: Gengar|spd|1
+|-unboost|p2a: Gengar|spa|1
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Gengar|Thunderbolt|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|15/393
+|move|p1a: Slowbro|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|switch|p2a: Exeggutor|Exeggutor|235/393
+|turn|28
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|-heal|p2a: Exeggutor|242/393|[from] drain|[of] p1a: Slowbro
+|faint|p1a: Slowbro
+|
+|switch|p1a: Lapras|Lapras|463/463
+|turn|29
+|
+|move|p1a: Lapras|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|3/393
+|move|p2a: Exeggutor|Sleep Powder|p1a: Lapras
+|-status|p1a: Lapras|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|30
+|
+|cant|p1a: Lapras|slp
+|move|p2a: Exeggutor|Leech Seed|p1a: Lapras
+|-start|p1a: Lapras|move: Leech Seed
+|
+|upkeep
+|turn|31
+|
+|cant|p1a: Lapras|slp
+|-damage|p1a: Lapras|435/463 slp|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|31/393|[silent]
+|move|p2a: Exeggutor|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|325/463 slp
+|-heal|p2a: Exeggutor|86/393|[from] drain|[of] p1a: Lapras
+|
+|upkeep
+|turn|32
+|
+|cant|p1a: Lapras|slp
+|-damage|p1a: Lapras|297/463 slp|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|114/393|[silent]
+|move|p2a: Exeggutor|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|181/463 slp
+|-heal|p2a: Exeggutor|172/393|[from] drain|[of] p1a: Lapras
+|
+|upkeep
+|turn|33
+|
+|cant|p1a: Lapras|slp
+|-damage|p1a: Lapras|153/463 slp|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|200/393|[silent]
+|move|p2a: Exeggutor|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|39/463 slp
+|-heal|p2a: Exeggutor|257/393|[from] drain|[of] p1a: Lapras
+|
+|upkeep
+|turn|34
+|
+|cant|p1a: Lapras|slp
+|-damage|p1a: Lapras|11/463 slp|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|285/393|[silent]
+|move|p2a: Exeggutor|Mega Drain|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-heal|p2a: Exeggutor|290/393|[from] drain|[of] p1a: Lapras
+|faint|p1a: Lapras
+|
+|switch|p1a: Chansey|Chansey|703/703
+|turn|35
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey|[miss]
+|-miss|p2a: Exeggutor
+|move|p1a: Chansey|Substitute|p1a: Chansey
+|-start|p1a: Chansey|Substitute
+|-damage|p1a: Chansey|528/703
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-activate|p1a: Chansey|Substitute|[damage]
+|-heal|p2a: Exeggutor|317/393|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Toxic|p2a: Exeggutor|[miss]
+|-miss|p1a: Chansey
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-activate|p1a: Chansey|Substitute|[damage]
+|-heal|p2a: Exeggutor|345/393|[from] drain|[of] p1a: Chansey
+|move|p1a: Chansey|Toxic|p2a: Exeggutor
+|-status|p2a: Exeggutor|tox
+|
+|upkeep
+|turn|38
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-end|p1a: Chansey|Substitute
+|-damage|p2a: Exeggutor|321/393 tox|[from] psn
+|move|p1a: Chansey|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|221/393 tox
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Exeggutor|Sleep Powder|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Sleep Powder
+|-damage|p2a: Exeggutor|173/393 tox|[from] psn
+|cant|p1a: Chansey|slp
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Exeggutor|Leech Seed|p1a: Chansey
+|-start|p1a: Chansey|move: Leech Seed
+|-damage|p2a: Exeggutor|101/393 tox|[from] psn
+|cant|p1a: Chansey|slp
+|-damage|p1a: Chansey|485/703 slp|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|144/393 tox|[silent]
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Chansey
+|-damage|p1a: Chansey|431/703 slp
+|-heal|p2a: Exeggutor|171/393 tox|[from] drain|[of] p1a: Chansey
+|-damage|p2a: Exeggutor|75/393 tox|[from] psn
+|cant|p1a: Chansey|slp
+|-damage|p1a: Chansey|388/703 slp|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|118/393 tox|[silent]
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Exeggutor|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|276/703 slp
+|-unboost|p1a: Chansey|spd|1
+|-unboost|p1a: Chansey|spa|1
+|-damage|p2a: Exeggutor|0 fnt|[from] psn
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Machamp|Machamp|158/383
+|turn|43
+|
+|switch|p1a: Hitmonlee|Hitmonlee|303/303
+|move|p2a: Machamp|Submission|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|135/303
+|-damage|p2a: Machamp|116/383|[from] Recoil|[of] p1a: Hitmonlee
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Hitmonlee|Jump Kick|p2a: Machamp
+|-crit|p2a: Machamp
+|-damage|p2a: Machamp|0 fnt
+|faint|p2a: Machamp
+|
+|switch|p2a: Arcanine|Arcanine|355/383
+|turn|45
+|
+|move|p2a: Arcanine|Flamethrower|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|switch|p1a: Chansey|Chansey|276/703 slp
+|turn|46
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|153/703 slp
+|-curestatus|p1a: Chansey|slp|[msg]
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|28/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|379/703
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Arcanine|Flamethrower|p1a: Chansey
+|-damage|p1a: Chansey|291/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|642/703
+|
+|upkeep
+|turn|49
+|
+|move|p2a: Arcanine|Skull Bash||[still]
+|-prepare|p2a: Arcanine|Skull Bash|p1a: Chansey
+|move|p1a: Chansey|Toxic|p2a: Arcanine
+|-status|p2a: Arcanine|tox
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Arcanine|Skull Bash|p1a: Chansey|[from]Skull Bash
+|-damage|p1a: Chansey|396/703
+|-damage|p2a: Arcanine|332/383 tox|[from] psn
+|move|p1a: Chansey|Substitute|p1a: Chansey
+|-start|p1a: Chansey|Substitute
+|-damage|p1a: Chansey|221/703
+|
+|upkeep
+|turn|51
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Chansey
+|-activate|p1a: Chansey|Substitute|[damage]
+|-damage|p2a: Arcanine|286/383 tox|[from] psn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|572/703
+|
+|upkeep
+|turn|52
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Chansey|[miss]
+|-miss|p2a: Arcanine
+|-damage|p2a: Arcanine|217/383 tox|[from] psn
+|move|p1a: Chansey|Seismic Toss|p2a: Arcanine
+|-damage|p2a: Arcanine|117/383 tox
+|
+|upkeep
+|turn|53
+|
+|move|p2a: Arcanine|Fire Blast|p1a: Chansey|[miss]
+|-miss|p2a: Arcanine
+|-damage|p2a: Arcanine|25/383 tox|[from] psn
+|move|p1a: Chansey|Seismic Toss|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|switch|p2a: Lapras|Lapras|463/463
+|turn|54
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Chansey
+|-end|p1a: Chansey|Substitute
+|move|p1a: Chansey|Toxic|p2a: Lapras
+|-status|p2a: Lapras|tox
+|
+|upkeep
+|turn|55
+|
+|move|p2a: Lapras|Sing|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Sing
+|-damage|p2a: Lapras|435/463 tox|[from] psn
+|-curestatus|p1a: Chansey|slp|[msg]
+|
+|upkeep
+|turn|56
+|
+|move|p2a: Lapras|Confuse Ray|p1a: Chansey
+|-start|p1a: Chansey|confusion
+|-damage|p2a: Lapras|379/463 tox|[from] psn
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|556/703|[from] confusion
+|
+|upkeep
+|turn|57
+|
+|move|p2a: Lapras|Sing|p1a: Chansey
+|-status|p1a: Chansey|slp|[from] move: Sing
+|-damage|p2a: Lapras|295/463 tox|[from] psn
+|cant|p1a: Chansey|slp
+|
+|upkeep
+|turn|58
+|
+|move|p2a: Lapras|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|416/703 slp
+|-damage|p2a: Lapras|183/463 tox|[from] psn
+|-curestatus|p1a: Chansey|slp|[msg]
+|
+|upkeep
+|turn|59
+|
+|move|p2a: Lapras|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|287/703
+|-damage|p2a: Lapras|43/463 tox|[from] psn
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Seismic Toss|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|win|Marfex
+|c|☆Krzysztolf|Gg
+|l| B-Rubbit

@@ -1,0 +1,364 @@
+|j|☆YAGHMA
+|j|☆Anything420
+|player|p1|YAGHMA|163
+|player|p2|Anything420|53
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Snorlax|Snorlax|523/523
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|1
+|
+|move|p2a: Exeggutor|Stun Spore|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YAGHMA)
+|
+|switch|p2a: Flareon|Flareon|333/333
+|move|p1a: Snorlax|Body Slam|p2a: Flareon
+|-damage|p2a: Flareon|192/333
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Gengar|Gengar|323/323
+|switch|p1a: Tauros|Tauros|353/353
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Snorlax|Snorlax|523/523 par
+|move|p2a: Gengar|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Articuno|Articuno|383/383
+|switch|p1a: Alakazam|Alakazam|313/313
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Alakazam|Psychic|p2a: Articuno
+|-crit|p2a: Articuno
+|-damage|p2a: Articuno|171/383
+|-unboost|p2a: Articuno|spd|1
+|-unboost|p2a: Articuno|spa|1
+|move|p2a: Articuno|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|229/313
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Alakazam|Psychic|p2a: Articuno
+|-damage|p2a: Articuno|10/383
+|-unboost|p2a: Articuno|spd|1
+|-unboost|p2a: Articuno|spa|1
+|move|p2a: Articuno|Blizzard|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|8
+|
+|move|p1a: Tauros|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|inactive|Anything420 has 120 seconds left.
+|inactive|Anything420 has 90 seconds left.
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|9
+|j| LeAustin
+|inactive|Anything420 has 90 seconds left.
+|
+|switch|p1a: Snorlax|Snorlax|523/523 par
+|move|p2a: Exeggutor|Stun Spore|p1a: Snorlax|[miss]
+|-miss|p2a: Exeggutor
+|
+|upkeep
+|turn|10
+|inactive|Anything420 has 90 seconds left.
+|
+|switch|p2a: Gengar|Gengar|323/323
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|475/523 par|[from] confusion
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Gengar|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|372/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|-end|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|282/323
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|-activate|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Blizzard|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|155/323
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Gengar|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|205/523 par
+|-activate|p1a: Snorlax|confusion
+|move|p1a: Snorlax|Blizzard|p2a: Gengar
+|-damage|p2a: Gengar|115/323
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Gengar|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|355/393
+|
+|upkeep
+|turn|16
+|inactive|Anything420 has 120 seconds left.
+|l|☆Anything420
+|inactive|Anything420 disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Anything420
+|inactive|Anything420 reconnected and has 95 seconds left.
+|player|p2|Anything420|53
+|
+|switch|p1a: Snorlax|Snorlax|205/523 par
+|move|p2a: Gengar|Confuse Ray|p1a: Snorlax
+|-start|p1a: Snorlax|confusion
+|
+|upkeep
+|turn|17
+|inactive|YAGHMA has 120 seconds left.
+|
+|move|p2a: Gengar|Psychic|p1a: Snorlax
+|-damage|p1a: Snorlax|101/523 par
+|-unboost|p1a: Snorlax|spd|1
+|-unboost|p1a: Snorlax|spa|1
+|-activate|p1a: Snorlax|confusion
+|-damage|p1a: Snorlax|53/523 par|[from] confusion
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Exeggutor|Exeggutor|355/393
+|move|p2a: Gengar|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|321/393
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Exeggutor
+|-start|p1a: Exeggutor|confusion
+|-activate|p1a: Exeggutor|confusion
+|-damage|p1a: Exeggutor|283/393|[from] confusion
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Snorlax|Snorlax|53/523 par
+|move|p2a: Gengar|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|0 fnt
+|faint|p1a: Snorlax
+|
+|switch|p1a: Exeggutor|Exeggutor|283/393
+|turn|21
+|inactive|Anything420 has 120 seconds left.
+|
+|move|p2a: Gengar|Confuse Ray|p1a: Exeggutor
+|-start|p1a: Exeggutor|confusion
+|-activate|p1a: Exeggutor|confusion
+|move|p1a: Exeggutor|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|inactive|Anything420 has 120 seconds left.
+|
+|switch|p2a: Flareon|Flareon|192/333
+|turn|22
+|
+|switch|p1a: Tauros|Tauros|353/353
+|move|p2a: Flareon|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|264/353
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Tauros|Body Slam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|277/393
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Tauros|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|153/393
+|move|p2a: Exeggutor|Stun Spore|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Exeggutor|Mega Drain|p1a: Tauros
+|-damage|p1a: Tauros|189/353 par
+|-heal|p2a: Exeggutor|190/393|[from] drain|[of] p1a: Tauros
+|move|p1a: Tauros|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Flareon|Flareon|192/333
+|turn|26
+|
+|move|p2a: Flareon|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|52/353 par
+|-mustrecharge|p2a: Flareon
+|cant|p1a: Tauros|par
+|
+|upkeep
+|turn|27
+|
+|cant|p2a: Flareon|recharge
+|move|p1a: Tauros|Hyper Beam|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|faint|p2a: Flareon
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|28
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Exeggutor|Exeggutor|283/393
+|turn|29
+|
+|move|p2a: Tauros|Ice Beam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|80/393
+|move|p1a: Exeggutor|Sleep Powder|p2a: Tauros
+|-status|p2a: Tauros|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|30
+|
+|switch|p2a: Jynx|Jynx|333/333
+|switch|p1a: Articuno|Articuno|383/383
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Articuno
+|-status|p1a: Articuno|slp|[from] move: Lovely Kiss
+|cant|p1a: Articuno|slp
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Jynx|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|291/383 slp
+|-unboost|p1a: Articuno|spd|1
+|-unboost|p1a: Articuno|spa|1
+|cant|p1a: Articuno|slp
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Exeggutor|Exeggutor|80/393
+|move|p2a: Jynx|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|33/393
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Jynx|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Articuno|Articuno|291/383 slp
+|turn|35
+|
+|move|p2a: Jynx|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|208/383 slp
+|-unboost|p1a: Articuno|spd|1
+|-unboost|p1a: Articuno|spa|1
+|cant|p1a: Articuno|slp
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Jynx|Psychic|p1a: Articuno
+|-damage|p1a: Articuno|75/383 slp
+|-unboost|p1a: Articuno|spd|1
+|-unboost|p1a: Articuno|spa|1
+|cant|p1a: Articuno|slp
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Jynx|Psychic|p1a: Articuno
+|-crit|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|faint|p1a: Articuno
+|
+|switch|p1a: Dragonite|Dragonite|385/385
+|turn|38
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Dragonite
+|-status|p1a: Dragonite|slp|[from] move: Lovely Kiss
+|cant|p1a: Dragonite|slp
+|
+|upkeep
+|turn|39
+|
+|move|p2a: Jynx|Blizzard|p1a: Dragonite|[miss]
+|-miss|p2a: Jynx
+|cant|p1a: Dragonite|slp
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Jynx|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Anything420
+|l|☆YAGHMA

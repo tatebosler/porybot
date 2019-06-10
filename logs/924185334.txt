@@ -1,0 +1,1664 @@
+|j|☆Ejthewolf
+|j|☆Golden Bells
+|player|p1|Ejthewolf|iris
+|player|p2|Golden Bells|286
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|3
+|c|☆Ejthewolf|oof
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|123/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|23/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|184/323 par
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|84/323 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|293/393
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|switch|p2a: Tauros|Tauros|353/353
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Exeggutor|Exeggutor|293/393 par
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|244/393 par
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|195/393 par
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|345/393
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Exeggutor|Psychic|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|147/393 par
+|move|p2a: Exeggutor|Double-Edge|p1a: Exeggutor
+|-damage|p1a: Exeggutor|265/393
+|-damage|p2a: Exeggutor|127/393 par|[from] Recoil|[of] p1a: Exeggutor
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Exeggutor|Hyper Beam|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|j| RevivalMaya
+|
+|switch|p2a: Starmie|Starmie|84/323 par
+|turn|13
+|
+|move|p1a: Exeggutor|Hyper Beam|p2a: Starmie
+|-crit|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|j|%FOMG
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|14
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|157/393
+|-status|p1a: Exeggutor|par
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Tauros|Body Slam|p1a: Snorlax
+|-crit|p1a: Snorlax
+|-damage|p1a: Snorlax|285/523
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Snorlax|Self-Destruct|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|faint|p1a: Snorlax
+|
+|switch|p1a: Chansey|Chansey|703/703
+|switch|p2a: Chansey|Chansey|703/703
+|turn|17
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503/703
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|403/703
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|403/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|303/703
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|654/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|554/703
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|454/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|303/703
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|203/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|354/703
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|554/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|454/703
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|27
+|c|☆Ejthewolf|oh def curl over reflect for pp
+|c|☆Ejthewolf|thats actually a hot tech
+|c|☆Golden Bells|It's used sometimes
+|c|☆Ejthewolf|i mean the only problem is having to get at lest 2 curls to be near as good as reflect
+|c|☆Ejthewolf|otherwise tho
+|c|☆Ejthewolf|the pp stall
+|c|☆Ejthewolf|is amazing
+|j| hello ed boy
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|403/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503/703
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|403/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|403/703
+|
+|upkeep
+|turn|32
+|c|☆Ejthewolf|and the other issue is my mu still bad cuz we both know what our backs are
+|c|☆Golden Bells|actaully this is a different team
+|c|☆Golden Bells|my last one didnt have lax
+|c|☆Ejthewolf|the pp stall is thing that hammers me the most tho
+|c|☆Ejthewolf|out of everything
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|303/703
+|
+|upkeep
+|turn|33
+|c|☆Golden Bells|it had cloy / poliwrath / rhydon
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|654/703
+|
+|upkeep
+|turn|34
+|c|☆Ejthewolf|ig i just assume don
+|c|☆Ejthewolf|cuz 90% of the starmie teams i fight are with big 4 then don
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|554/703
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|403/703
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|303/703
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: Exeggutor|Exeggutor|157/393 par
+|move|p2a: Chansey|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|57/393 par
+|
+|upkeep
+|turn|39
+|c|☆Golden Bells|yeah that's why I was stossing so much
+|c|☆Golden Bells|didnt want that coming in
+|c|☆Ejthewolf|yeah i kinda lose at this point unless zam wakes in like 1 turn
+|j| Le GrosTest
+|c|☆Ejthewolf|i gotta try def curl chansey for lulz now
+|c|☆Golden Bells|it's actually used
+|c|☆Golden Bells|in tournament play
+|c| RevivalMaya|and harden snorlax reeehehehe
+|c|☆Golden Bells|it's not a meme you see once every 100 games
+|c|☆Ejthewolf|i mean i can see why
+|c|☆Ejthewolf|i mean its really not a meme
+|c|☆Ejthewolf|it straight up wins
+|c|☆Ejthewolf|like
+|c|☆Ejthewolf|ugh
+|c|☆Ejthewolf|ok now harden lax tho
+|c|☆Ejthewolf|thats a meme
+|
+|switch|p1a: Chansey|Chansey|554/703
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|454/703
+|
+|upkeep
+|turn|40
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|203/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|554/703
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|454/703
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|354/703
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|
+|upkeep
+|turn|44
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|403/703
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|303/703
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|47
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|654/703
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|554/703
+|
+|upkeep
+|turn|48
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|50
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|51
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|52
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|53
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|54
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|55
+|c|☆Golden Bells|Also hi FOMG :)
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|56
+|c|%FOMG|Hi
+|c|☆Ejthewolf|just for funs
+|c|☆Ejthewolf|Snorlax Body Slam vs. Chansey through Reflect: 135-159 (19.2 - 22.6%) -- possible 5HKO
+|c|☆Ejthewolf|Snorlax Body Slam vs. +1 Chansey: 182-214 (25.8 - 30.4%) -- guaranteed 4HKO
+|c|☆Ejthewolf|Snorlax Body Slam vs. +2 Chansey: 135-159 (19.2 - 22.6%) -- possible 5HKO
+|c|☆Ejthewolf|yeah so def is nuts
+|c|☆Ejthewolf|Snorlax Body Slam vs. +3 Chansey: 109-129 (15.5 - 18.3%) -- possible 6HKO
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|57
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|58
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|59
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|60
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|61
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|62
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|63
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|64
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|65
+|c|☆Ejthewolf|for lulz gonna play this out and just go for crits
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|66
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|67
+|c|☆Ejthewolf|other wise tho
+|c|☆Ejthewolf|gg
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|68
+|c|☆Golden Bells|gg
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|69
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|70
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|71
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|72
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|73
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|74
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|454/703
+|
+|upkeep
+|turn|75
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|354/703
+|
+|upkeep
+|turn|76
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|254/703
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|605/703
+|
+|upkeep
+|turn|77
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|505/703
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|78
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|405/703
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|79
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|305/703
+|
+|upkeep
+|turn|80
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|656/703
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|81
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|82
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|83
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-fail|p1a: Chansey
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|84
+|
+|cant|p1a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|85
+|l| hello ed boy
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|86
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|87
+|c|☆Ejthewolf|inb4 i get enough paras
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|88
+|
+|cant|p2a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|89
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|90
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|91
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|92
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|93
+|j| clorodulce♫☭
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|94
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|95
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|96
+|l| clorodulce♫☭
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|97
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|98
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|99
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|100
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|101
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|102
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|103
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|104
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|105
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|106
+|n| PlusleFriend|fomg
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|107
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|108
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|109
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|110
+|
+|cant|p2a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|111
+|j| Pk THUNDA
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|112
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|113
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|
+|upkeep
+|turn|114
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|115
+|
+|switch|p1a: Alakazam|Alakazam|313/313 slp
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-fail|p2a: Chansey
+|
+|upkeep
+|turn|116
+|
+|switch|p2a: Tauros|Tauros|353/353
+|-curestatus|p1a: Alakazam|slp|[msg]
+|
+|upkeep
+|turn|117
+|c|☆Ejthewolf|i am woke
+|
+|switch|p2a: Chansey|Chansey|656/703 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|521/703 par
+|
+|upkeep
+|turn|118
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|119
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|120
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|121
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|122
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|421/703 par
+|
+|upkeep
+|turn|123
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|124
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|125
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|
+|upkeep
+|turn|126
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313
+|
+|upkeep
+|turn|127
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|128
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|
+|upkeep
+|turn|129
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|113/313 par
+|
+|upkeep
+|turn|130
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|13/313 par
+|
+|upkeep
+|turn|131
+|
+|switch|p2a: Tauros|Tauros|353/353
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|169/313 par
+|
+|upkeep
+|turn|132
+|
+|switch|p1a: Exeggutor|Exeggutor|57/393 par
+|move|p2a: Tauros|Hyper Beam|p1a: Exeggutor|[miss]
+|-miss|p2a: Tauros
+|
+|upkeep
+|turn|133
+|
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-crit|p1a: Exeggutor
+|-damage|p1a: Exeggutor|0 fnt
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Tauros|Tauros|353/353
+|turn|134
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|255/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|252/353
+|
+|upkeep
+|turn|135
+|
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|154/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|144/353
+|
+|upkeep
+|turn|136
+|c|☆Golden Bells|crap, I assuemd something I shouldnt have
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|c|☆Ejthewolf|oof
+|c|☆Golden Bells|rip, got punished for it
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|turn|137
+|c|☆Ejthewolf|i mean slam slam beam most consistent play
+|c|☆Ejthewolf|jolt does good vs zap
+|c|☆Golden Bells|beam would leave you
+|c|☆Golden Bells|in bolt range
+|c|☆Golden Bells|100%
+|c|☆Golden Bells|now its a range
+|c|☆Ejthewolf|Jolteon Thunderbolt vs. Tauros: 137-162 (38.8 - 45.8%) -- 25.6% chance to OHKO
+|c|☆Ejthewolf|however
+|c|☆Ejthewolf|we have to account for the highest crit rate ever
+|c|☆Ejthewolf|jolteon is just the fastest ou mon
+|
+|switch|p1a: Chansey|Chansey|603/703 par
+|move|p2a: Jolteon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|488/703 par
+|
+|upkeep
+|turn|138
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|262/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|139
+|c|☆Ejthewolf|F
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|613/703 par
+|
+|upkeep
+|turn|140
+|c|☆Ejthewolf|no wave
+|c|☆Ejthewolf|however its still huge in my favor due to beam winning
+|c|☆Ejthewolf|so ig thats fair
+|
+|move|p1a: Chansey|Thunder Wave|p2a: Chansey
+|-fail|p2a: Chansey|par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|141
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|upkeep
+|turn|142
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|513/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|143
+|
+|switch|p1a: Alakazam|Alakazam|169/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|69/313 par
+|
+|upkeep
+|turn|144
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|225/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|125/313 par
+|
+|upkeep
+|turn|145
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|281/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|181/313 par
+|
+|upkeep
+|turn|146
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|147
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|585/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|148
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|466/703 par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|149
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|150
+|
+|cant|p2a: Chansey|par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|
+|upkeep
+|turn|151
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|347/703 par
+|
+|upkeep
+|turn|152
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|698/703 par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|
+|upkeep
+|turn|153
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|154
+|
+|cant|p2a: Chansey|par
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|
+|upkeep
+|turn|155
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|213/313 par
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|569/703 par
+|
+|upkeep
+|turn|156
+|c|☆Ejthewolf|oh thats right
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|
+|upkeep
+|turn|157
+|c|☆Ejthewolf|def curl also
+|c|☆Ejthewolf|alows u to outspeed me
+|c|☆Ejthewolf|thats even more of a tech then
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|131/313 par
+|move|p1a: Alakazam|Thunder Wave|p2a: Jolteon
+|-status|p2a: Jolteon|par
+|
+|upkeep
+|turn|158
+|
+|switch|p1a: Chansey|Chansey|703/703 par
+|move|p2a: Jolteon|Thunderbolt|p1a: Chansey
+|-damage|p1a: Chansey|585/703 par
+|
+|upkeep
+|turn|159
+|c|☆Ejthewolf|inb4 it has rest
+|l| Pk THUNDA
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-crit|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|391/703 par
+|-damage|p1a: Chansey|197/703 par
+|-hitcount|p1a: Chansey|2
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|160
+|c|☆Ejthewolf|Jolteon Double Kick (2 hits) vs. Chansey: 186-220 (26.4 - 31.2%) -- approx. 48.7% chance to OHKO
+|j| JjC52701
+|c|☆Ejthewolf|oh boi
+|
+|cant|p2a: Jolteon|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|548/703 par
+|
+|upkeep
+|turn|161
+|
+|switch|p2a: Chansey|Chansey|569/703 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|162
+|
+|switch|p2a: Jolteon|Jolteon|333/333 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|163
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-crit|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|521/703 par
+|-damage|p1a: Chansey|339/703 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Thunder Wave|p2a: Jolteon
+|-fail|p2a: Jolteon|par
+|
+|upkeep
+|turn|164
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|244/703 par
+|-damage|p1a: Chansey|149/703 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|500/703 par
+|
+|upkeep
+|turn|165
+|
+|switch|p2a: Chansey|Chansey|569/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|469/703 par
+|
+|upkeep
+|turn|166
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|167
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|
+|upkeep
+|turn|168
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-hint|In Gen 1, recovery moves fail if (user's maximum HP - user's current HP + 1) is divisible by 256.
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|169
+|
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|170
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|171
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-fail|p1a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-hint|In Gen 1, recovery moves fail if (user's maximum HP - user's current HP + 1) is divisible by 256.
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|172
+|
+|cant|p2a: Chansey|par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-hint|In Gen 1, recovery moves fail if (user's maximum HP - user's current HP + 1) is divisible by 256.
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|173
+|
+|cant|p2a: Chansey|par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|174
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|175
+|
+|switch|p2a: Jolteon|Jolteon|333/333 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-hint|In Gen 1, recovery moves fail if (user's maximum HP - user's current HP + 1) is divisible by 256.
+|-fail|p1a: Chansey
+|
+|upkeep
+|turn|176
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-crit|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|524/703 par
+|-damage|p1a: Chansey|345/703 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|696/703 par
+|
+|upkeep
+|turn|177
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|642/703 par
+|-damage|p1a: Chansey|588/703 par
+|-hitcount|p1a: Chansey|2
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|178
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|533/703 par
+|-damage|p1a: Chansey|478/703 par
+|-hitcount|p1a: Chansey|2
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|179
+|c|☆Ejthewolf|TIME FOR STRUGGLE STRATS
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-crit|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|512/703 par
+|-damage|p1a: Chansey|321/703 par
+|-hitcount|p1a: Chansey|2
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|180
+|
+|move|p2a: Jolteon|Double Kick|p1a: Chansey
+|-crit|p1a: Chansey
+|-supereffective|p1a: Chansey
+|-damage|p1a: Chansey|128/703 par
+|-damage|p1a: Chansey|0 fnt
+|-hitcount|p1a: Chansey|2
+|faint|p1a: Chansey
+|c|☆Golden Bells|struggle strats denied
+|c|☆Ejthewolf|yeah
+|c|☆Ejthewolf|crit and para
+|c|☆Ejthewolf|hot damn
+|c| Le GrosTest|couldn't even see the damage
+|c|☆Ejthewolf|Chansey Struggle vs. Jolteon: 28-33 (8.4 - 9.9%) -- possibly the worst move ever
+|c|☆Ejthewolf|i love the pokemon calcs points
+|c| Le GrosTest|13 hko, not bad
+|c|☆Ejthewolf|i swear tho
+|c|☆Ejthewolf|if it has rest
+|c|☆Ejthewolf|its gonna be nuts
+|
+|switch|p1a: Tauros|Tauros|154/353
+|turn|181
+|c| Le GrosTest|12 hko MY BAD
+|
+|move|p1a: Tauros|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|112/333 par
+|cant|p2a: Jolteon|par
+|
+|upkeep
+|turn|182
+|c|☆Ejthewolf|RIP
+|
+|move|p1a: Tauros|Earthquake|p2a: Jolteon
+|-supereffective|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|switch|p2a: Chansey|Chansey|703/703 par
+|turn|183
+|c|☆Golden Bells|gg
+|c|☆Ejthewolf|well i have to crit first
+|c|☆Golden Bells|the hb thing ended up not mattering
+|c|☆Ejthewolf|or pp stall with zam
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|435/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Tauros
+|-status|p1a: Tauros|par
+|
+|upkeep
+|turn|184
+|c|☆Golden Bells|I cant pp stall
+|
+|move|p1a: Tauros|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|176/703 par
+|move|p2a: Chansey|Defense Curl|p2a: Chansey
+|-boost|p2a: Chansey|def|1
+|
+|upkeep
+|turn|185
+|
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|527/703 par
+|move|p1a: Tauros|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|191/703 par
+|-mustrecharge|p1a: Tauros
+|
+|upkeep
+|turn|186
+|c|☆Ejthewolf|i forgot
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|54/353 par
+|cant|p1a: Tauros|recharge
+|
+|upkeep
+|turn|187
+|c|☆Ejthewolf|about speed increase
+|c|☆Ejthewolf|DERP
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|turn|188
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|27/703 par
+|move|p2a: Chansey|Thunder Wave|p1a: Zapdos
+|-status|p1a: Zapdos|par
+|
+|upkeep
+|turn|189
+|
+|cant|p1a: Zapdos|par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|190
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|win|Ejthewolf
+|c|☆Ejthewolf|gg
+|c|☆Ejthewolf|so close
+|c|☆Golden Bells|gg
+|raw|Ejthewolf's rating: 1453 &rarr; <strong>1479</strong><br />(+26 for winning)
+|raw|Golden Bells's rating: 1549 &rarr; <strong>1524</strong><br />(-25 for losing)
+|l| Le GrosTest
+|l| RevivalMaya
+|c|☆Golden Bells|by the way, about resting rhydon and sub, you need sub with rest to not become tauros bait
+|c|☆Golden Bells|eq is mandatory
+|c|☆Golden Bells|and I personally prefer slam over rock slide
+|l| JjC52701
+|c|☆Ejthewolf|eq rock slide and slam
+|c|☆Ejthewolf|all should be used
+|c|☆Ejthewolf|rest just
+|c|☆Ejthewolf|idek just so meh
+|c|☆Golden Bells|depends on the teams
+|c|☆Golden Bells|obviously 90% of the time you want the standard set
+|c|☆Ejthewolf|rest is a D rank move unless its on snorlax
+|c|☆Golden Bells|and by 90 I mean like 99
+|c|☆Ejthewolf|imo anyway
+|j| RevivalMaya
+|c|☆Golden Bells|basically to rest you need to be able to not let tauros in for free
+|c|☆Golden Bells|that's very hard to accomplish, only some mons can do it
+|c|☆Golden Bells|snorlax is one of them
+|c|☆Ejthewolf|i mean thats what subs sorta for
+|c|☆Golden Bells|lapras and cloyster can pull it off too
+|c|☆Ejthewolf|u throw up a sub
+|c|☆Ejthewolf|and hit tauros
+|c|☆Ejthewolf|and dont lose 60% to bliz
+|c|☆Ejthewolf|but only 25% to sub
+|c|☆Golden Bells|yeah
+|c|☆Golden Bells|and you burn a turn
+|c|☆Ejthewolf|i mean u sub on zapdos
+|c|☆Ejthewolf|so
+|c|☆Golden Bells|and on stoss chansey
+|c|☆Golden Bells|and sub is overall a good move on rhydon
+|c|☆Golden Bells|due to it not being affected by twave
+|c|☆Golden Bells|if sub blocked twave it would see much more use
+|c|☆Golden Bells|(and sleep powder)
+|c|☆Ejthewolf|yea i look at stadium samples
+|c|☆Ejthewolf|and they all have sub
+|c|☆Golden Bells|yes
+|c|☆Ejthewolf|stadiums weird tho
+|c|☆Golden Bells|I personally prefer standard rby
+|c|☆Ejthewolf|same
+|c|☆Ejthewolf|well this was 1 intense match tho
+|c|☆Ejthewolf|really fun
+|c| RevivalMaya|xD
+|c|☆Golden Bells|yep
+|c|☆Golden Bells|hey Maya
+|c| RevivalMaya|hi
+|c|☆Ejthewolf|i mean when every turn feels like its about to give me a heart attack
+|n|+Sceptross|goldenbells
+|c|☆Ejthewolf|especially in late game
+|c|☆Ejthewolf|thats what i love
+|c|☆Ejthewolf|oh your sceptross
+|c|+Sceptross|Yes
+|c|☆Ejthewolf|the guy with the legendary 93% gxe
+|c|+Sceptross|haha

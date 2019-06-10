@@ -1,0 +1,219 @@
+|j|☆EMIL_OLBERG
+|j|☆Lildicky445
+|player|p1|EMIL_OLBERG|29
+|player|p2|Lildicky445|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Dragonite|Dragonite|385/385
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lildicky445)
+|inactive|EMIL_OLBERG has 120 seconds left.
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|move|p2a: Dragonite|Agility|p2a: Dragonite
+|-boost|p2a: Dragonite|spe|2
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|cant|p2a: Dragonite|par
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Zapdos|[miss]
+|-miss|p2a: Dragonite
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|257/385 par
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Dragonite|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|221/383
+|-mustrecharge|p2a: Dragonite
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|115/385 par
+|
+|upkeep
+|turn|5
+|
+|cant|p2a: Dragonite|recharge
+|move|p1a: Zapdos|Agility|p1a: Zapdos
+|-boost|p1a: Zapdos|spe|2
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|turn|7
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Rhydon|Rock Slide|p1a: Exeggutor
+|-damage|p1a: Exeggutor|270/393
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Rhydon
+|-status|p2a: Rhydon|slp|[from] move: Sleep Powder
+|cant|p2a: Rhydon|slp
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Golduck|Golduck|363/363
+|move|p1a: Exeggutor|Psychic|p2a: Golduck
+|-damage|p2a: Golduck|212/363
+|
+|upkeep
+|turn|10
+|inactive|EMIL_OLBERG has 120 seconds left.
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Exeggutor|Psychic|p2a: Golduck
+|-damage|p2a: Golduck|141/363
+|-unboost|p2a: Golduck|spd|1
+|-unboost|p2a: Golduck|spa|1
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Golduck|Amnesia|p2a: Golduck
+|-boost|p2a: Golduck|spd|2
+|-boost|p2a: Golduck|spa|2
+|move|p1a: Exeggutor|Explosion|p2a: Golduck
+|-damage|p2a: Golduck|0 fnt
+|faint|p2a: Golduck
+|faint|p1a: Exeggutor
+|
+|switch|p2a: Tauros|Tauros|353/353
+|switch|p1a: Tauros|Tauros|353/353
+|turn|12
+|
+|move|p2a: Tauros|Blizzard|p1a: Tauros
+|-damage|p1a: Tauros|265/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|242/353
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Tauros|Stomp|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|112/353
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|41/353
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Tauros|Body Slam|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Rhydon|Rhydon|413/413 slp
+|turn|15
+|
+|move|p1a: Tauros|Blizzard|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|185/413 slp
+|cant|p2a: Rhydon|slp
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Tauros|Earthquake|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|45/413 slp
+|cant|p2a: Rhydon|slp
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Tauros|Earthquake|p2a: Rhydon
+|-crit|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|turn|18
+|
+|move|p1a: Tauros|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|395/523
+|move|p2a: Snorlax|Hyper Beam|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Zapdos|Zapdos|221/383
+|turn|19
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|231/523
+|-status|p2a: Snorlax|par
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|61/523 par
+|move|p2a: Snorlax|Hyper Beam|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|21
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|switch|p2a: Chansey|Chansey|703/703
+|turn|22
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|move|p2a: Chansey|Light Screen|p2a: Chansey
+|-start|p2a: Chansey|Light Screen
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Alakazam|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|637/703 par
+|-unboost|p2a: Chansey|spd|1
+|-unboost|p2a: Chansey|spa|1
+|move|p2a: Chansey|Blizzard|p1a: Alakazam
+|-damage|p1a: Alakazam|266/313
+|
+|upkeep
+|turn|24
+|-message|Lildicky445 forfeited.
+|
+|win|EMIL_OLBERG
+|l|☆Lildicky445

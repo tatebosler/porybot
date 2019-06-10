@@ -1,0 +1,305 @@
+|j|☆Aloe (Comfey)♧
+|j|☆Pharaesthetic
+|player|p1|Aloe (Comfey)♧|229
+|player|p2|Pharaesthetic|2
+|teamsize|p1|4
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Growlithe|Growlithe|313/313
+|switch|p2a: Arcanine|Arcanine, M|383/383
+|turn|1
+|
+|move|p2a: Arcanine|Reflect|p2a: Arcanine
+|-start|p2a: Arcanine|Reflect
+|move|p1a: Growlithe|Leer|p2a: Arcanine
+|-unboost|p2a: Arcanine|def|1
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Arcanine|Body Slam|p1a: Growlithe
+|-damage|p1a: Growlithe|196/313
+|move|p1a: Growlithe|Leer|p2a: Arcanine
+|-unboost|p2a: Arcanine|def|1
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Arcanine|Body Slam|p1a: Growlithe
+|-damage|p1a: Growlithe|89/313
+|move|p1a: Growlithe|Take Down|p2a: Arcanine
+|-damage|p2a: Arcanine|322/383
+|-damage|p1a: Growlithe|74/313|[from] Recoil|[of] p2a: Arcanine
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Arcanine|Body Slam|p1a: Growlithe
+|-damage|p1a: Growlithe|0 fnt
+|faint|p1a: Growlithe
+|
+|switch|p1a: Ponyta|Ponyta|303/303
+|turn|5
+|
+|switch|p2a: Marowak|Marowak|323/323
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak
+|-damage|p2a: Marowak|300/323
+|
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pharaesthetic)
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak|[from]Fire Spin
+|-damage|p2a: Marowak|277/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak|[from]Fire Spin
+|-damage|p2a: Marowak|254/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak
+|-crit|p2a: Marowak
+|-damage|p2a: Marowak|213/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak|[from]Fire Spin
+|-damage|p2a: Marowak|172/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak|[from]Fire Spin
+|-damage|p2a: Marowak|131/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak|[from]Fire Spin
+|-damage|p2a: Marowak|90/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Ponyta|Tail Whip|p2a: Marowak
+|-unboost|p2a: Marowak|def|1
+|move|p2a: Marowak|Earthquake|p1a: Ponyta
+|-supereffective|p1a: Ponyta
+|-damage|p1a: Ponyta|22/303
+|
+|upkeep
+|turn|13
+|inactive|Pharaesthetic has 120 seconds left.
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak
+|-damage|p2a: Marowak|67/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak|[from]Fire Spin
+|-damage|p2a: Marowak|44/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak|[from]Fire Spin
+|-damage|p2a: Marowak|21/323
+|cant|p2a: Marowak|partiallytrapped
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Ponyta|Fire Spin|p2a: Marowak|[from]Fire Spin
+|-damage|p2a: Marowak|0 fnt
+|faint|p2a: Marowak
+|
+|switch|p2a: Arcanine|Arcanine, M|322/383
+|turn|17
+|
+|move|p2a: Arcanine|Body Slam|p1a: Ponyta
+|-damage|p1a: Ponyta|0 fnt
+|faint|p1a: Ponyta
+|
+|switch|p1a: Rapidash|Rapidash|333/333
+|turn|18
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Arcanine|Reflect|p2a: Arcanine
+|-start|p2a: Arcanine|Reflect
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Rapidash|Stomp|p2a: Arcanine
+|-damage|p2a: Arcanine|294/383
+|move|p2a: Arcanine|Body Slam|p1a: Rapidash
+|-damage|p1a: Rapidash|242/333
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|284/383
+|cant|p2a: Arcanine|partiallytrapped
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine|[from]Fire Spin
+|-damage|p2a: Arcanine|274/383
+|cant|p2a: Arcanine|partiallytrapped
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine|[from]Fire Spin
+|-damage|p2a: Arcanine|264/383
+|cant|p2a: Arcanine|partiallytrapped
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|256/383
+|cant|p2a: Arcanine|partiallytrapped
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine|[from]Fire Spin
+|-damage|p2a: Arcanine|248/383
+|cant|p2a: Arcanine|partiallytrapped
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine|[from]Fire Spin
+|-damage|p2a: Arcanine|240/383
+|cant|p2a: Arcanine|partiallytrapped
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine|[from]Fire Spin
+|-damage|p2a: Arcanine|232/383
+|cant|p2a: Arcanine|partiallytrapped
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Rapidash|Stomp|p2a: Arcanine
+|-damage|p2a: Arcanine|202/383
+|cant|p2a: Arcanine|flinch
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Rapidash|Growl|p2a: Arcanine
+|-unboost|p2a: Arcanine|atk|1
+|move|p2a: Arcanine|Body Slam|p1a: Rapidash
+|-damage|p1a: Rapidash|186/333
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine|[miss]
+|-miss|p1a: Rapidash
+|move|p2a: Arcanine|Hyper Beam|p1a: Rapidash
+|-damage|p1a: Rapidash|77/333
+|-mustrecharge|p2a: Arcanine
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|194/383
+|cant|p2a: Arcanine|recharge
+|
+|upkeep
+|turn|31
+|
+|switch|p2a: Lapras|Lapras|463/463
+|move|p1a: Rapidash|Fire Spin|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|431/463
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Rapidash|Fire Spin|p2a: Lapras|[from]Fire Spin
+|-damage|p2a: Lapras|399/463
+|cant|p2a: Lapras|partiallytrapped
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Jolteon|Jolteon|333/333
+|move|p1a: Rapidash|Fire Spin|p2a: Jolteon|[miss]
+|-miss|p1a: Rapidash
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Rapidash
+|-damage|p1a: Rapidash|0 fnt
+|faint|p1a: Rapidash
+|
+|switch|p1a: Arcanine|Arcanine|383/383
+|turn|35
+|
+|move|p2a: Jolteon|Thunder Wave|p1a: Arcanine
+|-status|p1a: Arcanine|par
+|move|p1a: Arcanine|Take Down|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|138/333
+|-damage|p1a: Arcanine|335/383 par|[from] Recoil|[of] p2a: Jolteon
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|72/383 par
+|cant|p1a: Arcanine|par
+|
+|upkeep
+|turn|37
+|
+|move|p2a: Jolteon|Thunderbolt|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|Pharaesthetic
+|l|☆Pharaesthetic
+|c|☆Aloe (Comfey)♧|Gg
+|raw|Aloe (Comfey)♧'s rating: 1007 &rarr; <strong>1000</strong><br />(-7 for losing)
+|raw|Pharaesthetic's rating: 1082 &rarr; <strong>1104</strong><br />(+22 for winning)

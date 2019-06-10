@@ -1,0 +1,410 @@
+|j|☆ErPeris
+|j|☆RevivalMaya
+|player|p1|ErPeris|30
+|player|p2|RevivalMaya|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Jynx|Jynx|333/333
+|turn|1
+|c|☆ErPeris|Oooo
+|c|☆ErPeris|Hf aahah
+|c|☆RevivalMaya|lol
+|
+|move|p2a: Jynx|Lovely Kiss|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Lovely Kiss
+|cant|p1a: Jynx|slp
+|
+|upkeep
+|turn|2
+|c|☆RevivalMaya|oof
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|440/703
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|312/703
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|663/703
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|537/703
+|move|p1a: Chansey|Ice Beam|p2a: Jynx
+|-resisted|p2a: Jynx
+|-damage|p2a: Jynx|292/333
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Jynx|Blizzard|p1a: Chansey|[miss]
+|-miss|p2a: Jynx
+|move|p1a: Chansey|Thunder Wave|p2a: Jynx
+|-status|p2a: Jynx|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|213/333 par
+|move|p2a: Jynx|Blizzard|p1a: Chansey
+|-damage|p1a: Chansey|410/703
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Jynx
+|-damage|p2a: Jynx|133/333 par
+|move|p2a: Jynx|Rest|p2a: Jynx
+|-status|p2a: Jynx|slp|[from] move: Rest
+|-heal|p2a: Jynx|333/333 slp|[silent]
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703
+|cant|p2a: Jynx|slp
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Chansey|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|631/703
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|move|p1a: Chansey|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|554/703
+|-status|p2a: Chansey|frz
+|
+|upkeep
+|turn|11
+|c|☆ErPeris|Freeeeeze
+|c|☆RevivalMaya|XD
+|
+|switch|p2a: Jynx|Jynx|333/333 slp
+|switch|p1a: Snorlax|Snorlax|523/523
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Chansey|Chansey|554/703 frz
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|262/703 frz
+|
+|upkeep
+|turn|13
+|
+|cant|p2a: Chansey|frz
+|move|p1a: Snorlax|Body Slam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Starmie|Starmie|323/323
+|turn|14
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|switch|p1a: Chansey|Chansey|703/703 par
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|407/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Snorlax
+|-status|p2a: Snorlax|par
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|cant|p2a: Snorlax|par
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|452/523
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|206/323
+|
+|upkeep
+|turn|19
+|c|☆ErPeris|No crit para
+|c|☆ErPeris|Unfair ahaha
+|
+|move|p2a: Starmie|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax|[miss]
+|-miss|p2a: Starmie
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|86/323
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|247/323
+|cant|p1a: Snorlax|par
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|323/523 par
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|125/323
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|286/323
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|25
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|340/393
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|288/393
+|move|p1a: Exeggutor|Stun Spore|p2a: Exeggutor|[miss]
+|-miss|p1a: Exeggutor
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: Snorlax|Snorlax|523/523 slp
+|switch|p2a: Jynx|Jynx|333/333 slp
+|
+|upkeep
+|turn|28
+|
+|switch|p2a: Starmie|Starmie|286/323
+|-curestatus|p1a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Snorlax|Snorlax|523/523 par
+|switch|p1a: Chansey|Chansey|407/703 par
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Snorlax|Snorlax|523/523
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|389/523
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|316/523
+|
+|upkeep
+|turn|32
+|
+|switch|p2a: Starmie|Starmie|286/323
+|move|p1a: Snorlax|Body Slam|p2a: Starmie
+|-damage|p2a: Starmie|157/323
+|-status|p2a: Starmie|par
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Chansey|Chansey|407/703 par
+|cant|p2a: Starmie|par
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|318/323 par
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Snorlax|Snorlax|523/523 par
+|move|p1a: Chansey|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|428/523 par
+|
+|upkeep
+|turn|36
+|c|☆ErPeris|You last is kingler, i know
+|c|☆ErPeris|For the memes
+|c|☆RevivalMaya|lol
+|
+|move|p1a: Chansey|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|320/523 par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|397/703 par
+|
+|upkeep
+|turn|37
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|398/703 par
+|
+|upkeep
+|turn|38
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 par
+|move|p2a: Snorlax|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Snorlax
+|
+|switch|p1a: Snorlax|Snorlax|316/523
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|39
+|
+|switch|p1a: Exeggutor|Exeggutor|288/393
+|move|p2a: Exeggutor|Psychic|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|240/393
+|
+|upkeep
+|turn|40
+|
+|switch|p2a: Starmie|Starmie|318/323 par
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|257/323 par
+|
+|upkeep
+|turn|41
+|
+|move|p1a: Exeggutor|Explosion|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|switch|p2a: Tauros|Tauros|353/353
+|turn|42
+|
+|move|p2a: Tauros|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|265/383
+|move|p1a: Zapdos|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|upkeep
+|turn|43
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|185/353 par
+|cant|p2a: Tauros|par
+|
+|upkeep
+|turn|44
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Tauros
+|-damage|p2a: Tauros|19/353 par
+|move|p2a: Tauros|Hyper Beam|p1a: Zapdos
+|-damage|p1a: Zapdos|61/383
+|-mustrecharge|p2a: Tauros
+|
+|upkeep
+|turn|45
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|turn|46
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Jynx|Jynx|333/333 slp
+|turn|47
+|c|☆ErPeris|Hax
+|c|☆ErPeris|Shitty game
+|c|☆ErPeris|Once again
+|c|☆ErPeris|Sorry
+|c|☆RevivalMaya|lol no it's fine
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Jynx
+|-damage|p2a: Jynx|188/333 slp
+|-curestatus|p2a: Jynx|slp|[msg]
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Zapdos|Drill Peck|p2a: Jynx
+|-crit|p2a: Jynx
+|-damage|p2a: Jynx|0 fnt
+|faint|p2a: Jynx
+|
+|win|ErPeris
+|c|☆RevivalMaya|gg
+|c|☆ErPeris|Sorry
+|c|☆ErPeris|Not a gg
+|c|☆RevivalMaya|it's okay XD
+|c|☆ErPeris|I haxed like a god
+|c|☆ErPeris|Same as you before
+|c|☆ErPeris|2 stupid games ahaha

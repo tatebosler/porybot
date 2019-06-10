@@ -1,0 +1,446 @@
+|j|☆Krzysztolf
+|j|☆B-Rubbit
+|player|p1|Krzysztolf|2
+|player|p2|B-Rubbit|190
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Zapdos|Zapdos|383/383
+|switch|p2a: Mr. Mime|Mr. Mime|283/283
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by B-Rubbit)
+|
+|move|p1a: Zapdos|Thunder Wave|p2a: Mr. Mime
+|-status|p2a: Mr. Mime|par
+|cant|p2a: Mr. Mime|par
+|
+|upkeep
+|turn|2
+|j| e7861oo1pd
+|
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|288/383
+|move|p2a: Mr. Mime|Toxic|p1a: Zapdos
+|-fail|p1a: Zapdos
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|278/383
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|162/383
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|184/383
+|move|p1a: Zapdos|Thunderbolt|p2a: Zapdos
+|-damage|p2a: Zapdos|48/383
+|
+|upkeep
+|turn|6
+|j| Snipp
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Zapdos|Thunderbolt|p2a: Golem
+|-immune|p2a: Golem
+|
+|upkeep
+|turn|7
+|c| Snipp|ah ta piekna grafika
+|c|☆B-Rubbit|yeees
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Golem|Rock Slide|p1a: Exeggutor
+|-damage|p1a: Exeggutor|290/393
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Mr. Mime|Mr. Mime|283/283 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Mr. Mime
+|-fail|p2a: Mr. Mime
+|
+|upkeep
+|turn|9
+|c| e7861oo1pd|bruh
+|
+|move|p1a: Exeggutor|Leech Seed|p2a: Mr. Mime
+|-start|p2a: Mr. Mime|move: Leech Seed
+|cant|p2a: Mr. Mime|par
+|-damage|p2a: Mr. Mime|266/283 par|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|307/393|[silent]
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Exeggutor|Mega Drain|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|211/283 par
+|-heal|p1a: Exeggutor|334/393|[from] drain|[of] p2a: Mr. Mime
+|move|p2a: Mr. Mime|Toxic|p1a: Exeggutor
+|-status|p1a: Exeggutor|tox
+|-damage|p2a: Mr. Mime|194/283 par|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|351/393 tox|[silent]
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Exeggutor|Psychic|p2a: Chansey
+|-damage|p2a: Chansey|584/703
+|-damage|p1a: Exeggutor|327/393 tox|[from] psn
+|
+|upkeep
+|turn|12
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey
+|-status|p2a: Chansey|slp|[from] move: Sleep Powder
+|-damage|p1a: Exeggutor|279/393 tox|[from] psn
+|-curestatus|p2a: Chansey|slp|[msg]
+|
+|upkeep
+|turn|13
+|c| e7861oo1pd|bruh
+|
+|move|p1a: Exeggutor|Sleep Powder|p2a: Chansey|[miss]
+|-miss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|207/393 tox|[from] psn
+|move|p2a: Chansey|Seismic Toss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|107/393 tox
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Mr. Mime|Mr. Mime|194/283 par
+|move|p1a: Exeggutor|Sleep Powder|p2a: Mr. Mime|[miss]
+|-miss|p1a: Exeggutor
+|-damage|p1a: Exeggutor|11/393 tox|[from] psn
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Exeggutor|Psychic|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-resisted|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|66/283 par
+|-damage|p1a: Exeggutor|0 fnt|[from] psn
+|faint|p1a: Exeggutor
+|
+|switch|p1a: Lapras|Lapras|463/463
+|turn|16
+|
+|move|p1a: Lapras|Confuse Ray|p2a: Mr. Mime
+|-start|p2a: Mr. Mime|confusion
+|-activate|p2a: Mr. Mime|confusion
+|-damage|p2a: Mr. Mime|37/283 par|[from] confusion
+|
+|upkeep
+|turn|17
+|c| e7861oo1pd|b r u h
+|
+|move|p1a: Lapras|Ice Beam|p2a: Mr. Mime
+|-crit|p2a: Mr. Mime
+|-damage|p2a: Mr. Mime|0 fnt
+|faint|p2a: Mr. Mime
+|
+|switch|p2a: Zapdos|Zapdos|48/383
+|turn|18
+|
+|switch|p1a: Gengar|Gengar|323/323
+|move|p2a: Zapdos|Thunderbolt|p1a: Gengar
+|-damage|p1a: Gengar|218/323
+|
+|upkeep
+|turn|19
+|c| Snipp|who are you? xD
+|c| e7861oo1pd|zapdosa popierdoliło
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|move|p1a: Gengar|Psychic|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-resisted|p2a: Alakazam
+|-damage|p2a: Alakazam|247/313
+|-unboost|p2a: Alakazam|spd|1
+|-unboost|p2a: Alakazam|spa|1
+|
+|upkeep
+|turn|20
+|c| Snipp|XD
+|c| e7861oo1pd|jestem przybyszem
+|
+|switch|p1a: Lapras|Lapras|463/463
+|move|p2a: Alakazam|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|378/463
+|
+|upkeep
+|turn|21
+|c| Snipp|hmm
+|
+|switch|p2a: Lapras|Lapras|463/463
+|move|p1a: Lapras|Sing|p2a: Lapras|[miss]
+|-miss|p1a: Lapras
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Lapras|Toxic|p1a: Lapras|[miss]
+|-miss|p2a: Lapras
+|move|p1a: Lapras|Sing|p2a: Lapras
+|-status|p2a: Lapras|slp|[from] move: Sing
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Alakazam|Alakazam|247/313
+|move|p1a: Lapras|Confuse Ray|p2a: Alakazam
+|-start|p2a: Alakazam|confusion
+|
+|upkeep
+|turn|24
+|
+|switch|p2a: Lapras|Lapras|463/463 slp
+|move|p1a: Lapras|Sing|p2a: Lapras|[miss]
+|-miss|p1a: Lapras
+|
+|upkeep
+|turn|25
+|c| Snipp|skad przybyles
+|
+|-curestatus|p2a: Lapras|slp|[msg]
+|move|p1a: Lapras|Confuse Ray|p2a: Lapras
+|-start|p2a: Lapras|confusion
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Lapras|Sing|p2a: Lapras
+|-status|p2a: Lapras|slp|[from] move: Sing
+|-curestatus|p2a: Lapras|slp|[msg]
+|
+|upkeep
+|turn|27
+|c| e7861oo1pd|Z palnety fennekinów
+|
+|-activate|p2a: Lapras|confusion
+|-damage|p2a: Lapras|427/463|[from] confusion
+|move|p1a: Lapras|Sing|p2a: Lapras
+|-status|p2a: Lapras|slp|[from] move: Sing
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Zapdos|Zapdos|184/383
+|cant|p2a: Lapras|slp
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Zapdos|Substitute|p1a: Zapdos
+|-start|p1a: Zapdos|Substitute
+|-damage|p1a: Zapdos|89/383
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Zapdos|Sky Attack||[still]
+|-prepare|p1a: Zapdos|Sky Attack|p2a: Golem
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-end|p1a: Zapdos|Substitute
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Zapdos|Sky Attack|p2a: Golem|[from]Sky Attack
+|-crit|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|248/363
+|move|p2a: Golem|Rock Slide|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|c|☆B-Rubbit|same kryty
+|c| Snipp|rozumiem
+|
+|switch|p1a: Machamp|Machamp|383/383
+|turn|32
+|
+|switch|p2a: Alakazam|Alakazam|247/313
+|move|p1a: Machamp|Earthquake|p2a: Alakazam
+|-damage|p2a: Alakazam|86/313
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: Lapras|Lapras|378/463
+|move|p2a: Alakazam|Psychic|p1a: Lapras
+|-damage|p1a: Lapras|241/463
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|242/313
+|move|p1a: Lapras|Hydro Pump|p2a: Alakazam
+|-damage|p2a: Alakazam|138/313
+|
+|upkeep
+|turn|35
+|
+|switch|p2a: Lapras|Lapras|427/463 slp
+|move|p1a: Lapras|Ice Beam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|400/463 slp
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Machamp|Machamp|383/383
+|cant|p2a: Lapras|slp
+|
+|upkeep
+|turn|37
+|
+|cant|p2a: Lapras|slp
+|move|p1a: Machamp|Mega Kick|p2a: Lapras|[miss]
+|-miss|p1a: Machamp
+|
+|upkeep
+|turn|38
+|
+|cant|p2a: Lapras|slp
+|move|p1a: Machamp|Mega Kick|p2a: Lapras
+|-damage|p2a: Lapras|271/463 slp
+|
+|upkeep
+|turn|39
+|
+|-curestatus|p2a: Lapras|slp|[msg]
+|move|p1a: Machamp|Counter|p2a: Lapras
+|-fail|p1a: Machamp
+|
+|upkeep
+|turn|40
+|
+|move|p2a: Lapras|Hyper Beam|p1a: Machamp
+|-damage|p1a: Machamp|262/383
+|-mustrecharge|p2a: Lapras
+|move|p1a: Machamp|Toxic|p2a: Lapras
+|-status|p2a: Lapras|tox
+|
+|upkeep
+|turn|41
+|
+|cant|p2a: Lapras|recharge
+|-damage|p2a: Lapras|243/463 tox|[from] psn
+|move|p1a: Machamp|Mega Kick|p2a: Lapras|[miss]
+|-miss|p1a: Machamp
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Lapras|Toxic|p1a: Machamp
+|-status|p1a: Machamp|tox
+|-damage|p2a: Lapras|187/463 tox|[from] psn
+|move|p1a: Machamp|Mega Kick|p2a: Lapras|[miss]
+|-miss|p1a: Machamp
+|-damage|p1a: Machamp|239/383 tox|[from] psn
+|
+|upkeep
+|turn|43
+|c|☆Krzysztolf|kurwaaa
+|
+|move|p2a: Lapras|Surf|p1a: Machamp
+|-damage|p1a: Machamp|100/383 tox
+|-damage|p2a: Lapras|103/463 tox|[from] psn
+|move|p1a: Machamp|Mega Kick|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|switch|p2a: Alakazam|Alakazam|138/313
+|turn|44
+|
+|move|p2a: Alakazam|Psychic|p1a: Machamp
+|-crit|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Arcanine|Arcanine|383/383
+|turn|45
+|
+|switch|p2a: Golem|Golem|248/363
+|move|p1a: Arcanine|Skull Bash||[still]
+|-prepare|p1a: Arcanine|Skull Bash|p2a: Golem
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Arcanine|Skull Bash|p2a: Golem|[from]Skull Bash
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|213/363
+|move|p2a: Golem|Rock Slide|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|149/383
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Arcanine|Flamethrower|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|138/363
+|move|p2a: Golem|Rock Slide|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|switch|p1a: Gengar|Gengar|218/323
+|turn|48
+|
+|move|p1a: Gengar|Psychic|p2a: Golem
+|-damage|p2a: Golem|23/363
+|move|p2a: Golem|Earthquake|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|switch|p1a: Lapras|Lapras|241/463
+|turn|49
+|
+|move|p1a: Lapras|Ice Beam|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|switch|p2a: Zapdos|Zapdos|48/383
+|turn|50
+|
+|move|p2a: Zapdos|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|win|B-Rubbit
+|l|☆Krzysztolf

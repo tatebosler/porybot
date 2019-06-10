@@ -1,0 +1,344 @@
+|j|☆B-Rubbit
+|j|☆Marfex
+|player|p1|B-Rubbit|190
+|player|p2|Marfex|104
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Lapras|Lapras|463/463
+|switch|p2a: Golem|Golem|363/363
+|turn|1
+|
+|switch|p2a: Lapras|Lapras|463/463
+|move|p1a: Lapras|Toxic|p2a: Lapras
+|-status|p2a: Lapras|tox
+|
+|upkeep
+|turn|2
+|j| Krzysztolf
+|c|☆B-Rubbit|powodzenia
+|
+|switch|p1a: Zapdos|Zapdos|383/383
+|move|p2a: Lapras|Confuse Ray|p1a: Zapdos
+|-start|p1a: Zapdos|confusion
+|-damage|p2a: Lapras|435/463 tox|[from] psn
+|
+|upkeep
+|turn|3
+|
+|-activate|p1a: Zapdos|confusion
+|-damage|p1a: Zapdos|347/383|[from] confusion
+|move|p2a: Lapras|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|122/383
+|-damage|p2a: Lapras|379/463 tox|[from] psn
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Lapras|Lapras|463/463
+|move|p2a: Lapras|Blizzard|p1a: Lapras
+|-resisted|p1a: Lapras
+|-damage|p1a: Lapras|429/463
+|-damage|p2a: Lapras|295/463 tox|[from] psn
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|276/463
+|-damage|p2a: Lapras|183/463 tox|[from] psn
+|move|p1a: Lapras|Hyper Beam|p2a: Lapras
+|-damage|p2a: Lapras|54/463 tox
+|-mustrecharge|p1a: Lapras
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Lapras|Thunderbolt|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|123/463
+|-damage|p2a: Lapras|0 fnt|[from] psn
+|faint|p2a: Lapras
+|
+|switch|p2a: Scyther|Scyther|343/343
+|turn|7
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Lapras
+|-crit|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|switch|p1a: Golem|Golem|363/363
+|turn|8
+|
+|switch|p2a: Golem|Golem|363/363
+|move|p1a: Golem|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|161/363
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Golem|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|164/363
+|move|p1a: Golem|Earthquake|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by B-Rubbit)
+|
+|switch|p2a: Hitmonlee|Hitmonlee|303/303
+|turn|10
+|
+|switch|p1a: Mr. Mime|Mr. Mime|283/283
+|move|p2a: Hitmonlee|Jump Kick|p1a: Mr. Mime
+|-resisted|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|219/283
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Mr. Mime|Toxic|p2a: Hitmonlee
+|-status|p2a: Hitmonlee|tox
+|move|p2a: Hitmonlee|Body Slam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|123/283
+|-status|p1a: Mr. Mime|par
+|-damage|p2a: Hitmonlee|285/303 tox|[from] psn
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Zapdos|Zapdos|122/383
+|move|p2a: Hitmonlee|Body Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|37/383
+|-status|p1a: Zapdos|par
+|-damage|p2a: Hitmonlee|249/303 tox|[from] psn
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Hitmonlee|Body Slam|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|14
+|
+|move|p1a: Alakazam|Psychic|p2a: Hitmonlee
+|-crit|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|faint|p2a: Hitmonlee
+|
+|switch|p2a: Slowbro|Slowbro|393/393
+|turn|15
+|
+|switch|p1a: Mr. Mime|Mr. Mime|123/283 par
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Slowbro|Amnesia|p2a: Slowbro
+|-boost|p2a: Slowbro|spd|2
+|-boost|p2a: Slowbro|spa|2
+|move|p1a: Mr. Mime|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Slowbro|Ice Beam|p1a: Mr. Mime
+|-damage|p1a: Mr. Mime|0 fnt
+|faint|p1a: Mr. Mime
+|
+|switch|p1a: Golem|Golem|164/363
+|turn|18
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Slowbro|Ice Beam|p1a: Chansey
+|-damage|p1a: Chansey|524/703
+|-damage|p2a: Slowbro|369/393 tox|[from] psn
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Chansey|Light Screen|p1a: Chansey
+|-start|p1a: Chansey|Light Screen
+|move|p2a: Slowbro|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|408/703
+|-status|p1a: Chansey|brn
+|-damage|p2a: Slowbro|321/393 tox|[from] psn
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 brn
+|-damage|p1a: Chansey|660/703 brn|[from] brn
+|move|p2a: Slowbro|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|535/703 brn
+|-damage|p2a: Slowbro|249/393 tox|[from] psn
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Slowbro
+|-damage|p2a: Slowbro|149/393 tox
+|-damage|p1a: Chansey|492/703 brn|[from] brn|[of] p2a: Slowbro
+|move|p2a: Slowbro|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|369/703 brn
+|-damage|p2a: Slowbro|53/393 tox|[from] psn
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 brn
+|-damage|p1a: Chansey|660/703 brn|[from] brn
+|move|p2a: Slowbro|Fire Blast|p1a: Chansey
+|-damage|p1a: Chansey|542/703 brn
+|-damage|p2a: Slowbro|0 fnt|[from] psn
+|faint|p2a: Slowbro
+|
+|switch|p2a: Chansey|Chansey|703/703
+|turn|23
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|-damage|p1a: Chansey|499/703 brn|[from] brn|[of] p2a: Chansey
+|move|p2a: Chansey|Substitute|p2a: Chansey
+|-start|p2a: Chansey|Substitute
+|-damage|p2a: Chansey|428/703
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-activate|p2a: Chansey|Substitute|[damage]
+|-damage|p1a: Chansey|456/703 brn|[from] brn|[of] p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-end|p2a: Chansey|Substitute
+|-damage|p1a: Chansey|413/703 brn|[from] brn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|313/703 brn
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Chansey|Toxic|p2a: Chansey
+|-status|p2a: Chansey|tox
+|-damage|p1a: Chansey|270/703 brn|[from] brn|[of] p2a: Chansey
+|move|p2a: Chansey|Substitute|p2a: Chansey
+|-start|p2a: Chansey|Substitute
+|-damage|p2a: Chansey|528/703 tox
+|-damage|p2a: Chansey|485/703 tox|[from] psn
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|621/703 brn
+|-damage|p1a: Chansey|578/703 brn|[from] brn
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|478/703 brn
+|-damage|p2a: Chansey|399/703 tox|[from] psn
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|703/703 brn
+|-damage|p1a: Chansey|660/703 brn|[from] brn
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|560/703 brn
+|-damage|p2a: Chansey|270/703 tox|[from] psn
+|
+|upkeep
+|turn|29
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-activate|p2a: Chansey|Substitute|[damage]
+|-damage|p1a: Chansey|517/703 brn|[from] brn|[of] p2a: Chansey
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|417/703 brn
+|-damage|p2a: Chansey|98/703 tox|[from] psn
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|317/703 brn
+|-damage|p2a: Chansey|0 fnt|[from] psn
+|faint|p2a: Chansey
+|
+|switch|p2a: Scyther|Scyther|343/343
+|turn|31
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Chansey|Toxic|p2a: Scyther
+|-status|p2a: Scyther|tox
+|-damage|p1a: Chansey|274/703 brn|[from] brn|[of] p2a: Scyther
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|-damage|p2a: Scyther|322/343 tox|[from] psn
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|625/703 brn
+|-damage|p1a: Chansey|582/703 brn|[from] brn
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|-damage|p2a: Scyther|280/343 tox|[from] psn
+|move|p1a: Chansey|Seismic Toss|p2a: Scyther
+|-damage|p2a: Scyther|180/343 tox
+|-damage|p1a: Chansey|539/703 brn|[from] brn|[of] p2a: Scyther
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|switch|p1a: Golem|Golem|164/363
+|turn|35
+|
+|move|p2a: Scyther|Hyper Beam|p1a: Golem|[miss]
+|-miss|p2a: Scyther
+|-damage|p2a: Scyther|117/343 tox|[from] psn
+|move|p1a: Golem|Rock Slide|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|win|B-Rubbit

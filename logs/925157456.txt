@@ -1,0 +1,299 @@
+|j|☆llogzlol
+|j|☆Wolfein
+|player|p1|llogzlol|101
+|player|p2|Wolfein|17
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Alakazam|Alakazam|313/313
+|switch|p2a: Starmie|Starmie|323/323
+|turn|1
+|j| ll Bat l
+|j| Tfcp Ladd +___+
+|l| ll Bat l
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: Starmie
+|-status|p2a: Starmie|par
+|move|p2a: Starmie|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|
+|upkeep
+|turn|2
+|j| UUBLShouldBeATier
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|223/323 par
+|move|p2a: Starmie|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|236/313 par
+|
+|upkeep
+|turn|3
+|c|☆llogzlol|attention je joue jamais 1g
+|c|☆Wolfein|ok
+|c|☆llogzlol|j'ia juste fait le tournoi pour le kiff
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|123/323 par
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|284/323 par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Alakazam|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Chansey|Thunder Wave|p1a: Alakazam
+|-fail|p1a: Alakazam|par
+|move|p1a: Alakazam|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|7
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|8
+|
+|cant|p1a: Alakazam|par
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|
+|upkeep
+|turn|9
+|j| LTFinal Flambi
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|136/313 par
+|
+|upkeep
+|turn|10
+|j| ll Bat l
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|292/313 par
+|move|p2a: Chansey|Seismic Toss|p1a: Alakazam
+|-damage|p1a: Alakazam|192/313 par
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Alakazam|Recover|p1a: Alakazam
+|-heal|p1a: Alakazam|313/313 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|move|p1a: Alakazam|Psychic|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|285/393
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Exeggutor|Double-Edge|p1a: Alakazam
+|-damage|p1a: Alakazam|196/313 par
+|-damage|p2a: Exeggutor|256/393|[from] Recoil|[of] p1a: Alakazam
+|move|p1a: Alakazam|Thunder Wave|p2a: Exeggutor
+|-status|p2a: Exeggutor|par
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Alakazam|Seismic Toss|p2a: Exeggutor
+|-damage|p2a: Exeggutor|156/393 par
+|move|p2a: Exeggutor|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: Exeggutor
+|
+|switch|p1a: Chansey|Chansey|703/703
+|switch|p2a: Starmie|Starmie|284/323 par
+|turn|15
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Starmie
+|-damage|p2a: Starmie|184/323 par
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|16
+|
+|switch|p2a: Chansey|Chansey|603/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703 par
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|403/703 par
+|move|p2a: Chansey|Reflect|p2a: Chansey
+|-start|p2a: Chansey|Reflect
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Chansey|Reflect|p1a: Chansey
+|-start|p1a: Chansey|Reflect
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|703/703 par
+|
+|upkeep
+|turn|19
+|
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|603/703 par
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|20
+|l| LTFinal Flambi
+|c|☆llogzlol|sa s'annonce tres offensif comme game
+|
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|603/703 par
+|move|p1a: Chansey|Seismic Toss|p2a: Chansey
+|-damage|p2a: Chansey|503/703 par
+|
+|upkeep
+|turn|21
+|
+|cant|p1a: Chansey|par
+|move|p2a: Chansey|Seismic Toss|p1a: Chansey
+|-damage|p1a: Chansey|503/703 par
+|
+|upkeep
+|turn|22
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Snorlax|Body Slam|p1a: Chansey
+|-damage|p1a: Chansey|353/703 par
+|cant|p1a: Chansey|par
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Snorlax|Self-Destruct|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|faint|p2a: Snorlax
+|
+|switch|p2a: Chansey|Chansey|503/703 par
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|25
+|
+|move|p1a: Snorlax|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|turn|26
+|
+|move|p2a: Zapdos|Thunder Wave|p1a: Snorlax
+|-status|p1a: Snorlax|par
+|move|p1a: Snorlax|Body Slam|p2a: Zapdos
+|-damage|p2a: Zapdos|264/383
+|-status|p2a: Zapdos|par
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Zapdos|Drill Peck|p1a: Snorlax
+|-damage|p1a: Snorlax|412/523 par
+|move|p1a: Snorlax|Self-Destruct|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|faint|p1a: Snorlax
+|
+|switch|p2a: Starmie|Starmie|184/323 par
+|switch|p1a: Tauros|Tauros|353/353
+|turn|28
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|c|☆llogzlol|gg
+|
+|switch|p2a: Tauros|Tauros|353/353
+|turn|29
+|
+|move|p1a: Tauros|Hyper Beam|p2a: Tauros
+|-damage|p2a: Tauros|162/353
+|-mustrecharge|p1a: Tauros
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|257/353
+|
+|upkeep
+|turn|30
+|
+|cant|p1a: Tauros|recharge
+|move|p2a: Tauros|Body Slam|p1a: Tauros
+|-damage|p1a: Tauros|147/353
+|
+|upkeep
+|turn|31
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|switch|p1a: Lapras|Lapras|463/463
+|turn|32
+|
+|move|p2a: Tauros|Body Slam|p1a: Lapras
+|-damage|p1a: Lapras|348/463
+|move|p1a: Lapras|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|42/353
+|
+|upkeep
+|turn|33
+|c|☆llogzlol|gg
+|
+|move|p2a: Tauros|Hyper Beam|p1a: Lapras
+|-damage|p1a: Lapras|156/463
+|-mustrecharge|p2a: Tauros
+|move|p1a: Lapras|Body Slam|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|win|llogzlol

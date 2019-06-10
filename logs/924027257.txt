@@ -1,0 +1,312 @@
+|j|☆Muso Benrami
+|j|☆FireNinjaZ
+|player|p1|Muso Benrami|105
+|player|p2|FireNinjaZ|29
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Charizard|Charizard|359/359
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Muso Benrami)
+|
+|switch|p2a: Lapras|Lapras|463/463
+|move|p1a: Charizard|Swords Dance|p1a: Charizard
+|-boost|p1a: Charizard|atk|2
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Charizard|Body Slam|p2a: Lapras
+|-damage|p2a: Lapras|317/463
+|move|p2a: Lapras|Hydro Pump|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|31/359
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Charizard|Earthquake|p2a: Lapras
+|-damage|p2a: Lapras|163/463
+|move|p2a: Lapras|Surf|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|switch|p1a: Raichu|Raichu|323/323
+|turn|4
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Raichu|Thunder Shock|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|408/523
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: Snorlax|Earthquake|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|225/363
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Golem|Body Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|322/523
+|move|p2a: Snorlax|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|62/363
+|-status|p1a: Golem|frz
+|
+|upkeep
+|turn|7
+|
+|cant|p1a: Golem|frz
+|move|p2a: Snorlax|Ice Beam|p1a: Golem
+|-supereffective|p1a: Golem
+|-damage|p1a: Golem|0 fnt
+|faint|p1a: Golem
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|turn|8
+|
+|switch|p2a: Zapdos|Zapdos|383/383
+|move|p1a: Cloyster|Clamp|p2a: Zapdos
+|-damage|p2a: Zapdos|351/383
+|
+|upkeep
+|turn|9
+|
+|cant|p2a: Zapdos|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Zapdos|[from]Clamp
+|-damage|p2a: Zapdos|319/383
+|
+|upkeep
+|turn|10
+|
+|cant|p2a: Zapdos|partiallytrapped
+|move|p1a: Cloyster|Clamp|p2a: Zapdos|[from]Clamp
+|-damage|p2a: Zapdos|287/383
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Raichu|Raichu|323/323
+|cant|p2a: Zapdos|partiallytrapped
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Snorlax|Snorlax|322/523
+|move|p1a: Raichu|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|189/523
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Raichu|Thunderbolt|p2a: Snorlax
+|-damage|p2a: Snorlax|49/523
+|move|p2a: Snorlax|Earthquake|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|90/323
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Raichu|Thunderbolt|p2a: Rhydon
+|-immune|p2a: Rhydon
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Raichu|Surf|p2a: Rhydon
+|-supereffective|p2a: Rhydon
+|-damage|p2a: Rhydon|0 fnt
+|faint|p2a: Rhydon
+|
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|16
+|
+|move|p2a: Alakazam|Psychic|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|turn|17
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Alakazam
+|-status|p1a: Alakazam|par
+|move|p1a: Alakazam|Thunder Wave|p2a: Alakazam
+|-status|p2a: Alakazam|par
+|
+|upkeep
+|turn|18
+|
+|switch|p2a: Chansey|Chansey|703/703
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Cloyster|Cloyster|303/303
+|move|p2a: Chansey|Toxic|p1a: Cloyster|[miss]
+|-miss|p2a: Chansey
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-damage|p2a: Chansey|667/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey|[from]Clamp
+|-damage|p2a: Chansey|631/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey|[from]Clamp
+|-damage|p2a: Chansey|595/703
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Cloyster|Hyper Beam|p2a: Chansey
+|-damage|p2a: Chansey|297/703
+|-mustrecharge|p1a: Cloyster
+|move|p2a: Chansey|Toxic|p1a: Cloyster
+|-status|p1a: Cloyster|tox
+|
+|upkeep
+|turn|24
+|
+|cant|p1a: Cloyster|recharge
+|-damage|p1a: Cloyster|285/303 tox|[from] psn
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|648/703
+|
+|upkeep
+|turn|25
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|578/703
+|-damage|p1a: Cloyster|249/303 tox|[from] psn
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey|[from]Clamp
+|-damage|p2a: Chansey|508/703
+|-damage|p1a: Cloyster|195/303 tox|[from] psn
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Cloyster|Clamp|p2a: Chansey|[from]Clamp
+|-damage|p2a: Chansey|438/703
+|-damage|p1a: Cloyster|123/303 tox|[from] psn
+|cant|p2a: Chansey|partiallytrapped
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Cloyster|Explosion|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|faint|p1a: Cloyster
+|
+|switch|p1a: Gengar|Gengar|323/323
+|switch|p2a: Alakazam|Alakazam|313/313 par
+|turn|29
+|
+|switch|p1a: Alakazam|Alakazam|313/313 par
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|258/313 par
+|
+|upkeep
+|turn|30
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|202/313 par
+|move|p1a: Alakazam|Reflect|p1a: Alakazam
+|-start|p1a: Alakazam|Reflect
+|
+|upkeep
+|turn|31
+|
+|cant|p1a: Alakazam|par
+|cant|p2a: Alakazam|par
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|93/313 par
+|cant|p1a: Alakazam|par
+|
+|upkeep
+|turn|33
+|
+|move|p2a: Alakazam|Psychic|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-resisted|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|switch|p1a: Gengar|Gengar|323/323
+|turn|34
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Alakazam
+|-crit|p2a: Alakazam
+|-damage|p2a: Alakazam|181/313 par
+|move|p2a: Alakazam|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|114/323
+|
+|upkeep
+|turn|35
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|103/313 par
+|move|p2a: Alakazam|Recover|p2a: Alakazam
+|-heal|p2a: Alakazam|259/313 par
+|
+|upkeep
+|turn|36
+|
+|move|p1a: Gengar|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|191/313 par
+|move|p2a: Alakazam|Psychic|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|win|FireNinjaZ
+|l|☆Muso Benrami
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

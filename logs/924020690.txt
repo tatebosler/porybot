@@ -1,0 +1,258 @@
+|j|☆YahYeetPokeMon
+|j|☆PolarGuy
+|player|p1|YahYeetPokeMon|1
+|player|p2|PolarGuy|117
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Gyarados|Gyarados|393/393
+|switch|p2a: Sanic|Jolteon|333/333
+|turn|1
+|
+|switch|p1a: Rhydon|Rhydon|413/413
+|move|p2a: Sanic|Double Kick|p1a: Rhydon
+|-crit|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|352/413
+|-damage|p1a: Rhydon|291/413
+|-hitcount|p1a: Rhydon|2
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Sam|Starmie|323/323
+|move|p1a: Rhydon|Earthquake|p2a: Sam
+|-damage|p2a: Sam|161/323
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Sam|Hydro Pump|p1a: Rhydon
+|-supereffective|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|switch|p1a: Electrode|Electrode|323/323
+|turn|4
+|
+|switch|p2a: Sanic|Jolteon|333/333
+|move|p1a: Electrode|Thunderbolt|p2a: Sanic
+|-resisted|p2a: Sanic
+|-damage|p2a: Sanic|285/333
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Electrode|Explosion|p2a: Sanic
+|-crit|p2a: Sanic
+|-damage|p2a: Sanic|0 fnt
+|faint|p2a: Sanic
+|faint|p1a: Electrode
+|
+|switch|p1a: Gyarados|Gyarados|393/393
+|switch|p2a: Rock Hater|Lapras|463/463
+|turn|6
+|
+|move|p1a: Gyarados|Thunderbolt|p2a: Rock Hater
+|-supereffective|p2a: Rock Hater
+|-damage|p2a: Rock Hater|295/463
+|move|p2a: Rock Hater|Confuse Ray|p1a: Gyarados
+|-start|p1a: Gyarados|confusion
+|
+|upkeep
+|turn|7
+|
+|-activate|p1a: Gyarados|confusion
+|move|p1a: Gyarados|Thunderbolt|p2a: Rock Hater
+|-supereffective|p2a: Rock Hater
+|-damage|p2a: Rock Hater|144/463
+|move|p2a: Rock Hater|Substitute|p2a: Rock Hater
+|-start|p2a: Rock Hater|Substitute
+|-damage|p2a: Rock Hater|29/463
+|
+|upkeep
+|turn|8
+|
+|-end|p1a: Gyarados|confusion
+|move|p1a: Gyarados|Thunderbolt|p2a: Rock Hater
+|-supereffective|p2a: Rock Hater
+|-end|p2a: Rock Hater|Substitute
+|move|p2a: Rock Hater|Ice Beam|p1a: Gyarados
+|-damage|p1a: Gyarados|282/393
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Gyarados|Thunderbolt|p2a: Rock Hater
+|-supereffective|p2a: Rock Hater
+|-damage|p2a: Rock Hater|0 fnt
+|faint|p2a: Rock Hater
+|
+|switch|p2a: Joker|Gengar|323/323
+|turn|10
+|
+|move|p2a: Joker|Confuse Ray|p1a: Gyarados
+|-start|p1a: Gyarados|confusion
+|-activate|p1a: Gyarados|confusion
+|-damage|p1a: Gyarados|235/393|[from] confusion
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Joker|Seismic Toss|p1a: Gyarados
+|-damage|p1a: Gyarados|135/393
+|-activate|p1a: Gyarados|confusion
+|move|p1a: Gyarados|Thunderbolt|p2a: Joker
+|-damage|p2a: Joker|257/323
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Joker|Seismic Toss|p1a: Gyarados
+|-damage|p1a: Gyarados|35/393
+|-activate|p1a: Gyarados|confusion
+|-damage|p1a: Gyarados|0 fnt|[from] confusion
+|faint|p1a: Gyarados
+|
+|switch|p1a: Dragonite|Dragonite|385/385
+|turn|13
+|
+|move|p2a: Joker|Confuse Ray|p1a: Dragonite
+|-start|p1a: Dragonite|confusion
+|-activate|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Thunder Wave|p2a: Joker
+|-status|p2a: Joker|par
+|
+|upkeep
+|turn|14
+|
+|-activate|p1a: Dragonite|confusion
+|-damage|p1a: Dragonite|341/385|[from] confusion
+|move|p2a: Joker|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|261/385
+|-unboost|p1a: Dragonite|spd|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|upkeep
+|turn|15
+|
+|-end|p1a: Dragonite|confusion
+|move|p1a: Dragonite|Fire Blast|p2a: Joker
+|-damage|p2a: Joker|209/323 par
+|move|p2a: Joker|Psychic|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|102/385
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Dragonite|Wrap|p2a: Joker
+|-damage|p2a: Joker|209/323 par
+|cant|p2a: Joker|partiallytrapped
+|
+|upkeep
+|turn|17
+|
+|move|p1a: Dragonite|Wrap|p2a: Joker|[from]Wrap
+|-damage|p2a: Joker|209/323 par
+|cant|p2a: Joker|partiallytrapped
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Alakazam|Alakazam|313/313
+|cant|p2a: Joker|partiallytrapped
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: 3 heads more troub|Exeggutor|393/393
+|move|p1a: Alakazam|Psychic|p2a: 3 heads more troub
+|-resisted|p2a: 3 heads more troub
+|-damage|p2a: 3 heads more troub|337/393
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Alakazam|Thunder Wave|p2a: 3 heads more troub
+|-status|p2a: 3 heads more troub|par
+|move|p2a: 3 heads more troub|Sleep Powder|p1a: Alakazam|[miss]
+|-miss|p2a: 3 heads more troub
+|
+|upkeep
+|turn|21
+|
+|move|p1a: Alakazam|Body Slam|p2a: 3 heads more troub
+|-damage|p2a: 3 heads more troub|290/393 par
+|move|p2a: 3 heads more troub|Sleep Powder|p1a: Alakazam
+|-status|p1a: Alakazam|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Machamp|Machamp|383/383
+|move|p2a: 3 heads more troub|Mega Drain|p1a: Machamp
+|-damage|p1a: Machamp|313/383
+|-heal|p2a: 3 heads more troub|325/393 par|[from] drain|[of] p1a: Machamp
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Machamp|Fire Blast|p2a: 3 heads more troub
+|-supereffective|p2a: 3 heads more troub
+|-damage|p2a: 3 heads more troub|204/393 par
+|move|p2a: 3 heads more troub|Psychic|p1a: Machamp
+|-supereffective|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|faint|p1a: Machamp
+|
+|switch|p1a: Dragonite|Dragonite|102/385
+|turn|24
+|
+|move|p1a: Dragonite|Fire Blast|p2a: 3 heads more troub|[miss]
+|-miss|p1a: Dragonite
+|move|p2a: 3 heads more troub|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|switch|p1a: Alakazam|Alakazam|313/313 slp
+|turn|25
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: 3 heads more troub|Mega Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|271/313 slp
+|-heal|p2a: 3 heads more troub|225/393 par|[from] drain|[of] p1a: Alakazam
+|
+|upkeep
+|turn|26
+|
+|cant|p1a: Alakazam|slp
+|move|p2a: 3 heads more troub|Mega Drain|p1a: Alakazam
+|-crit|p1a: Alakazam
+|-damage|p1a: Alakazam|180/313 slp
+|-heal|p2a: 3 heads more troub|270/393 par|[from] drain|[of] p1a: Alakazam
+|
+|upkeep
+|turn|27
+|
+|-curestatus|p1a: Alakazam|slp|[msg]
+|move|p2a: 3 heads more troub|Explosion|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|faint|p2a: 3 heads more troub
+|
+|win|PolarGuy
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YahYeetPokeMon)
+|l|☆YahYeetPokeMon
+||Ladder (probably) updated, but score could not be retrieved (Response not received).

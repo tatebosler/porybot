@@ -1,0 +1,269 @@
+|j|☆IceKingofOoo
+|j|☆OsaiY
+|player|p1|IceKingofOoo|214
+|player|p2|OsaiY|157
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|1
+|tier|[Gen 1] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Freeze Clause Mod: Limit one foe frozen
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|
+|start
+|switch|p1a: Jynx|Jynx|333/333
+|switch|p2a: Alakazam|Alakazam|313/313
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IceKingofOoo)
+|
+|move|p2a: Alakazam|Thunder Wave|p1a: Jynx
+|-status|p1a: Jynx|par
+|move|p1a: Jynx|Lovely Kiss|p2a: Alakazam
+|-status|p2a: Alakazam|slp|[from] move: Lovely Kiss
+|
+|upkeep
+|turn|2
+|inactive|OsaiY has 120 seconds left.
+|
+|switch|p2a: Starmie|Starmie|323/323
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|
+|upkeep
+|turn|3
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|switch|p1a: Chansey|Chansey|703/703
+|move|p2a: Starmie|Thunder Wave|p1a: Chansey
+|-status|p1a: Chansey|par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Rhydon|Rhydon|413/413
+|move|p1a: Chansey|Thunder Wave|p2a: Rhydon
+|-immune|p2a: Rhydon
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Exeggutor|Exeggutor|393/393
+|move|p2a: Rhydon|Substitute|p2a: Rhydon
+|-start|p2a: Rhydon|Substitute
+|-damage|p2a: Rhydon|310/413
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Exeggutor|Psychic|p2a: Rhydon
+|-end|p2a: Rhydon|Substitute
+|move|p2a: Rhydon|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|301/393
+|
+|upkeep
+|turn|7
+|inactive|OsaiY has 120 seconds left.
+|
+|switch|p2a: Starmie|Starmie|323/323
+|move|p1a: Exeggutor|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|265/323
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|upkeep
+|turn|8
+|inactive|OsaiY has 120 seconds left.
+|
+|switch|p2a: Tauros|Tauros|353/353
+|switch|p1a: Chansey|Chansey|703/703 par
+|
+|upkeep
+|turn|9
+|inactive|OsaiY has 120 seconds left.
+|
+|move|p2a: Tauros|Body Slam|p1a: Chansey
+|-crit|p1a: Chansey
+|-damage|p1a: Chansey|139/703 par
+|move|p1a: Chansey|Thunder Wave|p2a: Tauros
+|-status|p2a: Tauros|par
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Exeggutor|Exeggutor|301/393
+|move|p2a: Tauros|Body Slam|p1a: Exeggutor
+|-damage|p1a: Exeggutor|197/393
+|-status|p1a: Exeggutor|par
+|
+|upkeep
+|turn|11
+|inactive|OsaiY has 120 seconds left.
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|cant|p2a: Tauros|par
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|12
+|
+|cant|p2a: Tauros|par
+|cant|p1a: Exeggutor|par
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Tauros|Blizzard|p1a: Exeggutor
+|-supereffective|p1a: Exeggutor
+|-damage|p1a: Exeggutor|57/393 par
+|move|p1a: Exeggutor|Explosion|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|faint|p1a: Exeggutor
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|switch|p1a: Snorlax|Snorlax|523/523
+|turn|14
+|
+|switch|p1a: Jynx|Jynx|333/333 par
+|move|p2a: Exeggutor|Sleep Powder|p1a: Jynx
+|-fail|p1a: Jynx
+|
+|upkeep
+|turn|15
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|switch|p2a: Starmie|Starmie|265/323
+|move|p1a: Jynx|Psychic|p2a: Starmie
+|-crit|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|165/323
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Starmie|Recover|p2a: Starmie
+|-heal|p2a: Starmie|323/323
+|move|p1a: Jynx|Psychic|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|243/323
+|-unboost|p2a: Starmie|spd|1
+|-unboost|p2a: Starmie|spa|1
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Exeggutor|Exeggutor|393/393
+|cant|p1a: Jynx|par
+|
+|upkeep
+|turn|18
+|
+|move|p2a: Exeggutor|Psychic|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|272/333 par
+|move|p1a: Jynx|Blizzard|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|149/393
+|
+|upkeep
+|turn|19
+|
+|switch|p1a: Golem|Golem|363/363
+|move|p2a: Exeggutor|Explosion|p1a: Golem
+|-resisted|p1a: Golem
+|-damage|p1a: Golem|250/363
+|faint|p2a: Exeggutor
+|
+|switch|p2a: Starmie|Starmie|243/323
+|turn|20
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|switch|p1a: Jynx|Jynx|272/333 par
+|move|p2a: Starmie|Blizzard|p1a: Jynx
+|-crit|p1a: Jynx
+|-resisted|p1a: Jynx
+|-damage|p1a: Jynx|174/333 par
+|
+|upkeep
+|turn|21
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|move|p2a: Starmie|Thunderbolt|p1a: Jynx
+|-damage|p1a: Jynx|101/333 par
+|move|p1a: Jynx|Rest|p1a: Jynx
+|-status|p1a: Jynx|slp|[from] move: Rest
+|-heal|p1a: Jynx|333/333 slp|[silent]
+|
+|upkeep
+|turn|22
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|switch|p2a: Rhydon|Rhydon|310/413
+|switch|p1a: Snorlax|Snorlax|523/523
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Rhydon|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|413/523
+|move|p1a: Snorlax|Reflect|p1a: Snorlax
+|-start|p1a: Snorlax|Reflect
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Rhydon|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|363/523
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|-boost|p1a: Snorlax|spa|2
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Snorlax|Snorlax|523/523
+|move|p1a: Snorlax|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|369/523
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Snorlax|Body Slam|p1a: Snorlax
+|-damage|p1a: Snorlax|287/523
+|move|p1a: Snorlax|Ice Beam|p2a: Snorlax
+|-damage|p2a: Snorlax|219/523
+|
+|upkeep
+|turn|27
+|inactive|IceKingofOoo has 120 seconds left.
+|
+|move|p2a: Snorlax|Self-Destruct|p1a: Snorlax
+|-damage|p1a: Snorlax|81/523
+|faint|p2a: Snorlax
+|
+|switch|p2a: Starmie|Starmie|243/323
+|turn|28
+|
+|move|p2a: Starmie|Blizzard|p1a: Snorlax
+|-damage|p1a: Snorlax|23/523
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|523/523 slp|[silent]
+|
+|upkeep
+|turn|29
+|-message|OsaiY forfeited.
+|
+|win|IceKingofOoo
+|l|☆OsaiY
+|raw|IceKingofOoo's rating: 1418 &rarr; <strong>1424</strong><br />(+6 for winning)
+|raw|OsaiY's rating: 1143 &rarr; <strong>1134</strong><br />(-9 for losing)
