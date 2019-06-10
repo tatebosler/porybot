@@ -369,7 +369,10 @@ class QlearningAgentOnline:
 		move = Pokedex.getMove(move_name)
 		effect_id = move['effect_id']
 		effect_prob = move['effect_prob']
-		effect = Pokedex.effects[effect_id]
+		if effect_id in Pokedex.effects.keys():
+			effect = Pokedex.effects[effect_id]
+		else:
+			effect = 'None'
 		p1 = my_team[active_index]
 		p2 = opponent_pokemon
 		p1_faint = 0
