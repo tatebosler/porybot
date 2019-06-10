@@ -487,7 +487,8 @@ def main():
 	Qlearner = QLearningAgent()
 	Qlearner.runTrainingData()
 
-main()
+if __name__ == "main":
+	main()
 
 
 
