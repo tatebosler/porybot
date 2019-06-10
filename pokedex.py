@@ -160,6 +160,32 @@ class Pokedex:
 		else:
 			speciesData = cls.get(species)
 			return cls.getAverageHp(speciesData['id'])
+	
+	@classmethod
+	def getAverageSpeed(cls, species):
+		if isinstance(species, (int, long)):
+			cursor = cls.db.cursor()
+			cursor.execute("SELECT * FROM `pokemon_stats` WHERE pokemon_id = ? AND stat_id = 6", (species, ))
+			speciesData = cursor.fetchone()
+			base = speciesData[2]
+			
+			points = 0
+			for iv in range(16):
+				for ev in range(65):
+					# Calculate an HP stat possibility given an "EV", IV, and base stat combination.
+					# From https://bulbapedia.bulbagarden.net/wiki/Statistic#In_Generations_I_and_II
+					# Some simplifications have been made to help with the math.
+					stat = math.floor((base + iv) * 2 + ev) + 5
+					
+					# Add the stat value to the possibilities with the correct distribution.
+					minEv = math.pow((ev * 4) - 1, 2) if ev > 0 else 0
+					maxEv = math.pow((ev * 4) + 3, 2) if ev < 64 else 65535
+					count = int(maxEv - minEv)
+					points += count * stat
+			return float(points) / 1048560.0
+		else:
+			speciesData = cls.get(species)
+			return cls.getAverageSpeed(speciesData['id'])
 
 	# Computes the probability that an unknown Pokémon knows a move that is super effective against
 	# a given type combination.
