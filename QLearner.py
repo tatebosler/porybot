@@ -339,7 +339,8 @@ class QlearningAgentOnline:
 		if move['type'] in user_type:
 			STAB = 1.5
 		type_multiplier = Pokedex.getTypeEffectiveness(move['type'], reciever_type)
-		damage = STAB * type_multiplier * move['power']
+		power = 0 if move['power'] is None else move['power']
+		damage = STAB * type_multiplier * power
 		return damage
 
 
