@@ -26,6 +26,7 @@ root of the project (in order):
 - composer install (or `php composer.phar install` if you've installed Composer locally)
 - php cron.php
 - cp logs/*.txt ../logs/
+- grep -l Ditto ../logs/* | xargs rm
 
 Formulas for damage calculation and other data sourced from the Bulbapedia editors:
 - https://bulbapedia.bulbagarden.net/wiki/Damage
