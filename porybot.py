@@ -9,6 +9,7 @@ import sys
 my_team = Pokedex.randomTeam()
 opponent_team = Pokedex.randomTeam()
 continue_battle = True
+second_player_can_move = True
 active_index = -1
 opponent_active_index = -1
 separator = ', '
@@ -31,8 +32,70 @@ def main():
 		action_order = calculateSpeed(my_choice, opponent_choice)
 		will_act_self = calculateAndSampleAction(my_choice, my_team[active_index]['status'])
 		will_act_opponent = calculateAndSampleAction(opponent_choice, opponent_team[opponent_active_index]['status'])
-		# act(action_order, will_act_self, will_act_opponent)
+		
+		second_player_can_move = True
+		act(action_order, will_act_self, my_choice, will_act_opponent, opponent_choice)
+		
 		break
+		
+def act(action_order, will_act_self, my_choice, will_act_opponent, opponent_choice):
+	if action_order[0] == 1:
+		act_self(will_act_self, my_choice)
+		if second_player_can_move:
+			act_opponent(will_act_opponent, opponent_choice)
+	else:
+		act_opponent(will_act_opponent, opponent_choice)
+		if second_player_can_move:
+			act_self(will_act_self, my_choice)
+
+def act_self(will_act_self, my_choice):
+	if will_act_self:
+		if "Switch to" in my_choice:
+			switchIn(my_choice['index'])
+		else:
+			print "You used", my_choice['name']
+			if my_choice['power'] > 0:
+				damage = damage(my_choice['power'], my_choice['type'], opponent_team[opponent_active_index]['type'], my_team[active_index]['type'], my_team[active_index]['attack'], opponent_team[opponent_active_index]['defense'])
+				print "Damage:", damage
+				opponent_team[opponent_active_index]['current_hp'] -= damage
+				print "New opponent HP: {}/{}".format(opponent_team[opponent_active_index]['current_hp'], opponent_team[opponent_active_index]['hp'])
+				if opponent_team[opponent_active_index]['current_hp'] <= 0:
+					second_player_can_move = False
+					opponent_active_index = -1
+					opponentRandomSwitch()
+			else:
+				print "It's a status move! No damage dealt."
+	else:
+		print "You tried to act, but couldn't (either because your attack missed or a status is in effect that prevents action)."
+
+def act_opponent(will_act_opponent, opponent_choice):
+	if will_act_opponent:
+		if "Switch to" in opponent_choice:
+			switchIn(opponent_choice['index'])
+		else:
+			print "Your opponent used", opponent_choice['name']
+			if my_choice['power'] > 0:
+				damage = damage(opponent_choice['power'], opponent_choice['type'], opponent_team[opponent_active_index]['type'], opponent_team[opponent_active_index]['type'], opponent_team[opponent_active_index]['defense'], my_team[active_index]['defense'])
+				print "Damage:", damage
+				my_team[active_index]['current_hp'] -= damage
+				print "Your new HP: {}/{}".format(my_team[active_index]['current_hp'], my_team[active_index]['hp'])
+				if my_team[active_index]['current_hp'] <= 0:
+					second_player_can_move = False
+					active_index = -1
+					switchIn()
+			else:
+				print "It's a status move! No damage dealt."
+	else:
+		print "Your opponent tried to act, but couldn't (either because their attack missed or a status is in effect that prevents action)."
+
+def damage(power, moveType, defType, atkType, attack, defense):
+	stab = 1.5 if moveType in atkType else 1.0
+	effectiveness = Pokedex.getTypeEffectiveness(moveType, defType)
+	if effectiveness > 1:
+		print "It's super effective!"
+	ratio = float(attack) / float(defense)
+	
+	return math.floor(((42 * power * ratio) / 50.0 + 2) * stab * effectiveness)
 
 def calculateAndSampleAction(choice, status):
 	actionModifier = 0.75 if status in ["PAR", "CONFUSED"] else 1.0
@@ -89,23 +152,30 @@ def opponentRandomSwitch():
 
 	if opponent_active_index is not -1:
 		print "Your opponent withdrew {}.".format(opponent_team[opponent_active_index]['name'])
-	active_index = random.randint(0, 5)
+	
+	legalSwitch = False
+	while not legalSwitch:
+		opponent_active_index = random.randint(0, 5)
+		legalSwitch = opponent_team[opponent_active_index]['current_hp'] > 0
+		
 	their_pokemon = opponent_team[opponent_active_index]
 	print "Your opponent sent out {}. HP remaining: {}/{}".format(their_pokemon['name'], their_pokemon['current_hp'], their_pokemon['hp'])
 
-def switchIn():
+def switchIn(index = None):
 	global active_index
 	
-	index = makeSelection(["{} (type: {}; moves: {})".format(pokemon['name'], separator.join(list(pokemon['type'])), separator.join([move['name'] for move in pokemon['moves']])) for pokemon in my_team])
+	if index is None:
+		index = makeSelection(["{} (type: {}; moves: {})".format(pokemon['name'], separator.join(list(pokemon['type'])), separator.join([move['name'] for move in pokemon['moves']])) for pokemon in my_team], [i for i in range(len(my_team)) if my_team[i]['current_hp'] <= 0])
 	if active_index is not -1:
 		print "You withdrew {}.".format(my_team[active_index]['name'])
 	active_index = index
 	my_pokemon = my_team[active_index]
 	print "You sent out {}. HP remaining: {}/{}".format(my_pokemon['name'], my_pokemon['current_hp'], my_pokemon['hp'])
 
-def makeSelection(actions):
+def makeSelection(actions, excludeKeys = []):
 	for i, action in enumerate(actions):
-		print "[{}] {}".format(i + 1, action)
+		if i not in excludeKeys:
+			print "[{}] {}".format(i + 1, action)
 	input = raw_input(">>> ")
 	return int(input) - 1
 
