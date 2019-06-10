@@ -15,6 +15,9 @@ opponent_active_index = -1
 separator = ', '
 
 def main():
+	Q_learning_agent.runTrainingData()
+	weights = Q_learning_agent.returnWeights()
+	self.Q_agent = QLearner.QlearningAgentOnline(weights)
 	for pokemon in my_team:
 		pokemon['current_hp'] = pokemon['hp']
 		pokemon['status'] = None
@@ -137,6 +140,8 @@ def calculateSpeed(my_choice, opponent_choice):
 def makeOpponentChoice():
 	# For now - randomly chooses an attack move, even if it's inefficient.
 	return random.choice(opponent_team[opponent_active_index]['moves'])
+	Qvals = self.Q_agent.returnQValues()
+	return self.Q_agent.chooseAction()
 
 def startTurn():
 	active_pokemon = my_team[active_index]

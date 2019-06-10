@@ -419,12 +419,12 @@ class QlearningAgentOnline:
 					avg_accuracy += Pokedex.getMove(i)['accuracy']/4
 					move_added = True
 		next_state_features['atk2'] = atk2*avg_accuracy
-		if order[0] = 1:
+		if order[0] == 1:
 			next_state_features['atk2'] = atk2*(1-move['accuracy'])
 		if atk2 > p1_hp:
 			next_state_features['remaining1']=current_features['remaining1']-avg_accuracy
 			p1_faint = avg_accuracy
-		if order[0] = 2:
+		if order[0] == 2:
 			next_state_features['atk1'] = next_state_features['atk1']*(1-avg_accuracy)
 		#Not dealing with effects on p1, too difficult to account for
 		next_state_features['par1'] = current_features['par1']
@@ -449,10 +449,10 @@ class QlearningAgentOnline:
 				features[i]=1
 			else:
 				features[i]=0
-		features{'heal1'} = 0
-		features{'heal2'} = 0
-		features{'atk1'} = 0
-		features{'atk2'} = 0
+		features['heal1'] = 0
+		features['heal2'] = 0
+		features['atk1'] = 0
+		features['atk2'] = 0
 		return features
 
 
@@ -460,7 +460,7 @@ class QlearningAgentOnline:
 
 		#calculate probability that current opponent has move strong against you --> this x 
 
-	def updateWeightsRealTime(self, features, reward)
+	def updateWeightsRealTime(self, features, reward):
 		self.seen += 1
 		self.alpha = .00001
 		#self.alpha = .0000000000001/(self.seen**(1.0/10.0))
@@ -468,7 +468,7 @@ class QlearningAgentOnline:
 		Q = 0
 		for i in range(len(self.weights)):
 			Q += self.weights[i]*features[labels[i]]
-
+		'''
 		hpsum1 = 0
 		for i in game_state.getp1_hp():
 			hpsum1 += int(i)
@@ -492,7 +492,7 @@ class QlearningAgentOnline:
 			features = self.extractFeatures(game_state)
 			for i in range(len(self.weights)):
 				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
-
+	'''
 
 	def returnQValues(self,possible_actions, my_team, active_index, opponent_team, opponent_active_index):
 		'''
@@ -510,11 +510,11 @@ class QlearningAgentOnline:
 				features['par1']=0
 				features['tox1']=0
 				features['brn1']=0
-				if p1['status'] = 'par':
+				if p1['status'] == 'par':
 					features['par1']=1
-				if p1['status'] = 'tox':
+				if p1['status'] == 'tox':
 					features['tox1']=1
-				if p1['status'] = 'brn':
+				if p1['status'] == 'brn':
 					features['brn1']=1
 			else:
 				Q = 0
