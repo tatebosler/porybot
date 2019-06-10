@@ -343,11 +343,11 @@ class QlearningAgentOnline:
 		return damage
 
 
-	def getFirstPlayer(self, my_team, opponent_pokemon, move_name):
+	def getFirstPlayer(self, my_team, active_index, opponent_pokemon, move_name):
 		#SHould return "[1,2]" if p1 expected to go first, "[2,1]" otherwise
 		#For now, assume p1 goes first
 		my_speed = my_team[active_index]['speed']
-		opponent_speed = Pokedex.getAverageSpeed(opponent_pokemon)
+		opponent_speed = Pokedex.getAverageSpeed(opponent_pokemon['name'])
 		if my_team[active_index]['status'] == 'PAR':
 			my_speed /= 4
 		if opponent_pokemon['status'] == 'PAR':
@@ -377,7 +377,7 @@ class QlearningAgentOnline:
 		p2 = opponent_pokemon
 		p1_faint = 0
 		p2_faint = 0
-		order = self.getFirstPlayer(my_team,opponent_pokemon,move_name)
+		order = self.getFirstPlayer(my_team,active_index,opponent_pokemon,move_name)
 		atk1 = self.calculateDamage(move_name, p1['name'], p2['name'], p1['current_hp'])*move['accuracy']
 		if 'par' in p1['status']:
 			atk1 = atk1 *.75
@@ -463,14 +463,15 @@ class QlearningAgentOnline:
 
 		#calculate probability that current opponent has move strong against you --> this x 
 
-	def updateWeightsRealTime(self, features, reward):
-		self.seen += 1
-		self.alpha = .00001
+	def updateWeightsRealTime(self, features, reward, next_possible_actions, next_features):
+		alpha = .00001
 		#self.alpha = .0000000000001/(self.seen**(1.0/10.0))
 		#deal with last state edge case here
 		Q = 0
 		for i in range(len(self.weights)):
 			Q += self.weights[i]*features[labels[i]]
+		for 
+
 		'''
 		hpsum1 = 0
 		for i in game_state.getp1_hp():
