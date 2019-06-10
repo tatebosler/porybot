@@ -366,7 +366,7 @@ class QlearningAgentOnline:
 		#TODO: FINISH IMPLIMENTATION --> expected damage from attack, expected change in status features, expected effect on own hp. 
 		#TODO: FIGURE OUT ORDER OF TURNS
 		next_state_features = current_features
-		if move_name == 'None':
+		if move_name == 'None' or move_name == None:
 			move_name = 'Growl'
 		move = Pokedex.getMove(move_name)
 		effect_id = move['effect_id']
@@ -459,6 +459,15 @@ class QlearningAgentOnline:
 		features['heal2'] = 0
 		features['atk1'] = 0
 		features['atk2'] = 0
+		remaining1 = 0
+		remaining2 = 0
+		for i in range(6):
+			if my_team[i]['current_hp'] > 0:
+				remaining1 += 1
+			if opponent_team[i]['current_hp'] > 0:
+				remaining1 += 1
+		features['remaining1'] = remaining1
+		features['remaining2'] = remaining2
 		return features
 
 
@@ -505,11 +514,11 @@ class QlearningAgentOnline:
 		Uses softmax to choose action
 		'''
 		current_features = self.getFeatureValuesRealTime(my_team, active_index, opponent_team, opponent_active_index)
-		labels = ['atk1', "atk2", "unfainted 1", "unfainted 2", "par1", "tox1", "brn1", "par2", "tox2", "brn2", "heal1", "heal2"]
+		labels = ['atk1', "atk2", "remaining1", "remaining2", "par1", "tox1", "brn1", "par2", "tox2", "brn2", "heal1", "heal2"]
 		best_feature = None
 		Qvals = []
 		for action in possible_actions:
-			if action['name'] == 'switch_to':
+			if 'Switch to' in action['name']:
 				features = current_features
 				#CONTINUE HERE, CHANGE STATUS FEATURES FOR P1
 				p1 = my_team[action['index']]
@@ -524,6 +533,12 @@ class QlearningAgentOnline:
 					features['brn1']=1
 			else:
 				Q = 0
+				#print active_index
+				#print current_features
+				#print action['name']
+				#print my_team
+				#print opponent_team[opponent_active_index]
+
 				features = self.calculateExpectedNextFeatures(active_index, current_features, action['name'], my_team, opponent_team[opponent_active_index])
 			for i in range(len(self.weights)):
 				Q += self.weights[i]*features[labels[i]]
