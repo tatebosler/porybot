@@ -23,6 +23,9 @@ class Pokedex:
 	# in later generations).
 	fullyEvolved = [3, 6, 9, 12, 15, 18, 20, 22, 24, 26, 28, 31, 34, 36, 38, 40, 42, 45, 47, 49, 51, 53, 55, 57, 59, 62, 65, 68, 71, 73, 76, 78, 80, 82, 83, 85, 87, 89, 91, 94, 95, 97, 99, 101, 103, 105, 106, 107, 108, 110, 112, 113, 114, 115, 117, 119, 121, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 134, 135, 136, 137, 139, 141, 142, 143, 144, 145, 146, 149, 150, 151]
 	
+	# The list of fully evolved Pokémon, minus Ubers (as defined by Smogon).
+	fullyEvolvedNoUbers = [3, 6, 9, 12, 15, 18, 20, 22, 24, 26, 28, 31, 34, 36, 38, 40, 42, 45, 47, 49, 51, 53, 55, 57, 59, 62, 65, 68, 71, 73, 76, 78, 80, 82, 83, 85, 87, 89, 91, 94, 95, 97, 99, 101, 103, 105, 106, 107, 108, 110, 112, 113, 114, 115, 117, 119, 121, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 134, 135, 136, 137, 139, 141, 142, 143, 144, 145, 146, 149]
+	
 	effects = {
 		2: ['opponent_status:slp'],
 		3: ['opponent_status:psn'],
@@ -107,6 +110,22 @@ class Pokedex:
 			'name': speciesName,
 			'type': tuple(speciesTypes),
 			'averageHp': cls.getAverageHp(speciesId)
+		}
+	
+	@classmethod
+	def getBaseStats(cls, species):
+		cursor = cls.db.cursor()
+		cursor.execute("SELECT * FROM `pokemon_stats` WHERE pokemon_id = ?", (species, ))
+		stats = [0, 0, 0, 0, 0, 0, 0]
+		for row in cursor.fetchall():
+			stats[row[1]] = row[2]
+		
+		return {
+			'hp': stats[1],
+			'attack': stats[2],
+			'defense': stats[3],
+			'special': stats[4],
+			'speed': stats[6]
 		}
 	
 	# Computes the expected HP value of a given species - or all fully-evolved species if
@@ -260,13 +279,14 @@ class Pokedex:
 	def randomTeam(cls):
 		species = []
 		while len(species) < 6:
-			choice = random.choice(cls.fullyEvolved)
+			choice = random.choice(cls.fullyEvolvedNoUbers)
 			if choice not in species:
 				species.append(choice)
 		
 		team = []
 		for pokemon in species:
 			moves = cls.getLegalMoves(pokemon)
+			baseStats = cls.getBaseStats(pokemon)
 			movesetLength = min(len(moves), 4)
 			moveset = []
 			while len(moveset) < movesetLength:
@@ -275,6 +295,11 @@ class Pokedex:
 					moveset.append(choice)
 			speciesData = cls.search(pokemon)
 			speciesData['moves'] = moveset
+			speciesData['hp'] = int(math.floor((baseStats['hp'] + random.randint(0, 15)) * 2 + random.randint(0, 64)) + 110)
+			speciesData['attack'] = int(math.floor((baseStats['attack'] + random.randint(0, 15)) * 2 + random.randint(0, 64)) + 5)
+			speciesData['defense'] = int(math.floor((baseStats['defense'] + random.randint(0, 15)) * 2 + random.randint(0, 64)) + 5)
+			speciesData['special'] = int(math.floor((baseStats['special'] + random.randint(0, 15)) * 2 + random.randint(0, 64)) + 5)
+			speciesData['speed'] = int(math.floor((baseStats['speed'] + random.randint(0, 15)) * 2 + random.randint(0, 64)) + 5)
 			team.append(speciesData)
 		
 		return team
