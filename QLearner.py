@@ -328,21 +328,6 @@ class QlearningAgentOnline:
 		#weights in order [type_atk1, bad_type_atk1,type_atk2,bad_type_atk2,hp1,hp2,hpsum1,hpsum2]
 		self.weights = weights
 
-
-	def getGameState(self):
-		"""
-		Needs to interact with plugin and return 
-		"""
-		p1_team = my_team
-		#p2_team = MUST FIGURE OUT TEAM 2
-		return
-
-	def getCurrentFeatures(self, game_state):
-		#IMPLIMENT TATE
-
-		return
-
-
 	def calculateDamage(self, move_name, user_pokemon, reciever_pokemon, reciever_hp):
 		#accuracy removed
 		move = Pokedex.getMove[move_name]
@@ -506,9 +491,6 @@ class QlearningAgentOnline:
 			for i in range(len(self.weights)):
 				self.weights[i] = self.weights[i]+self.alpha*difference*features[i]
 
-	def getQValueRealTime(self, game_state, action):
-		#TODO: impliment
-		return
 
 	def returnQValues(self,possible_actions, my_team, active_index, opponent_team, opponent_active_index):
 		'''
@@ -539,6 +521,18 @@ class QlearningAgentOnline:
 				Q += self.weights[i]*features[labels[i]]
 			Qvals.append(Q)
 		return Qvals
+
+	def chooseAction(self,possible_actions, Qvalues):
+		for i in range(len(Qvalues)):
+			Qvalues[i]= math.exp(Qvalues[i])
+		Qsum = numpy.sum(Qvalues)
+		for i in range(len(Qvalues)):
+			Qvalues[i]= Qvalues[i]/Qsum
+		return choice(possible_actions,1,Qvalues)
+
+
+
+
 
 
 
