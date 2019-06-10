@@ -2,7 +2,7 @@
 # The file used to control the game via the command line.
 
 from pokedex import Pokedex
-# import QLearner
+import QLearner
 import random
 import math
 import sys
