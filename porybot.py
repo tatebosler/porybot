@@ -4,6 +4,7 @@
 from pokedex import Pokedex
 import QLearner
 import random
+import numpy
 import math
 import sys
 
@@ -55,7 +56,10 @@ def main():
 		second_player_can_move = True
 		act(action_order, will_act_self, my_choice, will_act_opponent, opponent_choice)
 		
-		break
+		your_team_hp = [pokemon['current_hp'] for pokemon in my_team]
+		opponent_team_hp = [pokemon['current_hp'] for pokemon in opponent_team]
+		if numpy.sum(your_team_hp) == 0 or numpy.sum(opponent_team_hp) == 0:
+			break
 		
 def act(action_order, will_act_self, my_choice, will_act_opponent, opponent_choice):
 	if action_order[0] == 1:
